@@ -1,4 +1,4 @@
-# [Project Title] - Group Design Document
+# [Finnish Learning Application] - Group Design Document
 
 **Team Members:** [SON NGHIEM], [TRI DUONG], [KHOI PHAM], [HOANG TRUNG QUAN PHAN]  
 **Date:** [6/2/2026]  
