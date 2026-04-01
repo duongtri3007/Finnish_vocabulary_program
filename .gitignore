@@ -1,1 +1,12 @@
-myvenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+myenv/
+
+# Cache folders
+.cache/
+.mypy_cache/
+.pytest_cache/
