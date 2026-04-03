@@ -2,44 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Finnish Vocabulary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnish Vocabulary Program</title>
     <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f4f4f4; }
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            text-align: center; 
+            background-color: #f4f4f4; 
+            margin: 0;
+            padding: 20px;
+        }
+        .header-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
         .menu-container { margin-top: 50px; }
         .menu-button {
             display: block;
-            width: 250px;
-            margin: 10px auto;
-            padding: 15px;
+            width: 280px;
+            margin: 12px auto;
+            padding: 18px;
             background-color: #003580; /* Finnish Blue */
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 6px;
             font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s;
         }
         .menu-button:hover { background-color: #00255a; }
+        
+        /* Layout for the "Hole" */
+        .content-wrapper { min-height: 400px; }
     </style>
 </head>
 <body>
 
-    <h1>=== Finnish Vocabulary Program ===</h1>
+    <div class="header-title">=== Finnish Vocabulary Program ===</div>
 
-    <div class="menu-container">
-        {% for item in options %}
-            {% if item == "Add new words" %}
-                <a href="{% url 'add_word' %}" class="menu-button">
-                    {{ forloop.counter }}. {{ item }}
-                </a>
-            {% elif item == "Show all words" %}
-                <a href="{% url 'show_words' %}" class="menu-button">
-                    {{ forloop.counter }}. {{ item }}
-                </a>
-            {% else %}
-                <a href="#" class="menu-button">
-                    {{ forloop.counter }}. {{ item }}
-                </a>
-            {% endif %}
-        {% endfor %}
+    <div class="content-wrapper">
+        {% block content %}
+            
+            <div class="menu-container">
+                {% for item in options %}
+                    {% if item == "Add new words" %}
+                        <a href="{% url 'add_word' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    {% elif item == "Review all words" %}
+                        <a href="{% url 'review_options' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    {% elif item == "Show all words" %}
+                        <a href="{% url 'show_words' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    {% else %}
+                        <a href="#" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+        {% endblock %}
     </div>
 
 </body>

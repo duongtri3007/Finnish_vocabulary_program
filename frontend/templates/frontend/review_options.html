@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finnish Learning - Review</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f2f5; text-align: center; }
+        .header { margin-top: 50px; font-size: 2rem; font-weight: bold; }
+        
+        .btn-custom {
+            background-color: #003380;
+            color: white;
+            padding: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            width: 300px;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+        .btn-custom:hover { background-color: #002255; }
+    </style>
+</head>
+<body>
+    <div class="header">=== Finnish Vocabulary Program ===</div>
+
+    <div style="margin-top: 50px;">
+        <h2 style="font-weight: 800;">=== Select Review Mode ===</h2>
+        
+        <a href="{% url 'review_flashcards' %}" class="btn-custom">
+            1. Flashcards Mode
+        </a>
+
+        <a href="{% url 'review_quiz' %}" class="btn-custom">
+            2. Multiple Choice Quiz
+        </a>
+
+        <br>
+        <a href="{% url 'main_menu' %}" style="color: #6c757d; text-decoration: none;">
+            ← Back to Main Menu
+        </a>
+    </div>
+</body>
+</html>

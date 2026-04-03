@@ -23,5 +23,8 @@ urlpatterns = [
     path('', frontend_views.main_menu, name='main_menu'),
     path('show_words', frontend_views.show_words, name='show_words'),
     path('add_words', frontend_views.add_word, name='add_word'),
+    path('review/', frontend_views.review_options, name='review_options'),
+    path('review/flashcards/', frontend_views.review_flashcards, name='review_flashcards'),
+    path('review/quiz/', frontend_views.review_quiz, name='review_quiz'),
     path("server/", backend_views.backend),
 ]

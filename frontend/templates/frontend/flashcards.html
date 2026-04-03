@@ -1,0 +1,107 @@
+{% extends "frontend/template_web.html" %}
+
+{% block content %}
+<style>
+    /* 1. Container for the flip effect */
+    .flashcard-scene {
+        width: 350px;
+        height: 250px;
+        perspective: 1000px;
+        margin: 40px auto;
+        cursor: pointer;
+    }
+
+    /* 2. The card itself */
+    .flashcard {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
+    /* 3. Class to trigger the flip */
+    .flashcard.is-flipped {
+        transform: rotateY(180deg);
+    }
+
+    /* 4. Common style for Front and Back */
+    .card-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 2px solid #003580;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Front Side (Finnish) */
+    .card-face-front {
+        background-color: white;
+        color: #003580;
+    }
+
+    /* Back Side (Vietnamese) */
+    .card-face-back {
+        background-color: #003580;
+        color: white;
+        transform: rotateY(180deg);
+    }
+
+    .word-title { font-size: 3rem; margin: 0; }
+    .instruction { font-size: 0.9rem; color: #888; margin-top: 10px; }
+</style>
+
+<div class="container text-center">
+    <h2 style="color: #003580;">Flashcards Mode</h2>
+    <p>Click the card to flip and see the meaning</p>
+
+    <div id="flashcard-list">
+        {% for word in words %}
+            <div class="word-wrapper" id="word-{{ forloop.counter }}" style="display: {% if forloop.first %}block{% else %}none{% endif %};">
+                
+                <div class="flashcard-scene" onclick="this.querySelector('.flashcard').classList.toggle('is-flipped')">
+                    <div class="flashcard">
+                        <div class="card-face card-face-front">
+                            <div class="word-title">{{ word.fi }}</div>
+                            <div class="instruction">(Finnish)</div>
+                        </div>
+                        <div class="card-face card-face-back">
+                            <div class="word-title">{{ word.vi }}</div>
+                            <div class="instruction">(Vietnamese)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="menu-button" style="background-color: #6c757d; width: 200px;" 
+                        onclick="goToNext({{ forloop.counter }})">
+                    Next Word →
+                </button>
+            </div>
+        {% endfor %}
+    </div>
+
+    <br>
+    <a href="{% url 'review_options' %}" style="text-decoration: none; color: #888;">← Return to Options</a>
+</div>
+
+<script>
+    function goToNext(currentId) {
+        const current = document.getElementById('word-' + currentId);
+        const next = document.getElementById('word-' + (currentId + 1));
+
+        if (next) {
+            current.style.display = 'none';
+            next.style.display = 'block';
+        } else {
+            alert("Great job! You've finished the deck.");
+            window.location.href = "{% url 'review_options' %}";
+        }
+    }
+</script>
+{% endblock %}
