@@ -1,58 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Finnish Flashcard App</title>
-
+    <meta charset="UTF-8">
+    <title>Finnish Vocabulary</title>
     <style>
-        body {
-            font-family: Arial;
-            text-align: center;
+        body { font-family: sans-serif; text-align: center; background-color: #f4f4f4; }
+        .menu-container { margin-top: 50px; }
+        .menu-button {
+            display: block;
+            width: 250px;
+            margin: 10px auto;
+            padding: 15px;
+            background-color: #003580; /* Finnish Blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
         }
-
-        .card {
-            width: 300px;
-            margin: 40px auto;
-            padding: 20px;
-            border: 1px solid black;
-        }
-
-        input {
-            padding: 8px;
-            margin-top: 10px;
-            width: 80%;
-        }
-
-        button {
-            margin-top: 10px;
-            padding: 8px 12px;
-        }
+        .menu-button:hover { background-color: #00255a; }
     </style>
 </head>
-
 <body>
 
-<h1>Finnish Flashcard Vocabulary</h1>
+    <h1>=== Finnish Vocabulary Program ===</h1>
 
-<div class="card">
-
-    <h2>Finnish word:</h2>
-    <h3>koira</h3>
-
-    <p>Type the English meaning:</p>
-
-    <input type="text" placeholder="Your answer here">
-
-    <br>
-
-    <button>Check Answer</button>
-
-    <p><strong>Correct meaning:</strong> dog</p>
-
-    <br>
-
-    <button>Next Flashcard</button>
-
-</div>
+    <div class="menu-container">
+        {% for item in options %}
+            {% if item == "Add new words" %}
+                <a href="{% url 'add_word' %}" class="menu-button">
+                    {{ forloop.counter }}. {{ item }}
+                </a>
+            {% elif item == "Show all words" %}
+                <a href="{% url 'show_words' %}" class="menu-button">
+                    {{ forloop.counter }}. {{ item }}
+                </a>
+            {% else %}
+                <a href="#" class="menu-button">
+                    {{ forloop.counter }}. {{ item }}
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
 
 </body>
 </html>
