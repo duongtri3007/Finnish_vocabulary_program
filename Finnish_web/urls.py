@@ -20,6 +20,8 @@ from backend import views as backend_views
 from frontend import views as frontend_views
 
 urlpatterns = [
-    path('', frontend_views.frontend),
+    path('', frontend_views.main_menu, name='main_menu'),
+    path('show_words', frontend_views.show_words, name='show_words'),
+    path('add_words', frontend_views.add_word, name='add_word'),
     path("server/", backend_views.backend),
 ]
