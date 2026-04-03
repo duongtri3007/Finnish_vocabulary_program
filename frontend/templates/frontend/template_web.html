@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,20 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finnish Vocabulary Program</title>
     <style>
+        /* 1. Base Layout & Background */
         body { 
             font-family: 'Segoe UI', Arial, sans-serif; 
             text-align: center; 
-            background-color: #f4f4f4; 
             margin: 0;
             padding: 20px;
+            background-image: url("{% static 'frontend/background_img.png' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: #f4f4f4; 
         }
+
+        /* 2. Enhanced Title with Color Flow & Scaling */
         .header-title {
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin-bottom: 30px;
-            color: #003580;
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+            
+            /* Color Flow Gradient */
+            background: linear-gradient(
+                90deg, 
+                #003580, 
+                #0066cc, 
+                #a5f3fc, 
+                #0066cc, 
+                #003580
+            );
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.9));
+            
+            animation: 
+                fadeInDown 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards, 
+                colorFlow 5s linear infinite,
+                floatTitle 4s ease-in-out infinite;
         }
-        .menu-container { margin-top: 50px; }
+
+        .content-wrapper { 
+            min-height: 400px;
+            display: inline-block; 
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            opacity: 0;
+            animation: fadeIn 0.8s ease-in 0.2s forwards;
+        }
+
+        /* 3. Button Styles with Jump Effect */
         .menu-button {
             display: block;
             width: 280px;
@@ -30,7 +73,22 @@
             border-radius: 6px;
             font-weight: bold;
             font-size: 1.1rem;
-            transition: background 0.3s;
+            /* Transition set to a "bouncy" cubic-bezier */
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideInUp 0.5s ease-out forwards;
+        }
+
+        /* The "Jump" Effect on Hover */
+        .menu-button:hover { 
+            background-color: #00255a; 
+            transform: translateY(-15px) scale(1.08); /* stronger jump */
+            box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+        }
+        .menu-button:active {
+            transform: translateY(-5px) scale(0.95); /* pressed effect */
         }
         .menu-button:hover { background-color: #00255a; }
         .content-wrapper { min-height: 400px; }
