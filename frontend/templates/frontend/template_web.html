@@ -16,6 +16,7 @@
             font-size: 2.5rem;
             font-weight: bold;
             margin-bottom: 30px;
+            color: #003580;
         }
         .menu-container { margin-top: 50px; }
         .menu-button {
@@ -23,7 +24,7 @@
             width: 280px;
             margin: 12px auto;
             padding: 18px;
-            background-color: #003580; /* Finnish Blue */
+            background-color: #003580; 
             color: white;
             text-decoration: none;
             border-radius: 6px;
@@ -32,8 +33,6 @@
             transition: background 0.3s;
         }
         .menu-button:hover { background-color: #00255a; }
-        
-        /* Layout for the "Hole" */
         .content-wrapper { min-height: 400px; }
     </style>
 </head>
@@ -43,21 +42,28 @@
 
     <div class="content-wrapper">
         {% block content %}
-            
             <div class="menu-container">
                 {% for item in options %}
                     {% if item == "Add new words" %}
                         <a href="{% url 'add_word' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
                     {% elif item == "Review all words" %}
                         <a href="{% url 'review_options' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
                     {% elif item == "Show all words" %}
                         <a href="{% url 'show_words' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
+                    {% elif item == "Vocabulary sets" %}
+                        <a href="{% url 'vocabulary_sets' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
+                    {% elif item == "Exit" %}
+                        <a href="/" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
                     {% else %}
                         <a href="#" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
                     {% endif %}
                 {% endfor %}
             </div>
-
         {% endblock %}
     </div>
 
