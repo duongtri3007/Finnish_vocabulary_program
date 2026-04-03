@@ -26,5 +26,7 @@ urlpatterns = [
     path('review/', frontend_views.review_options, name='review_options'),
     path('review/flashcards/', frontend_views.review_flashcards, name='review_flashcards'),
     path('review/quiz/', frontend_views.review_quiz, name='review_quiz'),
-    path("server/", backend_views.backend),
+    path('sets/', frontend_views.vocabulary_sets_menu, name='vocabulary_sets'),
+    path('sets/<str:set_id>/', frontend_views.view_set_detail, name='view_set'),
+    
 ]

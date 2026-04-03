@@ -90,59 +90,8 @@
         .menu-button:active {
             transform: translateY(-5px) scale(0.95); /* pressed effect */
         }
-        
-        /* Staggered Entrance */
-        .menu-button:nth-child(1) { animation-delay: 0.4s; }
-        .menu-button:nth-child(2) { animation-delay: 0.6s; }
-        .menu-button:nth-child(3) { animation-delay: 0.8s; }
-        .menu-button:nth-child(4) { animation-delay: 1.0s; }
-        .menu-button:nth-child(5) { animation-delay: 1.2s; }
-        .menu-button:nth-child(6) { animation-delay: 1.4s; }
-
-        /* 4. Animation Keyframes */
-        @keyframes colorFlow {
-            0% { background-position: 0% center; }
-            100% { background-position: 200% center; }
-        }
-
-        @keyframes floatTitle {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
-
-        @keyframes slideInUp {
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* 5. Responsive Design: Minimize Title */
-        @media (max-width: 600px) {
-            .header-title {
-                font-size: 1.8rem;
-                margin-bottom: 20px;
-            }
-        .content-wrapper { 
-            min-height: 400px;
-            display: inline-block; 
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            opacity: 0;
-            animation: fadeIn 0.8s ease-in 0.2s forwards;
-        }
-        .menu-button {
-            margin: 12px auto;
-        }
-        }
+        .menu-button:hover { background-color: #00255a; }
+        .content-wrapper { min-height: 400px; }
     </style>
 </head>
 <body>
@@ -155,10 +104,19 @@
                 {% for item in options %}
                     {% if item == "Add new words" %}
                         <a href="{% url 'add_word' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
                     {% elif item == "Review all words" %}
                         <a href="{% url 'review_options' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
                     {% elif item == "Show all words" %}
                         <a href="{% url 'show_words' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
+                    {% elif item == "Vocabulary sets" %}
+                        <a href="{% url 'vocabulary_sets' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
+                    {% elif item == "Exit" %}
+                        <a href="/" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    
                     {% else %}
                         <a href="#" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
                     {% endif %}
