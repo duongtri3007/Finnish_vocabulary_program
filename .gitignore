@@ -10,3 +10,5 @@ myenv/
 .cache/
 .mypy_cache/
 .pytest_cache/
+
+vocab.json
