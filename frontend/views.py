@@ -55,7 +55,7 @@ def add_word(request):
             return redirect('main_menu')
             
     return render(request, 'frontend/add_word.html')
-    
+
 def review_options(request):
     """Displays the selection menu: Flashcard or Multiple Choice"""
     return render(request, 'frontend/review_options.html')
@@ -83,7 +83,7 @@ def review_quiz(request):
     questions = random.sample(all_words, sample_size)
 
     for fi, vi in questions:
-        # Get 3 wrong Vietnamese meanings (different from the current correct one)
+        # Get 3 wrong English meanings (different from the current correct one)
         other_meanings = [v for f, v in all_words if v != vi]
         wrong_options = random.sample(other_meanings, 3)
         
