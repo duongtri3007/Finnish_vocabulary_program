@@ -1,0 +1,123 @@
+{% extends "frontend/template_web.html" %}
+
+{% block content %}
+<style>
+    /* Container for the grid */
+    .sets-container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    .sets-header {
+        margin-bottom: 40px;
+    }
+
+    .sets-header h2 {
+        color: #003580;
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+
+    /* Grid Layout: Responsive 1-20 boxes */
+    .sets-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 25px;
+    }
+
+    /* Individual Card Style */
+    .set-card {
+        aspect-ratio: 1 / 1;
+        background: #ffffff;
+        border: 2px solid #e0e0e0;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Hover Effects */
+    .set-card:hover {
+        border-color: #003580;
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 53, 128, 0.15);
+    }
+
+    .set-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: #003580;
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .set-card:hover::before {
+        opacity: 1;
+    }
+
+    .set-number {
+        font-size: 2.8rem;
+        font-weight: 900;
+        color: #003580;
+        line-height: 1;
+    }
+
+    .set-label {
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #888;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    /* Active/Hover text color change */
+    .set-card:hover .set-label {
+        color: #003580;
+    }
+
+    .back-btn {
+        display: inline-block;
+        margin-top: 50px;
+        color: #666;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.2s;
+    }
+
+    .back-btn:hover {
+        color: #003580;
+        text-decoration: underline;
+    }
+</style>
+
+<div class="sets-container text-center">
+    <div class="sets-header">
+        <h2>Vocabulary Sets</h2>
+        <p class="text-muted">Explore categorized Finnish words to expand your knowledge</p>
+    </div>
+
+    <div class="sets-grid">
+        {% for set_id in sets %}
+            <a href="{% url 'view_set' set_id %}" class="set-card">
+                <div class="set-number">{{ set_id }}</div>
+                <div class="set-label">Module</div>
+            </a>
+        {% endfor %}
+    </div>
+
+    <a href="{% url 'main_menu' %}" class="back-btn">
+        <i class="fas fa-arrow-left"></i> Return to Main Menu
+    </a>
+</div>
+{% endblock %}

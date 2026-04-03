@@ -27,7 +27,7 @@
     <div class="container">
         <a href="{% url 'main_menu' %}" class="back-btn">← Back to Menu</a>
         
-        <h1>Your Finnish Vocabulary</h1>
+        <h1>{% if set_title %}{{ set_title }}{% else %}Your Finnish Vocabulary{% endif %}</h1>
 
         <table>
             <thead>
@@ -38,11 +38,15 @@
                 </tr>
             </thead>
             <tbody>
-                {% for finnish, english in vocabulary.items %}
+                {% for item in vocabulary %}
                 <tr>
                     <td>{{ forloop.counter }}</td>
-                    <td><strong>{{ finnish }}</strong></td>
-                    <td>{{ english }}</td>
+                    <td><strong>{{ item.fi }}</strong></td> <td>{{ item.en }}</td>                   </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="3" style="text-align: center; color: #888;">
+                        No words found in this list.
+                    </td>
                 </tr>
                 {% endfor %}
             </tbody>
