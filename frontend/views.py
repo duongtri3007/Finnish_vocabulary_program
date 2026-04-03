@@ -3,6 +3,7 @@ from django.http import HttpResponse
 import json
 import os
 from django.conf import settings
+import random
 # Create your views here.from django.shortcuts import render
 
 def main_menu(request):
@@ -54,3 +55,46 @@ def add_word(request):
             return redirect('main_menu')
             
     return render(request, 'frontend/add_word.html')
+    
+def review_options(request):
+    """Displays the selection menu: Flashcard or Multiple Choice"""
+    return render(request, 'frontend/review_options.html')
+
+def review_flashcards(request):
+    """Retrieves data from vocab.json for Flashcards"""
+    vocab = load_vocab()  # Uses your existing load_vocab function
+    # Convert dict {fi: vi} into a list of pairs for easy looping in HTML
+    word_list = [{'fi': fi, 'vi': vi} for fi, vi in vocab.items()]
+    random.shuffle(word_list) # Randomize word order
+    
+    return render(request, 'frontend/flashcards.html', {'words': word_list})
+
+def review_quiz(request):
+    """Logic to generate a multiple-choice quiz from vocab.json"""
+    vocab = load_vocab()
+    all_words = list(vocab.items()) # List of tuples (fi, vi)
+    
+    if len(all_words) < 4:
+        return HttpResponse("You need at least 4 words in your dictionary to play the quiz!")
+
+    quiz_data = []
+    # Get a maximum of 10 random questions
+    sample_size = min(len(all_words), 10)
+    questions = random.sample(all_words, sample_size)
+
+    for fi, vi in questions:
+        # Get 3 wrong Vietnamese meanings (different from the current correct one)
+        other_meanings = [v for f, v in all_words if v != vi]
+        wrong_options = random.sample(other_meanings, 3)
+        
+        # Combine correct and wrong answers, then shuffle them
+        options = wrong_options + [vi]
+        random.shuffle(options)
+        
+        quiz_data.append({
+            'question': fi,
+            'correct': vi,
+            'options': options
+        })
+
+    return render(request, 'frontend/quiz.html', {'quiz_data': quiz_data})
