@@ -1,0 +1,223 @@
+{% extends "frontend/template_web.html" %}
+
+{% block content %}
+<style>
+    :root {
+        --finnish-blue: #003580;
+        --success-green: #28a745;
+        --error-red: #dc3545;
+    }
+
+    .quiz-container {
+        max-width: 650px;
+        margin: 40px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        border: 2px solid #eee;
+    }
+
+    .quiz-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .score-badge {
+        background-color: #f0f4f8;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        color: var(--finnish-blue);
+    }
+
+    .question-box {
+        margin-bottom: 40px;
+    }
+
+    .finnish-word {
+        font-size: 3rem;
+        color: var(--finnish-blue);
+        font-weight: 800;
+        margin: 15px 0;
+        letter-spacing: -1px;
+    }
+
+    .options-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .quiz-option {
+        padding: 20px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: 2px solid #ddd;
+        background: white;
+        color: #333;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .quiz-option:hover {
+        border-color: var(--finnish-blue);
+        background-color: #f9fbff;
+        transform: translateY(-3px);
+    }
+
+    /* --- SPECTACULAR EFFECTS --- 
+    */
+
+    /* Fade other options when an answer is chosen */
+    .fade-out {
+        opacity: 0.3;
+        transform: scale(0.95);
+        pointer-events: none;
+    }
+
+    /* Disable clicking again */
+    .quiz-option.disabled {
+        pointer-events: none;
+    }
+
+    /* 1. CORRECT EFFECT: Glow and Pulse */
+    .is-correct {
+        background-color: var(--success-green) !important;
+        color: white !important;
+        border-color: var(--success-green) !important;
+        box-shadow: 0 0 20px rgba(40, 167, 69, 0.5);
+        animation: pulseCorrect 1s infinite;
+        z-index: 2; /* keep on top */
+    }
+
+    @keyframes pulseCorrect {
+        0% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.6); }
+        70% { box-shadow: 0 0 0 15px rgba(40, 167, 69, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
+    }
+
+    /* 2. WRONG EFFECT: Shake */
+    .is-wrong {
+        background-color: var(--error-red) !important;
+        color: white !important;
+        border-color: var(--error-red) !important;
+        animation: shakeWrong 0.5s;
+    }
+
+    @keyframes shakeWrong {
+        0%, 100% { transform: translateX(0); }
+        10%, 30%, 50%, 70%, 90% { transform: translateX(-8px); }
+        20%, 40%, 60%, 80% { transform: translateX(8px); }
+    }
+
+</style>
+
+<div class="container text-center">
+    <h2 style="color: #003580; margin-top: 30px;">Multiple Choice Quiz</h2>
+    <p>Select the correct English meaning</p>
+
+    <div id="quiz-wrapper">
+        {% for item in quiz_data %}
+            <div class="quiz-item" id="q-{{ forloop.counter }}" style="display: {% if forloop.first %}block{% else %}none{% endif %};">
+                <div class="quiz-container">
+                    
+                    <div class="quiz-header">
+                        <small>Question {{ forloop.counter }} of {{ quiz_data|length }}</small>
+                        <div class="score-badge">Score: <span class="current-score">0</span></div>
+                    </div>
+
+                    <div class="question-box">
+                        <small>What does this Finnish word mean?</small>
+                        <div class="finnish-word">{{ item.question }}</div>
+                    </div>
+
+                    <div class="options-grid">
+                        {% for opt in item.options %}
+                            <button class="quiz-option" 
+                                    onclick="processAnswer(this, '{{ item.correct }}', {{ forloop.parentloop.counter }})">
+                                {{ opt }}
+                            </button>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <br>
+    <a href="{% url 'review_options' %}" style="text-decoration: none; color: #888;">← Back to Options</a>
+</div>
+
+<script>
+    let globalScore = 0;
+
+    function processAnswer(selectedBtn, correctAnswerValue, currentQuestionId) {
+        // 1. Get references
+        const currentQuizItem = document.getElementById('q-' + currentQuestionId);
+        const optionsGrid = selectedBtn.parentElement;
+        const allButtons = optionsGrid.querySelectorAll('.quiz-option');
+        const scoreSpans = document.querySelectorAll('.current-score'); // update all instances
+
+        // 2. Lock other options and fade them out
+        allButtons.forEach(btn => {
+            btn.classList.add('disabled');
+            if (btn !== selectedBtn) {
+                btn.classList.add('fade-out'); // make others less visible
+            }
+        });
+
+        // 3. Logic check
+        const userSelectedText = selectedBtn.innerText.trim();
+        const isUserCorrect = (userSelectedText === correctAnswerValue);
+
+        if (isUserCorrect) {
+            // SPECATCULAR EFFECT 1: Green Glow & Pulse
+            selectedBtn.classList.add('is-correct');
+            globalScore += 10; // add 10 points
+            
+            // Add a "Correct!" particle effect (optional)
+            // This is complex, better to stick to the glow pulse for now.
+        } else {
+            // SPECATCULAR EFFECT 2: Red Shake
+            selectedBtn.classList.add('is-wrong');
+            
+            // SPECATCULAR EFFECT 3: Reveal the correct answer in Green
+            allButtons.forEach(btn => {
+                if (btn.innerText.trim() === correctAnswerValue) {
+                    btn.classList.add('is-correct');
+                    btn.classList.remove('fade-out'); // show it clearly
+                }
+            });
+        }
+
+        // 4. Update the visible score
+        scoreSpans.forEach(span => span.innerText = globalScore);
+
+        // 5. Wait 2 seconds (giving time for the spectacular effects) then move on
+        setTimeout(() => {
+            goToNextQuestionInQuiz(currentQuestionId);
+        }, 2000); // 2000ms = 2 seconds
+    }
+
+    function goToNextQuestionInQuiz(id) {
+        const current = document.getElementById('q-' + id);
+        const next = document.getElementById('q-' + (id + 1));
+
+        if (next) {
+            current.style.display = 'none';
+            next.style.display = 'block';
+        } else {
+            alert("Quiz Completed! Your Final Score: " + globalScore + ". Kiitos!");
+            window.location.href = "{% url 'review_options' %}";
+        }
+    }
+</script>
+{% endblock %}
