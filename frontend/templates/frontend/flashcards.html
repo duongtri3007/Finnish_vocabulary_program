@@ -1,17 +1,67 @@
 {% extends "frontend/template_web.html" %}
-
+{% load static %}
 {% block content %}
+
 <style>
-    /* 1. Container for the flip effect */
+    :root {
+        --finnish-blue: #003580;
+        --success-green: #28a745;
+        --error-red: #dc3545;
+    }
+
+    body {
+        background-image: url("{% static 'frontend/wordlist.png' %}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        min-height: 100vh;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    /* --- Container to fit screen fully --- */
+    .flashcard-container {
+        width: 90%;
+        max-width: 480px;
+        height: 100vh; /* full viewport height */
+        padding: 15px 20px;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        border: 2px solid #eee;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* no blank space at top */
+        overflow-y: auto; /* scroll only if content exceeds viewport */
+    }
+
+    h2 {
+        color: var(--finnish-blue);
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+
+    /* --- Flashcard Styles --- */
     .flashcard-scene {
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
         height: 250px;
         perspective: 1000px;
-        margin: 40px auto;
+        margin: 20px auto;
         cursor: pointer;
     }
 
-    /* 2. The card itself */
     .flashcard {
         width: 100%;
         height: 100%;
@@ -20,12 +70,10 @@
         transform-style: preserve-3d;
     }
 
-    /* 3. Class to trigger the flip */
     .flashcard.is-flipped {
         transform: rotateY(180deg);
     }
 
-    /* 4. Common style for Front and Back */
     .card-face {
         position: absolute;
         width: 100%;
@@ -36,25 +84,64 @@
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        border: 2px solid #003580;
+        border: 2px solid var(--finnish-blue);
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    /* Front Side (Finnish) */
     .card-face-front {
         background-color: white;
-        color: #003580;
+        color: var(--finnish-blue);
     }
 
-    /* Back Side (English) */
     .card-face-back {
-        background-color: #003580;
+        background-color: var(--finnish-blue);
         color: white;
         transform: rotateY(180deg);
     }
 
-    .word-title { font-size: 3rem; margin: 0; }
+    .word-title { font-size: 2.5rem; margin: 0; text-align: center; }
     .instruction { font-size: 0.9rem; color: #888; margin-top: 10px; }
+
+    /* Next button */
+    .menu-button {
+        display: block;
+        width: 200px;
+        margin: 10px auto;
+        padding: 12px;
+        background-color: #6c757d;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu-button:hover {
+        background-color: #5a6268;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Back link */
+    a {
+        font-size: 0.85rem;
+        text-decoration: none;
+        color: #888;
+        display: block;
+        margin-top: 15px;
+    }
+
+    /* Responsive */
+    @media (max-height: 700px) {
+        .flashcard-container {
+            height: 100vh;
+            padding: 10px 15px;
+        }
+        .word-title { font-size: 2rem; }
+        .menu-button { padding: 10px; font-size: 0.95rem; }
+    }
 </style>
 
 <div class="container text-center">

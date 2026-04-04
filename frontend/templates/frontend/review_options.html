@@ -1,43 +1,117 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>Finnish Learning - Review</title>
+
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f0f2f5; text-align: center; }
-        .header { margin-top: 50px; font-size: 2rem; font-weight: bold; }
-        
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("{% static 'frontend/reviewoption.png' %}");
+            background-size: cover;           /* cover the whole viewport */
+            background-position: center;      /* center the image */
+            background-repeat: no-repeat;     /* prevent tiling */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: rgba(255,255,255,0.95);  /* slightly transparent so background is visible */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            width: 350px;
+        }
+
+        /* Rainbow gradient header */
+        h2.rainbow-text {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-weight: 800;
+            font-size: 1.8rem;
+            background: linear-gradient(
+                90deg, 
+                #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff, #ff0000
+            );
+            background-size: 400% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbowFlow 5s linear infinite, slideDown 0.6s ease forwards;
+        }
+
+        @keyframes rainbowFlow {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 400% 0%; }
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(-10px); }
+        }
+
         .btn-custom {
             background-color: #003380;
             color: white;
-            padding: 20px;
+            padding: 18px;
             font-weight: bold;
             text-decoration: none;
             display: block;
-            width: 300px;
-            margin: 15px auto;
+            margin: 15px 0;
             border-radius: 8px;
+            transition: all 0.25s ease;
+            opacity: 0;
+            animation: slideDown 0.6s ease forwards;
         }
-        .btn-custom:hover { background-color: #002255; }
+
+        /* Delay each button so they appear one by one */
+        .btn-custom:nth-child(2) { animation-delay: 0.2s; }
+        .btn-custom:nth-child(3) { animation-delay: 0.4s; }
+
+        .btn-custom:hover {
+            background-color: #002255;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            color: #6c757d;
+            text-decoration: none;
+            opacity: 0;
+            animation: slideDown 0.6s ease forwards;
+            animation-delay: 0.6s;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
-<body>
-    <div class="header">=== Finnish Vocabulary Program ===</div>
 
-    <div style="margin-top: 50px;">
-        <h2 style="font-weight: 800;">=== Select Review Mode ===</h2>
-        
+<body>
+
+    <div class="container">
+
+        <h2 class="rainbow-text">Select Review Mode</h2>
+
         <a href="{% url 'review_flashcards' %}" class="btn-custom">
-            1. Flashcards Mode
+            Flashcards Mode
         </a>
 
         <a href="{% url 'review_quiz' %}" class="btn-custom">
-            2. Multiple Choice Quiz
+            Multiple Choice Quiz
         </a>
 
-        <br>
-        <a href="{% url 'main_menu' %}" style="color: #6c757d; text-decoration: none;">
-            ← Back to Main Menu
+        <a href="{% url 'main_menu' %}" class="back-link">
+            ← Back 
         </a>
+
     </div>
+
 </body>
 </html>
