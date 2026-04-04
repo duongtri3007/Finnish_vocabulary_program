@@ -159,6 +159,8 @@
                         <a href="{% url 'review_options' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
                     {% elif item == "Show all words" %}
                         <a href="{% url 'show_words' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    {% elif item == "Vocabulary sets" %}
+                        <a href="{% url 'vocabulary_sets' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
                     {% else %}
                         <a href="#" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
                     {% endif %}
