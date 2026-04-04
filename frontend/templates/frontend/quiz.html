@@ -1,6 +1,7 @@
 {% extends "frontend/template_web.html" %}
-
+{% load static %}
 {% block content %}
+
 <style>
     :root {
         --finnish-blue: #003580;
@@ -8,54 +9,84 @@
         --error-red: #dc3545;
     }
 
+    body {
+        background-image: url("{% static 'frontend/wordlist.png' %}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    /* --- Quiz Container --- */
     .quiz-container {
-        max-width: 650px;
-        margin: 40px auto;
-        padding: 30px;
-        background: white;
+        max-width: 480px;          /* slightly smaller width */
+        width: 90%;                /* responsive */
+        max-height: 85vh;          /* reduce height to fit window */
+        overflow-y: auto;          /* allow tiny scroll if necessary */
+        padding: 20px 25px;
+        background: rgba(255,255,255,0.95); /* semi-transparent for background effect */
         border-radius: 20px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         border: 2px solid #eee;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* top alignment */
     }
 
+    /* --- Quiz Header --- */
     .quiz-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px;
-        padding-bottom: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
         border-bottom: 1px solid #eee;
     }
 
     .score-badge {
         background-color: #f0f4f8;
-        padding: 8px 15px;
+        padding: 5px 12px;
         border-radius: 20px;
         font-weight: bold;
         color: var(--finnish-blue);
+        font-size: 0.9rem;
     }
 
+    /* --- Question Box --- */
     .question-box {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .finnish-word {
-        font-size: 3rem;
+        font-size: 2.2rem;        /* slightly smaller to fit */
         color: var(--finnish-blue);
         font-weight: 800;
-        margin: 15px 0;
+        margin: 10px 0;
         letter-spacing: -1px;
+        text-align: center;
     }
 
+    /* --- Options Grid --- */
     .options-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 12px;                /* reduced gap for vertical fit */
     }
 
     .quiz-option {
-        padding: 20px;
-        font-size: 1.2rem;
+        padding: 12px;
+        font-size: 1rem;          /* smaller font */
         font-weight: 600;
         border: 2px solid #ddd;
         background: white;
@@ -70,32 +101,20 @@
     .quiz-option:hover {
         border-color: var(--finnish-blue);
         background-color: #f9fbff;
-        transform: translateY(-3px);
+        transform: translateY(-2px);
     }
 
-    /* --- SPECTACULAR EFFECTS --- 
-    */
+    /* --- Spectacular Effects --- */
+    .fade-out { opacity: 0.3; transform: scale(0.95); pointer-events: none; }
+    .quiz-option.disabled { pointer-events: none; }
 
-    /* Fade other options when an answer is chosen */
-    .fade-out {
-        opacity: 0.3;
-        transform: scale(0.95);
-        pointer-events: none;
-    }
-
-    /* Disable clicking again */
-    .quiz-option.disabled {
-        pointer-events: none;
-    }
-
-    /* 1. CORRECT EFFECT: Glow and Pulse */
     .is-correct {
         background-color: var(--success-green) !important;
         color: white !important;
         border-color: var(--success-green) !important;
         box-shadow: 0 0 20px rgba(40, 167, 69, 0.5);
         animation: pulseCorrect 1s infinite;
-        z-index: 2; /* keep on top */
+        z-index: 2;
     }
 
     @keyframes pulseCorrect {
@@ -104,7 +123,6 @@
         100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
     }
 
-    /* 2. WRONG EFFECT: Shake */
     .is-wrong {
         background-color: var(--error-red) !important;
         color: white !important;
@@ -114,14 +132,48 @@
 
     @keyframes shakeWrong {
         0%, 100% { transform: translateX(0); }
-        10%, 30%, 50%, 70%, 90% { transform: translateX(-8px); }
-        20%, 40%, 60%, 80% { transform: translateX(8px); }
+        10%, 30%, 50%, 70%, 90% { transform: translateX(-6px); }
+        20%, 40%, 60%, 80% { transform: translateX(6px); }
+    }
+
+    /* --- Quiz Page Header --- */
+    .container.text-center h2 {
+        color: var(--finnish-blue);
+        margin-top: 10px;
+        font-size: 1.7rem;
+    }
+
+    .container.text-center p {
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+
+    /* --- Back link smaller --- */
+    .container.text-center a {
+        font-size: 0.85rem;
+    }
+
+    /* --- Responsive Adjustments --- */
+    @media (max-height: 700px) {
+        .quiz-container {
+            max-height: 75vh;
+            padding: 15px 20px;
+        }
+
+        .finnish-word {
+            font-size: 2rem;
+        }
+
+        .quiz-option {
+            padding: 10px;
+            font-size: 0.95rem;
+        }
     }
 
 </style>
 
 <div class="container text-center">
-    <h2 style="color: #003580; margin-top: 30px;">Multiple Choice Quiz</h2>
+    <h2>Multiple Choice Quiz</h2>
     <p>Select the correct English meaning</p>
 
     <div id="quiz-wrapper">
@@ -160,51 +212,37 @@
     let globalScore = 0;
 
     function processAnswer(selectedBtn, correctAnswerValue, currentQuestionId) {
-        // 1. Get references
         const currentQuizItem = document.getElementById('q-' + currentQuestionId);
         const optionsGrid = selectedBtn.parentElement;
         const allButtons = optionsGrid.querySelectorAll('.quiz-option');
-        const scoreSpans = document.querySelectorAll('.current-score'); // update all instances
+        const scoreSpans = document.querySelectorAll('.current-score');
 
-        // 2. Lock other options and fade them out
         allButtons.forEach(btn => {
             btn.classList.add('disabled');
-            if (btn !== selectedBtn) {
-                btn.classList.add('fade-out'); // make others less visible
-            }
+            if (btn !== selectedBtn) btn.classList.add('fade-out');
         });
 
-        // 3. Logic check
         const userSelectedText = selectedBtn.innerText.trim();
         const isUserCorrect = (userSelectedText === correctAnswerValue);
 
         if (isUserCorrect) {
-            // SPECATCULAR EFFECT 1: Green Glow & Pulse
             selectedBtn.classList.add('is-correct');
-            globalScore += 10; // add 10 points
-            
-            // Add a "Correct!" particle effect (optional)
-            // This is complex, better to stick to the glow pulse for now.
+            globalScore += 10;
         } else {
-            // SPECATCULAR EFFECT 2: Red Shake
             selectedBtn.classList.add('is-wrong');
-            
-            // SPECATCULAR EFFECT 3: Reveal the correct answer in Green
             allButtons.forEach(btn => {
                 if (btn.innerText.trim() === correctAnswerValue) {
                     btn.classList.add('is-correct');
-                    btn.classList.remove('fade-out'); // show it clearly
+                    btn.classList.remove('fade-out');
                 }
             });
         }
 
-        // 4. Update the visible score
         scoreSpans.forEach(span => span.innerText = globalScore);
 
-        // 5. Wait 2 seconds (giving time for the spectacular effects) then move on
         setTimeout(() => {
             goToNextQuestionInQuiz(currentQuestionId);
-        }, 2000); // 2000ms = 2 seconds
+        }, 2000);
     }
 
     function goToNextQuestionInQuiz(id) {
