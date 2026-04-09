@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finnish Vocabulary Program</title>
+
     <style>
         /* 1. Base Layout & Background */
         body { 
@@ -12,6 +13,7 @@
             text-align: center; 
             margin: 0;
             padding: 20px;
+
             background-image: url("{% static 'frontend/background_img.png' %}");
             background-size: cover;
             background-position: center;
@@ -20,15 +22,14 @@
             background-color: #f4f4f4; 
         }
 
-        /* 2. Enhanced Title with Color Flow & Scaling */
+        /* 2. TITLE (RESPONSIVE) */
         .header-title {
-            font-size: 3.5rem;
+            font-size: clamp(1.8rem, 4vw, 3.5rem);
             font-weight: 900;
             margin-bottom: 40px;
             letter-spacing: -1px;
             text-transform: uppercase;
-            
-            /* Color Flow Gradient */
+
             background: linear-gradient(
                 90deg, 
                 #003580, 
@@ -37,19 +38,21 @@
                 #0066cc, 
                 #003580
             );
+
             background-size: 200% auto;
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            
+
             filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.9));
-            
+
             animation: 
                 fadeInDown 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards, 
                 colorFlow 5s linear infinite,
                 floatTitle 4s ease-in-out infinite;
         }
 
+        /* 3. WRAPPER */
         .content-wrapper { 
             min-height: 400px;
             display: inline-block; 
@@ -57,49 +60,57 @@
             padding: 40px;
             border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            opacity: 0;
-            animation: fadeIn 0.8s ease-in 0.2s forwards;
         }
 
-        /* 3. Button Styles with Jump Effect */
-        .menu-button {
-            display: block;
-            width: 280px;
-            margin: 12px auto;
-            padding: 18px;
-            background-color: #003580; 
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1.1rem;
-            /* Transition set to a "bouncy" cubic-bezier */
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            
+        /* 4. MENU ITEM WRAPPER (IMPORTANT FIX) */
+        .menu-item {
             opacity: 0;
             transform: translateY(20px);
             animation: slideInUp 0.5s ease-out forwards;
         }
 
-        /* The "Jump" Effect on Hover */
-        .menu-button:hover { 
-            background-color: #00255a; 
-            transform: translateY(-15px) scale(1.08); /* stronger jump */
-            box-shadow: 0 12px 25px rgba(0,0,0,0.3);
-        }
-        .menu-button:active {
-            transform: translateY(-5px) scale(0.95); /* pressed effect */
-        }
-        
-        /* Staggered Entrance */
-        .menu-button:nth-child(1) { animation-delay: 0.4s; }
-        .menu-button:nth-child(2) { animation-delay: 0.6s; }
-        .menu-button:nth-child(3) { animation-delay: 0.8s; }
-        .menu-button:nth-child(4) { animation-delay: 1.0s; }
-        .menu-button:nth-child(5) { animation-delay: 1.2s; }
-        .menu-button:nth-child(6) { animation-delay: 1.4s; }
+        /* Stagger animation */
+        .menu-item:nth-child(1) { animation-delay: 0.4s; }
+        .menu-item:nth-child(2) { animation-delay: 0.6s; }
+        .menu-item:nth-child(3) { animation-delay: 0.8s; }
+        .menu-item:nth-child(4) { animation-delay: 1.0s; }
+        .menu-item:nth-child(5) { animation-delay: 1.2s; }
+        .menu-item:nth-child(6) { animation-delay: 1.4s; }
 
-        /* 4. Animation Keyframes */
+        /* 5. BUTTON (NOW FULLY WORKING) */
+        .menu-button {
+            display: block;
+            width: 280px;
+            margin: 12px auto;
+            padding: 18px;
+
+            background-color: #003580;
+            color: white;
+            text-decoration: none;
+
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 1.1rem;
+
+            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+                        box-shadow 0.2s ease,
+                        background-color 0.2s ease;
+        }
+
+        /* 🎯 WORKING HOVER JUMP */
+        .menu-button:hover { 
+            background-color: #00255a;
+
+            transform: translateY(-10px) scale(1.05);
+
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+        }
+
+        .menu-button:active {
+            transform: translateY(-3px) scale(0.98);
+        }
+
+        /* 6. ANIMATIONS */
         @keyframes colorFlow {
             0% { background-position: 0% center; }
             100% { background-position: 200% center; }
@@ -115,56 +126,71 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
-
         @keyframes slideInUp {
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
-        /* 5. Responsive Design: Minimize Title */
+        /* 7. MOBILE */
         @media (max-width: 600px) {
             .header-title {
                 font-size: 1.8rem;
                 margin-bottom: 20px;
             }
-        .content-wrapper { 
-            min-height: 400px;
-            display: inline-block; 
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            opacity: 0;
-            animation: fadeIn 0.8s ease-in 0.2s forwards;
+
+            .content-wrapper {
+                padding: 20px;
+                width: 100%;
+            }
+
+            .menu-button {
+                width: 100%;
+            }
         }
-        .menu-button {
-            margin: 12px auto;
-        }
-        }
+
     </style>
 </head>
+
 <body>
 
-    <div class="header-title">=== Finnish Vocabulary Program ===</div>
+    <div class="header-title">Finnish Vocabulary Program</div>
 
     <div class="content-wrapper">
         {% block content %}
             <div class="menu-container">
+
+                <div class="menu-item">
+                    <a href="{% url 'add_word' %}" class="menu-button">1. Add new words</a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="{% url 'review_options' %}" class="menu-button">2. Review all words</a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="{% url 'show_words' %}" class="menu-button">3. Show all words</a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="{% url 'vocabulary_sets' %}" class="menu-button">4. Vocabulary sets</a>
+                </div>
+
                 {% for item in options %}
-                    {% if item == "Add new words" %}
-                        <a href="{% url 'add_word' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% elif item == "Review all words" %}
-                        <a href="{% url 'review_options' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% elif item == "Show all words" %}
-                        <a href="{% url 'show_words' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% elif item == "Vocabulary sets" %}
-                        <a href="{% url 'vocabulary_sets' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% else %}
-                        <a href="#" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    {% if item not in "Add new words,Review all words,Show all words,Vocabulary sets" %}
+                        <div class="menu-item">
+                            <a href="#" class="menu-button">
+                                {{ forloop.counter }}. {{ item }}
+                            </a>
+                        </div>
                     {% endif %}
                 {% endfor %}
+
             </div>
         {% endblock %}
     </div>
