@@ -1,93 +1,192 @@
 {% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Add Finnish Word</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Word | Smart Vocabulary Creator</title>
     <style>
-        /* Body setup */
         body { 
-            font-family: 'Segoe UI', Arial, sans-serif; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            min-height: 100vh; 
-            margin: 0; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            display: flex; justify-content: center; align-items: center; 
+            min-height: 100vh; margin: 0; 
             background-image: url("{% static 'frontend/addword_img.png' %}");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background-size: cover; background-position: center;
         }
 
         .form-card { 
-            background: rgba(255, 255, 255, 0.9);  /* semi-transparent */
-            padding: 30px; 
-            border-radius: 12px; 
-            border: 2px solid black;  /* black border outside container */
-            box-shadow: 0 6px 15px rgba(0,0,0,0.1); 
-            width: 320px; 
-            text-align: center;
+            background: rgba(255, 255, 255, 0.96);
+            padding: 30px; border-radius: 16px; border: 2px solid #000; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2); width: 380px; text-align: center;
         }
 
-        input { 
-            width: 100%; 
-            padding: 12px; 
-            margin: 10px 0; 
-            border: 2px solid black;  /* black border for inputs */
-            border-radius: 6px; 
-            box-sizing: border-box; 
-            font-size: 1rem;
+        h2 { color: #003580; margin-top: 0; }
+        label { display: block; text-align: left; font-size: 0.75rem; font-weight: bold; margin-top: 10px; color: #555; }
+
+        input, textarea { 
+            width: 100%; padding: 12px; margin: 5px 0 12px 0; 
+            border: 2px solid #000; border-radius: 8px; box-sizing: border-box; 
+            font-size: 1rem; transition: border-color 0.3s;
         }
+
+        input:focus { border-color: #003580; outline: none; }
+
+        #loading-status { font-size: 0.8rem; color: #003580; font-weight: bold; height: 20px; display: none; margin-bottom: 10px; }
+
+        #ai-preview { 
+            display: none; opacity: 0; transform: translateY(10px);
+            transition: all 0.4s ease; border-top: 1px dashed #bbb; padding-top: 15px;
+        }
+
+        #ai-preview.active { display: block; opacity: 1; transform: translateY(0); }
+
+        .img-container {
+            width: 100%; height: 170px; background: #eee;
+            border-radius: 10px; border: 1px solid #000; margin-bottom: 12px;
+            overflow: hidden; display: flex; align-items: center; justify-content: center;
+        }
+
+        #word-img { width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.5s; }
+
+        textarea { height: 95px; resize: none; background: #fff; line-height: 1.4; font-size: 0.95rem; }
 
         button { 
-            width: 100%; 
-            padding: 12px; 
-            margin-top: 10px;
-            background: #003580; 
-            color: white; 
-            border: none; 
-            border-radius: 6px; 
-            cursor: pointer; 
-            font-size: 1rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
+            width: 100%; padding: 14px; background: #003580; color: #fff; 
+            border: none; border-radius: 8px; cursor: pointer; font-size: 1.1rem; font-weight: bold;
+            transition: background 0.2s;
         }
 
-        button:hover { 
-            background: #00255a; 
-        }
+        button:hover { background: #00265a; }
 
-        .back { 
-            display: inline-block; 
-            margin-top: 15px; 
-            padding: 10px 20px;
-            background: #ccc; 
-            color: black; 
-            text-decoration: none; 
-            border-radius: 6px; 
-            font-size: 0.95rem;
-            transition: all 0.3s ease;
-        }
-
-        .back:hover { 
-            background: #aaa; 
-        }
+        .back-link { display: inline-block; margin-top: 15px; color: #666; text-decoration: none; font-size: 0.85rem; }
     </style>
 </head>
 <body>
     <div class="form-card">
-        <h2>Add New Word</h2>
+        <h2>Add Word</h2>
+        
+        <form method="POST" id="word-form">
+            {% csrf_token %}
+            
+            <label>FINNISH WORD</label>
+            <input type="text" name="finnish_word" id="fi_input" placeholder="e.g. Pelata" autocomplete="off" required>
 
-        {% if saved %}
-            <p style="color: green; font-weight: bold;">Word saved successfully!</p>
-        {% endif %}
+            <label>ENGLISH WORD</label>
+            <input type="text" name="english_word" id="en_input" placeholder="e.g. To play" autocomplete="off" required>
 
-        <form method="POST">
-            {% csrf_token %} 
-            <input type="text" name="finnish_word" placeholder="Finnish (e.g. Talo)" required>
-            <input type="text" name="english_word" placeholder="English (e.g. House)" required>
-            <button type="submit">Save to Vocabulary</button>
+            <div id="loading-status">AI is generating context...</div>
+
+            <div id="ai-preview">
+                <div class="img-container">
+                    <img id="word-img" src="" alt="Context Image">
+                </div>
+                <label>FINNISH EXAMPLE SENTENCE</label>
+                <textarea name="example_text" id="ex_input" placeholder="Generated sentence..."></textarea>
+                <input type="hidden" name="image_url" id="img_hidden">
+            </div>
+
+            <button type="submit">Save Word</button>
         </form>
-        <a href="{% url 'main_menu' %}" class="back">Back</a>
+        <a href="{% url 'main_menu' %}" class="back-link">← Return to Menu</a>
     </div>
+
+    <script>
+        const fiInput = document.getElementById('fi_input');
+        const enInput = document.getElementById('en_input');
+        const previewArea = document.getElementById('ai-preview');
+        const loadingStatus = document.getElementById('loading-status');
+        const exInput = document.getElementById('ex_input');
+        const imgDisplay = document.getElementById('word-img');
+        const imgHidden = document.getElementById('img_hidden');
+
+        const UNSPLASH_KEY = 'BAzazffKq-eqECErlrhZhd1aKOiGmwSX_TKJjt5T20o';
+        let timer;
+        let controller;
+
+        fiInput.addEventListener('input', () => startSync(fiInput.value, 'fi', 'en', enInput));
+        enInput.addEventListener('input', () => startSync(enInput.value, 'en', 'fi', fiInput));
+
+        function startSync(val, from, to, target) {
+            if (controller) controller.abort();
+            clearTimeout(timer);
+            
+            if (val.length < 2) {
+                previewArea.classList.remove('active');
+                return;
+            }
+            timer = setTimeout(() => fetchAI(val, from, to, target), 850);
+        }
+
+        async function fetchAI(value, fromLang, toLang, targetElement) {
+            controller = new AbortController();
+            loadingStatus.style.display = 'block';
+            
+            try {
+                // 1. Translate the core word
+                const tRes = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=${fromLang}&tl=${toLang}&dt=t&q=${encodeURIComponent(value)}`, { signal: controller.signal });
+                const tData = await tRes.json();
+                const translatedWord = tData[0][0][0];
+                targetElement.value = translatedWord;
+
+                const finWord = (fromLang === 'fi') ? value : translatedWord;
+                const engWord = (fromLang === 'en') ? value : translatedWord;
+
+                // 2. Fetch context image from Unsplash
+                const iRes = await fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(engWord)}&client_id=${UNSPLASH_KEY}&per_page=1`, { signal: controller.signal });
+                const iData = await iRes.json();
+                if (iData.results.length > 0) {
+                    const imgUrl = iData.results[0].urls.small;
+                    imgDisplay.src = imgUrl;
+                    imgHidden.value = imgUrl;
+                    imgDisplay.onload = () => imgDisplay.style.opacity = "1";
+                }
+
+                // 3. ENHANCED DYNAMIC SCENARIOS
+                const scenarios = [
+                    `I saw a very interesting ${engWord} today.`,
+                    `Do you know how to use ${engWord} in this situation?`,
+                    `It is very important to remember ${engWord} while studying.`,
+                    `Everyone was talking about ${engWord} at the meeting.`,
+                    `I want to learn more about ${engWord} because it is useful.`,
+                    `Can you help me find the ${engWord} near here?`,
+                    `Look at that ${engWord}, it looks amazing!`,
+                    `I always use ${engWord} when I am working on my project.`
+                ];
+                
+                // Pick a random prompt to ensure variety
+                const randomPrompt = scenarios[Math.floor(Math.random() * scenarios.length)];
+                
+                const exRes = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=fi&dt=t&q=${encodeURIComponent(randomPrompt)}`, { signal: controller.signal });
+                const exData = await exRes.json();
+                let finalSentence = exData[0][0][0];
+
+                // 4. STRICT VERIFICATION
+                // We use a broader stem check (3-4 chars) to catch variations
+                const wordStem = finWord.toLowerCase().substring(0, 3);
+                if (!finalSentence.toLowerCase().includes(wordStem)) {
+                    // Final backup logic to ensure the word is NEVER missing
+                    const backups = [
+                        `Minä haluan oppia sanan ${finWord} tänään.`,
+                        `Tämä esimerkki sisältää sanan ${finWord}.`,
+                        `On tärkeää ymmärtää mitä ${finWord} tarkoittaa.`,
+                        `Minä käytän sanaa ${finWord} usein.`
+                    ];
+                    finalSentence = backups[Math.floor(Math.random() * backups.length)];
+                }
+
+                exInput.value = finalSentence;
+
+                loadingStatus.style.display = 'none';
+                previewArea.style.display = 'block';
+                setTimeout(() => previewArea.classList.add('active'), 50);
+
+            } catch (err) {
+                if (err.name !== 'AbortError') {
+                    console.error("AI Sync Error:", err);
+                    loadingStatus.innerText = "Sync failed.";
+                }
+            }
+        }
+    </script>
 </body>
 </html>

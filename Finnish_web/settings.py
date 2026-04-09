@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7ul)hg8cpf*u-a*ogn8f0-q-c&rs^7hkty_5&v$a=0u5&sgxt*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -122,3 +123,8 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / "frontend" / "static",
 ]
+
+# Add these two lines for Render:
+import os
+STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
