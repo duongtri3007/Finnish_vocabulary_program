@@ -50,33 +50,34 @@ def get_words_from_set(set_id):
 
 # --- DATA SERVICES (Review & Games Logic) ---
 
-def get_flashcards_data():
-    """Shuffles the vocab list for randomized review sessions."""
-    vocab_list = load_vocab()
+def get_flashcards_data(vocab_list):
+    """Shuffles the provided list for randomized review sessions."""
+    if not vocab_list:
+        return []
     word_list = list(vocab_list) 
     random.shuffle(word_list)
     return word_list
 
-def generate_quiz_data(limit=10):
-    """Logic updated to include image and example data for each question."""
-    all_words = load_vocab()
-    
-    if len(all_words) < 4:
+def generate_quiz_data(vocab_list, limit=10):
+    """Generates quiz data using the provided vocabulary list."""
+    # Use the passed-in list instead of loading from the shared file
+    if not vocab_list or len(vocab_list) < 4:
         return None
 
     quiz_data = []
-    # Pick random entries
-    questions = random.sample(all_words, min(len(all_words), limit))
+    # Pick random entries from the user's private list
+    questions = random.sample(vocab_list, min(len(vocab_list), limit))
 
     for item in questions:
         fi = item['fi']
         en = item['en']
-        # --- NEW: Extract image and example for the quiz UI ---
         img = item.get('image', '')
         ex = item.get('example', '')
         
-        # Get 3 wrong answers from other words
-        other_meanings = [w['en'] for w in all_words if w['en'] != en]
+        # Get wrong answers ONLY from the user's own vocabulary
+        other_meanings = [w['en'] for w in vocab_list if w['en'] != en]
+        
+        # Fallback if the user has very few words
         wrong_options = random.sample(other_meanings, min(len(other_meanings), 3))
         
         options = wrong_options + [en]
@@ -86,8 +87,8 @@ def generate_quiz_data(limit=10):
             'question': fi,
             'correct': en,
             'options': options,
-            'image': img,      # Sent to quiz.html
-            'example': ex      # Sent to quiz.html
+            'image': img,
+            'example': ex
         })
     return quiz_data
 
