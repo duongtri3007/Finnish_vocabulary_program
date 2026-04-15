@@ -3,9 +3,13 @@
 {% block content %}
 
 <style>
+    .container {
+        position: relative;
+    }
+
     .flashcard-scene {
-        width: 380px; /* Slightly wider to fit images better */
-        height: 320px; /* Increased height for content */
+        width: 100%;
+        height: 300px;
         perspective: 1000px;
         margin: 20px auto;
         cursor: pointer;
@@ -23,7 +27,6 @@
         transform: rotateY(180deg);
     }
 
-    /* ===== CARD ===== */
     .card-face {
         position: absolute;
         width: 100%;
@@ -51,7 +54,6 @@
         transform: rotateY(180deg);
     }
 
-    /* ===== TEXT ===== */
     .word-title {
         font-size: 2.5rem;
         margin: 0;
@@ -82,7 +84,6 @@
         border: 1px solid #ddd;
     }
 
-    /* ===== STACK ANIMATION SYSTEM ===== */
     #flashcard-list {
         position: relative;
         min-height: 450px;
@@ -91,13 +92,16 @@
     .word-wrapper {
         position: absolute;
         width: 100%;
+        max-width: 400px;
+
+        transform: translateX(-50%) scale(0.92) translateY(20px);
+
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
 
         opacity: 0;
-        transform: scale(0.92) translateY(20px);
         pointer-events: none;
 
         transition: all 0.45s ease;
@@ -116,7 +120,6 @@
         z-index: 1;
     }
 
-    /* ===== BUTTON ===== */
     .menu-button {
         background-color: #6c757d;
         width: 200px;
@@ -144,6 +147,15 @@
 </style>
 
 <div class="container text-center">
+
+    <!-- TOP LEFT RETURN BUTTON -->
+    <div style="position: absolute; top: -35px; left: 0px;">
+        <a href="{% url 'review_options' %}"
+           style="text-decoration: none; color: #888; font-size: 0.9rem;">
+           ← Options
+        </a>
+    </div>
+
     <h2 style="color: #003580;">Flashcards Mode</h2>
     <p>Tap the card to see the meaning and image context</p>
 
@@ -158,13 +170,11 @@
 
                 <div class="flashcard">
 
-                    <!-- FRONT -->
                     <div class="card-face card-face-front">
                         <div class="instruction">(Finnish)</div>
                         <div class="word-title">{{ word.fi }}</div>
                     </div>
 
-                    <!-- BACK -->
                     <div class="card-face card-face-back">
 
                         {% if word.image %}
@@ -184,21 +194,26 @@
                 </div>
             </div>
 
-            <button class="menu-button"
-                    onclick="goToNext({{ forloop.counter }})">
-                Next Word →
-            </button>
+            <!-- BUTTON ROW -->
+            <div style="display: flex; justify-content: space-between; width: 100%; max-width: 400px;">
+                
+                <button class="menu-button"
+                        onclick="goToPrev({{ forloop.counter }})">
+                    ← Previous
+                </button>
+
+                <button class="menu-button"
+                        onclick="goToNext({{ forloop.counter }})">
+                    Next Word →
+                </button>
+
+            </div>
 
         </div>
         {% endfor %}
 
     </div>
 
-    <br>
-    <a href="{% url 'review_options' %}"
-       style="text-decoration: none; color: #888;">
-       ← Return to Options
-    </a>
 </div>
 
 <script>
@@ -212,7 +227,6 @@
             return;
         }
 
-        // animate current card going to back
         current.classList.add('to-back');
         current.classList.remove('active');
 
@@ -220,8 +234,17 @@
             current.classList.remove('to-back');
         }, 450);
 
-        // show next card
         next.classList.add('active');
+    }
+
+    function goToPrev(currentId) {
+        const current = document.getElementById('word-' + currentId);
+        const prev = document.getElementById('word-' + (currentId - 1));
+
+        if (!prev) return;
+
+        current.classList.remove('active');
+        prev.classList.add('active');
     }
 </script>
 
