@@ -5,166 +5,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finnish Vocabulary Program</title>
-    <style>
-        /* 1. Base Layout & Background */
-        body { 
-            font-family: 'Segoe UI', Arial, sans-serif; 
-            text-align: center; 
-            margin: 0;
-            padding: 20px;
-            background-image: url("{% static 'frontend/background_img.png' %}");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-color: #f4f4f4; 
-        }
 
-        /* 2. Enhanced Title with Color Flow & Scaling */
-        .header-title {
-            font-size: 3.5rem;
-            font-weight: 900;
-            margin-bottom: 40px;
-            letter-spacing: -1px;
-            text-transform: uppercase;
-            
-            /* Color Flow Gradient */
-            background: linear-gradient(
-                90deg, 
-                #003580, 
-                #0066cc, 
-                #a5f3fc, 
-                #0066cc, 
-                #003580
-            );
-            background-size: 200% auto;
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            
-            filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.9));
-            
-            animation: 
-                fadeInDown 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards, 
-                colorFlow 5s linear infinite,
-                floatTitle 4s ease-in-out infinite;
-        }
+<style>
+    body { 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        text-align: center; 
+        margin: 0;
+        padding: 20px;
+        position: relative;
+        z-index: 0;
 
-        .content-wrapper { 
-            min-height: 400px;
-            display: inline-block; 
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            opacity: 0;
-            animation: fadeIn 0.8s ease-in 0.2s forwards;
-        }
+        background-image: url("{% static 'frontend/background_img.png' %}");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #f4f4f4; 
+    }
 
-        /* 3. Button Styles with Jump Effect */
-        .menu-button {
-            display: block;
-            width: 280px;
-            margin: 12px auto;
-            padding: 18px;
-            background-color: #003580; 
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1.1rem;
-            /* Transition set to a "bouncy" cubic-bezier */
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            
+    .header-title {
+        font-size: clamp(1.8rem, 4vw, 3.5rem);
+        font-weight: 800;
+        margin-bottom: 20px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+
+        background: linear-gradient(
+            90deg, 
+            #003580, 
+            #0066cc, 
+            #a5f3fc, 
+            #0066cc, 
+            #003580
+        );
+
+        text-shadow:
+            0 0 10px rgba(100, 200, 255, 0.6),
+            0 0 20px rgba(100, 200, 255, 0.4);
+
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.9));
+
+        animation: 
+            fadeInDown 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards, 
+            colorFlow 5s linear infinite,
+            floatTitle 4s ease-in-out infinite;
+    }
+
+    .content-wrapper { 
+        min-height: 400px;
+        display: inline-block; 
+        background-color: rgba(255, 255, 255, 0.9); /* 👈 nền trắng quay lại */
+        padding: 40px;
+        border-radius: 15px;
+
+        box-shadow: 0 10px 30px rgba(0,0,0,0.25); /* 👈 đổ bóng đẹp hơn */
+    }
+
+    .menu-item {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: slideInUp 0.5s ease-out forwards;
+    }
+
+    .menu-item:nth-child(1) { animation-delay: 0.4s; }
+    .menu-item:nth-child(2) { animation-delay: 0.6s; }
+    .menu-item:nth-child(3) { animation-delay: 0.8s; }
+    .menu-item:nth-child(4) { animation-delay: 1.0s; }
+    .menu-item:nth-child(5) { animation-delay: 1.2s; }
+    .menu-item:nth-child(6) { animation-delay: 1.4s; }
+
+    .menu-button {
+        display: block;
+        width: 280px;
+        margin: 14px auto;
+        padding: 18px;
+
+        background: linear-gradient(180deg, #0d90b8 0%, #115eda 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 14px;
+        font-weight: bold;
+        font-size: 1.1rem;
+
+        box-shadow:
+            0 8px 0 #1e5bbf,
+            0 0 20px rgba(76, 201, 240, 0.6),
+            0 14px 24px rgba(0, 80, 180, 0.25);
+
+        transform: translateY(0) scale(1, 1);
+        transition:
+            transform 0.18s ease,
+            box-shadow 0.18s ease,
+            background 0.18s ease;
+    }
+
+    .menu-button:hover {
+        animation: jellyHover 0.8s ease;
+        background: linear-gradient(180deg, #0d90b8 0%, #115eda 100%);
+    }
+
+    .menu-button:active {
+        transform: translateY(8px) scale(0.97, 0.94);
+        box-shadow:
+            0 2px 0 #00255a,
+            0 6px 10px rgba(0,0,0,0.16);
+    }
+
+    @keyframes jellyHover {
+        0%   { transform: scale(1, 1); }
+        30%  { transform: scale(1.08, 0.90); }
+        45%  { transform: scale(0.94, 1.08); }
+        60%  { transform: scale(1.03, 0.96); }
+        75%  { transform: scale(0.98, 1.02); }
+        100% { transform: scale(1, 1); }
+    }
+
+    @keyframes colorFlow {
+        0% { background-position: 0% center; }
+        100% { background-position: 200% center; }
+    }
+
+    @keyframes floatTitle {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    @keyframes fadeInDown {
+        from { opacity: 0; transform: translateY(-30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideInUp {
+        from {
             opacity: 0;
             transform: translateY(20px);
-            animation: slideInUp 0.5s ease-out forwards;
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .header-title {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
         }
 
-        /* The "Jump" Effect on Hover */
-        .menu-button:hover { 
-            background-color: #00255a; 
-            transform: translateY(-15px) scale(1.08); /* stronger jump */
-            box-shadow: 0 12px 25px rgba(0,0,0,0.3);
-        }
-        .menu-button:active {
-            transform: translateY(-5px) scale(0.95); /* pressed effect */
-        }
-        
-        /* Staggered Entrance */
-        .menu-button:nth-child(1) { animation-delay: 0.4s; }
-        .menu-button:nth-child(2) { animation-delay: 0.6s; }
-        .menu-button:nth-child(3) { animation-delay: 0.8s; }
-        .menu-button:nth-child(4) { animation-delay: 1.0s; }
-        .menu-button:nth-child(5) { animation-delay: 1.2s; }
-        .menu-button:nth-child(6) { animation-delay: 1.4s; }
-
-        /* 4. Animation Keyframes */
-        @keyframes colorFlow {
-            0% { background-position: 0% center; }
-            100% { background-position: 200% center; }
+        .content-wrapper {
+            padding: 20px 10px;
+            width: 100%;
         }
 
-        @keyframes floatTitle {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
-
-        @keyframes slideInUp {
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* 5. Responsive Design: Minimize Title */
-        @media (max-width: 600px) {
-            .header-title {
-                font-size: 1.8rem;
-                margin-bottom: 20px;
-            }
-        .content-wrapper { 
-            min-height: 400px;
-            display: inline-block; 
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            opacity: 0;
-            animation: fadeIn 0.8s ease-in 0.2s forwards;
-        }
         .menu-button {
-            margin: 12px auto;
+            width: 100%;
         }
-        }
-    </style>
+    }
+</style>
 </head>
+
 <body>
 
-    <div class="header-title">=== Finnish Vocabulary Program ===</div>
+    <div class="header-title">Finnish Vocabulary Program</div>
 
     <div class="content-wrapper">
         {% block content %}
             <div class="menu-container">
+
+                <div class="menu-item">
+                    <a href="{% url 'add_word' %}" class="menu-button">1. 📘 Add new words</a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="{% url 'review_options' %}" class="menu-button">2. 🧠 Review all words</a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="{% url 'show_words' %}" class="menu-button">3. 📚 Show all words</a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="{% url 'vocabulary_sets' %}" class="menu-button">4. 🗂 Vocabulary sets</a>
+                </div>
+
                 {% for item in options %}
-                    {% if item == "Add new words" %}
-                        <a href="{% url 'add_word' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% elif item == "Review all words" %}
-                        <a href="{% url 'review_options' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% elif item == "Show all words" %}
-                        <a href="{% url 'show_words' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% elif item == "Vocabulary sets" %}
-                        <a href="{% url 'vocabulary_sets' %}" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
-                    {% else %}
-                        <a href="#" class="menu-button">{{ forloop.counter }}. {{ item }}</a>
+                    {% if item not in "Add new words,Review all words,Show all words,Vocabulary sets" %}
+                        <div class="menu-item">
+                            <a href="#" class="menu-button">
+                                {{ forloop.counter }}. {{ item }}
+                            </a>
+                        </div>
                     {% endif %}
                 {% endfor %}
+
             </div>
         {% endblock %}
     </div>
