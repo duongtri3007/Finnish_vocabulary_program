@@ -1,0 +1,212 @@
+[
+    {
+        "fi": "palvelin",
+        "en": "the server",
+        "image": "no_image",
+        "sentence_fi": "Palvelin oli alhaalla.",
+        "sentence_en": "The server was down."
+    },
+    {
+        "fi": "asiakirjakaappi",
+        "en": "filing cabinet",
+        "image": "no_image",
+        "sentence_fi": "Tom käveli asiakirjakaapille.",
+        "sentence_en": "Tom walked over to the filing cabinet."
+    },
+    {
+        "fi": "paperi",
+        "en": "paper",
+        "image": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwYXBlcnxlbnwwfHx8fDE3NzczMjI3MDJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarvitsen paperia.",
+        "sentence_en": "I need paper."
+    },
+    {
+        "fi": "tulostin",
+        "en": "the printer",
+        "image": "no_image",
+        "sentence_fi": "Hän saattaa pelätä tulosten saamista.",
+        "sentence_en": "He may dread to learn the results."
+    },
+    {
+        "fi": "näyttö",
+        "en": "display",
+        "image": "no_image",
+        "sentence_fi": "Tomi osoitti näyttöä.",
+        "sentence_en": "Tom pointed to the screen."
+    },
+    {
+        "fi": "kirjoituspöytä",
+        "en": "desk",
+        "image": "https://images.unsplash.com/photo-1518655048521-f130df041f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXNrfGVufDB8fHx8MTc3NzMyMjcxMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän raivasi kirjoituspöytänsä.",
+        "sentence_en": "He cleared out his desk."
+    },
+    {
+        "fi": "hiiri",
+        "en": "mouse",
+        "image": "no_image",
+        "sentence_fi": "Hiiri ei halua kuolla.",
+        "sentence_en": "The mouse doesn't want to die."
+    },
+    {
+        "fi": "näppäimistö",
+        "en": "keyboard",
+        "image": "no_image",
+        "sentence_fi": "Minulla ei ole turkkilaista näppäimistöä.",
+        "sentence_en": "I don't have a Turkish keyboard."
+    },
+    {
+        "fi": "roskakori",
+        "en": "trash can",
+        "image": "https://images.unsplash.com/photo-1683516435482-f3cea544ee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFzaCUyMGNhbnxlbnwwfHx8fDE3NzczMjM5MTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Roskakori on tyhjä.",
+        "sentence_en": "The bin is empty."
+    },
+    {
+        "fi": "tietokone",
+        "en": "computer",
+        "image": "no_image",
+        "sentence_fi": "Tietokoneeni jäätyi.",
+        "sentence_en": "My computer has frozen."
+    },
+    {
+        "fi": "tuoli",
+        "en": "chair",
+        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGFpcnxlbnwwfHx8fDE3NzczMjQwMDV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tämä tuoli on epämukava.",
+        "sentence_en": "This chair is uncomfortable."
+    },
+    {
+        "fi": "kahvimuki",
+        "en": "coffee mug",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kahvimuki.",
+        "sentence_en": "This is a coffee mug."
+    },
+    {
+        "fi": "taskulaskin",
+        "en": "Pocket calculator",
+        "image": "https://images.unsplash.com/photo-1708449903767-c4e97772c26e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxQb2NrZXQlMjBjYWxjdWxhdG9yfGVufDB8fHx8MTc3NzMyMjg4MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mikä on taskulaskin?",
+        "sentence_en": "What is a calculator?"
+    },
+    {
+        "fi": "internet",
+        "en": "Internet",
+        "image": "https://images.unsplash.com/photo-1773332585760-8b5dc6079a74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHxJbnRlcm5ldHxlbnwwfHx8fDE3NzczMjM5MjR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Internet muutti kaiken.",
+        "sentence_en": "The Internet changed everything."
+    },
+    {
+        "fi": "kannettava tietokone",
+        "en": "laptop",
+        "image": "no_image",
+        "sentence_fi": "Tarvitsen kannettavan tietokoneen.",
+        "sentence_en": "I need a laptop."
+    },
+    {
+        "fi": "kirje",
+        "en": "letter",
+        "image": "https://images.unsplash.com/photo-1566125882500-87e10f726cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxsZXR0ZXJ8ZW58MHx8fHwxNzc3MzIyODkxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kirjoita.",
+        "sentence_en": "Type!"
+    },
+    {
+        "fi": "viesti",
+        "en": "message",
+        "image": "no_image",
+        "sentence_fi": "Näin viestinne.",
+        "sentence_en": "I saw your message."
+    },
+    {
+        "fi": "kännykkä",
+        "en": "mobile",
+        "image": "no_image",
+        "sentence_fi": "Älä kastele kännykkääsi.",
+        "sentence_en": "Don't get the phone wet."
+    },
+    {
+        "fi": "verkko",
+        "en": "network",
+        "image": "no_image",
+        "sentence_fi": "Hän korjasi verkon.",
+        "sentence_en": "He fixed the net."
+    },
+    {
+        "fi": "kopiokone",
+        "en": "copier",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kopiokone.",
+        "sentence_en": "This is a copier."
+    },
+    {
+        "fi": "ohjelmisto",
+        "en": "software",
+        "image": "no_image",
+        "sentence_fi": "Olen päivittänyt ohjelmistosi.",
+        "sentence_en": "I updated your software."
+    },
+    {
+        "fi": "puhelin",
+        "en": "phone",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwaG9uZXxlbnwwfHx8fDE3NzczMjcyNzR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Puhelin soi.",
+        "sentence_en": "The telephone is ringing."
+    },
+    {
+        "fi": "pistorasia",
+        "en": "outlet",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pistorasia.",
+        "sentence_en": "This is a outlet."
+    },
+    {
+        "fi": "faksi",
+        "en": "fax",
+        "image": "no_image",
+        "sentence_fi": "Mikä on faksi?",
+        "sentence_en": "What is a fax?"
+    },
+    {
+        "fi": "lomake",
+        "en": "form",
+        "image": "no_image",
+        "sentence_fi": "Täytättehän tämän lomakkeen.",
+        "sentence_en": "Fill out this form, please."
+    },
+    {
+        "fi": "asiakirja",
+        "en": "document",
+        "image": "no_image",
+        "sentence_fi": "Asiakirjoja oli peukaloitu.",
+        "sentence_en": "The documents were tampered with."
+    },
+    {
+        "fi": "sanomalehti",
+        "en": "newspaper",
+        "image": "no_image",
+        "sentence_fi": "Mitä sanomalehteä luette?",
+        "sentence_en": "Which newspaper do you read?"
+    },
+    {
+        "fi": "kalenteri",
+        "en": "calendar",
+        "image": "no_image",
+        "sentence_fi": "Kuukausi on lyhyempi taivaalla kun kalenterissa.",
+        "sentence_en": "A lunar month is shorter than a calendar month."
+    },
+    {
+        "fi": "muistivihko",
+        "en": "notebook",
+        "image": "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxub3RlYm9va3xlbnwwfHx8fDE3NzczMjM5Mjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Minulla on aina mukana muistivihko.",
+        "sentence_en": "I always have a notepad."
+    },
+    {
+        "fi": "toimisto",
+        "en": "office",
+        "image": "no_image",
+        "sentence_fi": "Olen toimistossani.",
+        "sentence_en": "I'm in my office."
+    }
+]
