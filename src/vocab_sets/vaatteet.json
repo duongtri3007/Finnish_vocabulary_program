@@ -1,0 +1,485 @@
+[
+    {
+        "fi": "kaulaliina",
+        "en": "neckerchief",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kaulaliina.",
+        "sentence_en": "This is a neckerchief."
+    },
+    {
+        "fi": "sateenvarjo",
+        "en": "umbrella",
+        "image": "no_image",
+        "sentence_fi": "Ostin sateenvarjon.",
+        "sentence_en": "I bought an umbrella."
+    },
+    {
+        "fi": "vyö",
+        "en": "belt",
+        "image": "no_image",
+        "sentence_fi": "Onko tuo vyö, jonka annoin sinulle?",
+        "sentence_en": "Is that the belt I gave you?"
+    },
+    {
+        "fi": "t-paita",
+        "en": "t-shirt",
+        "image": "no_image",
+        "sentence_fi": "Sulla on t-paita väärinpäin.",
+        "sentence_en": "You have your T-shirt on backwards."
+    },
+    {
+        "fi": "saappaat",
+        "en": "the boots",
+        "image": "no_image",
+        "sentence_fi": "Miten usein sinä käytät saappaita?",
+        "sentence_en": "How often do you wear boots?"
+    },
+    {
+        "fi": "lenkkarit",
+        "en": "sneakers",
+        "image": "no_image",
+        "sentence_fi": "”Mitä menin tekemään!” ”Mitä nyt?” ”Pesin valkoiset lenkkarini ja ne ovat nyt pesun jälkeen aikaisempaa likaisemmat.”",
+        "sentence_en": "\"Oh no!\" \"What's wrong?\" \"I washed these white sneakers I had, but they came out looking dirtier than they were before.\""
+    },
+    {
+        "fi": "sisätossut",
+        "en": "indoor slippers",
+        "image": "no_image",
+        "sentence_fi": "Tässä on sisätossut.",
+        "sentence_en": "This is a indoor slippers."
+    },
+    {
+        "fi": "sukat",
+        "en": "socks",
+        "image": "no_image",
+        "sentence_fi": "Ne sukat haisevat.",
+        "sentence_en": "The socks smell bad."
+    },
+    {
+        "fi": "nylonsukat",
+        "en": "nylon stockings",
+        "image": "no_image",
+        "sentence_fi": "Tässä on nylonsukat.",
+        "sentence_en": "This is a nylon stockings."
+    },
+    {
+        "fi": "sukkahousut",
+        "en": "pantyhose",
+        "image": "no_image",
+        "sentence_fi": "Talvellä käytän paksuja sukkahousuja.",
+        "sentence_en": "In winter, I wear thick pantyhose."
+    },
+    {
+        "fi": "sandaalit",
+        "en": "sandals",
+        "image": "no_image",
+        "sentence_fi": "Ostin sandaalit.",
+        "sentence_en": "I bought a pair of sandals."
+    },
+    {
+        "fi": "kengät",
+        "en": "boots",
+        "image": "no_image",
+        "sentence_fi": "Kengät pitää kiillottaa.",
+        "sentence_en": "My shoes need polishing."
+    },
+    {
+        "fi": "",
+        "en": "",
+        "image": "no_image",
+        "sentence_fi": "Vahvista.",
+        "sentence_en": "Affirmative."
+    },
+    {
+        "fi": "kumisaappaat",
+        "en": "rubber boots",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kumisaappaat.",
+        "sentence_en": "This is a rubber boots."
+    },
+    {
+        "fi": "alushousut",
+        "en": "underpants",
+        "image": "no_image",
+        "sentence_fi": "Minulla on märät alushousut.",
+        "sentence_en": "My knickers are wet."
+    },
+    {
+        "fi": "rintaliivit",
+        "en": "bra",
+        "image": "no_image",
+        "sentence_fi": "Bayalla oli rintaliivit päällä.",
+        "sentence_en": "Baya was wearing a bra."
+    },
+    {
+        "fi": "aluspaita",
+        "en": "undershirt",
+        "image": "no_image",
+        "sentence_fi": "Tässä on aluspaita.",
+        "sentence_en": "This is a undershirt."
+    },
+    {
+        "fi": "body",
+        "en": "body",
+        "image": "no_image",
+        "sentence_fi": "Tässä on body.",
+        "sentence_en": "This is a body."
+    },
+    {
+        "fi": "housut",
+        "en": "pants",
+        "image": "no_image",
+        "sentence_fi": "Mun housut on märät.",
+        "sentence_en": "My pants are wet."
+    },
+    {
+        "fi": "farkut",
+        "en": "jeans",
+        "image": "no_image",
+        "sentence_fi": "Hän käyttää aina farkkuja.",
+        "sentence_en": "She usually wears jeans."
+    },
+    {
+        "fi": "hame",
+        "en": "skirt",
+        "image": "no_image",
+        "sentence_fi": "Tavallisesti käytän hametta.",
+        "sentence_en": "I normally wear skirts."
+    },
+    {
+        "fi": "pusero",
+        "en": "blouse",
+        "image": "no_image",
+        "sentence_fi": "Pidän tuosta puserosta.",
+        "sentence_en": "I like that shirt."
+    },
+    {
+        "fi": "paita",
+        "en": "shirt",
+        "image": "no_image",
+        "sentence_fi": "Pesin paitani.",
+        "sentence_en": "I washed my shirt."
+    },
+    {
+        "fi": "villapaita",
+        "en": "sweater",
+        "image": "no_image",
+        "sentence_fi": "Hänellä on harmaa villapaita.",
+        "sentence_en": "His sweater is gray."
+    },
+    {
+        "fi": "collegepaita",
+        "en": "sweatshirt",
+        "image": "no_image",
+        "sentence_fi": "Tässä on collegepaita.",
+        "sentence_en": "This is a sweatshirt."
+    },
+    {
+        "fi": "jakku",
+        "en": "jacket",
+        "image": "no_image",
+        "sentence_fi": "Tässä on jakku.",
+        "sentence_en": "This is a jacket."
+    },
+    {
+        "fi": "takki",
+        "en": "jacket",
+        "image": "no_image",
+        "sentence_fi": "Halusitko takin?",
+        "sentence_en": "I wanted a jacket."
+    },
+    {
+        "fi": "sadetakki",
+        "en": "raincoat",
+        "image": "no_image",
+        "sentence_fi": "Etsin laivastonsinistä sadetakkia, kokoa 36.",
+        "sentence_en": "I'm looking for a navy blue raincoat, size 36."
+    },
+    {
+        "fi": "puku",
+        "en": "suit",
+        "image": "no_image",
+        "sentence_fi": "Kiva puku.",
+        "sentence_en": "Nice suit."
+    },
+    {
+        "fi": "mekko",
+        "en": "dress",
+        "image": "no_image",
+        "sentence_fi": "Pukeutukaa hienoon mekkoon.",
+        "sentence_en": "Put on a nice dress."
+    },
+    {
+        "fi": "hääpuku",
+        "en": "wedding dress",
+        "image": "no_image",
+        "sentence_fi": "Mari teki oman hääpukunsa.",
+        "sentence_en": "Mary made her own wedding dress."
+    },
+    {
+        "fi": "puku",
+        "en": "suit",
+        "image": "no_image",
+        "sentence_fi": "Missä teetit pukusi?",
+        "sentence_en": "Where did you have the suit made?"
+    },
+    {
+        "fi": "yöpaita",
+        "en": "nightgown",
+        "image": "no_image",
+        "sentence_fi": "Tässä on yöpaita.",
+        "sentence_en": "This is a nightgown."
+    },
+    {
+        "fi": "pyjama",
+        "en": "pajamas",
+        "image": "no_image",
+        "sentence_fi": "Pue pyjama päällesi.",
+        "sentence_en": "Get into your pajamas."
+    },
+    {
+        "fi": "shari",
+        "en": "Shari",
+        "image": "no_image",
+        "sentence_fi": "Tässä on shari.",
+        "sentence_en": "This is a Shari."
+    },
+    {
+        "fi": "päähuivi",
+        "en": "kerchief",
+        "image": "no_image",
+        "sentence_fi": "Tässä on päähuivi.",
+        "sentence_en": "This is a kerchief."
+    },
+    {
+        "fi": "turbaani",
+        "en": "turban",
+        "image": "no_image",
+        "sentence_fi": "Tässä on turbaani.",
+        "sentence_en": "This is a turban."
+    },
+    {
+        "fi": "burka",
+        "en": "burqa",
+        "image": "no_image",
+        "sentence_fi": "Burka on valinta.",
+        "sentence_en": "The burqa is a choice."
+    },
+    {
+        "fi": "kaftaani",
+        "en": "caftan",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kaftaani.",
+        "sentence_en": "This is a caftan."
+    },
+    {
+        "fi": "abaya",
+        "en": "Abaya",
+        "image": "no_image",
+        "sentence_fi": "Tässä on abaya.",
+        "sentence_en": "This is a Abaya."
+    },
+    {
+        "fi": "uimapuku",
+        "en": "bathing suit",
+        "image": "no_image",
+        "sentence_fi": "Hän oli pukeutunut punaiseen uimapukuun.",
+        "sentence_en": "She was wearing a red bathing suit."
+    },
+    {
+        "fi": "uimahousut",
+        "en": "swimming trunks",
+        "image": "no_image",
+        "sentence_fi": "Tässä on uimahousut.",
+        "sentence_en": "This is a swimming trunks."
+    },
+    {
+        "fi": "shortsit",
+        "en": "shorts",
+        "image": "no_image",
+        "sentence_fi": "Tomilla on shortsit jalassa.",
+        "sentence_en": "Tom is wearing shorts."
+    },
+    {
+        "fi": "esiliina",
+        "en": "apron",
+        "image": "no_image",
+        "sentence_fi": "Minun äidilläni on punainen esiliina.",
+        "sentence_en": "My mother has a red apron."
+    },
+    {
+        "fi": "verkkarit",
+        "en": "sweatpants",
+        "image": "no_image",
+        "sentence_fi": "Tässä on verkkarit.",
+        "sentence_en": "This is a sweatpants."
+    },
+    {
+        "fi": "käsineet",
+        "en": "gloves",
+        "image": "no_image",
+        "sentence_fi": "Tomilla on käsineet käsissä.",
+        "sentence_en": "Tom is wearing gloves."
+    },
+    {
+        "fi": "nappi",
+        "en": "button",
+        "image": "no_image",
+        "sentence_fi": "Nappaa Tom.",
+        "sentence_en": "Take Tom."
+    },
+    {
+        "fi": "silmälasit",
+        "en": "eyeglasses",
+        "image": "no_image",
+        "sentence_fi": "Tarvitsen silmälasejani.",
+        "sentence_en": "I need my glasses."
+    },
+    {
+        "fi": "rannekoru",
+        "en": "bracelet",
+        "image": "no_image",
+        "sentence_fi": "Rannekorut kalisivat hänen ranteessaan.",
+        "sentence_en": "The bracelets jangled on her wrist."
+    },
+    {
+        "fi": "kaulakoru",
+        "en": "necklace",
+        "image": "no_image",
+        "sentence_fi": "Kaunis kaulakoru.",
+        "sentence_en": "That's a pretty necklace."
+    },
+    {
+        "fi": "sormus",
+        "en": "ring",
+        "image": "no_image",
+        "sentence_fi": "Ota tämä sormus merkkinä rakkaudesta ja uskollisuudestani.",
+        "sentence_en": "Take this ring as a token of my love and fidelity."
+    },
+    {
+        "fi": "korvakoru",
+        "en": "an earring",
+        "image": "no_image",
+        "sentence_fi": "Mari otti korvakorunsa pois.",
+        "sentence_en": "Mary took off her earrings."
+    },
+    {
+        "fi": "lippalakki",
+        "en": "peaked cap",
+        "image": "no_image",
+        "sentence_fi": "Missä sinun lippalakkisi on?",
+        "sentence_en": "Where is your cap?"
+    },
+    {
+        "fi": "ripustin",
+        "en": "hanger",
+        "image": "no_image",
+        "sentence_fi": "Voisitko ripustaa pyykit?",
+        "sentence_en": "Could you hang up the laundry?"
+    },
+    {
+        "fi": "hattu",
+        "en": "hat",
+        "image": "no_image",
+        "sentence_fi": "Tarvitsen hatun.",
+        "sentence_en": "I need a hat."
+    },
+    {
+        "fi": "solmio",
+        "en": "tie",
+        "image": "no_image",
+        "sentence_fi": "Ostin punaisen solmion.",
+        "sentence_en": "I bought a red tie."
+    },
+    {
+        "fi": "vetoketju",
+        "en": "zipper",
+        "image": "no_image",
+        "sentence_fi": "Vetoketju on jumissa.",
+        "sentence_en": "The zipper is stuck."
+    },
+    {
+        "fi": "kypärä",
+        "en": "helmet",
+        "image": "no_image",
+        "sentence_fi": "Oliko molemmilla kypärät?",
+        "sentence_en": "Were both of them wearing helmets?"
+    },
+    {
+        "fi": "henkselit",
+        "en": "suspenders",
+        "image": "no_image",
+        "sentence_fi": "Tässä on henkselit.",
+        "sentence_en": "This is a suspenders."
+    },
+    {
+        "fi": "koulupuku",
+        "en": "school uniform",
+        "image": "https://images.unsplash.com/photo-1566827886031-7d0f288f76ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjB1bmlmb3JtfGVufDB8fHx8MTc3NzMyMzg5Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ihan vaan varmistaakseni kysyn, että eikö huomenna pidäkin olla koulupuku?",
+        "sentence_en": "I want to ask, just in case - we should wear our uniforms tomorrow, right?"
+    },
+    {
+        "fi": "univormu",
+        "en": "uniform",
+        "image": "no_image",
+        "sentence_fi": "Hyökkääjät eivät olleet mitään muuta kuin varkaita, murhaajia ja raiskaajia univormuissa.",
+        "sentence_en": "The aggressor's soldiers were nothing more than thieves, murderers and rapists in uniform."
+    },
+    {
+        "fi": "ruokalappu",
+        "en": "a bib",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ruokalappu.",
+        "sentence_en": "This is a a bib."
+    },
+    {
+        "fi": "tutti",
+        "en": "pacifier",
+        "image": "no_image",
+        "sentence_fi": "Tutkin sen dokumentin vielä kertaalleen.",
+        "sentence_en": "We checked the document again."
+    },
+    {
+        "fi": "vaippa",
+        "en": "sheath",
+        "image": "no_image",
+        "sentence_fi": "Tässä on vaippa.",
+        "sentence_en": "This is a sheath."
+    },
+    {
+        "fi": "huivi",
+        "en": "scarf",
+        "image": "no_image",
+        "sentence_fi": "Kiedo huivi päähäsi.",
+        "sentence_en": "Wrap your head in a scarf."
+    },
+    {
+        "fi": "kylpytakki",
+        "en": "bathrobe",
+        "image": "no_image",
+        "sentence_fi": "Miksi olet kylpytakissa?",
+        "sentence_en": "Why are you in your bathrobe?"
+    },
+    {
+        "fi": "potkupuku",
+        "en": "kick suit",
+        "image": "no_image",
+        "sentence_fi": "Tässä on potkupuku.",
+        "sentence_en": "This is a kick suit."
+    },
+    {
+        "fi": "saappaat",
+        "en": "the boots",
+        "image": "no_image",
+        "sentence_fi": "Miten usein sinä käytät saappaita?",
+        "sentence_en": "How often do you wear boots?"
+    },
+    {
+        "fi": "reppu",
+        "en": "backpack",
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYWNrcGFja3xlbnwwfHx8fDE3NzczMjI3Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ostin repun armeijan ylijäämäkaupasta.",
+        "sentence_en": "I bought a backpack at the army surplus store."
+    }
+]
