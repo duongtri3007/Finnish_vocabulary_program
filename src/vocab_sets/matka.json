@@ -1,0 +1,604 @@
+[
+    {
+        "fi": "retkeilymaja",
+        "en": "hostel",
+        "image": "no_image",
+        "sentence_fi": "Tässä on retkeilymaja.",
+        "sentence_en": "This is a hostel."
+    },
+    {
+        "fi": "hotelli",
+        "en": "hotel",
+        "image": "no_image",
+        "sentence_fi": "Onko hotellissa matkamuistomyymälää?",
+        "sentence_en": "Is there a souvenir shop in the hotel?"
+    },
+    {
+        "fi": "rahanvaihto",
+        "en": "money exchange",
+        "image": "no_image",
+        "sentence_fi": "Tässä on rahanvaihto.",
+        "sentence_en": "This is a money exchange."
+    },
+    {
+        "fi": "matkalaukku",
+        "en": "suitcase",
+        "image": "no_image",
+        "sentence_fi": "Ostan hänelle matkalaukun.",
+        "sentence_en": "I'll buy him a suitcase."
+    },
+    {
+        "fi": "auto",
+        "en": "car",
+        "image": "no_image",
+        "sentence_fi": "Paska auto.",
+        "sentence_en": "I hate this car."
+    },
+    {
+        "fi": "kieli",
+        "en": "language",
+        "image": "no_image",
+        "sentence_fi": "Englanti on kieli.",
+        "sentence_en": "English is a language."
+    },
+    {
+        "fi": "kyllä / ei",
+        "en": "yes / no",
+        "image": "no_image",
+        "sentence_fi": "Sanoitko sinä kyllä tai ei?",
+        "sentence_en": "Did you say yes or no?"
+    },
+    {
+        "fi": "selvä",
+        "en": "clear",
+        "image": "no_image",
+        "sentence_fi": "Selvä. Mihin?",
+        "sentence_en": "Fine. Where?"
+    },
+    {
+        "fi": "hei",
+        "en": "Hello",
+        "image": "no_image",
+        "sentence_fi": "Hei.",
+        "sentence_en": "Hallo!"
+    },
+    {
+        "fi": "tulkki",
+        "en": "interpreter",
+        "image": "no_image",
+        "sentence_fi": "Tulkaa pian!",
+        "sentence_en": "Come quick!"
+    },
+    {
+        "fi": "kiitos",
+        "en": "thanks",
+        "image": "no_image",
+        "sentence_fi": "Kiitos.",
+        "sentence_en": "I thank you."
+    },
+    {
+        "fi": "Paljonko...maksaa?",
+        "en": "How much...costs?",
+        "image": "no_image",
+        "sentence_fi": "Paljonko pääsylippu maksaa?",
+        "sentence_en": "How much does an entrance ticket cost?"
+    },
+    {
+        "fi": "en ymmärrä",
+        "en": "I don't understand",
+        "image": "no_image",
+        "sentence_fi": "En ymmärrä puolaa.",
+        "sentence_en": "I don't understand Polish."
+    },
+    {
+        "fi": "ongelma",
+        "en": "problem",
+        "image": "no_image",
+        "sentence_fi": "Ratkaiskaa ongelma.",
+        "sentence_en": "Solve the problem."
+    },
+    {
+        "fi": "Hyvää iltaa!",
+        "en": "Good evening!",
+        "image": "no_image",
+        "sentence_fi": "Hyvää iltaa, Tuomas.",
+        "sentence_en": "Good evening, Tom."
+    },
+    {
+        "fi": "Hyvää huomenta!",
+        "en": "Good morning!",
+        "image": "no_image",
+        "sentence_fi": "Hyvää huomenta, Tomi.",
+        "sentence_en": "Good morning, Tom!"
+    },
+    {
+        "fi": "Hyvää yötä!",
+        "en": "Good night!",
+        "image": "no_image",
+        "sentence_fi": "Hyvää yötä, sanoin.",
+        "sentence_en": "I said good night."
+    },
+    {
+        "fi": "näkemiin",
+        "en": "Goodbye",
+        "image": "no_image",
+        "sentence_fi": "Näkemiin, Anna!",
+        "sentence_en": "Goodbye, Anna!"
+    },
+    {
+        "fi": "suunta",
+        "en": "direction",
+        "image": "no_image",
+        "sentence_fi": "Monelta suunnilleen?",
+        "sentence_en": "About what time?"
+    },
+    {
+        "fi": "matkatavarat",
+        "en": "baggage",
+        "image": "no_image",
+        "sentence_fi": "Ovatko nämä teidän matkatavaranne?",
+        "sentence_en": "Is this your baggage?"
+    },
+    {
+        "fi": "laukku",
+        "en": "bag",
+        "image": "no_image",
+        "sentence_fi": "Onko sinulla laukkua?",
+        "sentence_en": "Do you have a bag?"
+    },
+    {
+        "fi": "reppu",
+        "en": "backpack",
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYWNrcGFja3xlbnwwfHx8fDE3NzczMjI3Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pane tämä reppuusi.",
+        "sentence_en": "Put this in your backpack."
+    },
+    {
+        "fi": "vieras",
+        "en": "guest",
+        "image": "no_image",
+        "sentence_fi": "Äidinkieleni on toiselle vieras kieli.",
+        "sentence_en": "My native language is a foreign language for someone else."
+    },
+    {
+        "fi": "makuuhuone",
+        "en": "bedroom",
+        "image": "no_image",
+        "sentence_fi": "Tomi avasi makuuhuoneen ikkunat.",
+        "sentence_en": "Tom opened the bedroom windows."
+    },
+    {
+        "fi": "makuupussi",
+        "en": "sleeping bag",
+        "image": "no_image",
+        "sentence_fi": "Turistit leiriytyivät kedolle, avasivat makuupussinsa ja täyttivät ilmapatjansa.",
+        "sentence_en": "The tourists camped in the meadow, unpacked their sleeping-bags, and inflated their air-beds."
+    },
+    {
+        "fi": "teltta",
+        "en": "tent",
+        "image": "no_image",
+        "sentence_fi": "Pystytimme telttamme ennen pimeää.",
+        "sentence_en": "We pitched our tents before dark."
+    },
+    {
+        "fi": "turisti-info",
+        "en": "Tourist information",
+        "image": "no_image",
+        "sentence_fi": "Missä on turisti-info?",
+        "sentence_en": "Where is the tourist information office?"
+    },
+    {
+        "fi": "ranta",
+        "en": "beach",
+        "image": "no_image",
+        "sentence_fi": "Lähdetään rannalle!",
+        "sentence_en": "Let's go to the beach."
+    },
+    {
+        "fi": "luottokortti",
+        "en": "credit card",
+        "image": "no_image",
+        "sentence_fi": "Käykö luottokortti?",
+        "sentence_en": "Do you accept credit cards?"
+    },
+    {
+        "fi": "aamupala",
+        "en": "breakfast",
+        "image": "no_image",
+        "sentence_fi": "Aamupalaa!",
+        "sentence_en": "Breakfast!"
+    },
+    {
+        "fi": "lounas",
+        "en": "lunch",
+        "image": "no_image",
+        "sentence_fi": "Syödään lounas.",
+        "sentence_en": "Let's have lunch."
+    },
+    {
+        "fi": "päivällinen",
+        "en": "dinner",
+        "image": "no_image",
+        "sentence_fi": "Päivällinen näyttää myöhästyvän.",
+        "sentence_en": "It seems that supper will be late."
+    },
+    {
+        "fi": "alkuruoka",
+        "en": "appetizer",
+        "image": "https://images.unsplash.com/photo-1577906096429-f73c2c312435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhcHBldGl6ZXJ8ZW58MHx8fHwxNzc3MzI0MDQwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom söi erehdyksessä alkuruokansa salaattihaarukallaan.",
+        "sentence_en": "Tom mistakenly ate his entree with his salad fork."
+    },
+    {
+        "fi": "pääruoka",
+        "en": "main course",
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtYWluJTIwY291cnNlfGVufDB8fHx8MTc3NzMyNDA0M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on pääruoka.",
+        "sentence_en": "This is a main course."
+    },
+    {
+        "fi": "jälkiruoka",
+        "en": "dessert",
+        "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0fGVufDB8fHx8MTc3NzMyNDA1Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ottakaa jälkiruokia, jos vain maistuu.",
+        "sentence_en": "Please help yourself to the desserts."
+    },
+    {
+        "fi": "matkalippu",
+        "en": "ticket",
+        "image": "no_image",
+        "sentence_fi": "Matkaliput, olkaa hyvät.",
+        "sentence_en": "Please show your ticket."
+    },
+    {
+        "fi": "hissi",
+        "en": "Elevator",
+        "image": "no_image",
+        "sentence_fi": "Onko teillä hissiä?",
+        "sentence_en": "Do you have an elevator?"
+    },
+    {
+        "fi": "postimerkki",
+        "en": "stamp",
+        "image": "no_image",
+        "sentence_fi": "Minä tarvitsen postimerkin.",
+        "sentence_en": "I need a stamp."
+    },
+    {
+        "fi": "raja",
+        "en": "limit",
+        "image": "no_image",
+        "sentence_fi": "Tiedän rajani.",
+        "sentence_en": "I know my limitations."
+    },
+    {
+        "fi": "tulli",
+        "en": "customs",
+        "image": "no_image",
+        "sentence_fi": "Tulta!",
+        "sentence_en": "Open fire!"
+    },
+    {
+        "fi": "suurlähetystö",
+        "en": "embassy",
+        "image": "no_image",
+        "sentence_fi": "Työskentelen suurlähetystössä.",
+        "sentence_en": "I work at the embassy."
+    },
+    {
+        "fi": "viisumi",
+        "en": "visa",
+        "image": "no_image",
+        "sentence_fi": "Voisitteko pidentää tätä viisumia?",
+        "sentence_en": "Please extend this visa."
+    },
+    {
+        "fi": "passi",
+        "en": "passport",
+        "image": "no_image",
+        "sentence_fi": "Minä passaan.",
+        "sentence_en": "I'll pass."
+    },
+    {
+        "fi": "sauna",
+        "en": "sauna",
+        "image": "no_image",
+        "sentence_fi": "Sami oli saunassa.",
+        "sentence_en": "Sami was in a sauna."
+    },
+    {
+        "fi": "purjehtia",
+        "en": "sail",
+        "image": "no_image",
+        "sentence_fi": "Perry purjehti lopulta Tokionlahteen vuonna 1853.",
+        "sentence_en": "Perry finally sailed into Tokyo Bay in 1853."
+    },
+    {
+        "fi": "lentää",
+        "en": "fly",
+        "image": "no_image",
+        "sentence_fi": "Unissani osaan lentää.",
+        "sentence_en": "In my dreams, I can fly."
+    },
+    {
+        "fi": "rautatieasema",
+        "en": "railway station",
+        "image": "no_image",
+        "sentence_fi": "Rautatieaseman lähellä on auringonkukkapelto.",
+        "sentence_en": "There is a sunflower field near the train station."
+    },
+    {
+        "fi": "viesti",
+        "en": "message",
+        "image": "no_image",
+        "sentence_fi": "Näin viestin.",
+        "sentence_en": "I saw the message."
+    },
+    {
+        "fi": "pankkiautomaatti",
+        "en": "ATM",
+        "image": "no_image",
+        "sentence_fi": "Monet ihmiset nostavat rahaa pankkiautomaatista.",
+        "sentence_en": "Many people use ATMs to withdraw money."
+    },
+    {
+        "fi": "vene",
+        "en": "boat",
+        "image": "no_image",
+        "sentence_fi": "Nukuin veneessä.",
+        "sentence_en": "I slept on the boat."
+    },
+    {
+        "fi": "uima-allas",
+        "en": "swimming pool",
+        "image": "no_image",
+        "sentence_fi": "Täällä on sauna ja uima-allas.",
+        "sentence_en": "There's a sauna and a pool."
+    },
+    {
+        "fi": "sänky",
+        "en": "bed",
+        "image": "no_image",
+        "sentence_fi": "Palvelija petasi sänkyni.",
+        "sentence_en": "The maid made my bed."
+    },
+    {
+        "fi": "tyyny",
+        "en": "pillow",
+        "image": "no_image",
+        "sentence_fi": "Tyynyni odottaa minua.",
+        "sentence_en": "My pillow is waiting for me."
+    },
+    {
+        "fi": "päiväpeitto",
+        "en": "bedspread",
+        "image": "no_image",
+        "sentence_fi": "Tässä on päiväpeitto.",
+        "sentence_en": "This is a bedspread."
+    },
+    {
+        "fi": "raha",
+        "en": "monetary",
+        "image": "no_image",
+        "sentence_fi": "Tarvitsin rahaa.",
+        "sentence_en": "I needed the money."
+    },
+    {
+        "fi": "lautta",
+        "en": "ferry",
+        "image": "no_image",
+        "sentence_fi": "Tässä on lautta.",
+        "sentence_en": "This is a ferry."
+    },
+    {
+        "fi": "kääntää",
+        "en": "turn",
+        "image": "no_image",
+        "sentence_fi": "On vaikeaa kääntää runoja.",
+        "sentence_en": "It is difficult to translate a poem into another language."
+    },
+    {
+        "fi": "pakolainen",
+        "en": "refugee",
+        "image": "no_image",
+        "sentence_fi": "Tom on pakolainen.",
+        "sentence_en": "Tom is a refugee."
+    },
+    {
+        "fi": "asiakirja",
+        "en": "document",
+        "image": "no_image",
+        "sentence_fi": "Hän tarkisti asiakirjat huolellisesti.",
+        "sentence_en": "He had a good look at the papers."
+    },
+    {
+        "fi": "car sharing",
+        "en": "car sharing",
+        "image": "no_image",
+        "sentence_fi": "Tässä on car sharing.",
+        "sentence_en": "This is a car sharing."
+    },
+    {
+        "fi": "polttoaine",
+        "en": "fuel",
+        "image": "no_image",
+        "sentence_fi": "Tommilta loppui polttoaine.",
+        "sentence_en": "Tom ran out of gas."
+    },
+    {
+        "fi": "matkustaja",
+        "en": "passenger",
+        "image": "no_image",
+        "sentence_fi": "Matkustajat yöpyivät rantahotellissa.",
+        "sentence_en": "The travelers stayed at a seaside hotel."
+    },
+    {
+        "fi": "Apua!",
+        "en": "Help!",
+        "image": "no_image",
+        "sentence_fi": "Pyysit apuamme.",
+        "sentence_en": "You asked for our help."
+    },
+    {
+        "fi": "parkkipaikka",
+        "en": "parking",
+        "image": "no_image",
+        "sentence_fi": "Teatterin takana on parkkipaikka.",
+        "sentence_en": "There is a parking lot behind the theater."
+    },
+    {
+        "fi": "annos",
+        "en": "dose",
+        "image": "https://images.unsplash.com/photo-1618675523373-026f54ca1497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkb3NlfGVufDB8fHx8MTc3NzMyNDA4NHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Maistuisiko toinen annos paahtopaistia?",
+        "sentence_en": "How about some more roast beef?"
+    },
+    {
+        "fi": "juna",
+        "en": "train",
+        "image": "no_image",
+        "sentence_fi": "Mennään junalla.",
+        "sentence_en": "Let's take a train."
+    },
+    {
+        "fi": "terassi",
+        "en": "terrace",
+        "image": "no_image",
+        "sentence_fi": "Onko teillä pöytää terassilla?",
+        "sentence_en": "Do you have a table on the patio?"
+    },
+    {
+        "fi": "satama",
+        "en": "port",
+        "image": "https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwb3J0fGVufDB8fHx8MTc3NzMyNzIwM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Rupeaa satamaan.",
+        "sentence_en": "It is going to rain."
+    },
+    {
+        "fi": "nukkua",
+        "en": "sleep",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzbGVlcHxlbnwwfHx8fDE3NzczMjcyMDh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nukun yläkerrassa.",
+        "sentence_en": "I sleep upstairs."
+    },
+    {
+        "fi": "palmu",
+        "en": "palm",
+        "image": "https://images.unsplash.com/photo-1525923838299-2312b60f6d69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwYWxtfGVufDB8fHx8MTc3NzMyNzIxNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Näitkö palmut?",
+        "sentence_en": "Did you see the palm trees?"
+    },
+    {
+        "fi": "hiihto",
+        "en": "skiing",
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxza2lpbmd8ZW58MHx8fHwxNzc3MzI3MjE5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Harrastan hiihtoa.",
+        "sentence_en": "My hobby is skiing."
+    },
+    {
+        "fi": "saari",
+        "en": "island",
+        "image": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxpc2xhbmR8ZW58MHx8fHwxNzc3MzI3MjIyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Saari vajoaa.",
+        "sentence_en": "The island is sinking."
+    },
+    {
+        "fi": "lentokenttä",
+        "en": "airport",
+        "image": "https://images.unsplash.com/photo-1542296332-2e4473faf563?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhaXJwb3J0fGVufDB8fHx8MTc3NzMyNzIyNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lentokenttä on Osakanlahdella.",
+        "sentence_en": "The airport is in Osaka Bay."
+    },
+    {
+        "fi": "hinta",
+        "en": "price",
+        "image": "https://images.unsplash.com/photo-1711606815631-38d32cdaec3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwcmljZXxlbnwwfHx8fDE3NzczMjcyMzN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hinnat nousivat.",
+        "sentence_en": "The price rose."
+    },
+    {
+        "fi": "taksi",
+        "en": "taxi",
+        "image": "https://images.unsplash.com/photo-1490650404312-a2175773bbf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0YXhpfGVufDB8fHx8MTc3NzMyNzIzOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kutsu taksi.",
+        "sentence_en": "Call me a cab."
+    },
+    {
+        "fi": "tavaratalo",
+        "en": "department store",
+        "image": "https://images.unsplash.com/photo-1701852965474-35ad0d54a0b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXBhcnRtZW50JTIwc3RvcmV8ZW58MHx8fHwxNzc3MzI3MjQzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tämä tavaratalo suljetaan seitsemältä.",
+        "sentence_en": "This department store is closed at seven."
+    },
+    {
+        "fi": "vuokra-auto",
+        "en": "rental car",
+        "image": "https://images.unsplash.com/photo-1565043666747-69f6646db940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyZW50YWwlMjBjYXJ8ZW58MHx8fHwxNzc3MzI3MjQ3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haluaisin myös vuokrata auton.",
+        "sentence_en": "I'd also like to hire a car."
+    },
+    {
+        "fi": "internet",
+        "en": "Internet",
+        "image": "https://images.unsplash.com/photo-1773332585760-8b5dc6079a74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHxJbnRlcm5ldHxlbnwwfHx8fDE3NzczMjM5MjR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Internet on räjähtänyt.",
+        "sentence_en": "The Internet has exploded."
+    },
+    {
+        "fi": "lasku",
+        "en": "fall",
+        "image": "https://images.unsplash.com/photo-1507371341162-763b5e419408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmYWxsfGVufDB8fHx8MTc3NzMyNDA5N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Maksoin laskun.",
+        "sentence_en": "I paid the bill."
+    },
+    {
+        "fi": "metro",
+        "en": "metro",
+        "image": "https://images.unsplash.com/photo-1556695736-d287caebc48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtZXRyb3xlbnwwfHx8fDE3NzczMjcyNTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kazanissa on metro.",
+        "sentence_en": "There is a metro in Kazan."
+    },
+    {
+        "fi": "kartta",
+        "en": "map",
+        "image": "https://images.unsplash.com/photo-1619468129361-605ebea04b44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtYXB8ZW58MHx8fHwxNzc3MzIzOTEzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarvitsen kartan.",
+        "sentence_en": "I need a map."
+    },
+    {
+        "fi": "Hyvää päivää!",
+        "en": "Good day!",
+        "image": "https://images.unsplash.com/photo-1707837326082-0687ef884c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxHb29kJTIwZGF5JTIxfGVufDB8fHx8MTc3NzMyNzI3MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hyvää päivää, rouvat.",
+        "sentence_en": "Hello, ladies."
+    },
+    {
+        "fi": "puhelin",
+        "en": "phone",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwaG9uZXxlbnwwfHx8fDE3NzczMjcyNzR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Puhelin soi.",
+        "sentence_en": "The telephone is ringing."
+    },
+    {
+        "fi": "vero",
+        "en": "tax",
+        "image": "https://images.unsplash.com/photo-1709880945165-d2208c6ad2ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0YXh8ZW58MHx8fHwxNzc3MzI3Mjc4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Minä maksan veroja.",
+        "sentence_en": "I pay taxes."
+    },
+    {
+        "fi": "olut",
+        "en": "beer",
+        "image": "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiZWVyfGVufDB8fHx8MTc3NzMyMjUyN3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "En ollut kokouksessa.",
+        "sentence_en": "I wasn't present at that meeting."
+    },
+    {
+        "fi": "online",
+        "en": "online",
+        "image": "https://images.unsplash.com/photo-1484807352052-23338990c6c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvbmxpbmV8ZW58MHx8fHwxNzc3MzI3MzE4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "SOPA on lyhenne sanoista Stop Online Piracy Act.",
+        "sentence_en": "SOPA is an acronym for the Stop Online Piracy Act."
+    }
+]
