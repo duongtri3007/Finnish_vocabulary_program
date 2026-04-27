@@ -1,0 +1,422 @@
+[
+    {
+        "fi": "elokuvateatteri",
+        "en": "cinema",
+        "image": "no_image",
+        "sentence_fi": "Me päädyimme elokuvateatterille.",
+        "sentence_en": "We wound up at the cinema."
+    },
+    {
+        "fi": "mainos",
+        "en": "ad",
+        "image": "no_image",
+        "sentence_fi": "Se mainos veti todella paljon huomiota puoleensa.",
+        "sentence_en": "The ad really pulled."
+    },
+    {
+        "fi": "katuvalo",
+        "en": "street light",
+        "image": "no_image",
+        "sentence_fi": "Tässä on katuvalo.",
+        "sentence_en": "This is a street light."
+    },
+    {
+        "fi": "katu",
+        "en": "street",
+        "image": "no_image",
+        "sentence_fi": "Katu on märkä.",
+        "sentence_en": "The street is wet."
+    },
+    {
+        "fi": "taksi",
+        "en": "taxi",
+        "image": "https://images.unsplash.com/photo-1490650404312-a2175773bbf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0YXhpfGVufDB8fHx8MTc3NzMyNzIzOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Otetaanko taksi?",
+        "sentence_en": "Can I call you a cab?"
+    },
+    {
+        "fi": "kioski",
+        "en": "kiosk",
+        "image": "no_image",
+        "sentence_fi": "Kioskit myy patukoita.",
+        "sentence_en": "Convenience stores sell candy bars."
+    },
+    {
+        "fi": "jalankulkija",
+        "en": "pedestrian",
+        "image": "no_image",
+        "sentence_fi": "Kuljettajien täytyy aina seurata valppaasti jalankulkijoita.",
+        "sentence_en": "Drivers must always be cautious of pedestrians."
+    },
+    {
+        "fi": "jalkakäytävä",
+        "en": "sidewalk",
+        "image": "no_image",
+        "sentence_fi": "Olen löytänyt lantin jalkakäytävältä.",
+        "sentence_en": "I found a coin on the sidewalk."
+    },
+    {
+        "fi": "suojatie",
+        "en": "zebra crossing",
+        "image": "no_image",
+        "sentence_fi": "Eilen tässä suojatiellä yksi jalankulkija jäi rekan alle.",
+        "sentence_en": "Yesterday a pedestrian was run over by a truck at this pedestrian crossing."
+    },
+    {
+        "fi": "jäteastia",
+        "en": "garbage can",
+        "image": "no_image",
+        "sentence_fi": "Tässä on jäteastia.",
+        "sentence_en": "This is a garbage can."
+    },
+    {
+        "fi": "risteys",
+        "en": "intersection",
+        "image": "no_image",
+        "sentence_fi": "Ole varovainen, se on vaarallinen risteys!",
+        "sentence_en": "Be careful, it's a dangerous junction!"
+    },
+    {
+        "fi": "liikennevalot",
+        "en": "traffic lights",
+        "image": "no_image",
+        "sentence_fi": "Odottelen liikennevalojen vaihtumista.",
+        "sentence_en": "I'm waiting at the traffic lights."
+    },
+    {
+        "fi": "kylä",
+        "en": "village",
+        "image": "no_image",
+        "sentence_fi": "Siihen kylään.",
+        "sentence_en": "To the village."
+    },
+    {
+        "fi": "keskusta",
+        "en": "center",
+        "image": "no_image",
+        "sentence_fi": "Mennään keskustaan.",
+        "sentence_en": "Let's go into town."
+    },
+    {
+        "fi": "talo",
+        "en": "house",
+        "image": "no_image",
+        "sentence_fi": "Asumme talossa.",
+        "sentence_en": "We live in a house."
+    },
+    {
+        "fi": "mökki",
+        "en": "cottage",
+        "image": "no_image",
+        "sentence_fi": "Vuokrasimme mökin järven rannalta.",
+        "sentence_en": "We rented a cabin by a lake."
+    },
+    {
+        "fi": "kerrostalo",
+        "en": "block of flats",
+        "image": "no_image",
+        "sentence_fi": "Asumme ihan vierekkäin samassa kerrostalossa.",
+        "sentence_en": "We were next-door neighbors."
+    },
+    {
+        "fi": "rautatieasema",
+        "en": "railway station",
+        "image": "https://images.unsplash.com/photo-1495313196544-7d1adf4e628f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyYWlsd2F5JTIwc3RhdGlvbnxlbnwwfHx8fDE3NzczMjc3Mzh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tapasin opettajani matkalla rautatieasemalle.",
+        "sentence_en": "I met my teacher on the way to the railway station."
+    },
+    {
+        "fi": "kaupungintalo",
+        "en": "town hall",
+        "image": "no_image",
+        "sentence_fi": "Kaupunginjohtajan toimisto on kaupungintalossa.",
+        "sentence_en": "The mayor's office is in the city hall."
+    },
+    {
+        "fi": "museo",
+        "en": "museum",
+        "image": "no_image",
+        "sentence_fi": "Koska museo suljetaan?",
+        "sentence_en": "When does the museum close?"
+    },
+    {
+        "fi": "koulu",
+        "en": "school",
+        "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzY2hvb2x8ZW58MHx8fHwxNzc3MzIzOTUyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mene kouluun!",
+        "sentence_en": "Go to school."
+    },
+    {
+        "fi": "yliopisto",
+        "en": "university",
+        "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5fGVufDB8fHx8MTc3NzMyMzkwNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Yliopistolla on kahvila.",
+        "sentence_en": "The university has a cafeteria."
+    },
+    {
+        "fi": "pankki",
+        "en": "bank",
+        "image": "no_image",
+        "sentence_fi": "Mene pankkiin.",
+        "sentence_en": "Please go to the bank."
+    },
+    {
+        "fi": "sairaala",
+        "en": "hospital",
+        "image": "no_image",
+        "sentence_fi": "Olin sairaalassa tiputuksessa.",
+        "sentence_en": "I got an IV at the hospital."
+    },
+    {
+        "fi": "hotelli",
+        "en": "hotel",
+        "image": "no_image",
+        "sentence_fi": "Asun hotellissa.",
+        "sentence_en": "I live in a hotel."
+    },
+    {
+        "fi": "apteekki",
+        "en": "pharmacy",
+        "image": "no_image",
+        "sentence_fi": "Emme myy geneerisiä tuotteita tässä apteekissa.",
+        "sentence_en": "We don't sell generics in this pharmacy."
+    },
+    {
+        "fi": "toimisto",
+        "en": "office",
+        "image": "no_image",
+        "sentence_fi": "Olen toimistossani.",
+        "sentence_en": "I'm in my office."
+    },
+    {
+        "fi": "kirjakauppa",
+        "en": "bookshop",
+        "image": "no_image",
+        "sentence_fi": "Kirjakauppa on puiston lähellä.",
+        "sentence_en": "The bookstore is near the park."
+    },
+    {
+        "fi": "liike",
+        "en": "business",
+        "image": "no_image",
+        "sentence_fi": "Liikenne oli vähäistä.",
+        "sentence_en": "There wasn't much traffic."
+    },
+    {
+        "fi": "kukkakauppa",
+        "en": "flower shop",
+        "image": "no_image",
+        "sentence_fi": "Lähellä on kukkakauppa.",
+        "sentence_en": "There is a flower shop near by."
+    },
+    {
+        "fi": "supermarketti",
+        "en": "supermarket",
+        "image": "no_image",
+        "sentence_fi": "Supermarketti aukeaa kymmeneltä.",
+        "sentence_en": "The supermarket opens at ten o'clock."
+    },
+    {
+        "fi": "tori",
+        "en": "market",
+        "image": "no_image",
+        "sentence_fi": "Moneltako tori avataan?",
+        "sentence_en": "At what time does the market open?"
+    },
+    {
+        "fi": "tavaratalo",
+        "en": "department store",
+        "image": "https://images.unsplash.com/photo-1701852965474-35ad0d54a0b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXBhcnRtZW50JTIwc3RvcmV8ZW58MHx8fHwxNzc3MzI3MjQzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tavaratalossa oli täysi sekamelska.",
+        "sentence_en": "It was a mess in the department store."
+    },
+    {
+        "fi": "kalakauppias",
+        "en": "a fishmonger",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kalakauppias.",
+        "sentence_en": "This is a a fishmonger."
+    },
+    {
+        "fi": "ostoskeskus",
+        "en": "shopping center",
+        "image": "no_image",
+        "sentence_fi": "Uusi ostoskeskus avattiin kaupungin laidalle.",
+        "sentence_en": "A new shopping mall opened on the edge of town."
+    },
+    {
+        "fi": "satama",
+        "en": "port",
+        "image": "https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwb3J0fGVufDB8fHx8MTc3NzMyNzIwM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Alkaakohan satamaan lunta?",
+        "sentence_en": "I wonder whether it'll snow."
+    },
+    {
+        "fi": "puisto",
+        "en": "park",
+        "image": "no_image",
+        "sentence_fi": "Menin puistoon leikkimään.",
+        "sentence_en": "I went to the park to play."
+    },
+    {
+        "fi": "penkki",
+        "en": "bench",
+        "image": "no_image",
+        "sentence_fi": "Tom istuskelee penkillä.",
+        "sentence_en": "Tom is sitting on a bench."
+    },
+    {
+        "fi": "silta",
+        "en": "bridge",
+        "image": "no_image",
+        "sentence_fi": "Osta sille viinipullo.",
+        "sentence_en": "Buy them a bottle of wine."
+    },
+    {
+        "fi": "portaat",
+        "en": "stairs",
+        "image": "no_image",
+        "sentence_fi": "Avaa portti!",
+        "sentence_en": "Open the gate."
+    },
+    {
+        "fi": "metro",
+        "en": "metro",
+        "image": "https://images.unsplash.com/photo-1556695736-d287caebc48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtZXRyb3xlbnwwfHx8fDE3NzczMjcyNTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ne menivät metrolla.",
+        "sentence_en": "They took the subway."
+    },
+    {
+        "fi": "tunneli",
+        "en": "tunnel",
+        "image": "no_image",
+        "sentence_fi": "Tunneli oli ilmoitettu turvalliseksi.",
+        "sentence_en": "The tunnel was declared safe."
+    },
+    {
+        "fi": "linja-autopysäkki",
+        "en": "bus stop",
+        "image": "no_image",
+        "sentence_fi": "Tuo on se linja-autopysäkki.",
+        "sentence_en": "That is the bus stop."
+    },
+    {
+        "fi": "baari",
+        "en": "bar",
+        "image": "no_image",
+        "sentence_fi": "Baari oli täpötäysi.",
+        "sentence_en": "The bar was packed."
+    },
+    {
+        "fi": "postilaatikko",
+        "en": "mailbox",
+        "image": "no_image",
+        "sentence_fi": "Postilaatikkoni on täynnä.",
+        "sentence_en": "My mailbox is full."
+    },
+    {
+        "fi": "katukyltti",
+        "en": "street sign",
+        "image": "no_image",
+        "sentence_fi": "Tässä on katukyltti.",
+        "sentence_en": "This is a street sign."
+    },
+    {
+        "fi": "parkkimittari",
+        "en": "parking meter",
+        "image": "no_image",
+        "sentence_fi": "Tässä on parkkimittari.",
+        "sentence_en": "This is a parking meter."
+    },
+    {
+        "fi": "eläintarha",
+        "en": "zoo",
+        "image": "no_image",
+        "sentence_fi": "Kävin eilen eläintarhassa.",
+        "sentence_en": "I went to the zoo yesterday."
+    },
+    {
+        "fi": "uimala",
+        "en": "swimming pool",
+        "image": "no_image",
+        "sentence_fi": "Tässä on uimala.",
+        "sentence_en": "This is a swimming pool."
+    },
+    {
+        "fi": "moskeija",
+        "en": "mosque",
+        "image": "no_image",
+        "sentence_fi": "Skura meni moskeijan naisten alueelle.",
+        "sentence_en": "Skura went to the women's area of the mosque."
+    },
+    {
+        "fi": "maatila",
+        "en": "farm",
+        "image": "no_image",
+        "sentence_fi": "Maatila!",
+        "sentence_en": "The farm!"
+    },
+    {
+        "fi": "ympäristön saastuminen",
+        "en": "environmental pollution",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ympäristön saastuminen.",
+        "sentence_en": "This is a environmental pollution."
+    },
+    {
+        "fi": "hautausmaa",
+        "en": "cemetery",
+        "image": "no_image",
+        "sentence_fi": "Silloin kun on pimeää, niin minä yritän vältellä hautausmaan läheltä kulkemista.",
+        "sentence_en": "I try to avoid walking by the cemetery after dark."
+    },
+    {
+        "fi": "kirkko",
+        "en": "church",
+        "image": "no_image",
+        "sentence_fi": "Menen kirkkoon.",
+        "sentence_en": "I'm going to church."
+    },
+    {
+        "fi": "leikkikenttä",
+        "en": "playground",
+        "image": "no_image",
+        "sentence_fi": "Leikkikentällä on kaksi tyttöä.",
+        "sentence_en": "There are two girls in the playground."
+    },
+    {
+        "fi": "temppeli",
+        "en": "temple",
+        "image": "no_image",
+        "sentence_fi": "Harrastan vanhoissa temppeleissä käymistä.",
+        "sentence_en": "My hobby is visiting old temples."
+    },
+    {
+        "fi": "lentokenttä",
+        "en": "airport",
+        "image": "https://images.unsplash.com/photo-1542296332-2e4473faf563?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhaXJwb3J0fGVufDB8fHx8MTc3NzMyNzIyNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Näin Samin lentokentällä.",
+        "sentence_en": "I saw Sami at the airport."
+    },
+    {
+        "fi": "tehdas",
+        "en": "factory",
+        "image": "no_image",
+        "sentence_fi": "Tehdas päätti hävittää vanhat laitteistonsa.",
+        "sentence_en": "The factory decided to do away with the old machinery."
+    },
+    {
+        "fi": "leipomo",
+        "en": "bakery",
+        "image": "no_image",
+        "sentence_fi": "Kävin leipomossa.",
+        "sentence_en": "I was at the baker's."
+    },
+    {
+        "fi": "teurastamo",
+        "en": "slaughterhouse",
+        "image": "no_image",
+        "sentence_fi": "Tässä on teurastamo.",
+        "sentence_en": "This is a slaughterhouse."
+    }
+]
