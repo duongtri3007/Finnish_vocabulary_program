@@ -1,0 +1,352 @@
+[
+    {
+        "fi": "sairaala",
+        "en": "hospital",
+        "image": "no_image",
+        "sentence_fi": "En syntynyt sairaalassa.",
+        "sentence_en": "I wasn't born in a hospital."
+    },
+    {
+        "fi": "ambulanssi",
+        "en": "ambulance",
+        "image": "no_image",
+        "sentence_fi": "Soititko ambulanssin?",
+        "sentence_en": "Did you call for an ambulance?"
+    },
+    {
+        "fi": "pyörätuoli",
+        "en": "wheelchair",
+        "image": "no_image",
+        "sentence_fi": "Hentoinen ukko kieltäytyi pyörätuolista härkäpäisesti.",
+        "sentence_en": "The frail old man stubbornly refused to make use of a wheelchair."
+    },
+    {
+        "fi": "murtuma",
+        "en": "fracture",
+        "image": "no_image",
+        "sentence_fi": "Tässä on murtuma.",
+        "sentence_en": "This is a fracture."
+    },
+    {
+        "fi": "lääkäri",
+        "en": "doctor",
+        "image": "no_image",
+        "sentence_fi": "Soita lääkärille.",
+        "sentence_en": "Call a doctor."
+    },
+    {
+        "fi": "ensiapu",
+        "en": "first aid",
+        "image": "no_image",
+        "sentence_fi": "He vievät Maria ensiapuun.",
+        "sentence_en": "They're taking Mary to the emergency room."
+    },
+    {
+        "fi": "sairaanhoitaja",
+        "en": "nurse",
+        "image": "no_image",
+        "sentence_fi": "Olen sairaanhoitaja.",
+        "sentence_en": "I'm a nurse."
+    },
+    {
+        "fi": "hätätilanne",
+        "en": "emergency situation",
+        "image": "no_image",
+        "sentence_fi": "Hätätilanne!",
+        "sentence_en": "Red alert!"
+    },
+    {
+        "fi": "tajuton",
+        "en": "unconscious",
+        "image": "no_image",
+        "sentence_fi": "Tommi on tajuton.",
+        "sentence_en": "Tom is out cold."
+    },
+    {
+        "fi": "kipu",
+        "en": "pain",
+        "image": "no_image",
+        "sentence_fi": "Kipu oli hirvittävä.",
+        "sentence_en": "The pain was terrible."
+    },
+    {
+        "fi": "vamma",
+        "en": "injury",
+        "image": "no_image",
+        "sentence_fi": "Potilaan vammat eivät ole hengenvaarallisia.",
+        "sentence_en": "The patient's injuries aren't life-threatening."
+    },
+    {
+        "fi": "verenvuoto",
+        "en": "haemorrhage",
+        "image": "no_image",
+        "sentence_fi": "Tässä on verenvuoto.",
+        "sentence_en": "This is a haemorrhage."
+    },
+    {
+        "fi": "sydänkohtaus",
+        "en": "heart attack",
+        "image": "no_image",
+        "sentence_fi": "Tomilla oli sydänkohtaus.",
+        "sentence_en": "Tom had a heart attack."
+    },
+    {
+        "fi": "sydänkohtaus",
+        "en": "heart attack",
+        "image": "no_image",
+        "sentence_fi": "Tomilla oli sydänkohtaus viime vuonna.",
+        "sentence_en": "Tom had a heart attack last year."
+    },
+    {
+        "fi": "aivoinfarkti",
+        "en": "cerebral infarction",
+        "image": "no_image",
+        "sentence_fi": "Sain aivoinfarktin.",
+        "sentence_en": "I had a stroke."
+    },
+    {
+        "fi": "allergia",
+        "en": "allergy",
+        "image": "no_image",
+        "sentence_fi": "Tomilla on kala-allergia.",
+        "sentence_en": "Tom is allergic to fish."
+    },
+    {
+        "fi": "yskä",
+        "en": "cough",
+        "image": "no_image",
+        "sentence_fi": "Yskin.",
+        "sentence_en": "I have a cough."
+    },
+    {
+        "fi": "kuume",
+        "en": "fever",
+        "image": "no_image",
+        "sentence_fi": "Olet kuumeessa.",
+        "sentence_en": "You're running a fever."
+    },
+    {
+        "fi": "flunssa",
+        "en": "flu",
+        "image": "no_image",
+        "sentence_fi": "Flunssahan se on.",
+        "sentence_en": "It's just a cold."
+    },
+    {
+        "fi": "ripuli",
+        "en": "diarrhea",
+        "image": "no_image",
+        "sentence_fi": "Minulla on ripuli.",
+        "sentence_en": "I have the shits."
+    },
+    {
+        "fi": "päänsärky",
+        "en": "headache",
+        "image": "no_image",
+        "sentence_fi": "Lähtikö päänsärkysi?",
+        "sentence_en": "Is your headache gone?"
+    },
+    {
+        "fi": "syöpä",
+        "en": "cancer",
+        "image": "no_image",
+        "sentence_fi": "Vaimoni kuoli syöpään.",
+        "sentence_en": "My wife died of cancer."
+    },
+    {
+        "fi": "diabetes",
+        "en": "diabetes",
+        "image": "no_image",
+        "sentence_fi": "Tomilla on ykköstyypin diabetes.",
+        "sentence_en": "Tom has type 1 diabetes."
+    },
+    {
+        "fi": "kirurgi",
+        "en": "surgeon",
+        "image": "no_image",
+        "sentence_fi": "En tiennytkään, että olet ammatiltasi kirurgi.",
+        "sentence_en": "I had no idea you worked as a surgeon."
+    },
+    {
+        "fi": "veitsi",
+        "en": "knife",
+        "image": "https://images.unsplash.com/photo-1588597575483-f4e43e191c94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxrbmlmZXxlbnwwfHx8fDE3NzczMjQxMDV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Veitsi puuttuu.",
+        "sentence_en": "There is a knife missing."
+    },
+    {
+        "fi": "leikkaus",
+        "en": "cutting",
+        "image": "no_image",
+        "sentence_fi": "Menikö leikkaus hyvin?",
+        "sentence_en": "Did the surgery go well?"
+    },
+    {
+        "fi": "ct",
+        "en": "ct",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ct.",
+        "sentence_en": "This is a ct."
+    },
+    {
+        "fi": "röntgen",
+        "en": "x-ray",
+        "image": "no_image",
+        "sentence_fi": "Tässä on röntgen.",
+        "sentence_en": "This is a x-ray."
+    },
+    {
+        "fi": "ultraääni",
+        "en": "ultrasound",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ultraääni.",
+        "sentence_en": "This is a ultrasound."
+    },
+    {
+        "fi": "maski",
+        "en": "mash",
+        "image": "no_image",
+        "sentence_fi": "Käytätkö maskia?",
+        "sentence_en": "Are you wearing face mask?"
+    },
+    {
+        "fi": "sairaus",
+        "en": "disease",
+        "image": "no_image",
+        "sentence_fi": "Se ei ole sairaus.",
+        "sentence_en": "That's not a disease."
+    },
+    {
+        "fi": "odotushuone",
+        "en": "waiting room",
+        "image": "no_image",
+        "sentence_fi": "Odota odotushuoneessa.",
+        "sentence_en": "Wait in the waiting room."
+    },
+    {
+        "fi": "sauva",
+        "en": "rod",
+        "image": "no_image",
+        "sentence_fi": "Tässä on sauva.",
+        "sentence_en": "This is a rod."
+    },
+    {
+        "fi": "laastari",
+        "en": "plaster",
+        "image": "no_image",
+        "sentence_fi": "Tom pani Marin haavaan laastarin.",
+        "sentence_en": "Tom put a bandage on Mary's cut."
+    },
+    {
+        "fi": "side",
+        "en": "connective",
+        "image": "no_image",
+        "sentence_fi": "Veljesten välillä on vahva side.",
+        "sentence_en": "There is a strong bond between the brothers."
+    },
+    {
+        "fi": "pistos",
+        "en": "injection",
+        "image": "no_image",
+        "sentence_fi": "On aika ottaa pistos.",
+        "sentence_en": "It's time for your shot."
+    },
+    {
+        "fi": "stetoskooppi",
+        "en": "stethoscope",
+        "image": "no_image",
+        "sentence_fi": "Tässä on stetoskooppi.",
+        "sentence_en": "This is a stethoscope."
+    },
+    {
+        "fi": "paarit",
+        "en": "peerage",
+        "image": "no_image",
+        "sentence_fi": "Nouse, ota paarisi ja kävele.",
+        "sentence_en": "Rise up, take up thy bed, and walk."
+    },
+    {
+        "fi": "kuumemittari",
+        "en": "thermometer",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kuumemittari.",
+        "sentence_en": "This is a thermometer."
+    },
+    {
+        "fi": "syntymä",
+        "en": "birth",
+        "image": "no_image",
+        "sentence_fi": "Siitä on syntymässä ongelma.",
+        "sentence_en": "That's becoming a problem."
+    },
+    {
+        "fi": "ylipaino",
+        "en": "excess weight",
+        "image": "no_image",
+        "sentence_fi": "Tutkimus on osoittanut liian nopean syömisen lisäävän ylipainon todennäköisyyttä.",
+        "sentence_en": "A study has proved that eating too fast increases your chance of obesity."
+    },
+    {
+        "fi": "kuulolaite",
+        "en": "hearing aid",
+        "image": "no_image",
+        "sentence_fi": "Luulen, että tarvitsen kuulolaitteen.",
+        "sentence_en": "I think I need a hearing aid."
+    },
+    {
+        "fi": "desinfiointiaine",
+        "en": "disinfectant",
+        "image": "no_image",
+        "sentence_fi": "Tässä on desinfiointiaine.",
+        "sentence_en": "This is a disinfectant."
+    },
+    {
+        "fi": "infektio",
+        "en": "infection",
+        "image": "no_image",
+        "sentence_fi": "Tässä on infektio.",
+        "sentence_en": "This is a infection."
+    },
+    {
+        "fi": "virus",
+        "en": "virus",
+        "image": "no_image",
+        "sentence_fi": "Virus saastutti Tomin tietokoneen.",
+        "sentence_en": "A virus infected Tom's computer."
+    },
+    {
+        "fi": "hammaslääkäri",
+        "en": "dentist",
+        "image": "no_image",
+        "sentence_fi": "Tiedätkö hyvää hammaslääkäriä?",
+        "sentence_en": "Do you know a good dentist?"
+    },
+    {
+        "fi": "Apua!",
+        "en": "Help!",
+        "image": "no_image",
+        "sentence_fi": "Tarvitset apuamme.",
+        "sentence_en": "You need our help."
+    },
+    {
+        "fi": "ensiapulaukku",
+        "en": "first aid kit",
+        "image": "no_image",
+        "sentence_fi": "Älä unohda ottaa ensiapulaukkua mukaan.",
+        "sentence_en": "Don't forget to take the first-aid kit."
+    },
+    {
+        "fi": "pyörätuoli",
+        "en": "wheelchair",
+        "image": "no_image",
+        "sentence_fi": "Hentoinen ukko kieltäytyi pyörätuolista härkäpäisesti.",
+        "sentence_en": "The frail old man stubbornly refused to make use of a wheelchair."
+    },
+    {
+        "fi": "onnettomuus",
+        "en": "accident",
+        "image": "no_image",
+        "sentence_fi": "Liikenneruuhkan aiheutti onnettomuus.",
+        "sentence_en": "The traffic jam was caused by an accident."
+    }
+]
