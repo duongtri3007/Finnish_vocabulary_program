@@ -1,82 +1,77 @@
+import os
 import json
+import httpx
+import random
+from fastapi import FastAPI
 
-sets_file = "sets.json"
+# --- CONFIGURATION ---
+UNSPLASH_KEY = 'BAzazffKq-eqECErlrhZhd1aKOiGmwSX_TKJjt5T20o'
+FOLDER_NAME = 'vocab_sets'
 
-def load_sets():
-    try:
-        with open(sets_file, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        with open(sets_file, "w") as f:
-            json.dump({}, f)
-        return {}
+app = FastAPI()
 
-def save_sets(sets):
-    with open(sets_file, "w") as f:
-        json.dump(sets, f, indent=4)
+@app.post("/add-word/{theme_name}")
+async def add_single_word(theme_name: str, fin_word: str):
+    file_path = os.path.join(FOLDER_NAME, f"{theme_name}.json")
+    
+    async with httpx.AsyncClient() as client:
+        # 1. Get Translation
+        t_url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=fi&tl=en&dt=t&q={fin_word}"
+        t_res = await client.get(t_url)
+        eng_word = t_res.json()[0][0][0]
 
-def manage_sets():
-    while True:
-        print("\n=== Vocabulary Sets ===")
-        print("1. Create new set")
-        print("2. Add word to set")
-        print("3. Show sets")
-        print("4. Back to main menu")
+        # 2. Get Image
+        u_url = f"https://api.unsplash.com/search/photos?query={eng_word}&client_id={UNSPLASH_KEY}&per_page=1"
+        u_res = await client.get(u_url)
+        u_data = u_res.json()
+        img_url = u_data['results'][0]['urls']['small'] if u_data.get('results') else "no_image"
 
-        choice = input("Choose an option: ")
+        # 3. BETTER FREE SENTENCE SEARCH (Tatoeba)
+        # We search specifically for sentences that have both FI and EN
+        fin_sentence = f"Tässä on {fin_word}." # Default
+        eng_sentence = f"This is a {eng_word}." # Default
 
-        if choice == "1":
-            create_set()
-        elif choice == "2":
-            add_word_to_set()
-        elif choice == "3":
-            show_sets()
-        elif choice == "4":
-            break
-        else:
-            print("Invalid choice.")
+        try:
+            # Using Tatoeba's public search API
+            tato_url = f"https://tatoeba.org/en/api_v0/search/display?query={fin_word}&from=fin&to=eng"
+            tato_res = await client.get(tato_url, timeout=5.0)
+            
+            if tato_res.status_code == 200:
+                results = tato_res.json().get('results', [])
+                if results:
+                    # Pick a random one from the first few results for variety
+                    choice = random.choice(results[:5])
+                    fin_sentence = choice.get('text')
+                    
+                    # Look for the English translation in the results
+                    for trans_group in choice.get('translations', []):
+                        for t in trans_group:
+                            if t.get('lang') == 'eng':
+                                eng_sentence = t.get('text')
+                                break
+        except Exception as e:
+            print(f"Sentence API Error: {e}")
 
-def create_set():
-    sets = load_sets()
-    name = input("Set name: ")
+    # --- SAVE LOGIC ---
+    new_entry = {
+        "fi": fin_word,
+        "en": eng_word,
+        "image": img_url,
+        "sentence_fi": fin_sentence,
+        "sentence_en": eng_sentence
+    }
 
-    if name in sets:
-        print("Set already exists.")
-        return
+    os.makedirs(FOLDER_NAME, exist_ok=True)
+    data_list = []
+    if os.path.exists(file_path):
+        with open(file_path, "r", encoding="utf-8") as f:
+            try:
+                data_list = json.load(f)
+            except:
+                data_list = []
 
-    sets[name] = []
-    save_sets(sets)
-    print("Set created!")
-
-def add_word_to_set():
-    sets = load_sets()
-    if not sets:
-        print("No sets available.")
-        return
-
-    print("Available sets:")
-    for s in sets:
-        print("-", s)
-
-    name = input("Choose a set: ")
-    if name not in sets:
-        print("Set not found.")
-        return
-
-    finnish = input("Finnish word: ")
-    english = input("English meaning: ")
-
-    sets[name].append({"fi": finnish, "en": english})
-    save_sets(sets)
-    print("Word added!")
-
-def show_sets():
-    sets = load_sets()
-    if not sets:
-        print("No sets created yet.")
-        return
-
-    for name, words in sets.items():
-        print(f"\n{name}:")
-        for w in words:
-            print(f"  {w['fi']} → {w['en']}")
+    data_list.append(new_entry)
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(data_list, f, ensure_ascii=False, indent=4)
+    
+    return {"status": "success", "added": fin_word, "sentence": fin_sentence}
