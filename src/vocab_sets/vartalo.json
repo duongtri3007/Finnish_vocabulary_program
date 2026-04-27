@@ -1,0 +1,401 @@
+[
+    {
+        "fi": "otsa",
+        "en": "forehead",
+        "image": "no_image",
+        "sentence_fi": "Otsasi vuotaa verta.",
+        "sentence_en": "Your forehead's bleeding."
+    },
+    {
+        "fi": "silmä",
+        "en": "eye",
+        "image": "no_image",
+        "sentence_fi": "Silmä silmästä.",
+        "sentence_en": "An eye for an eye."
+    },
+    {
+        "fi": "kasvot",
+        "en": "face",
+        "image": "no_image",
+        "sentence_fi": "Kasvoin maatilalla.",
+        "sentence_en": "I grew up on a farm."
+    },
+    {
+        "fi": "nenä",
+        "en": "nose",
+        "image": "no_image",
+        "sentence_fi": "Nenää kutittaa.",
+        "sentence_en": "My nose is itchy."
+    },
+    {
+        "fi": "leuka",
+        "en": "jaw",
+        "image": "no_image",
+        "sentence_fi": "Hänellä on järeä leuka.",
+        "sentence_en": "He has a square jaw."
+    },
+    {
+        "fi": "rinta",
+        "en": "breast",
+        "image": "no_image",
+        "sentence_fi": "Hiihdimme alas rinnettä.",
+        "sentence_en": "We skied down the slope."
+    },
+    {
+        "fi": "hiukset",
+        "en": "hair",
+        "image": "no_image",
+        "sentence_fi": "Värjään hiukseni.",
+        "sentence_en": "I dye my hair."
+    },
+    {
+        "fi": "olkapää",
+        "en": "shoulder",
+        "image": "no_image",
+        "sentence_fi": "Hän nukahti olkapäälleni.",
+        "sentence_en": "He fell asleep on my shoulder."
+    },
+    {
+        "fi": "sormet",
+        "en": "fingers",
+        "image": "no_image",
+        "sentence_fi": "Levitä sormesi.",
+        "sentence_en": "Spread your fingers."
+    },
+    {
+        "fi": "takapuoli",
+        "en": "ass",
+        "image": "no_image",
+        "sentence_fi": "Tomi oli kuin takapuoleen ammuttu karhu vielä viikkoja sen jälkeen kun hän oli lopettanut tupakoinnin kuin seinään.",
+        "sentence_en": "Tom was like a bear with a sore head for weeks after quitting smoking cold turkey."
+    },
+    {
+        "fi": "käsi",
+        "en": "hand",
+        "image": "no_image",
+        "sentence_fi": "Mitä sait käsiisi?",
+        "sentence_en": "What is it you got?"
+    },
+    {
+        "fi": "jalka",
+        "en": "foot",
+        "image": "no_image",
+        "sentence_fi": "Mursit jalkasi.",
+        "sentence_en": "You broke your leg."
+    },
+    {
+        "fi": "käsivarsi",
+        "en": "arm",
+        "image": "no_image",
+        "sentence_fi": "Käsivarsi särkee.",
+        "sentence_en": "My arm hurts."
+    },
+    {
+        "fi": "vauva",
+        "en": "baby",
+        "image": "no_image",
+        "sentence_fi": "Nukkuuko vauvasi?",
+        "sentence_en": "Is your baby sleeping?"
+    },
+    {
+        "fi": "mies",
+        "en": "man",
+        "image": "no_image",
+        "sentence_fi": "Mies punastui.",
+        "sentence_en": "The man blushed."
+    },
+    {
+        "fi": "nainen",
+        "en": "woman",
+        "image": "no_image",
+        "sentence_fi": "Nainen harjaa hiuksiaan.",
+        "sentence_en": "The woman brushes her hair."
+    },
+    {
+        "fi": "tyttö",
+        "en": "girl",
+        "image": "no_image",
+        "sentence_fi": "Tyttö pomppaa.",
+        "sentence_en": "The girl hops."
+    },
+    {
+        "fi": "poika",
+        "en": "son",
+        "image": "no_image",
+        "sentence_fi": "Hei, poika!",
+        "sentence_en": "Hiya, kiddo!"
+    },
+    {
+        "fi": "pää",
+        "en": "head",
+        "image": "no_image",
+        "sentence_fi": "Pää kii!",
+        "sentence_en": "Zip up!"
+    },
+    {
+        "fi": "selkä",
+        "en": "back",
+        "image": "no_image",
+        "sentence_fi": "Raaputa selkääni.",
+        "sentence_en": "Scratch my back."
+    },
+    {
+        "fi": "napa",
+        "en": "pole",
+        "image": "no_image",
+        "sentence_fi": "Napataanpa jotain syötävää.",
+        "sentence_en": "Let's grab something to eat."
+    },
+    {
+        "fi": "varvas",
+        "en": "toe",
+        "image": "no_image",
+        "sentence_fi": "Tässä on varvas.",
+        "sentence_en": "This is a toe."
+    },
+    {
+        "fi": "kantapää",
+        "en": "heel",
+        "image": "no_image",
+        "sentence_fi": "Minua sattuu kiireestä kantapäähän.",
+        "sentence_en": "I ache all over."
+    },
+    {
+        "fi": "luu",
+        "en": "bone",
+        "image": "no_image",
+        "sentence_fi": "Tästä ongelmasta selville pääseminen on minulle kova luu.",
+        "sentence_en": "It is difficult for me to understand this question."
+    },
+    {
+        "fi": "lantio",
+        "en": "pelvis",
+        "image": "no_image",
+        "sentence_fi": "Hänellä on kapea lantio.",
+        "sentence_en": "She has a slender waist."
+    },
+    {
+        "fi": "polvi",
+        "en": "knee",
+        "image": "no_image",
+        "sentence_fi": "Menenkö polvilleni?",
+        "sentence_en": "Should I get on my knees?"
+    },
+    {
+        "fi": "kyynärpää",
+        "en": "elbow",
+        "image": "no_image",
+        "sentence_fi": "Kyynärpäät pois pöydältä.",
+        "sentence_en": "Don't put your elbows on the table."
+    },
+    {
+        "fi": "iho",
+        "en": "skin",
+        "image": "no_image",
+        "sentence_fi": "Tämä vaate liimautuu ihoon.",
+        "sentence_en": "This cloth adheres to the skin."
+    },
+    {
+        "fi": "poski",
+        "en": "cheek",
+        "image": "no_image",
+        "sentence_fi": "Kyyneleet noruivat hänen poskillaan.",
+        "sentence_en": "Tears trickled down her cheeks."
+    },
+    {
+        "fi": "korva",
+        "en": "ear",
+        "image": "no_image",
+        "sentence_fi": "Me kuulemme korvillamme.",
+        "sentence_en": "We hear with ears."
+    },
+    {
+        "fi": "huuli",
+        "en": "lip",
+        "image": "no_image",
+        "sentence_fi": "Tässä on huuli.",
+        "sentence_en": "This is a lip."
+    },
+    {
+        "fi": "suu",
+        "en": "mouth",
+        "image": "no_image",
+        "sentence_fi": "Suu kiinni!",
+        "sentence_en": "Zip up!"
+    },
+    {
+        "fi": "hammas",
+        "en": "tooth",
+        "image": "no_image",
+        "sentence_fi": "Hänellä on mädäntynyt hammas.",
+        "sentence_en": "She has a decayed tooth."
+    },
+    {
+        "fi": "kieli",
+        "en": "language",
+        "image": "no_image",
+        "sentence_fi": "Ukraina on slaavilainen kieli.",
+        "sentence_en": "Ukrainian is a Slavic language."
+    },
+    {
+        "fi": "aivot",
+        "en": "brain",
+        "image": "no_image",
+        "sentence_fi": "Käytämme vain 10 % aivoistamme.",
+        "sentence_en": "We only use 10% of our brain."
+    },
+    {
+        "fi": "sydän",
+        "en": "heart",
+        "image": "no_image",
+        "sentence_fi": "Danin sydän särkyi.",
+        "sentence_en": "Dan was brokenhearted."
+    },
+    {
+        "fi": "lihas",
+        "en": "muscle",
+        "image": "no_image",
+        "sentence_fi": "Pallea on lihas.",
+        "sentence_en": "The diaphragm is a muscle."
+    },
+    {
+        "fi": "keuhkot",
+        "en": "lights",
+        "image": "no_image",
+        "sentence_fi": "Tupakointi vahingoittaa keuhkojasi.",
+        "sentence_en": "Smoking does damage your lungs."
+    },
+    {
+        "fi": "maksa",
+        "en": "liver",
+        "image": "no_image",
+        "sentence_fi": "Maksa tuonne!",
+        "sentence_en": "Pay over there."
+    },
+    {
+        "fi": "vatsa",
+        "en": "belly",
+        "image": "no_image",
+        "sentence_fi": "Vatsani murisee.",
+        "sentence_en": "My stomach is rumbling."
+    },
+    {
+        "fi": "munuaiset",
+        "en": "the kidneys",
+        "image": "no_image",
+        "sentence_fi": "Tomilla on munuaiset ja maksa huonossa kunnossa.",
+        "sentence_en": "Tom's kidneys and liver are in bad shape."
+    },
+    {
+        "fi": "seksi",
+        "en": "sex",
+        "image": "no_image",
+        "sentence_fi": "Seksi on edelleen tabu.",
+        "sentence_en": "Sex is still a taboo."
+    },
+    {
+        "fi": "kondomi",
+        "en": "condom",
+        "image": "no_image",
+        "sentence_fi": "Onko sinulla kondomia?",
+        "sentence_en": "Do you have a condom?"
+    },
+    {
+        "fi": "munasolu",
+        "en": "egg",
+        "image": "https://images.unsplash.com/photo-1607690424560-35d967d6ad7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlZ2d8ZW58MHx8fHwxNzc3MzE5Mjc2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on munasolu.",
+        "sentence_en": "This is a egg."
+    },
+    {
+        "fi": "sperma",
+        "en": "sperm",
+        "image": "no_image",
+        "sentence_fi": "Naamasi on sperman peitossa.",
+        "sentence_en": "Your face covered with cum."
+    },
+    {
+        "fi": "raskaus",
+        "en": "pregnancy",
+        "image": "no_image",
+        "sentence_fi": "Ehkäisy tulee halvemmaksi kuin raskaus.",
+        "sentence_en": "Contraception is cheaper than pregnancy."
+    },
+    {
+        "fi": "kuukautiset",
+        "en": "menstruation",
+        "image": "no_image",
+        "sentence_fi": "Kuukautiseni ovat säännölliset.",
+        "sentence_en": "My period is regular."
+    },
+    {
+        "fi": "vagina",
+        "en": "vagina",
+        "image": "no_image",
+        "sentence_fi": "Bayalla on normaali vagina.",
+        "sentence_en": "Baya has a normal vagina."
+    },
+    {
+        "fi": "penis",
+        "en": "penis",
+        "image": "no_image",
+        "sentence_fi": "Hänellä on varmaan pieni penis.",
+        "sentence_en": "I think he has a small penis."
+    },
+    {
+        "fi": "kulmakarvat",
+        "en": "eyebrows",
+        "image": "no_image",
+        "sentence_fi": "Hänellä on tähän mennessä suurimmat kulmakarvat mitä olen nähnyt.",
+        "sentence_en": "He's got the biggest eyebrows I've ever seen."
+    },
+    {
+        "fi": "hiukset",
+        "en": "hair",
+        "image": "no_image",
+        "sentence_fi": "Värjään hiukseni.",
+        "sentence_en": "I dye my hair."
+    },
+    {
+        "fi": "niska",
+        "en": "neck",
+        "image": "no_image",
+        "sentence_fi": "Tomilla on paksu niska.",
+        "sentence_en": "Tom has a thick neck."
+    },
+    {
+        "fi": "pilleri",
+        "en": "pill",
+        "image": "no_image",
+        "sentence_fi": "Hän ottaa pillerin.",
+        "sentence_en": "She's taking birth control pills."
+    },
+    {
+        "fi": "kipu",
+        "en": "pain",
+        "image": "no_image",
+        "sentence_fi": "Kipu oli hirvittävää.",
+        "sentence_en": "The pain was terrible."
+    },
+    {
+        "fi": "jalka",
+        "en": "foot",
+        "image": "no_image",
+        "sentence_fi": "Mursit jalkasi.",
+        "sentence_en": "You broke your leg."
+    },
+    {
+        "fi": "verenvuoto",
+        "en": "haemorrhage",
+        "image": "no_image",
+        "sentence_fi": "Tässä on verenvuoto.",
+        "sentence_en": "This is a haemorrhage."
+    },
+    {
+        "fi": "käsi",
+        "en": "hand",
+        "image": "no_image",
+        "sentence_fi": "Haparoin käsiini taskulamppua.",
+        "sentence_en": "I groped for a flashlight."
+    }
+]
