@@ -1,0 +1,289 @@
+[
+    {
+        "fi": "savupiippu",
+        "en": "chimney",
+        "image": "no_image",
+        "sentence_fi": "Savu nousee savupiipusta.",
+        "sentence_en": "Smoke is rising from the chimney."
+    },
+    {
+        "fi": "katto",
+        "en": "roof",
+        "image": "no_image",
+        "sentence_fi": "Katoa tästä.",
+        "sentence_en": "Get out of here."
+    },
+    {
+        "fi": "sadevesikouru",
+        "en": "rain gutter",
+        "image": "no_image",
+        "sentence_fi": "Sadevesikourujen puhdistus ei ole koskaan kovin hauskaa.",
+        "sentence_en": "Cleaning out the rain gutters is never much fun."
+    },
+    {
+        "fi": "autotalli",
+        "en": "garage",
+        "image": "no_image",
+        "sentence_fi": "Suljen sen autotallin.",
+        "sentence_en": "I am closing the garage."
+    },
+    {
+        "fi": "ikkuna",
+        "en": "window",
+        "image": "no_image",
+        "sentence_fi": "Puhdistakaa ikkuna.",
+        "sentence_en": "Clean the window."
+    },
+    {
+        "fi": "ovikello",
+        "en": "doorbell",
+        "image": "no_image",
+        "sentence_fi": "Tomi kuuli ovikellon soivan.",
+        "sentence_en": "Tom heard the doorbell ring."
+    },
+    {
+        "fi": "ovi",
+        "en": "door",
+        "image": "no_image",
+        "sentence_fi": "Avaa ovi.",
+        "sentence_en": "Open the door."
+    },
+    {
+        "fi": "roska-astia",
+        "en": "trash can",
+        "image": "https://images.unsplash.com/photo-1683516435482-f3cea544ee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFzaCUyMGNhbnxlbnwwfHx8fDE3NzczMjM5MTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on roska-astia.",
+        "sentence_en": "This is a trash can."
+    },
+    {
+        "fi": "postilaatikko",
+        "en": "mailbox",
+        "image": "no_image",
+        "sentence_fi": "Postilaatikkoni on täynnä.",
+        "sentence_en": "My mailbox is full."
+    },
+    {
+        "fi": "puutarha",
+        "en": "garden",
+        "image": "no_image",
+        "sentence_fi": "Mennään puutarhaan.",
+        "sentence_en": "Let's go into the garden."
+    },
+    {
+        "fi": "olohuone",
+        "en": "living room",
+        "image": "no_image",
+        "sentence_fi": "Olen olohuoneessa.",
+        "sentence_en": "I'm in the living room."
+    },
+    {
+        "fi": "kylpyhuone",
+        "en": "bathroom",
+        "image": "no_image",
+        "sentence_fi": "Tuomas on kylpyhuoneessa.",
+        "sentence_en": "Tom is in the bathroom."
+    },
+    {
+        "fi": "keittiö",
+        "en": "kitchen",
+        "image": "no_image",
+        "sentence_fi": "Siivoa keittiö.",
+        "sentence_en": "Clean up the kitchen."
+    },
+    {
+        "fi": "makuuhuone",
+        "en": "bedroom",
+        "image": "no_image",
+        "sentence_fi": "Hän tuli makuuhuoneeseen.",
+        "sentence_en": "He came into the bedroom."
+    },
+    {
+        "fi": "lattia",
+        "en": "floor",
+        "image": "no_image",
+        "sentence_fi": "Hän kysyi latteita kysymyksiä.",
+        "sentence_en": "He asked banal questions."
+    },
+    {
+        "fi": "seinä",
+        "en": "wall",
+        "image": "no_image",
+        "sentence_fi": "Maalasin seinät valkoiseksi.",
+        "sentence_en": "We've painted the walls white."
+    },
+    {
+        "fi": "katto",
+        "en": "roof",
+        "image": "no_image",
+        "sentence_fi": "Katotaan telkkarii.",
+        "sentence_en": "Let's watch TV."
+    },
+    {
+        "fi": "kellari",
+        "en": "cellar",
+        "image": "no_image",
+        "sentence_fi": "Kellari on täynnä vettä.",
+        "sentence_en": "The basement is full of water."
+    },
+    {
+        "fi": "sauna",
+        "en": "sauna",
+        "image": "no_image",
+        "sentence_fi": "Tomi ei ole saunassa.",
+        "sentence_en": "Tom isn't in the sauna."
+    },
+    {
+        "fi": "parveke",
+        "en": "balcony",
+        "image": "no_image",
+        "sentence_fi": "Sami näki lapsijoukun seisomassa parvekkeella.",
+        "sentence_en": "Sami saw a cluster of kids standing on the balcony."
+    },
+    {
+        "fi": "terassi",
+        "en": "terrace",
+        "image": "no_image",
+        "sentence_fi": "Onko teillä pöytää terassilla?",
+        "sentence_en": "Do you have a table on the patio?"
+    },
+    {
+        "fi": "uima-allas",
+        "en": "swimming pool",
+        "image": "no_image",
+        "sentence_fi": "Uima-allas on avoinna yleisölle.",
+        "sentence_en": "The swimming pool is open to the public."
+    },
+    {
+        "fi": "ruohonleikkuri",
+        "en": "mower",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ruohonleikkuri.",
+        "sentence_en": "This is a mower."
+    },
+    {
+        "fi": "lakana",
+        "en": "sheet",
+        "image": "no_image",
+        "sentence_fi": "Lakana on kevyt.",
+        "sentence_en": "This sheet is light."
+    },
+    {
+        "fi": "päiväpeitto",
+        "en": "bedspread",
+        "image": "no_image",
+        "sentence_fi": "Tässä on päiväpeitto.",
+        "sentence_en": "This is a bedspread."
+    },
+    {
+        "fi": "sänky",
+        "en": "bed",
+        "image": "no_image",
+        "sentence_fi": "Petaatko sänkysi joka päivä?",
+        "sentence_en": "Do you make your bed every day?"
+    },
+    {
+        "fi": "harja",
+        "en": "brush",
+        "image": "https://images.unsplash.com/photo-1622542796254-5b9c46ab0d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxicnVzaHxlbnwwfHx8fDE3NzczMjI3ODJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän harjasi hevostaan.",
+        "sentence_en": "He groomed his horse."
+    },
+    {
+        "fi": "ämpäri",
+        "en": "bucket",
+        "image": "no_image",
+        "sentence_fi": "Täytä ämpäri vedellä.",
+        "sentence_en": "Fill the bucket with water."
+    },
+    {
+        "fi": "katkaisin",
+        "en": "switch",
+        "image": "no_image",
+        "sentence_fi": "Katkaise tämän lauseen ja englanninkielisen lauseen välinen linkitys.",
+        "sentence_en": "Please unlink this sentence from English."
+    },
+    {
+        "fi": "kastelukannu",
+        "en": "watering can",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kastelukannu.",
+        "sentence_en": "This is a watering can."
+    },
+    {
+        "fi": "toimisto",
+        "en": "office",
+        "image": "no_image",
+        "sentence_fi": "Olen toimistollani.",
+        "sentence_en": "I'll be in my office."
+    },
+    {
+        "fi": "pistorasia",
+        "en": "outlet",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pistorasia.",
+        "sentence_en": "This is a outlet."
+    },
+    {
+        "fi": "talo",
+        "en": "house",
+        "image": "no_image",
+        "sentence_fi": "Lähtekää talostamme.",
+        "sentence_en": "Leave our house."
+    },
+    {
+        "fi": "aita",
+        "en": "fence",
+        "image": "no_image",
+        "sentence_fi": "Hän asetti tikapuut aitaa vasten.",
+        "sentence_en": "He placed the ladder against the fence."
+    },
+    {
+        "fi": "tyyny",
+        "en": "pillow",
+        "image": "no_image",
+        "sentence_fi": "Saisinko tyynyn?",
+        "sentence_en": "Can I get a pillow?"
+    },
+    {
+        "fi": "portaat",
+        "en": "stairs",
+        "image": "no_image",
+        "sentence_fi": "Käyttäkää portaita!",
+        "sentence_en": "Enter by means of the staircase!"
+    },
+    {
+        "fi": "palosammutin",
+        "en": "fire extinguisher",
+        "image": "no_image",
+        "sentence_fi": "Tässä on palosammutin.",
+        "sentence_en": "This is a fire extinguisher."
+    },
+    {
+        "fi": "penkki",
+        "en": "bench",
+        "image": "no_image",
+        "sentence_fi": "Tom istuu penkillä.",
+        "sentence_en": "Tom is sitting on a bench."
+    },
+    {
+        "fi": "matto",
+        "en": "carpet",
+        "image": "no_image",
+        "sentence_fi": "Hän pesi mattoa.",
+        "sentence_en": "She washed a carpet."
+    },
+    {
+        "fi": "hissi",
+        "en": "Elevator",
+        "image": "no_image",
+        "sentence_fi": "Onko hissiä?",
+        "sentence_en": "Is there an elevator?"
+    },
+    {
+        "fi": "koira",
+        "en": "dog",
+        "image": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkb2d8ZW58MHx8fHwxNzc3MzE2NTE0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pidän koirasta.",
+        "sentence_en": "I like the dog."
+    }
+]
