@@ -1,0 +1,198 @@
+[
+    {
+        "fi": "ostaa",
+        "en": "buy",
+        "image": "no_image",
+        "sentence_fi": "Ostatko sen?",
+        "sentence_en": "Will you buy it?"
+    },
+    {
+        "fi": "maksaa",
+        "en": "pay",
+        "image": "no_image",
+        "sentence_fi": "Maksan.",
+        "sentence_en": "I'm buying."
+    },
+    {
+        "fi": "vaihtaa",
+        "en": "change",
+        "image": "no_image",
+        "sentence_fi": "Yritin vaihtaa puheenaihetta.",
+        "sentence_en": "I tried to change the subject."
+    },
+    {
+        "fi": "raha",
+        "en": "monetary",
+        "image": "no_image",
+        "sentence_fi": "Tuhlaat rahasi.",
+        "sentence_en": "You're wasting your money."
+    },
+    {
+        "fi": "dollari",
+        "en": "dollar",
+        "image": "no_image",
+        "sentence_fi": "Kustannukset noussevat tuhansiin dollareihin.",
+        "sentence_en": "The cost will run into thousands of dollars."
+    },
+    {
+        "fi": "euro",
+        "en": "euro",
+        "image": "no_image",
+        "sentence_fi": "Ansaitsen sata euroa päivässä.",
+        "sentence_en": "I earn 100 Euros a day."
+    },
+    {
+        "fi": "jeni",
+        "en": "yen",
+        "image": "no_image",
+        "sentence_fi": "Tässä on jeni.",
+        "sentence_en": "This is a yen."
+    },
+    {
+        "fi": "rupla",
+        "en": "ruble",
+        "image": "no_image",
+        "sentence_fi": "Parempi sata ystävää kuin sata ruplaa.",
+        "sentence_en": "Better a hundred friends than a hundred rubles."
+    },
+    {
+        "fi": "frangi",
+        "en": "franc",
+        "image": "no_image",
+        "sentence_fi": "Tässä on frangi.",
+        "sentence_en": "This is a franc."
+    },
+    {
+        "fi": "renminbi juan",
+        "en": "renminbi yuan",
+        "image": "no_image",
+        "sentence_fi": "Tässä on renminbi juan.",
+        "sentence_en": "This is a renminbi yuan."
+    },
+    {
+        "fi": "rupia",
+        "en": "rupee",
+        "image": "no_image",
+        "sentence_fi": "Älkää syökö rupianne.",
+        "sentence_en": "Don't eat your scabs."
+    },
+    {
+        "fi": "pankkiautomaatti",
+        "en": "ATM",
+        "image": "no_image",
+        "sentence_fi": "Onko tässä lähellä pankkiautomaattia?",
+        "sentence_en": "Is there a cash machine near here?"
+    },
+    {
+        "fi": "rahanvaihto",
+        "en": "money exchange",
+        "image": "no_image",
+        "sentence_fi": "Tässä on rahanvaihto.",
+        "sentence_en": "This is a money exchange."
+    },
+    {
+        "fi": "kulta",
+        "en": "gold",
+        "image": "no_image",
+        "sentence_fi": "Kulli!",
+        "sentence_en": "Faggot."
+    },
+    {
+        "fi": "hopea",
+        "en": "silver",
+        "image": "no_image",
+        "sentence_fi": "Vapaus painaa enemmän kuin hopea ja kulta.",
+        "sentence_en": "Freedom weighs more than silver and gold."
+    },
+    {
+        "fi": "öljy",
+        "en": "oil",
+        "image": "https://images.unsplash.com/photo-1627436712678-960862eac951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvaWx8ZW58MHx8fHwxNzc3MzI0MTcwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Laitoitko öljyä pannulle?",
+        "sentence_en": "Did you put oil in the pan?"
+    },
+    {
+        "fi": "energia",
+        "en": "energy",
+        "image": "no_image",
+        "sentence_fi": "Uusiutuva energia on ensiarvoisen tärkeää ilmaston lämpenemisen rajoittamiseksi.",
+        "sentence_en": "Renewable energy is essential for limiting the increase of the global temperature."
+    },
+    {
+        "fi": "hinta",
+        "en": "price",
+        "image": "https://images.unsplash.com/photo-1711606815631-38d32cdaec3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwcmljZXxlbnwwfHx8fDE3NzczMjcyMzN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hinnat laskivat.",
+        "sentence_en": "The prices have gone down."
+    },
+    {
+        "fi": "sopimus",
+        "en": "agreement",
+        "image": "no_image",
+        "sentence_fi": "Allekirjoita sopimus.",
+        "sentence_en": "Please sign your name on the contract."
+    },
+    {
+        "fi": "vero",
+        "en": "tax",
+        "image": "https://images.unsplash.com/photo-1709880945165-d2208c6ad2ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0YXh8ZW58MHx8fHwxNzc3MzI3Mjc4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vero sisältyy hintaan.",
+        "sentence_en": "The price includes tax."
+    },
+    {
+        "fi": "osake",
+        "en": "share",
+        "image": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaGFyZXxlbnwwfHx8fDE3NzczMjI2NjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän sijoitti osakkeisiin.",
+        "sentence_en": "He invested his money in stocks."
+    },
+    {
+        "fi": "työskennellä",
+        "en": "work",
+        "image": "no_image",
+        "sentence_fi": "Täällä on upeaa työskennellä.",
+        "sentence_en": "It's really great to work here."
+    },
+    {
+        "fi": "työntekijä",
+        "en": "worker",
+        "image": "no_image",
+        "sentence_fi": "Työntekijät saavat palkkansa perjantaisin.",
+        "sentence_en": "The workers receive their wages every Friday."
+    },
+    {
+        "fi": "työnantaja",
+        "en": "employer",
+        "image": "no_image",
+        "sentence_fi": "Jotkut työnantajat eivät mielellään palkkaa hiljattain vankilasta vapautuneita.",
+        "sentence_en": "Some employers are reluctant to take on people who have recently been released from jail."
+    },
+    {
+        "fi": "tehdas",
+        "en": "factory",
+        "image": "no_image",
+        "sentence_fi": "Tehdas tuottaa ammuksia.",
+        "sentence_en": "The factory produces ammunition."
+    },
+    {
+        "fi": "liike",
+        "en": "business",
+        "image": "no_image",
+        "sentence_fi": "Liikenne oli vähäistä.",
+        "sentence_en": "There wasn't much traffic."
+    },
+    {
+        "fi": "pankki",
+        "en": "bank",
+        "image": "no_image",
+        "sentence_fi": "Työskentelen pankissa.",
+        "sentence_en": "I work for a bank."
+    },
+    {
+        "fi": "ympäristön saastuminen",
+        "en": "environmental pollution",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ympäristön saastuminen.",
+        "sentence_en": "This is a environmental pollution."
+    }
+]
