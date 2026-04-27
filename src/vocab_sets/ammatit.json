@@ -1,0 +1,331 @@
+[
+    {
+        "fi": "poliisi",
+        "en": "police",
+        "image": "no_image",
+        "sentence_fi": "Kutsukaa poliisi!",
+        "sentence_en": "Call the police."
+    },
+    {
+        "fi": "palomies",
+        "en": "fireman",
+        "image": "no_image",
+        "sentence_fi": "Hänen isänsä on palomies.",
+        "sentence_en": "His father is a firefighter."
+    },
+    {
+        "fi": "kokki",
+        "en": "cook",
+        "image": "no_image",
+        "sentence_fi": "Olen kokki.",
+        "sentence_en": "I am a cook."
+    },
+    {
+        "fi": "lääkäri",
+        "en": "doctor",
+        "image": "no_image",
+        "sentence_fi": "Kutsukaa lääkäri.",
+        "sentence_en": "Please call in a doctor."
+    },
+    {
+        "fi": "lentäjä",
+        "en": "pilot",
+        "image": "no_image",
+        "sentence_fi": "Mitä lentäjä sanoi?",
+        "sentence_en": "What did the pilot say?"
+    },
+    {
+        "fi": "puutarhuri",
+        "en": "gardener",
+        "image": "no_image",
+        "sentence_fi": "Puutarhuri oli murhaaja.",
+        "sentence_en": "The gardener was a murderer."
+    },
+    {
+        "fi": "puuseppä",
+        "en": "carpenter",
+        "image": "no_image",
+        "sentence_fi": "Jeesus oli puuseppä.",
+        "sentence_en": "Jesus was a carpenter."
+    },
+    {
+        "fi": "ompelija",
+        "en": "dressmaker",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ompelija.",
+        "sentence_en": "This is a dressmaker."
+    },
+    {
+        "fi": "tuomari",
+        "en": "judge",
+        "image": "no_image",
+        "sentence_fi": "Tomi toimi taidekilpailun tuomarina.",
+        "sentence_en": "Tom was a judge in an art contest."
+    },
+    {
+        "fi": "kemisti",
+        "en": "chemist",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kemisti.",
+        "sentence_en": "This is a chemist."
+    },
+    {
+        "fi": "näyttelijä",
+        "en": "actor",
+        "image": "no_image",
+        "sentence_fi": "Isäni oli näyttelijä.",
+        "sentence_en": "My dad was an actor."
+    },
+    {
+        "fi": "linja-autonkuljettaja",
+        "en": "bus driver",
+        "image": "no_image",
+        "sentence_fi": "Hän on linja-autonkuljettaja.",
+        "sentence_en": "He's a bus driver."
+    },
+    {
+        "fi": "taksinkuljettaja",
+        "en": "taxi driver",
+        "image": "no_image",
+        "sentence_fi": "Heidän isänsä on taksinkuljettaja.",
+        "sentence_en": "Their father is a taxi driver."
+    },
+    {
+        "fi": "kalastaja",
+        "en": "fisherman",
+        "image": "no_image",
+        "sentence_fi": "Kalastajat heräsivät ennen aamunkoittoa.",
+        "sentence_en": "The fishermen got up before dawn."
+    },
+    {
+        "fi": "siivooja",
+        "en": "cleaner",
+        "image": "no_image",
+        "sentence_fi": "Ujo kiinalainen siivooja toi meille teetä kokoushuoneeseen.",
+        "sentence_en": "The shy Chinese cleaner brought us tea in the meeting room."
+    },
+    {
+        "fi": "katontekijä",
+        "en": "roofer",
+        "image": "no_image",
+        "sentence_fi": "Tässä on katontekijä.",
+        "sentence_en": "This is a roofer."
+    },
+    {
+        "fi": "tarjoilija",
+        "en": "Waiter",
+        "image": "https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxXYWl0ZXJ8ZW58MHx8fHwxNzc3MzIzOTY3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarjoilija tarvitaan.",
+        "sentence_en": "Waiter needed."
+    },
+    {
+        "fi": "metsästäjä",
+        "en": "hunter",
+        "image": "no_image",
+        "sentence_fi": "Metsästäjä tappoi ketun.",
+        "sentence_en": "The hunter killed the fox."
+    },
+    {
+        "fi": "maalari",
+        "en": "painter",
+        "image": "no_image",
+        "sentence_fi": "Tom on taitava maalari.",
+        "sentence_en": "Tom is a gifted painter."
+    },
+    {
+        "fi": "leipuri",
+        "en": "baker",
+        "image": "no_image",
+        "sentence_fi": "Se leipuri on hyvä ihminen.",
+        "sentence_en": "The baker is a good man."
+    },
+    {
+        "fi": "sähköasentaja",
+        "en": "electrician",
+        "image": "no_image",
+        "sentence_fi": "Olen sähköasentaja.",
+        "sentence_en": "I am an electrician."
+    },
+    {
+        "fi": "rakentaja",
+        "en": "builder",
+        "image": "no_image",
+        "sentence_fi": "Ai, hän puhui juuri siitä miten lapset ovat tulevaisuuden rakentajia tai jotain muuta hevonpaskaa.",
+        "sentence_en": "Oh, he was just talking about how children are the builders of tomorrow or some other bullshit."
+    },
+    {
+        "fi": "insinööri",
+        "en": "engineer",
+        "image": "no_image",
+        "sentence_fi": "Olen insinööri.",
+        "sentence_en": "I'm an engineer."
+    },
+    {
+        "fi": "teurastaja",
+        "en": "butcher",
+        "image": "no_image",
+        "sentence_fi": "Teurastaja punnitsee lihaa.",
+        "sentence_en": "The butcher is weighing the meat."
+    },
+    {
+        "fi": "putkiasentaja",
+        "en": "plumber",
+        "image": "no_image",
+        "sentence_fi": "Tässä on putkiasentaja.",
+        "sentence_en": "This is a plumber."
+    },
+    {
+        "fi": "postinjakaja",
+        "en": "postman",
+        "image": "no_image",
+        "sentence_fi": "Postinjakaja tulee pian.",
+        "sentence_en": "The mailman will be coming shortly."
+    },
+    {
+        "fi": "sotilas",
+        "en": "military",
+        "image": "no_image",
+        "sentence_fi": "Sotilas taisteli.",
+        "sentence_en": "The soldier fought."
+    },
+    {
+        "fi": "arkkitehti",
+        "en": "architect",
+        "image": "no_image",
+        "sentence_fi": "Tomista tuli arkkitehti.",
+        "sentence_en": "Tom became an architect."
+    },
+    {
+        "fi": "kassanhoitaja",
+        "en": "cashier",
+        "image": "no_image",
+        "sentence_fi": "Pankinjohtaja ei luottanut yhteen kassanhoitajista.",
+        "sentence_en": "The bank manager distrusted one of the cashiers."
+    },
+    {
+        "fi": "floristi",
+        "en": "florist",
+        "image": "no_image",
+        "sentence_fi": "Tässä on floristi.",
+        "sentence_en": "This is a florist."
+    },
+    {
+        "fi": "kampaaja",
+        "en": "hairdresser",
+        "image": "no_image",
+        "sentence_fi": "Olen parturi-kampaaja.",
+        "sentence_en": "I'm a hairdresser."
+    },
+    {
+        "fi": "konduktööri",
+        "en": "conductor",
+        "image": "no_image",
+        "sentence_fi": "Tässä on konduktööri.",
+        "sentence_en": "This is a conductor."
+    },
+    {
+        "fi": "mekaanikko",
+        "en": "mechanic",
+        "image": "no_image",
+        "sentence_fi": "Olen mekaanikko.",
+        "sentence_en": "I am a mechanic."
+    },
+    {
+        "fi": "kapteeni",
+        "en": "captain",
+        "image": "no_image",
+        "sentence_fi": "Tomi on hyvä kapteeni.",
+        "sentence_en": "Tom is a good captain."
+    },
+    {
+        "fi": "hammaslääkäri",
+        "en": "dentist",
+        "image": "no_image",
+        "sentence_fi": "Tiedätkö hyvää hammaslääkäriä?",
+        "sentence_en": "Do you know a good dentist?"
+    },
+    {
+        "fi": "tiedemies",
+        "en": "scientist",
+        "image": "no_image",
+        "sentence_fi": "Minunkin vaimoni on tiedemies.",
+        "sentence_en": "My wife is also a scientist."
+    },
+    {
+        "fi": "rabbi",
+        "en": "rabbi",
+        "image": "no_image",
+        "sentence_fi": "Rabbi on matkalla.",
+        "sentence_en": "The rabbi is on his way."
+    },
+    {
+        "fi": "imaami",
+        "en": "Imam",
+        "image": "no_image",
+        "sentence_fi": "Tässä on imaami.",
+        "sentence_en": "This is a Imam."
+    },
+    {
+        "fi": "munkki",
+        "en": "monk",
+        "image": "no_image",
+        "sentence_fi": "Olen munkki.",
+        "sentence_en": "I am a monk."
+    },
+    {
+        "fi": "pappi",
+        "en": "priest",
+        "image": "no_image",
+        "sentence_fi": "Olen pappi.",
+        "sentence_en": "I'm a minister."
+    },
+    {
+        "fi": "työntekijä",
+        "en": "worker",
+        "image": "no_image",
+        "sentence_fi": "Meillä on 30 työntekijää.",
+        "sentence_en": "We have thirty employees."
+    },
+    {
+        "fi": "työnantaja",
+        "en": "employer",
+        "image": "no_image",
+        "sentence_fi": "Jotkut työnantajat eivät mielellään palkkaa hiljattain vankilasta vapautuneita.",
+        "sentence_en": "Some employers are reluctant to take on people who have recently been released from jail."
+    },
+    {
+        "fi": "maanviljelijä",
+        "en": "farmer",
+        "image": "no_image",
+        "sentence_fi": "Maanviljelijä kylvi viljan jyviä.",
+        "sentence_en": "The peasant scattered the seeds of grain."
+    },
+    {
+        "fi": "lääkäri",
+        "en": "doctor",
+        "image": "no_image",
+        "sentence_fi": "Tarvitsen lääkäriä.",
+        "sentence_en": "Please call me a doctor."
+    },
+    {
+        "fi": "tulkki",
+        "en": "interpreter",
+        "image": "no_image",
+        "sentence_fi": "Tulkaa pian!",
+        "sentence_en": "Come quick!"
+    },
+    {
+        "fi": "sairaanhoitaja",
+        "en": "nurse",
+        "image": "no_image",
+        "sentence_fi": "Siskontyttäreni on sairaanhoitaja.",
+        "sentence_en": "My niece is a nurse."
+    },
+    {
+        "fi": "myyjä",
+        "en": "seller",
+        "image": "no_image",
+        "sentence_fi": "Nykyään hän on tavaratalon myyjä.",
+        "sentence_en": "For the time being, she is clerking in a department store."
+    }
+]
