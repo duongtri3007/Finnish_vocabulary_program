@@ -1,0 +1,457 @@
+[
+    {
+        "fi": "nauraa",
+        "en": "laugh",
+        "image": "no_image",
+        "sentence_fi": "Nauratko sinä?",
+        "sentence_en": "Are you crying?"
+    },
+    {
+        "fi": "hypätä",
+        "en": "jump",
+        "image": "no_image",
+        "sentence_fi": "Älkää hypätkö!",
+        "sentence_en": "Don't jump!"
+    },
+    {
+        "fi": "halata",
+        "en": "hug",
+        "image": "no_image",
+        "sentence_fi": "Saanko halata?",
+        "sentence_en": "Can I hug you?"
+    },
+    {
+        "fi": "kävellä",
+        "en": "walk",
+        "image": "no_image",
+        "sentence_fi": "Osaan kävellä.",
+        "sentence_en": "You can walk."
+    },
+    {
+        "fi": "laulaa",
+        "en": "sing",
+        "image": "no_image",
+        "sentence_fi": "Laulamme yhdessä.",
+        "sentence_en": "We'll sing together."
+    },
+    {
+        "fi": "unelmoida",
+        "en": "dream",
+        "image": "no_image",
+        "sentence_fi": "Haluan unelmoida.",
+        "sentence_en": "I wanna dream."
+    },
+    {
+        "fi": "rukoilla",
+        "en": "pray",
+        "image": "no_image",
+        "sentence_fi": "Muslimien jumala ymmärtää pelkää arabiaa, mutta muille jumalille voi rukoilla millä tahansa kielellä.",
+        "sentence_en": "The Muslims' God understands only Arabic; but one can pray to other gods in any language."
+    },
+    {
+        "fi": "suudella",
+        "en": "kiss",
+        "image": "no_image",
+        "sentence_fi": "Tahdon suudella sinua.",
+        "sentence_en": "I want to kiss you."
+    },
+    {
+        "fi": "kirjoittaa",
+        "en": "write",
+        "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3cml0ZXxlbnwwfHx8fDE3NzczMjI3MTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kirjoitan siitä.",
+        "sentence_en": "I will write about it."
+    },
+    {
+        "fi": "piirtää",
+        "en": "draw",
+        "image": "https://images.unsplash.com/photo-1493932484895-752d1471eab5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkcmF3fGVufDB8fHx8MTc3NzMyMzkzNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Endoplasmakalvosto on hankala piirtää.",
+        "sentence_en": "The endoplasmic reticulum is hard to draw."
+    },
+    {
+        "fi": "näyttää",
+        "en": "show",
+        "image": "no_image",
+        "sentence_fi": "Näyttää satavan.",
+        "sentence_en": "It looks like it's raining."
+    },
+    {
+        "fi": "painaa",
+        "en": "press",
+        "image": "no_image",
+        "sentence_fi": "Paina jarrua!",
+        "sentence_en": "Hit the brakes."
+    },
+    {
+        "fi": "antaa",
+        "en": "give",
+        "image": "no_image",
+        "sentence_fi": "Anteeksi!",
+        "sentence_en": "I'm sorry."
+    },
+    {
+        "fi": "ottaa",
+        "en": "take",
+        "image": "no_image",
+        "sentence_fi": "Otin influenssarokotteen.",
+        "sentence_en": "I was vaccinated against the flu."
+    },
+    {
+        "fi": "omistaa",
+        "en": "own",
+        "image": "no_image",
+        "sentence_fi": "Omistatko käsiasetta?",
+        "sentence_en": "Do you own a handgun?"
+    },
+    {
+        "fi": "tehdä",
+        "en": "make",
+        "image": "no_image",
+        "sentence_fi": "Tehdään hiekkalinna.",
+        "sentence_en": "Let's make a sandcastle."
+    },
+    {
+        "fi": "olla",
+        "en": "be",
+        "image": "no_image",
+        "sentence_fi": "Olin alasti.",
+        "sentence_en": "I was naked."
+    },
+    {
+        "fi": "seisoa",
+        "en": "stand",
+        "image": "no_image",
+        "sentence_fi": "Seiso jonossa.",
+        "sentence_en": "Stand in the queue."
+    },
+    {
+        "fi": "juosta",
+        "en": "run",
+        "image": "no_image",
+        "sentence_fi": "Tomi haluaa juosta.",
+        "sentence_en": "Tom wants to run."
+    },
+    {
+        "fi": "vetää",
+        "en": "pull",
+        "image": "no_image",
+        "sentence_fi": "Lähe vetää!",
+        "sentence_en": "Beat it!"
+    },
+    {
+        "fi": "heittää",
+        "en": "throw",
+        "image": "no_image",
+        "sentence_fi": "Heittää hukkaan.",
+        "sentence_en": "Cast pearls before swine."
+    },
+    {
+        "fi": "kaatua",
+        "en": "fall",
+        "image": "https://images.unsplash.com/photo-1507371341162-763b5e419408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmYWxsfGVufDB8fHx8MTc3NzMyNDA5N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mitä suurempi puu, sitä kovempaa se rytisee, kun se kaatuu.",
+        "sentence_en": "The bigger they are, the harder they fall."
+    },
+    {
+        "fi": "maata",
+        "en": "lie",
+        "image": "no_image",
+        "sentence_fi": "He puolustivat maataan.",
+        "sentence_en": "They defended their country."
+    },
+    {
+        "fi": "odottaa",
+        "en": "expect",
+        "image": "no_image",
+        "sentence_fi": "Juna odottaa.",
+        "sentence_en": "The train is waiting."
+    },
+    {
+        "fi": "kantaa",
+        "en": "carry",
+        "image": "no_image",
+        "sentence_fi": "Tom kantaa sinua.",
+        "sentence_en": "Tom will carry you."
+    },
+    {
+        "fi": "istua",
+        "en": "sit",
+        "image": "no_image",
+        "sentence_fi": "Istutko?",
+        "sentence_en": "Will you sit?"
+    },
+    {
+        "fi": "pukeutua",
+        "en": "dress",
+        "image": "no_image",
+        "sentence_fi": "Tom pukeutuu yleensä huppariin.",
+        "sentence_en": "Tom usually wears a hoodie."
+    },
+    {
+        "fi": "nukkua",
+        "en": "sleep",
+        "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzbGVlcHxlbnwwfHx8fDE3NzczMjcyMDh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nuku!",
+        "sentence_en": "Sleep!"
+    },
+    {
+        "fi": "herätä",
+        "en": "wake up",
+        "image": "no_image",
+        "sentence_fi": "Moneltako heräät?",
+        "sentence_en": "What time do you get up?"
+    },
+    {
+        "fi": "katsoa",
+        "en": "look",
+        "image": "no_image",
+        "sentence_fi": "Katsotaanpa.",
+        "sentence_en": "Let's take a look."
+    },
+    {
+        "fi": "itkeä",
+        "en": "cry",
+        "image": "no_image",
+        "sentence_fi": "Krokotiili itkee.",
+        "sentence_en": "The crocodile is weeping."
+    },
+    {
+        "fi": "silittää",
+        "en": "iron",
+        "image": "no_image",
+        "sentence_fi": "Hän silitti mekkoaan.",
+        "sentence_en": "She was ironing her dress."
+    },
+    {
+        "fi": "kammata",
+        "en": "comb",
+        "image": "no_image",
+        "sentence_fi": "Tomin paita ei ollut silitetty ja hän oli unohtanut kammata tukkansa.",
+        "sentence_en": "Tom's shirt wasn't ironed and he'd forgotten to comb his hair."
+    },
+    {
+        "fi": "puhua",
+        "en": "talk",
+        "image": "no_image",
+        "sentence_fi": "Puhu!",
+        "sentence_en": "Talk to me!"
+    },
+    {
+        "fi": "ymmärtää",
+        "en": "understand",
+        "image": "no_image",
+        "sentence_fi": "Ymmärtääkö hän unkaria?",
+        "sentence_en": "Does she understand Hungarian?"
+    },
+    {
+        "fi": "kysyä",
+        "en": "ask",
+        "image": "no_image",
+        "sentence_fi": "Kysyn.",
+        "sentence_en": "I'll ask."
+    },
+    {
+        "fi": "kuunnella",
+        "en": "listen",
+        "image": "no_image",
+        "sentence_fi": "Kuunne palaa.",
+        "sentence_en": "Your moon is burning."
+    },
+    {
+        "fi": "juoda",
+        "en": "drink",
+        "image": "no_image",
+        "sentence_fi": "Haluaisin juoda viiniä.",
+        "sentence_en": "I would like some wine."
+    },
+    {
+        "fi": "syödä",
+        "en": "eat",
+        "image": "no_image",
+        "sentence_fi": "Syödään ensin.",
+        "sentence_en": "Let's eat first."
+    },
+    {
+        "fi": "siivota",
+        "en": "clean up",
+        "image": "no_image",
+        "sentence_fi": "Siivotaan ullakko.",
+        "sentence_en": "Let's clear out the attic."
+    },
+    {
+        "fi": "rakastaa",
+        "en": "love",
+        "image": "no_image",
+        "sentence_fi": "Rakastan keinutuoleja!",
+        "sentence_en": "I love rocking chairs!"
+    },
+    {
+        "fi": "keittää",
+        "en": "boil",
+        "image": "https://images.unsplash.com/photo-1586852855256-470372be1541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib2lsfGVufDB8fHx8MTc3NzMzMTE3MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Keitin kahvia teille.",
+        "sentence_en": "I made you coffee."
+    },
+    {
+        "fi": "ajaa",
+        "en": "drive",
+        "image": "no_image",
+        "sentence_fi": "Aja!",
+        "sentence_en": "Drive."
+    },
+    {
+        "fi": "lentää",
+        "en": "fly",
+        "image": "no_image",
+        "sentence_fi": "Lintu lentää.",
+        "sentence_en": "Birds fly."
+    },
+    {
+        "fi": "purjehtia",
+        "en": "sail",
+        "image": "no_image",
+        "sentence_fi": "Perry purjehti lopulta Tokionlahteen vuonna 1853.",
+        "sentence_en": "Perry finally sailed into Tokyo Bay in 1853."
+    },
+    {
+        "fi": "laskea",
+        "en": "calculate",
+        "image": "https://images.unsplash.com/photo-1625225233840-695456021cde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdGV8ZW58MHx8fHwxNzc3MzIyODgzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tuo laski.",
+        "sentence_en": "It was raining."
+    },
+    {
+        "fi": "lukea",
+        "en": "read",
+        "image": "https://images.unsplash.com/photo-1630343710506-89f8b9f21d31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyZWFkfGVufDB8fHx8MTc3NzMyMjkwNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän lukee.",
+        "sentence_en": "He reads."
+    },
+    {
+        "fi": "oppia",
+        "en": "learn",
+        "image": "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxsZWFybnxlbnwwfHx8fDE3NzczMjM5Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kokemuksesta oppii.",
+        "sentence_en": "One learns by experience."
+    },
+    {
+        "fi": "työskennellä",
+        "en": "work",
+        "image": "no_image",
+        "sentence_fi": "Antakaa meidän työskennellä!",
+        "sentence_en": "Let us work!"
+    },
+    {
+        "fi": "mennä naimisiin",
+        "en": "marry",
+        "image": "no_image",
+        "sentence_fi": "Menin naimisiin eilen.",
+        "sentence_en": "I got married yesterday."
+    },
+    {
+        "fi": "ommella",
+        "en": "sew",
+        "image": "no_image",
+        "sentence_fi": "Keskittyisit omiin asioihisi.",
+        "sentence_en": "Mind your own business!"
+    },
+    {
+        "fi": "pestä hampaat",
+        "en": "brush your teeth",
+        "image": "no_image",
+        "sentence_fi": "Minun täytyy pestä hampaat.",
+        "sentence_en": "I have to brush my teeth."
+    },
+    {
+        "fi": "tappaa",
+        "en": "kill",
+        "image": "no_image",
+        "sentence_fi": "Linda tappaa sinut.",
+        "sentence_en": "Linda is going to kill you."
+    },
+    {
+        "fi": "tupakoida",
+        "en": "smoke",
+        "image": "no_image",
+        "sentence_fi": "Täällä ei saa tupakoida.",
+        "sentence_en": "Smoking is not permitted here."
+    },
+    {
+        "fi": "tupakoida",
+        "en": "smoke",
+        "image": "no_image",
+        "sentence_fi": "Ette saa tupakoida.",
+        "sentence_en": "You must not smoke."
+    },
+    {
+        "fi": "lähettää",
+        "en": "send",
+        "image": "no_image",
+        "sentence_fi": "Sinä lähetit sähköpostia.",
+        "sentence_en": "You sent an email."
+    },
+    {
+        "fi": "vaihtaa",
+        "en": "change",
+        "image": "no_image",
+        "sentence_fi": "Suodattimet täytyy vaihtaa.",
+        "sentence_en": "The filters need to be changed."
+    },
+    {
+        "fi": "maksaa",
+        "en": "pay",
+        "image": "no_image",
+        "sentence_fi": "Maksan.",
+        "sentence_en": "I'm buying."
+    },
+    {
+        "fi": "korjata",
+        "en": "fix",
+        "image": "no_image",
+        "sentence_fi": "Korjaa virheitä.",
+        "sentence_en": "Correct errors."
+    },
+    {
+        "fi": "kerätä sato",
+        "en": "to gather the harvest",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kerätä sato.",
+        "sentence_en": "This is a to gather the harvest."
+    },
+    {
+        "fi": "ostaa",
+        "en": "buy",
+        "image": "no_image",
+        "sentence_fi": "Ostin sandaalit.",
+        "sentence_en": "I bought a pair of sandals."
+    },
+    {
+        "fi": "pestä",
+        "en": "wash",
+        "image": "no_image",
+        "sentence_fi": "Pesin ikkunat.",
+        "sentence_en": "I washed the windows."
+    },
+    {
+        "fi": "punnita",
+        "en": "weigh",
+        "image": "no_image",
+        "sentence_fi": "Bussin kuljettaja ei ollut suuremmin vaikuttunut, kun Tom veti esiin 50 punnan setelin maksaakseen matkansa.",
+        "sentence_en": "The bus driver was not impressed when Tom pulled out a $50 note to pay his fare."
+    },
+    {
+        "fi": "leikkiä",
+        "en": "play",
+        "image": "no_image",
+        "sentence_fi": "Haluan leikkiä!",
+        "sentence_en": "I want to play."
+    },
+    {
+        "fi": "uida",
+        "en": "swim",
+        "image": "no_image",
+        "sentence_fi": "Osaatko uida?",
+        "sentence_en": "Are you able to swim?"
+    }
+]
