@@ -1,0 +1,93 @@
+[
+    {
+        "fi": "amerikkalainen jalkapallo",
+        "en": "american football",
+        "image": "no_image",
+        "sentence_fi": "Miten sanotaan \"amerikkalainen jalkapallo\" englanniksi?",
+        "sentence_en": "What is \"American football\" called in English?"
+    },
+    {
+        "fi": "pyöräily",
+        "en": "cycling",
+        "image": "no_image",
+        "sentence_fi": "Pyöräily on hyvää kuntoilua. Ja lisäksi se ei saastuta ilmaa.",
+        "sentence_en": "Cycling is good exercise. Moreover, it doesn't pollute the air."
+    },
+    {
+        "fi": "tennis",
+        "en": "tennis",
+        "image": "no_image",
+        "sentence_fi": "Jalkapallo on suositumpaa kuin tennis.",
+        "sentence_en": "Football is more popular than tennis."
+    },
+    {
+        "fi": "koripallo",
+        "en": "basketball",
+        "image": "no_image",
+        "sentence_fi": "Mari on hyvä koripallossa.",
+        "sentence_en": "Mary plays basketball well."
+    },
+    {
+        "fi": "uinti",
+        "en": "swimming",
+        "image": "no_image",
+        "sentence_fi": "Tomin täytyi jättää aamu-uintinsa väliin kylmyyden takia.",
+        "sentence_en": "Tom had to forgo his morning swim, on account of it being too cold."
+    },
+    {
+        "fi": "nyrkkeily",
+        "en": "boxing",
+        "image": "no_image",
+        "sentence_fi": "Tuomas pitää nyrkkeilystä.",
+        "sentence_en": "Tom likes to box."
+    },
+    {
+        "fi": "jääkiekko",
+        "en": "hockey",
+        "image": "no_image",
+        "sentence_fi": "En voi ymmärtää hänen antautumistaan jääkiekolle.",
+        "sentence_en": "I can't understand his obsession with hockey."
+    },
+    {
+        "fi": "jalkapallo",
+        "en": "football",
+        "image": "no_image",
+        "sentence_fi": "Pelasin jalkapalloa.",
+        "sentence_en": "I played football."
+    },
+    {
+        "fi": "sulkapallo",
+        "en": "badminton",
+        "image": "no_image",
+        "sentence_fi": "Ostin kaksi sulkapalloa urheiluliikkeestä.",
+        "sentence_en": "I bought two new shuttlecocks from the sporting goods store."
+    },
+    {
+        "fi": "yleisurheilu",
+        "en": "athletics",
+        "image": "no_image",
+        "sentence_fi": "Tässä on yleisurheilu.",
+        "sentence_en": "This is a athletics."
+    },
+    {
+        "fi": "käsipallo",
+        "en": "team handball",
+        "image": "no_image",
+        "sentence_fi": "Hän on hyvä käsipallossa",
+        "sentence_en": "He is good at handball."
+    },
+    {
+        "fi": "hiihto",
+        "en": "skiing",
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxza2lpbmd8ZW58MHx8fHwxNzc3MzI3MjE5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Harrastan hiihtoa.",
+        "sentence_en": "My hobby is skiing."
+    },
+    {
+        "fi": "poolo",
+        "en": "polo",
+        "image": "no_image",
+        "sentence_fi": "Tässä on poolo.",
+        "sentence_en": "This is a polo."
+    }
+]
