@@ -1,0 +1,303 @@
+[
+    {
+        "fi": "banaani",
+        "en": "banana",
+        "image": "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYW5hbmF8ZW58MHx8fHwxNzc3MzE2OTg3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Toi o banaani.",
+        "sentence_en": "That's a banana."
+    },
+    {
+        "fi": "omena",
+        "en": "apple",
+        "image": "https://images.unsplash.com/photo-1630563451961-ac2ff27616ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhcHBsZXxlbnwwfHx8fDE3NzczMTU1NTh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Omena putosi!",
+        "sentence_en": "The apple fell!"
+    },
+    {
+        "fi": "appelsiini",
+        "en": "orange",
+        "image": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvcmFuZ2V8ZW58MHx8fHwxNzc3MzE4NzM3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Minulla on appelsiini ja omena.",
+        "sentence_en": "I have an orange and an apple."
+    },
+    {
+        "fi": "meloni",
+        "en": "melon",
+        "image": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtZWxvbnxlbnwwfHx8fDE3NzczMTg3NTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on meloni.",
+        "sentence_en": "This is a melon."
+    },
+    {
+        "fi": "sitruuna",
+        "en": "lemon",
+        "image": "https://images.unsplash.com/flagged/photo-1587302164675-820fe61bbd55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxsZW1vbnxlbnwwfHx8fDE3NzczMTg3NjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Sitruuna on hapan hedelmä.",
+        "sentence_en": "The lemon is a sour fruit."
+    },
+    {
+        "fi": "porkkana",
+        "en": "carrot",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXJyb3R8ZW58MHx8fHwxNzc3MzE2Nzg2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Porkkana on terveellinen välipala.",
+        "sentence_en": "A carrot is a healthy snack."
+    },
+    {
+        "fi": "valkosipuli",
+        "en": "garlic",
+        "image": "https://images.unsplash.com/photo-1636210589096-a53d5dacd702?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnYXJsaWN8ZW58MHx8fHwxNzc3MzE4NzkyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vihaan valkosipulin hajua.",
+        "sentence_en": "I don't like the smell of garlic."
+    },
+    {
+        "fi": "bambu",
+        "en": "bamboo",
+        "image": "https://images.unsplash.com/photo-1532920161727-344adb090f7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYW1ib298ZW58MHx8fHwxNzc3MzE4ODA0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Bambu on taivuksissa lumen painosta.",
+        "sentence_en": "The bamboo is bending with the weight of the snow."
+    },
+    {
+        "fi": "sipuli",
+        "en": "onion",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvbmlvbnxlbnwwfHx8fDE3NzczMTcwMDl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomi ei tykkää sipulista.",
+        "sentence_en": "Tom doesn't like onions."
+    },
+    {
+        "fi": "sieni",
+        "en": "mushroom",
+        "image": "https://images.unsplash.com/photo-1571074635691-b910c7a5cdbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtdXNocm9vbXxlbnwwfHx8fDE3NzczMTg4Mzl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Sieni imee vettä.",
+        "sentence_en": "A sponge absorbs water."
+    },
+    {
+        "fi": "pähkinät",
+        "en": "nuts",
+        "image": "https://images.unsplash.com/photo-1600189020840-e9918c25269d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxudXRzfGVufDB8fHx8MTc3NzMxODg2M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pähkinät ovat ravinteikkaita.",
+        "sentence_en": "Nuts are nutritious."
+    },
+    {
+        "fi": "spagetti",
+        "en": "spaghetti",
+        "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcGFnaGV0dGl8ZW58MHx8fHwxNzc3MzE4ODc3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Se on spagettia.",
+        "sentence_en": "This is spaghetti."
+    },
+    {
+        "fi": "riisi",
+        "en": "rice",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyaWNlfGVufDB8fHx8MTc3NzMxODg5N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Riisi maistuu hyvälle.",
+        "sentence_en": "The rice is delicious."
+    },
+    {
+        "fi": "salaatti",
+        "en": "salad",
+        "image": "https://images.unsplash.com/photo-1607532941433-304659e8198a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYWxhZHxlbnwwfHx8fDE3NzczMTg5MTN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Piditkö siitä salaatista?",
+        "sentence_en": "Did you like the salad?"
+    },
+    {
+        "fi": "ranskalaiset",
+        "en": "French",
+        "image": "https://images.unsplash.com/photo-1551866442-64e75e911c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxGcmVuY2h8ZW58MHx8fHwxNzc3MzE4OTIxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haluatko lisäksi ranskalaisia?",
+        "sentence_en": "Would you like fries with that?"
+    },
+    {
+        "fi": "paistetut perunat",
+        "en": "sautee potatoes",
+        "image": "https://images.unsplash.com/photo-1633959639799-6d3f66e05710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYXV0ZWUlMjBwb3RhdG9lc3xlbnwwfHx8fDE3NzczMTg5Mjl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on paistetut perunat.",
+        "sentence_en": "This is a sautee potatoes."
+    },
+    {
+        "fi": "pitsa",
+        "en": "pizza",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwaXp6YXxlbnwwfHx8fDE3NzczMTg5NDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tilaan kaksi pitsaa.",
+        "sentence_en": "I'll order two pizzas."
+    },
+    {
+        "fi": "hampurilainen",
+        "en": "hamburger",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxoYW1idXJnZXJ8ZW58MHx8fHwxNzc3MzE4OTYxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Jos on vielä nälkä, syö vielä yksi hampurilainen.",
+        "sentence_en": "If you're still hungry, have another hamburger."
+    },
+    {
+        "fi": "voileipä",
+        "en": "sandwich",
+        "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYW5kd2ljaHxlbnwwfHx8fDE3NzczMTg5NzV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tee minulle voileipä.",
+        "sentence_en": "Make me a sandwich."
+    },
+    {
+        "fi": "leike",
+        "en": "section",
+        "image": "https://images.unsplash.com/photo-1691315037260-cb957ce7b74f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzZWN0aW9ufGVufDB8fHx8MTc3NzMxODk4M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on leike.",
+        "sentence_en": "This is a section."
+    },
+    {
+        "fi": "kinkku",
+        "en": "ham",
+        "image": "https://images.unsplash.com/photo-1524438418049-ab2acb7aa48f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxoYW18ZW58MHx8fHwxNzc3MzE4OTkwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kinkku tuli.",
+        "sentence_en": "The ham arrived."
+    },
+    {
+        "fi": "salami",
+        "en": "salami",
+        "image": "https://images.unsplash.com/photo-1460122109654-7e46ab4fc9b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYWxhbWl8ZW58MHx8fHwxNzc3MzE4OTk4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Minuun iski salama.",
+        "sentence_en": "I got hit by lightning."
+    },
+    {
+        "fi": "makkara",
+        "en": "sausage",
+        "image": "https://images.unsplash.com/photo-1585325701165-351af916e581?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYXVzYWdlfGVufDB8fHx8MTc3NzMxOTAyNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Miksi paistoitte vain kaksi makkaraa?",
+        "sentence_en": "Why did you fry two sausages only?"
+    },
+    {
+        "fi": "kana",
+        "en": "chicken",
+        "image": "https://images.unsplash.com/photo-1612170153139-6f881ff067e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGlja2VufGVufDB8fHx8MTc3NzMxNjg0Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kanaa, kiitos.",
+        "sentence_en": "Chicken, please."
+    },
+    {
+        "fi": "paisti",
+        "en": "roast",
+        "image": "https://images.unsplash.com/photo-1580476262843-d5e9b687d4d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyb2FzdHxlbnwwfHx8fDE3NzczMTkwNDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Aurinko paistaa!",
+        "sentence_en": "The sun is shining."
+    },
+    {
+        "fi": "kala",
+        "en": "fish",
+        "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmaXNofGVufDB8fHx8MTc3NzMxNjg1NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nukkuvatko kalat?",
+        "sentence_en": "Do fish sleep?"
+    },
+    {
+        "fi": "kaurahiutaleet",
+        "en": "oatmeal",
+        "image": "https://images.unsplash.com/photo-1584970922591-5b91e5f927a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvYXRtZWFsfGVufDB8fHx8MTc3NzMxOTA5NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on kaurahiutaleet.",
+        "sentence_en": "This is a oatmeal."
+    },
+    {
+        "fi": "mysli",
+        "en": "muesli",
+        "image": "https://images.unsplash.com/photo-1614961234274-f204d01c115e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtdWVzbGl8ZW58MHx8fHwxNzc3MzE5MTA0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tykkään myslistä.",
+        "sentence_en": "I like muesli."
+    },
+    {
+        "fi": "murot",
+        "en": "cereals",
+        "image": "https://images.unsplash.com/photo-1582407123556-59f95920eeaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjZXJlYWxzfGVufDB8fHx8MTc3NzMxOTExNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kotiin tullessani huomasin murron.",
+        "sentence_en": "On arriving home, I discovered the burglary."
+    },
+    {
+        "fi": "jauho",
+        "en": "flour",
+        "image": "https://images.unsplash.com/photo-1610725664285-7c57e6eeac3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmbG91cnxlbnwwfHx8fDE3NzczMTkxMjh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kylläisen hiiren mielestä jauho maistuu kitkerältä.",
+        "sentence_en": "When the mouse is satiated, the flour is bitter."
+    },
+    {
+        "fi": "voisarvi",
+        "en": "croissant",
+        "image": "https://images.unsplash.com/photo-1623334044303-241021148842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjcm9pc3NhbnR8ZW58MHx8fHwxNzc3MzE5MTQxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on voisarvi.",
+        "sentence_en": "This is a croissant."
+    },
+    {
+        "fi": "sämpylä",
+        "en": "roll",
+        "image": "https://images.unsplash.com/photo-1604908816649-c8bdfc3ca68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyb2xsfGVufDB8fHx8MTc3NzMxOTE1MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom osti sämpylän.",
+        "sentence_en": "Tom bought rolls."
+    },
+    {
+        "fi": "leipä",
+        "en": "bread",
+        "image": "https://images.unsplash.com/photo-1598373182133-52452f7691ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxicmVhZHxlbnwwfHx8fDE3NzczMTkxNjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Voitelen leipää.",
+        "sentence_en": "I'm buttering the bread."
+    },
+    {
+        "fi": "paahtoleipä",
+        "en": "toast",
+        "image": "https://images.unsplash.com/photo-1612827788868-c8632040ab64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b2FzdHxlbnwwfHx8fDE3NzczMTkyMjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Paahtoleipä on palanut mustaksi.",
+        "sentence_en": "The toast has burned black."
+    },
+    {
+        "fi": "keksit",
+        "en": "cookies",
+        "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb29raWVzfGVufDB8fHx8MTc3NzMxOTI0MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Saisinko keksin?",
+        "sentence_en": "Can I have a cookie?"
+    },
+    {
+        "fi": "voi",
+        "en": "Oh",
+        "image": "https://images.unsplash.com/photo-1513712364966-5b57e5e256cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxPaHxlbnwwfHx8fDE3NzczMTkyNTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Oi voi.",
+        "sentence_en": "What a pity!"
+    },
+    {
+        "fi": "rahka",
+        "en": "curd",
+        "image": "https://images.unsplash.com/photo-1581868164904-77b124b80242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjdXJkfGVufDB8fHx8MTc3NzMxOTI2Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on rahka.",
+        "sentence_en": "This is a curd."
+    },
+    {
+        "fi": "kakku",
+        "en": "cake",
+        "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYWtlfGVufDB8fHx8MTc3NzMxOTI2OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haluan kakkua.",
+        "sentence_en": "I want some cake."
+    },
+    {
+        "fi": "kananmuna",
+        "en": "egg",
+        "image": "https://images.unsplash.com/photo-1607690424560-35d967d6ad7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlZ2d8ZW58MHx8fHwxNzc3MzE5Mjc2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Suudelma ilman viiksiä on kuin kananmuna ilman suolaa.",
+        "sentence_en": "A kiss without a mustache is like an egg without salt."
+    },
+    {
+        "fi": "paistettu kananmuna",
+        "en": "fried egg",
+        "image": "https://images.unsplash.com/photo-1691480184494-d9f822edd4d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmcmllZCUyMGVnZ3xlbnwwfHx8fDE3NzczMTkyODR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on paistettu kananmuna.",
+        "sentence_en": "This is a fried egg."
+    },
+    {
+        "fi": "juusto",
+        "en": "cheese",
+        "image": "https://images.unsplash.com/photo-1683314573422-649a3c6ad784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGVlc2V8ZW58MHx8fHwxNzc3MzE5Mjg5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haluan syödä juustoa.",
+        "sentence_en": "I want to eat cheese."
+    },
+    {
+        "fi": "ruoka",
+        "en": "food",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb29kfGVufDB8fHx8MTc3NzMxODcwOXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ruoka maksaa.",
+        "sentence_en": "Food costs money."
+    },
+    {
+        "fi": "peruna",
+        "en": "potato",
+        "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwb3RhdG98ZW58MHx8fHwxNzc3MzE2Mzk4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "En perusta kahvista.",
+        "sentence_en": "I don't like coffee."
+    }
+]
