@@ -4,185 +4,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finnish Vocabulary Program</title>
+    <title>WordNest</title>
+    <link rel="icon" type="image/png" href="{% static 'frontend/wordnet_favicon.png' %}">
 
-    <style>
-        /* 1. Base Layout & Background */
-        body { 
-            font-family: 'Segoe UI', Arial, sans-serif; 
-            text-align: center; 
-            margin: 0;
-            padding: 20px;
+<style>
+    body { 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        text-align: center; 
+        margin: 0;
+        padding: 10px;
+        position: relative;
+        z-index: 0;
 
-            background-image: url("{% static 'frontend/background_img.png' %}");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-color: #f4f4f4; 
-        }
+        background-image: url("{% static 'frontend/background_img.png' %}");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #f4f4f4; 
+    }
 
-        /* 2. TITLE (RESPONSIVE) */
-        .header-title {
-            font-size: clamp(1.8rem, 4vw, 3.5rem);
-            font-weight: 900;
-            margin-bottom: 40px;
-            letter-spacing: -1px;
-            text-transform: uppercase;
+    .header-title {
+        font-size: clamp(1.5rem, 4vw, 3.5rem);
+        font-weight: 800;
+        margin-bottom: 10px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
 
-            background: linear-gradient(
-                90deg, 
-                #003580, 
-                #0066cc, 
-                #a5f3fc, 
-                #0066cc, 
-                #003580
-            );
+        background: linear-gradient(
+            90deg,
+            #00f5d4,
+            #4cc9f0,
+            #3a86ff,
+            #8338ec,
+            #00f5d4
+        );
 
-            background-size: 200% auto;
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        text-shadow:
+            0 0 6px rgba(76, 201, 240, 0.5),
+            0 0 12px rgba(76, 201, 240, 0.3);
 
-            filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.9));
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
-            animation: 
-                fadeInDown 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards, 
-                colorFlow 5s linear infinite,
-                floatTitle 4s ease-in-out infinite;
-        }
+        filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.9));
 
-        /* 3. WRAPPER */
-        .content-wrapper { 
-            min-height: 400px;
-            display: inline-block; 
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-        }
+        animation: 
+            fadeInDown 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards, 
+            colorFlow 5s linear infinite,
+            floatTitle 4s ease-in-out infinite;
+    }
 
-        /* 4. MENU ITEM WRAPPER (IMPORTANT FIX) */
-        .menu-item {
+    .content-wrapper { 
+        min-height: 200px;
+        display: inline-block; 
+        background-color: rgba(255, 255, 255, 0.9); 
+        padding: 40px;
+        border-radius: 15px;
+
+        box-shadow: 0 10px 30px rgba(0,0,0,0.25); 
+    }
+
+    .menu-item {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: slideInUp 0.5s ease-out forwards;
+    }
+
+    .menu-item:nth-child(1) { animation-delay: 0.4s; }
+    .menu-item:nth-child(2) { animation-delay: 0.6s; }
+    .menu-item:nth-child(3) { animation-delay: 0.8s; }
+    .menu-item:nth-child(4) { animation-delay: 1.0s; }
+    .menu-item:nth-child(5) { animation-delay: 1.2s; }
+    .menu-item:nth-child(6) { animation-delay: 1.4s; }
+
+    .menu-button {
+        display: block;
+        width: 280px;
+        margin: 14px auto;
+        padding: 18px;
+
+        background: linear-gradient(180deg, #0d90b8 0%, #115eda 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 14px;
+        font-weight: bold;
+        font-size: 1.1rem;
+
+        box-shadow:
+            0 8px 0 #1e5bbf,
+            0 0 20px rgba(76, 201, 240, 0.6),
+            0 14px 24px rgba(0, 80, 180, 0.25);
+
+        transform: translateY(0) scale(1, 1);
+        transition:
+            transform 0.18s ease,
+            box-shadow 0.18s ease,
+            background 0.18s ease;
+    }
+
+    .menu-button:hover {
+        animation: jellyHover 0.8s ease;
+        background: linear-gradient(180deg, #0d90b8 0%, #115eda 100%);
+    }
+
+    .menu-button:active {
+        transform: translateY(8px) scale(0.97, 0.94);
+        box-shadow:
+            0 2px 0 #00255a,
+            0 6px 10px rgba(0,0,0,0.16);
+    }
+
+    @keyframes jellyHover {
+        0%   { transform: scale(1, 1); }
+        30%  { transform: scale(1.08, 0.90); }
+        45%  { transform: scale(0.94, 1.08); }
+        60%  { transform: scale(1.03, 0.96); }
+        75%  { transform: scale(0.98, 1.02); }
+        100% { transform: scale(1, 1); }
+    }
+
+    @keyframes colorFlow {
+        0% { background-position: 0% center; }
+        100% { background-position: 200% center; }
+    }
+
+    @keyframes floatTitle {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    @keyframes fadeInDown {
+        from { opacity: 0; transform: translateY(-30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideInUp {
+        from {
             opacity: 0;
             transform: translateY(20px);
-            animation: slideInUp 0.5s ease-out forwards;
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .header-title {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
         }
 
-        /* Stagger animation */
-        .menu-item:nth-child(1) { animation-delay: 0.4s; }
-        .menu-item:nth-child(2) { animation-delay: 0.6s; }
-        .menu-item:nth-child(3) { animation-delay: 0.8s; }
-        .menu-item:nth-child(4) { animation-delay: 1.0s; }
-        .menu-item:nth-child(5) { animation-delay: 1.2s; }
-        .menu-item:nth-child(6) { animation-delay: 1.4s; }
+        .content-wrapper {
+            padding: 20px 10px;
+            width: 100%;
+        }
 
-        /* 5. BUTTON (NOW FULLY WORKING) */
         .menu-button {
-            display: block;
-            width: 280px;
-            margin: 12px auto;
-            padding: 18px;
-
-            background-color: #003580;
-            color: white;
-            text-decoration: none;
-
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1.1rem;
-
-            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
-                        box-shadow 0.2s ease,
-                        background-color 0.2s ease;
+            width: 100%;
         }
-
-        /* 🎯 WORKING HOVER JUMP */
-        .menu-button:hover { 
-            background-color: #00255a;
-
-            transform: translateY(-10px) scale(1.05);
-
-            box-shadow: 0 14px 28px rgba(0,0,0,0.25);
-        }
-
-        .menu-button:active {
-            transform: translateY(-3px) scale(0.98);
-        }
-
-        /* 6. ANIMATIONS */
-        @keyframes colorFlow {
-            0% { background-position: 0% center; }
-            100% { background-position: 200% center; }
-        }
-
-        @keyframes floatTitle {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes slideInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* 7. MOBILE */
-        @media (max-width: 600px) {
-            .header-title {
-                font-size: 1.8rem;
-                margin-bottom: 20px;
-            }
-
-            .content-wrapper {
-                padding: 20px;
-                width: 100%;
-            }
-
-            .menu-button {
-                width: 100%;
-            }
-        }
-
-    </style>
+    }
+</style>
 </head>
 
 <body>
 
-    <div class="header-title">Finnish Vocabulary Program</div>
+    <div class="header-title">WordNest</div>
 
     <div class="content-wrapper">
         {% block content %}
             <div class="menu-container">
 
                 <div class="menu-item">
-                    <a href="{% url 'add_word' %}" class="menu-button">1. Add new words</a>
+                    <a href="{% url 'add_word' %}" class="menu-button">📘 Add new words</a>
                 </div>
 
                 <div class="menu-item">
-                    <a href="{% url 'review_options' %}" class="menu-button">2. Review all words</a>
+                    <a href="{% url 'review_options' %}" class="menu-button">📚 Show all words</a>
                 </div>
 
                 <div class="menu-item">
-                    <a href="{% url 'show_words' %}" class="menu-button">3. Show all words</a>
+                    <a href="{% url 'show_words' %}" class="menu-button">🧠 Review all words</a>
                 </div>
 
                 <div class="menu-item">
-                    <a href="{% url 'vocabulary_sets' %}" class="menu-button">4. Vocabulary sets</a>
+                    <a href="{% url 'vocabulary_sets' %}" class="menu-button">🗂 Vocabulary sets</a>
                 </div>
 
                 {% for item in options %}
-                    {% if item not in "Add new words,Review all words,Show all words,Vocabulary sets" %}
+                    {% if item not in "Add new words,Review all words,Show all words,Vocabulary sets, Exit" %}
                         <div class="menu-item">
                             <a href="#" class="menu-button">
                                 {{ forloop.counter }}. {{ item }}
