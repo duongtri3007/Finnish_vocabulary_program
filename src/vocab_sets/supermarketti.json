@@ -1,0 +1,394 @@
+[
+    {
+        "fi": "tarjous",
+        "en": "offer",
+        "image": "no_image",
+        "sentence_fi": "Tuo on hyvä tarjous.",
+        "sentence_en": "It's a good deal."
+    },
+    {
+        "fi": "asiakas",
+        "en": "customer",
+        "image": "no_image",
+        "sentence_fi": "Olen vain asiakas.",
+        "sentence_en": "I am only a customer."
+    },
+    {
+        "fi": "maitotuotteet",
+        "en": "dairy products",
+        "image": "no_image",
+        "sentence_fi": "Wisconsin on tunnettu maitotuotteistaan, ei maitokarjasta.",
+        "sentence_en": "Wisconsin is known for its dairy, not for its dairy cows."
+    },
+    {
+        "fi": "hedelmät",
+        "en": "fruit",
+        "image": "no_image",
+        "sentence_fi": "Pidät hedelmistä.",
+        "sentence_en": "You like fruit."
+    },
+    {
+        "fi": "ostoskärryt",
+        "en": "shopping carts",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ostoskärryt.",
+        "sentence_en": "This is a shopping carts."
+    },
+    {
+        "fi": "teurastamo",
+        "en": "slaughterhouse",
+        "image": "no_image",
+        "sentence_fi": "Tässä on teurastamo.",
+        "sentence_en": "This is a slaughterhouse."
+    },
+    {
+        "fi": "leipomo",
+        "en": "bakery",
+        "image": "no_image",
+        "sentence_fi": "Moneltako leipomo sulkeutuu?",
+        "sentence_en": "What time does the baker's close?"
+    },
+    {
+        "fi": "punnita",
+        "en": "weigh",
+        "image": "no_image",
+        "sentence_fi": "Bussin kuljettaja ei ollut suuremmin vaikuttunut, kun Tom veti esiin 50 punnan setelin maksaakseen matkansa.",
+        "sentence_en": "The bus driver was not impressed when Tom pulled out a $50 note to pay his fare."
+    },
+    {
+        "fi": "kasvikset",
+        "en": "vegetables",
+        "image": "no_image",
+        "sentence_fi": "Syön perunamuusia kasviksilla iltaruoaksi.",
+        "sentence_en": "I am having mashed potatoes with vegetables for dinner."
+    },
+    {
+        "fi": "liha",
+        "en": "meat",
+        "image": "no_image",
+        "sentence_fi": "Syöttekö lihaa?",
+        "sentence_en": "Do you eat meat?"
+    },
+    {
+        "fi": "pakasteet",
+        "en": "frozen foods",
+        "image": "no_image",
+        "sentence_fi": "Liha täytyy pakastaa.",
+        "sentence_en": "The meat has to be frozen."
+    },
+    {
+        "fi": "leikkele",
+        "en": "cold cut",
+        "image": "no_image",
+        "sentence_fi": "Neljännellä luokalla me leikkelimme ravun.",
+        "sentence_en": "In fourth grade we dissected crayfish."
+    },
+    {
+        "fi": "säilykkeet",
+        "en": "preserves",
+        "image": "no_image",
+        "sentence_fi": "Ostan säilykkeet isoissa erissä.",
+        "sentence_en": "I buy canned goods in bulk."
+    },
+    {
+        "fi": "pesujauhe",
+        "en": "washing powder",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pesujauhe.",
+        "sentence_en": "This is a washing powder."
+    },
+    {
+        "fi": "makeiset",
+        "en": "confectionery",
+        "image": "no_image",
+        "sentence_fi": "Emily tykkää makeisista.",
+        "sentence_en": "Emily loves sweets."
+    },
+    {
+        "fi": "kotitaloustarvikkeet",
+        "en": "household supplies",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kotitaloustarvikkeet.",
+        "sentence_en": "This is a household supplies."
+    },
+    {
+        "fi": "puhdistusaineet",
+        "en": "cleaning agents",
+        "image": "no_image",
+        "sentence_fi": "Tässä on puhdistusaineet.",
+        "sentence_en": "This is a cleaning agents."
+    },
+    {
+        "fi": "myyjä",
+        "en": "seller",
+        "image": "no_image",
+        "sentence_fi": "”Teillä on kallis maku!” huudahti myyjä. ”Oletteko varma, että ette halua ensin katsella meidän edullisempia vaihtoehtojamme?”",
+        "sentence_en": "\"You have expensive taste!\" the shopkeeper exclaimed. \"Are you sure you don't want to look through our cheaper variants first?\""
+    },
+    {
+        "fi": "kassa",
+        "en": "cash",
+        "image": "no_image",
+        "sentence_fi": "Voisitko avata kassisi?",
+        "sentence_en": "Please open your bag."
+    },
+    {
+        "fi": "kassanhoitaja",
+        "en": "cashier",
+        "image": "no_image",
+        "sentence_fi": "Pankinjohtaja ei luottanut yhteen kassanhoitajista.",
+        "sentence_en": "The bank manager distrusted one of the cashiers."
+    },
+    {
+        "fi": "ostoslista",
+        "en": "shopping list",
+        "image": "no_image",
+        "sentence_fi": "Tässä on ostoslista.",
+        "sentence_en": "This is a shopping list."
+    },
+    {
+        "fi": "aukioloajat",
+        "en": "visiting hours",
+        "image": "no_image",
+        "sentence_fi": "Tässä on aukioloajat.",
+        "sentence_en": "This is a visiting hours."
+    },
+    {
+        "fi": "lompakko",
+        "en": "wallet",
+        "image": "no_image",
+        "sentence_fi": "Hukkasin lompakon.",
+        "sentence_en": "I have lost my wallet."
+    },
+    {
+        "fi": "luottokortti",
+        "en": "credit card",
+        "image": "no_image",
+        "sentence_fi": "Jätin luottokortin kotiin.",
+        "sentence_en": "I've left my credit card at home."
+    },
+    {
+        "fi": "kassi",
+        "en": "bag",
+        "image": "no_image",
+        "sentence_fi": "Kas niin.",
+        "sentence_en": "Here it is."
+    },
+    {
+        "fi": "kala",
+        "en": "fish",
+        "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmaXNofGVufDB8fHx8MTc3NzMxNjg1NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Syötkö kalaa?",
+        "sentence_en": "Do you eat fish?"
+    },
+    {
+        "fi": "muovipussi",
+        "en": "plastic bag",
+        "image": "no_image",
+        "sentence_fi": "Tomi tukehdutti Marin muovipussilla.",
+        "sentence_en": "Tom suffocated Mary with a plastic bag."
+    },
+    {
+        "fi": "öljy",
+        "en": "oil",
+        "image": "https://images.unsplash.com/photo-1627436712678-960862eac951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvaWx8ZW58MHx8fHwxNzc3MzI0MTcwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Paperi imee öljyä.",
+        "sentence_en": "Paper absorbs oil."
+    },
+    {
+        "fi": "hedelmät",
+        "en": "fruit",
+        "image": "no_image",
+        "sentence_fi": "Syön hedelmää.",
+        "sentence_en": "I eat fruit."
+    },
+    {
+        "fi": "maito",
+        "en": "milk",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtaWxrfGVufDB8fHx8MTc3NzMyMjUxNXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Paskoin maitoosi.",
+        "sentence_en": "I shit in your milk."
+    },
+    {
+        "fi": "suklaapähkinälevite",
+        "en": "chocolate nut spread",
+        "image": "no_image",
+        "sentence_fi": "Tässä on suklaapähkinälevite.",
+        "sentence_en": "This is a chocolate nut spread."
+    },
+    {
+        "fi": "raha",
+        "en": "monetary",
+        "image": "no_image",
+        "sentence_fi": "Löysin rahat.",
+        "sentence_en": "I found the money."
+    },
+    {
+        "fi": "voi",
+        "en": "Oh",
+        "image": "https://images.unsplash.com/photo-1513712364966-5b57e5e256cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxPaHxlbnwwfHx8fDE3NzczMTkyNTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Oi voi.",
+        "sentence_en": "What a pity!"
+    },
+    {
+        "fi": "paahtoleipä",
+        "en": "toast",
+        "image": "https://images.unsplash.com/photo-1612827788868-c8632040ab64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b2FzdHxlbnwwfHx8fDE3NzczMTkyMjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Paahtoleipä on palanut mustaksi.",
+        "sentence_en": "The toast has burned black."
+    },
+    {
+        "fi": "sokeri",
+        "en": "sugar",
+        "image": "no_image",
+        "sentence_fi": "Sokeria!",
+        "sentence_en": "Sugar!"
+    },
+    {
+        "fi": "majoneesi",
+        "en": "mayonnaise",
+        "image": "no_image",
+        "sentence_fi": "Onko majoneesi soitin?",
+        "sentence_en": "Is mayonnaise a musical instrument?"
+    },
+    {
+        "fi": "peruna",
+        "en": "potato",
+        "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwb3RhdG98ZW58MHx8fHwxNzc3MzE2Mzk4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kreikka peruu kansanäänestyksen.",
+        "sentence_en": "Greece cancels the referendum."
+    },
+    {
+        "fi": "jäätelö",
+        "en": "ice cream",
+        "image": "no_image",
+        "sentence_fi": "Haluan jäätelön.",
+        "sentence_en": "I want an ice cream."
+    },
+    {
+        "fi": "voisarvi",
+        "en": "croissant",
+        "image": "https://images.unsplash.com/photo-1623334044303-241021148842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjcm9pc3NhbnR8ZW58MHx8fHwxNzc3MzE5MTQxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on voisarvi.",
+        "sentence_en": "This is a croissant."
+    },
+    {
+        "fi": "maitotuotteet",
+        "en": "dairy products",
+        "image": "no_image",
+        "sentence_fi": "Wisconsin on tunnettu maitotuotteistaan, ei maitokarjasta.",
+        "sentence_en": "Wisconsin is known for its dairy, not for its dairy cows."
+    },
+    {
+        "fi": "meloni",
+        "en": "melon",
+        "image": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtZWxvbnxlbnwwfHx8fDE3NzczMTg3NTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on meloni.",
+        "sentence_en": "This is a melon."
+    },
+    {
+        "fi": "tori",
+        "en": "market",
+        "image": "no_image",
+        "sentence_fi": "Moneltako tori avataan?",
+        "sentence_en": "At what time does the market open?"
+    },
+    {
+        "fi": "suola",
+        "en": "salt",
+        "image": "no_image",
+        "sentence_fi": "Ojentaisitko suolan?",
+        "sentence_en": "Pass me the salt."
+    },
+    {
+        "fi": "vaipa",
+        "en": "diaper",
+        "image": "no_image",
+        "sentence_fi": "Vauvan vaipat pitää vaihtaa.",
+        "sentence_en": "The baby needs a diaper change."
+    },
+    {
+        "fi": "ruoka",
+        "en": "food",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb29kfGVufDB8fHx8MTc3NzMxODcwOXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Olen ruokaa.",
+        "sentence_en": "I am food."
+    },
+    {
+        "fi": "hinta",
+        "en": "price",
+        "image": "https://images.unsplash.com/photo-1711606815631-38d32cdaec3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwcmljZXxlbnwwfHx8fDE3NzczMjcyMzN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hinnat laskivat.",
+        "sentence_en": "The prices have gone down."
+    },
+    {
+        "fi": "hillo",
+        "en": "jam",
+        "image": "no_image",
+        "sentence_fi": "Mikä on hillon ja marmelaadin ero?",
+        "sentence_en": "What's the difference between jam and marmalade?"
+    },
+    {
+        "fi": "sämpylä",
+        "en": "roll",
+        "image": "https://images.unsplash.com/photo-1604908816649-c8bdfc3ca68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyb2xsfGVufDB8fHx8MTc3NzMxOTE1MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom osti sämpylän.",
+        "sentence_en": "Tom bought rolls."
+    },
+    {
+        "fi": "keksit",
+        "en": "cookies",
+        "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb29raWVzfGVufDB8fHx8MTc3NzMxOTI0MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Saisinko keksin?",
+        "sentence_en": "Can I have a cookie?"
+    },
+    {
+        "fi": "murot",
+        "en": "cereals",
+        "image": "https://images.unsplash.com/photo-1582407123556-59f95920eeaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjZXJlYWxzfGVufDB8fHx8MTc3NzMxOTExNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom kaatoi muroja kulhoon.",
+        "sentence_en": "Tom poured some cereal into a bowl."
+    },
+    {
+        "fi": "juusto",
+        "en": "cheese",
+        "image": "https://images.unsplash.com/photo-1683314573422-649a3c6ad784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGVlc2V8ZW58MHx8fHwxNzc3MzE5Mjg5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pidän juustosta.",
+        "sentence_en": "I love cheese."
+    },
+    {
+        "fi": "kananmuna",
+        "en": "egg",
+        "image": "https://images.unsplash.com/photo-1607690424560-35d967d6ad7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlZ2d8ZW58MHx8fHwxNzc3MzE5Mjc2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomilla on kananmuna-allergia.",
+        "sentence_en": "Tom is allergic to eggs."
+    },
+    {
+        "fi": "kana",
+        "en": "chicken",
+        "image": "https://images.unsplash.com/photo-1612170153139-6f881ff067e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGlja2VufGVufDB8fHx8MTc3NzMxNjg0Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kana, kiitos.",
+        "sentence_en": "Chicken, please."
+    },
+    {
+        "fi": "supermarketti",
+        "en": "supermarket",
+        "image": "no_image",
+        "sentence_fi": "Onko näillä main supermarkettia?",
+        "sentence_en": "Is there a supermarket around here?"
+    },
+    {
+        "fi": "kaurahiutaleet",
+        "en": "oatmeal",
+        "image": "https://images.unsplash.com/photo-1584970922591-5b91e5f927a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvYXRtZWFsfGVufDB8fHx8MTc3NzMxOTA5NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on kaurahiutaleet.",
+        "sentence_en": "This is a oatmeal."
+    },
+    {
+        "fi": "jauho",
+        "en": "flour",
+        "image": "https://images.unsplash.com/photo-1610725664285-7c57e6eeac3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmbG91cnxlbnwwfHx8fDE3NzczMTkxMjh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ostan jauhoa.",
+        "sentence_en": "I'm buying flour."
+    }
+]
