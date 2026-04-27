@@ -1,0 +1,163 @@
+[
+    {
+        "fi": "pihdit",
+        "en": "pliers",
+        "image": "no_image",
+        "sentence_fi": "Minulla on pihdit autossani.",
+        "sentence_en": "I've got pliers in my car."
+    },
+    {
+        "fi": "vasara",
+        "en": "hammer",
+        "image": "no_image",
+        "sentence_fi": "Minä tarvitsen vasaran.",
+        "sentence_en": "I need a hammer."
+    },
+    {
+        "fi": "ruuvimeisseli",
+        "en": "screwdriver",
+        "image": "no_image",
+        "sentence_fi": "Voisinko saada ruuvimeisselin?",
+        "sentence_en": "Could I have a screwdriver?"
+    },
+    {
+        "fi": "taskulamppu",
+        "en": "flashlight",
+        "image": "no_image",
+        "sentence_fi": "Sinä tarvitset taskulamppua.",
+        "sentence_en": "You'll need a flashlight."
+    },
+    {
+        "fi": "jakoavain",
+        "en": "spanner",
+        "image": "no_image",
+        "sentence_fi": "Tässä on jakoavain.",
+        "sentence_en": "This is a spanner."
+    },
+    {
+        "fi": "kaivinkone",
+        "en": "shovel",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kaivinkone.",
+        "sentence_en": "This is a shovel."
+    },
+    {
+        "fi": "työkalupakki",
+        "en": "tool box",
+        "image": "no_image",
+        "sentence_fi": "Tuo työkalupakkisi.",
+        "sentence_en": "Bring your tool box."
+    },
+    {
+        "fi": "tikkaat",
+        "en": "ladder",
+        "image": "no_image",
+        "sentence_fi": "Hän tarvitsi viisi tikkiä.",
+        "sentence_en": "He needed five stitches."
+    },
+    {
+        "fi": "saha",
+        "en": "saw",
+        "image": "no_image",
+        "sentence_fi": "Minä tarvitsen sahan.",
+        "sentence_en": "I need a saw."
+    },
+    {
+        "fi": "naulat",
+        "en": "the nails",
+        "image": "no_image",
+        "sentence_fi": "Osuit naulan kantaan!",
+        "sentence_en": "You nailed it!"
+    },
+    {
+        "fi": "pora",
+        "en": "drill",
+        "image": "no_image",
+        "sentence_fi": "Heillä oli aikeena porata öljyä.",
+        "sentence_en": "They intended to drill for oil."
+    },
+    {
+        "fi": "korjata",
+        "en": "fix",
+        "image": "no_image",
+        "sentence_fi": "Korjaapa käytöstäsi.",
+        "sentence_en": "Mind your manners."
+    },
+    {
+        "fi": "lapio",
+        "en": "shovel",
+        "image": "no_image",
+        "sentence_fi": "Myytkö täällä lapioita?",
+        "sentence_en": "Do you sell shovels here?"
+    },
+    {
+        "fi": "Hitto!",
+        "en": "Deuce!",
+        "image": "no_image",
+        "sentence_fi": "Hitto mikä tekopyhä!",
+        "sentence_en": "What a hypocrite!"
+    },
+    {
+        "fi": "rikkalapio",
+        "en": "dustpan",
+        "image": "no_image",
+        "sentence_fi": "Tässä on rikkalapio.",
+        "sentence_en": "This is a dustpan."
+    },
+    {
+        "fi": "maalipurkki",
+        "en": "paint can",
+        "image": "no_image",
+        "sentence_fi": "Tässä on maalipurkki.",
+        "sentence_en": "This is a paint can."
+    },
+    {
+        "fi": "ruuvit",
+        "en": "screws",
+        "image": "no_image",
+        "sentence_fi": "Kiristä ruuvi!",
+        "sentence_en": "Tighten the screw."
+    },
+    {
+        "fi": "sakset",
+        "en": "scissors",
+        "image": "https://images.unsplash.com/photo-1503792501406-2c40da09e1e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzY2lzc29yc3xlbnwwfHx8fDE3NzczMjI3OTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Opin saksaa.",
+        "sentence_en": "I study German."
+    },
+    {
+        "fi": "sirppi",
+        "en": "sickle",
+        "image": "no_image",
+        "sentence_fi": "Tässä on sirppi.",
+        "sentence_en": "This is a sickle."
+    },
+    {
+        "fi": "kirves",
+        "en": "ax",
+        "image": "no_image",
+        "sentence_fi": "Tämä on kirves.",
+        "sentence_en": "This is an axe."
+    },
+    {
+        "fi": "viikate",
+        "en": "scythe",
+        "image": "no_image",
+        "sentence_fi": "Tässä on viikate.",
+        "sentence_en": "This is a scythe."
+    },
+    {
+        "fi": "kuokka",
+        "en": "hoe",
+        "image": "no_image",
+        "sentence_fi": "Kuokin Tomin luona kolme yötä.",
+        "sentence_en": "I crashed at Tom's place for three nights."
+    },
+    {
+        "fi": "aura",
+        "en": "aura",
+        "image": "no_image",
+        "sentence_fi": "Hyvä vaimo on kultaisen auran arvoinen.",
+        "sentence_en": "A good wife is worth a golden plow."
+    }
+]
