@@ -1,0 +1,296 @@
+[
+    {
+        "fi": "tapetti",
+        "en": "wallpaper",
+        "image": "no_image",
+        "sentence_fi": "Poliisi tapettiin.",
+        "sentence_en": "A cop was killed."
+    },
+    {
+        "fi": "kuva",
+        "en": "picture",
+        "image": "no_image",
+        "sentence_fi": "Haluaisin kuvasi.",
+        "sentence_en": "I would like your picture."
+    },
+    {
+        "fi": "lamppu",
+        "en": "lamp",
+        "image": "no_image",
+        "sentence_fi": "Lamppu paloi.",
+        "sentence_en": "The light bulb burned out."
+    },
+    {
+        "fi": "kaappi",
+        "en": "cabinet",
+        "image": "no_image",
+        "sentence_fi": "Katsoin kaappiin.",
+        "sentence_en": "I looked in the cupboard."
+    },
+    {
+        "fi": "hylly",
+        "en": "shelf",
+        "image": "no_image",
+        "sentence_fi": "Hyllyt ovat tyhjät.",
+        "sentence_en": "The shelves are empty."
+    },
+    {
+        "fi": "takka",
+        "en": "fireplace",
+        "image": "no_image",
+        "sentence_fi": "Liikavarpaan takia!",
+        "sentence_en": "For corn's sake!"
+    },
+    {
+        "fi": "televisio",
+        "en": "TV",
+        "image": "no_image",
+        "sentence_fi": "Katsotaan televisiota.",
+        "sentence_en": "Let's watch TV."
+    },
+    {
+        "fi": "tyyny",
+        "en": "pillow",
+        "image": "no_image",
+        "sentence_fi": "Tyynyni odottaa minua.",
+        "sentence_en": "My pillow is waiting for me."
+    },
+    {
+        "fi": "sohva",
+        "en": "sofa",
+        "image": "no_image",
+        "sentence_fi": "Siirretään sohva.",
+        "sentence_en": "Let's move the sofa."
+    },
+    {
+        "fi": "kukka",
+        "en": "flower",
+        "image": "no_image",
+        "sentence_fi": "Omenapuumme kukkii.",
+        "sentence_en": "Our apple tree is blooming."
+    },
+    {
+        "fi": "maljakko",
+        "en": "vase",
+        "image": "no_image",
+        "sentence_fi": "Pöydällä on maljakko.",
+        "sentence_en": "There is a vase on the table."
+    },
+    {
+        "fi": "matto",
+        "en": "carpet",
+        "image": "no_image",
+        "sentence_fi": "Koira istuu matolla.",
+        "sentence_en": "The dog is sitting on the carpet."
+    },
+    {
+        "fi": "verho",
+        "en": "curtain",
+        "image": "no_image",
+        "sentence_fi": "Voinko avata verhot?",
+        "sentence_en": "Is it okay if I open the curtain?"
+    },
+    {
+        "fi": "pöytä",
+        "en": "table",
+        "image": "no_image",
+        "sentence_fi": "Kattakaa pöytä!",
+        "sentence_en": "Lay the table!"
+    },
+    {
+        "fi": "tuoli",
+        "en": "chair",
+        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGFpcnxlbnwwfHx8fDE3NzczMjQwMDV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Jätä tuolit silleen.",
+        "sentence_en": "Leave the chairs as they are."
+    },
+    {
+        "fi": "keinutuoli",
+        "en": "rocking chair",
+        "image": "no_image",
+        "sentence_fi": "Rakastan keinutuoleja!",
+        "sentence_en": "I love rocking chairs!"
+    },
+    {
+        "fi": "nojatuoli",
+        "en": "armchair",
+        "image": "no_image",
+        "sentence_fi": "Tämä on todella mukava nojatuoli istua.",
+        "sentence_en": "This is a very comfortable armchair."
+    },
+    {
+        "fi": "kirja",
+        "en": "book",
+        "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib29rfGVufDB8fHx8MTc3NzMyMjcyNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kirjoita.",
+        "sentence_en": "Type!"
+    },
+    {
+        "fi": "peitto",
+        "en": "cover",
+        "image": "no_image",
+        "sentence_fi": "Tomi käpertyi peittojen alle.",
+        "sentence_en": "Tom crawled under the blankets."
+    },
+    {
+        "fi": "koriste",
+        "en": "ornament",
+        "image": "no_image",
+        "sentence_fi": "Pelaaksä korist hyvin?",
+        "sentence_en": "Are you good at basketball?"
+    },
+    {
+        "fi": "polttopuut",
+        "en": "firewood",
+        "image": "no_image",
+        "sentence_fi": "Voisitko auttaa minua keräämään polttopuita.",
+        "sentence_en": "I'd like you to help me gather some firewood."
+    },
+    {
+        "fi": "elokuva",
+        "en": "movie",
+        "image": "no_image",
+        "sentence_fi": "Pidätkö elokuvista?",
+        "sentence_en": "Do you like movies?"
+    },
+    {
+        "fi": "stereot",
+        "en": "stereo",
+        "image": "no_image",
+        "sentence_fi": "Laittaisitko stereoita pienemmälle.",
+        "sentence_en": "Would you turn down the stereo a little?"
+    },
+    {
+        "fi": "avain",
+        "en": "key",
+        "image": "no_image",
+        "sentence_fi": "Avaamme oven.",
+        "sentence_en": "We open the door."
+    },
+    {
+        "fi": "sanomalehti",
+        "en": "newspaper",
+        "image": "no_image",
+        "sentence_fi": "En löydä sanomalehteä.",
+        "sentence_en": "I can't find the newspaper."
+    },
+    {
+        "fi": "maalaus",
+        "en": "painting",
+        "image": "no_image",
+        "sentence_fi": "Mitä tämä maalaus esittää?",
+        "sentence_en": "What does this painting represent?"
+    },
+    {
+        "fi": "juliste",
+        "en": "poster",
+        "image": "no_image",
+        "sentence_fi": "Katsoin sitä julistetta.",
+        "sentence_en": "I looked at the poster."
+    },
+    {
+        "fi": "radio",
+        "en": "radio",
+        "image": "no_image",
+        "sentence_fi": "Suljin radion.",
+        "sentence_en": "I turned the radio off."
+    },
+    {
+        "fi": "muistivihko",
+        "en": "notebook",
+        "image": "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxub3RlYm9va3xlbnwwfHx8fDE3NzczMjM5Mjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Minulla on aina mukana muistivihko.",
+        "sentence_en": "I always have a notepad."
+    },
+    {
+        "fi": "pölynimuri",
+        "en": "vacuum cleaner",
+        "image": "no_image",
+        "sentence_fi": "Imuroin pölyt lattialta pölynimurilla.",
+        "sentence_en": "I sucked up the dust on the floor with a vacuum cleaner."
+    },
+    {
+        "fi": "kaktus",
+        "en": "cactus",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kaktus.",
+        "sentence_en": "This is a cactus."
+    },
+    {
+        "fi": "kynttilä",
+        "en": "candle",
+        "image": "no_image",
+        "sentence_fi": "Sytytin kynttilän.",
+        "sentence_en": "I lit a candle."
+    },
+    {
+        "fi": "tyyny",
+        "en": "pillow",
+        "image": "no_image",
+        "sentence_fi": "Saisinko tyynyn, kiitos.",
+        "sentence_en": "Can I get a pillow?"
+    },
+    {
+        "fi": "shakki",
+        "en": "chess",
+        "image": "no_image",
+        "sentence_fi": "Pelataan shakkia.",
+        "sentence_en": "Let's play chess."
+    },
+    {
+        "fi": "korttipeli",
+        "en": "card game",
+        "image": "no_image",
+        "sentence_fi": "Tässä on korttipeli.",
+        "sentence_en": "This is a card game."
+    },
+    {
+        "fi": "harja",
+        "en": "brush",
+        "image": "https://images.unsplash.com/photo-1622542796254-5b9c46ab0d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxicnVzaHxlbnwwfHx8fDE3NzczMjI3ODJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Harjoita armollisuutta.",
+        "sentence_en": "Practice mercy."
+    },
+    {
+        "fi": "maljakko",
+        "en": "vase",
+        "image": "no_image",
+        "sentence_fi": "Täyttäkää maljakko vedellä.",
+        "sentence_en": "Fill the flower vase with water."
+    },
+    {
+        "fi": "kissa",
+        "en": "cat",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXR8ZW58MHx8fHwxNzc3MzE2NjQ3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ikävöin kissaani.",
+        "sentence_en": "I miss my cat."
+    },
+    {
+        "fi": "puhelin",
+        "en": "phone",
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwaG9uZXxlbnwwfHx8fDE3NzczMjcyNzR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Puhelin soi.",
+        "sentence_en": "The telephone is ringing."
+    },
+    {
+        "fi": "kello",
+        "en": "clock",
+        "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjbG9ja3xlbnwwfHx8fDE3NzczMjM5MzB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kuulin kellon.",
+        "sentence_en": "I heard the bell."
+    },
+    {
+        "fi": "olohuone",
+        "en": "living room",
+        "image": "no_image",
+        "sentence_fi": "Tomi nukkuu olohuoneessa.",
+        "sentence_en": "Tom is sleeping in the living room."
+    },
+    {
+        "fi": "kaukosäädin",
+        "en": "remote control",
+        "image": "no_image",
+        "sentence_fi": "Anna kaukosäädin.",
+        "sentence_en": "Hand me the remote."
+    }
+]
