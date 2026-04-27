@@ -1,0 +1,93 @@
+[
+    {
+        "fi": "mummo",
+        "en": "grandma",
+        "image": "no_image",
+        "sentence_fi": "Mummo paloi kuoliaaksi.",
+        "sentence_en": "An old woman was burnt to death."
+    },
+    {
+        "fi": "ukki",
+        "en": "grandpa",
+        "image": "no_image",
+        "sentence_fi": "Minun ukkini on yhä terve sekä fyysisesti että psyykkisesti.",
+        "sentence_en": "My grandfather is still sound in mind and body."
+    },
+    {
+        "fi": "isä",
+        "en": "father",
+        "image": "https://images.unsplash.com/photo-1560328055-e938bb2ed50a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmYXRoZXJ8ZW58MHx8fHwxNzc3MzE3MzE2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Olet isäni.",
+        "sentence_en": "You are my father."
+    },
+    {
+        "fi": "äiti",
+        "en": "mother",
+        "image": "https://images.unsplash.com/photo-1581998392741-67879e0ef04a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtb3RoZXJ8ZW58MHx8fHwxNzc3MzE3MzM3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kiitti äiti.",
+        "sentence_en": "Thanks, Mom."
+    },
+    {
+        "fi": "vauva",
+        "en": "baby",
+        "image": "no_image",
+        "sentence_fi": "Vauva itkee.",
+        "sentence_en": "The baby is crying."
+    },
+    {
+        "fi": "tytär",
+        "en": "daughter",
+        "image": "no_image",
+        "sentence_fi": "Minulla on tytär.",
+        "sentence_en": "I have a daughter."
+    },
+    {
+        "fi": "poika",
+        "en": "son",
+        "image": "no_image",
+        "sentence_fi": "Poika!",
+        "sentence_en": "Fire!"
+    },
+    {
+        "fi": "vieras",
+        "en": "guest",
+        "image": "no_image",
+        "sentence_fi": "Tomi oli kutsumaton vieras.",
+        "sentence_en": "Tom was an uninvited guest."
+    },
+    {
+        "fi": "täti",
+        "en": "aunt",
+        "image": "no_image",
+        "sentence_fi": "Hän on tätinsä kasvattama.",
+        "sentence_en": "She was brought up by her aunt."
+    },
+    {
+        "fi": "veli",
+        "en": "brother",
+        "image": "no_image",
+        "sentence_fi": "Mun veli puhuu liikaa.",
+        "sentence_en": "My brother talks too much."
+    },
+    {
+        "fi": "setä",
+        "en": "uncle",
+        "image": "no_image",
+        "sentence_fi": "Setäni työskentelee majakalla.",
+        "sentence_en": "My uncle works in a lighthouse."
+    },
+    {
+        "fi": "sisko",
+        "en": "sister",
+        "image": "no_image",
+        "sentence_fi": "Tunnetko siskoni?",
+        "sentence_en": "Do you know my sister?"
+    },
+    {
+        "fi": "veli / sisko",
+        "en": "brother / sister",
+        "image": "no_image",
+        "sentence_fi": "Minulla on yksi sisko ja yksi veli.",
+        "sentence_en": "I have a sister and a brother."
+    }
+]
