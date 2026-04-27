@@ -1,0 +1,457 @@
+[
+    {
+        "fi": "jääkaappi",
+        "en": "fridge",
+        "image": "no_image",
+        "sentence_fi": "Kuka korjasi jääkaappisi?",
+        "sentence_en": "Who repaired your fridge?"
+    },
+    {
+        "fi": "mikroaaltouuni",
+        "en": "microwave oven",
+        "image": "no_image",
+        "sentence_fi": "Mikroaaltouuni lämmittää ruoan hetkessä.",
+        "sentence_en": "A microwave oven gets food hot in an instant."
+    },
+    {
+        "fi": "keittiövaaka",
+        "en": "kitchen scale",
+        "image": "no_image",
+        "sentence_fi": "Tässä on keittiövaaka.",
+        "sentence_en": "This is a kitchen scale."
+    },
+    {
+        "fi": "leivänpaahdin",
+        "en": "toaster",
+        "image": "no_image",
+        "sentence_fi": "Tässä on leivänpaahdin.",
+        "sentence_en": "This is a toaster."
+    },
+    {
+        "fi": "pesuaine",
+        "en": "detergent",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pesuaine.",
+        "sentence_en": "This is a detergent."
+    },
+    {
+        "fi": "leivinuuni",
+        "en": "baking oven",
+        "image": "no_image",
+        "sentence_fi": "Tässä on leivinuuni.",
+        "sentence_en": "This is a baking oven."
+    },
+    {
+        "fi": "pakastinlokero",
+        "en": "freezer compartment",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pakastinlokero.",
+        "sentence_en": "This is a freezer compartment."
+    },
+    {
+        "fi": "astianpesukone",
+        "en": "dishwasher",
+        "image": "no_image",
+        "sentence_fi": "Tyhjensitkö astianpesukoneen?",
+        "sentence_en": "Did you empty the dishwasher?"
+    },
+    {
+        "fi": "roska-astia",
+        "en": "trash can",
+        "image": "https://images.unsplash.com/photo-1683516435482-f3cea544ee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFzaCUyMGNhbnxlbnwwfHx8fDE3NzczMjM5MTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on roska-astia.",
+        "sentence_en": "This is a trash can."
+    },
+    {
+        "fi": "liesi",
+        "en": "stove",
+        "image": "no_image",
+        "sentence_fi": "Tässä on liesi.",
+        "sentence_en": "This is a stove."
+    },
+    {
+        "fi": "kattila",
+        "en": "saucepan",
+        "image": "no_image",
+        "sentence_fi": "Tein keittoa isossa kattilassa.",
+        "sentence_en": "I made soup using a large pan."
+    },
+    {
+        "fi": "rautapata",
+        "en": "Iron cauldron",
+        "image": "https://images.unsplash.com/photo-1688940739784-4ca316eb7418?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxJcm9uJTIwY2F1bGRyb258ZW58MHx8fHwxNzc3MzMwODA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on rautapata.",
+        "sentence_en": "This is a Iron cauldron."
+    },
+    {
+        "fi": "vokkipannu / kadai-pannu",
+        "en": "wok / kadai pan",
+        "image": "https://images.unsplash.com/photo-1688399138645-4af9616bf0b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3b2slMjAlMkYlMjBrYWRhaSUyMHBhbnxlbnwwfHx8fDE3NzczMzA4MTN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on vokkipannu / kadai-pannu.",
+        "sentence_en": "This is a wok / kadai pan."
+    },
+    {
+        "fi": "paistinpannu",
+        "en": "frying pan",
+        "image": "https://images.unsplash.com/photo-1624031000828-dba1b7a3e4ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmcnlpbmclMjBwYW58ZW58MHx8fHwxNzc3MzMwODI2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomi paukuttaa paistinpannua isolla lusikalla.",
+        "sentence_en": "Tom is banging the skillet with a big spoon."
+    },
+    {
+        "fi": "teepannu",
+        "en": "teakettle",
+        "image": "https://images.unsplash.com/photo-1755257116173-ff2269223971?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWFrZXR0bGV8ZW58MHx8fHwxNzc3MzMwODMxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Äiti, teepannu kiehuu.",
+        "sentence_en": "Mom, the kettle is boiling."
+    },
+    {
+        "fi": "höyrykeitin",
+        "en": "steam cooker",
+        "image": "https://images.unsplash.com/photo-1734594683564-cadeeaefd6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzdGVhbSUyMGNvb2tlcnxlbnwwfHx8fDE3NzczMzA4MzV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on höyrykeitin.",
+        "sentence_en": "This is a steam cooker."
+    },
+    {
+        "fi": "uunipelti",
+        "en": "oven tray",
+        "image": "https://images.unsplash.com/photo-1686908536759-4702520184b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvdmVuJTIwdHJheXxlbnwwfHx8fDE3NzczMzA4Mzh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on uunipelti.",
+        "sentence_en": "This is a oven tray."
+    },
+    {
+        "fi": "astiat",
+        "en": "dishes",
+        "image": "https://images.unsplash.com/photo-1484632152040-840235adc262?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkaXNoZXN8ZW58MHx8fHwxNzc3MzMwODQzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pesin astiat.",
+        "sentence_en": "I washed the dishes."
+    },
+    {
+        "fi": "muki",
+        "en": "mug",
+        "image": "https://images.unsplash.com/photo-1516390118834-21602d501886?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtdWd8ZW58MHx8fHwxNzc3MzMwODQ2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Onko tuo minun mukini?",
+        "sentence_en": "Is that my mug?"
+    },
+    {
+        "fi": "kulho",
+        "en": "bowl",
+        "image": "https://images.unsplash.com/photo-1510035618584-c442b241abe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib3dsfGVufDB8fHx8MTc3NzMzMDg1Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Onko sinulla suurempaa kulhoa?",
+        "sentence_en": "Do you have a bigger bowl?"
+    },
+    {
+        "fi": "syömäpuikot",
+        "en": "chopsticks",
+        "image": "https://images.unsplash.com/photo-1544621678-f17b5b909559?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaG9wc3RpY2tzfGVufDB8fHx8MTc3NzMzMDg1NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kuinka käytän syömäpuikkoja?",
+        "sentence_en": "How do I use chopsticks?"
+    },
+    {
+        "fi": "kauhe",
+        "en": "terrible",
+        "image": "https://images.unsplash.com/photo-1582751249654-b04acafcac8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZXJyaWJsZXxlbnwwfHx8fDE3NzczMzA4NjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Voi kauhea!",
+        "sentence_en": "Alas."
+    },
+    {
+        "fi": "vispilä",
+        "en": "whisk",
+        "image": "https://images.unsplash.com/photo-1597666729704-0a7c3a24a8a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3aGlza3xlbnwwfHx8fDE3NzczMzA4NzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on vispilä.",
+        "sentence_en": "This is a whisk."
+    },
+    {
+        "fi": "siivilä",
+        "en": "strainer",
+        "image": "https://images.unsplash.com/photo-1585505642358-2cd65f5c39d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzdHJhaW5lcnxlbnwwfHx8fDE3NzczMzA4ODF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on siivilä.",
+        "sentence_en": "This is a strainer."
+    },
+    {
+        "fi": "paistinlasta",
+        "en": "frying pan",
+        "image": "https://images.unsplash.com/photo-1624031000828-dba1b7a3e4ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmcnlpbmclMjBwYW58ZW58MHx8fHwxNzc3MzMwODI2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on paistinlasta.",
+        "sentence_en": "This is a frying pan."
+    },
+    {
+        "fi": "siivilä",
+        "en": "strainer",
+        "image": "https://images.unsplash.com/photo-1585505642358-2cd65f5c39d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzdHJhaW5lcnxlbnwwfHx8fDE3NzczMzA4ODF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on siivilä.",
+        "sentence_en": "This is a strainer."
+    },
+    {
+        "fi": "raastin",
+        "en": "grater",
+        "image": "https://images.unsplash.com/photo-1662041486963-7e0ad12f59ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxncmF0ZXJ8ZW58MHx8fHwxNzc3MzMwOTE5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tupakointi raastaa sun keuhkot riekaleiksi.",
+        "sentence_en": "Smoking does damage your lungs."
+    },
+    {
+        "fi": "mortteli",
+        "en": "mortar",
+        "image": "https://images.unsplash.com/photo-1626100288479-cacf72aa1777?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtb3J0YXJ8ZW58MHx8fHwxNzc3MzMwOTI0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on mortteli.",
+        "sentence_en": "This is a mortar."
+    },
+    {
+        "fi": "grilli",
+        "en": "barbecue",
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYXJiZWN1ZXxlbnwwfHx8fDE3NzczMzA5Mjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ne jutut, joissa pistetään vaahtokarkkeja vartaisiin ja grillataan ne tulella. En tiedä niiden nimeä, mutta ne näyttivät ihan sika hyviltä. Kokeillaan tehdä niitä joku kerta kotonakin.",
+        "sentence_en": "You know, the ones where you skewer some marshmallows and roast them. I don't know what they're called but they're really good. Let's try roasting some at my place sometime, too."
+    },
+    {
+        "fi": "avotuli",
+        "en": "open fire",
+        "image": "https://images.unsplash.com/photo-1634540635012-e0b263fa1903?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvcGVuJTIwZmlyZXxlbnwwfHx8fDE3NzczMzA5MzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on avotuli.",
+        "sentence_en": "This is a open fire."
+    },
+    {
+        "fi": "leikkuulauta",
+        "en": "cutting board",
+        "image": "https://images.unsplash.com/photo-1666013942797-9daa4b8b3b4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjdXR0aW5nJTIwYm9hcmR8ZW58MHx8fHwxNzc3MzMwOTM0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on leikkuulauta.",
+        "sentence_en": "This is a cutting board."
+    },
+    {
+        "fi": "kaulin",
+        "en": "rolling pin",
+        "image": "https://images.unsplash.com/photo-1583898621714-f7a9e57f84ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyb2xsaW5nJTIwcGlufGVufDB8fHx8MTc3NzMzMDk0MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on kaulin.",
+        "sentence_en": "This is a rolling pin."
+    },
+    {
+        "fi": "korkinavaaja",
+        "en": "corkscrew",
+        "image": "https://images.unsplash.com/photo-1669643220099-00f15b1d2efc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb3Jrc2NyZXd8ZW58MHx8fHwxNzc3MzMwOTQ1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on korkinavaaja.",
+        "sentence_en": "This is a corkscrew."
+    },
+    {
+        "fi": "purrki",
+        "en": "took a bite",
+        "image": "https://images.unsplash.com/photo-1759770264579-89aefc9fe1fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b29rJTIwYSUyMGJpdGV8ZW58MHx8fHwxNzc3MzMwOTUyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on purrki.",
+        "sentence_en": "This is a took a bite."
+    },
+    {
+        "fi": "purkinavaaja",
+        "en": "a can opener",
+        "image": "https://images.unsplash.com/photo-1598404349252-2c6550246537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhJTIwY2FuJTIwb3BlbmVyfGVufDB8fHx8MTc3NzMzMDk1Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Useimmat työvälineet, kuten purkinavaajat ja sakset, tehdään oikeakätisille.",
+        "sentence_en": "Most utensils, such as can openers and scissors, are made for right-handers."
+    },
+    {
+        "fi": "pannulappu",
+        "en": "pot holder",
+        "image": "https://images.unsplash.com/photo-1597545702430-7fb9f77aac32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwb3QlMjBob2xkZXJ8ZW58MHx8fHwxNzc3MzMxMDA0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on pannulappu.",
+        "sentence_en": "This is a pot holder."
+    },
+    {
+        "fi": "lavuaari",
+        "en": "sink",
+        "image": "https://images.unsplash.com/photo-1609210884848-2d530cfb2a07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaW5rfGVufDB8fHx8MTc3NzMzMTAwOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lavuaari on graniittia.",
+        "sentence_en": "The washbasin is made of granite."
+    },
+    {
+        "fi": "tiskiharja",
+        "en": "dish brush",
+        "image": "https://images.unsplash.com/photo-1772911141547-6ef09bdd5634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkaXNoJTIwYnJ1c2h8ZW58MHx8fHwxNzc3MzMxMDE1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on tiskiharja.",
+        "sentence_en": "This is a dish brush."
+    },
+    {
+        "fi": "pesusieni",
+        "en": "washing sponge",
+        "image": "https://images.unsplash.com/photo-1614669961796-b5c7457f4575?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3YXNoaW5nJTIwc3BvbmdlfGVufDB8fHx8MTc3NzMzMTAyNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hetki pieni, pesusieni!",
+        "sentence_en": "Just a minute."
+    },
+    {
+        "fi": "tehosekoitin",
+        "en": "blender",
+        "image": "https://images.unsplash.com/photo-1585237672814-8f85a8118bf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxibGVuZGVyfGVufDB8fHx8MTc3NzMzMTAzMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on tehosekoitin.",
+        "sentence_en": "This is a blender."
+    },
+    {
+        "fi": "pakastin",
+        "en": "freezer",
+        "image": "https://images.unsplash.com/photo-1487560227971-981afbe1c020?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmcmVlemVyfGVufDB8fHx8MTc3NzMzMTAzNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Liha täytyy pakastaa.",
+        "sentence_en": "The meat has to be frozen."
+    },
+    {
+        "fi": "tuttipullo",
+        "en": "feeding bottle",
+        "image": "https://images.unsplash.com/flagged/photo-1570560558077-45ad028193e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmZWVkaW5nJTIwYm90dGxlfGVufDB8fHx8MTc3NzMzMTAzOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on tuttipullo.",
+        "sentence_en": "This is a feeding bottle."
+    },
+    {
+        "fi": "vesihana",
+        "en": "water tap",
+        "image": "https://images.unsplash.com/photo-1495647688236-ed6ef40cb28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3YXRlciUyMHRhcHxlbnwwfHx8fDE3NzczMzEwNDN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on vesihana.",
+        "sentence_en": "This is a water tap."
+    },
+    {
+        "fi": "veitsi",
+        "en": "knife",
+        "image": "https://images.unsplash.com/photo-1588597575483-f4e43e191c94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxrbmlmZXxlbnwwfHx8fDE3NzczMjQxMDV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Veitsi puuttuu.",
+        "sentence_en": "There is a knife missing."
+    },
+    {
+        "fi": "kahvinkeitin",
+        "en": "coffee maker",
+        "image": "https://images.unsplash.com/photo-1565452344518-47faca79dc69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBtYWtlcnxlbnwwfHx8fDE3NzczMzEwNTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Yhdysvalloissa on tavallista antaa häissä morsiamelle lahja kuten laseja tai kahvinkeitin.",
+        "sentence_en": "In the U.S., it is common to give a present, such as glasses or a coffee-maker, to the bride at weddings."
+    },
+    {
+        "fi": "kuppi",
+        "en": "cup",
+        "image": "https://images.unsplash.com/photo-1570784332176-fdd73da66f03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjdXB8ZW58MHx8fHwxNzc3MzMxMDYyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kupissa on halkeama.",
+        "sentence_en": "The cup has a crack."
+    },
+    {
+        "fi": "leivinuuni",
+        "en": "baking oven",
+        "image": "https://images.unsplash.com/photo-1499889808931-317a0255c0e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYWtpbmclMjBvdmVufGVufDB8fHx8MTc3NzMzMTA2NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on leivinuuni.",
+        "sentence_en": "This is a baking oven."
+    },
+    {
+        "fi": "aluslautanen",
+        "en": "saucer",
+        "image": "https://images.unsplash.com/photo-1551807306-4bcd16b92a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYXVjZXJ8ZW58MHx8fHwxNzc3MzI0MTM5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on aluslautanen.",
+        "sentence_en": "This is a saucer."
+    },
+    {
+        "fi": "pakastinlokero",
+        "en": "freezer compartment",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pakastinlokero.",
+        "sentence_en": "This is a freezer compartment."
+    },
+    {
+        "fi": "v",
+        "en": "year",
+        "image": "https://images.unsplash.com/photo-1542176107-f50284e217c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx5ZWFyfGVufDB8fHx8MTc3NzMzMTA3OXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Esperantoaakkostossa on 28 kirjainta: a, b, c, ĉ, d, e, f, g, ĝ, h, ĥ, i, j, ĵ, k, l, m, n, o, p, r, s, ŝ, t, u, ŭ, v, z.",
+        "sentence_en": "The Esperanto alphabet has 28 letters: a, b, c, ĉ, d, e, f, g, ĝ, h, ĥ, i, j, ĵ, k, l, m, n, o, p, r, s, ŝ, t, u, ŭ, v, z."
+    },
+    {
+        "fi": "ruoka",
+        "en": "food",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb29kfGVufDB8fHx8MTc3NzMxODcwOXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ruoka jäähtyy.",
+        "sentence_en": "The food is getting cold."
+    },
+    {
+        "fi": "lautanen",
+        "en": "plate",
+        "image": "https://images.unsplash.com/photo-1587334207810-4915c4e40c67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwbGF0ZXxlbnwwfHx8fDE3NzczMjQxMzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tämä lautanen on lohjennut.",
+        "sentence_en": "This plate is damaged."
+    },
+    {
+        "fi": "polttopuut",
+        "en": "firewood",
+        "image": "https://images.unsplash.com/photo-1571040195944-85a412548a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmaXJld29vZHxlbnwwfHx8fDE3NzczMzExMTF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Voisitko auttaa minua keräämään polttopuita.",
+        "sentence_en": "I'd like you to help me gather some firewood."
+    },
+    {
+        "fi": "haarukka",
+        "en": "fork",
+        "image": "https://images.unsplash.com/photo-1569702824812-351205c9cde5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb3JrfGVufDB8fHx8MTc3NzMyNDEwOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haarukka puuttuu.",
+        "sentence_en": "One fork is missing."
+    },
+    {
+        "fi": "keittiövaaka",
+        "en": "kitchen scale",
+        "image": "https://images.unsplash.com/photo-1698930611790-67bb1522f178?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwc2NhbGV8ZW58MHx8fHwxNzc3MzMxMTIwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on keittiövaaka.",
+        "sentence_en": "This is a kitchen scale."
+    },
+    {
+        "fi": "syvä lautanen",
+        "en": "soup plate",
+        "image": "https://images.unsplash.com/photo-1609355108742-dcbc6c51a3a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzb3VwJTIwcGxhdGV8ZW58MHx8fHwxNzc3MzI0MTM1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on syvä lautanen.",
+        "sentence_en": "This is a soup plate."
+    },
+    {
+        "fi": "astianpesukone",
+        "en": "dishwasher",
+        "image": "https://images.unsplash.com/photo-1581622558663-b2e33377dfb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkaXNod2FzaGVyfGVufDB8fHx8MTc3NzMzMTEzMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tyhjensin astianpesukoneen.",
+        "sentence_en": "I emptied the dishwasher."
+    },
+    {
+        "fi": "lusikka",
+        "en": "spoon",
+        "image": "https://images.unsplash.com/photo-1619367300933-376d8c5cd5f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcG9vbnxlbnwwfHx8fDE3NzczMjQxMTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarvitsetko lusikkaa?",
+        "sentence_en": "Do you need a spoon?"
+    },
+    {
+        "fi": "pesuaine",
+        "en": "detergent",
+        "image": "https://images.unsplash.com/photo-1624372635282-b324bcdd4907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXRlcmdlbnR8ZW58MHx8fHwxNzc3MzMxMTQwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on pesuaine.",
+        "sentence_en": "This is a detergent."
+    },
+    {
+        "fi": "kuuma / kylmä",
+        "en": "hot / cold",
+        "image": "https://images.unsplash.com/photo-1548970609-4506a57eac27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxob3QlMjAlMkYlMjBjb2xkfGVufDB8fHx8MTc3NzMzMTE0NHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lasillinen kylmää vettä on todella virkistävää kuumalla säällä.",
+        "sentence_en": "A glass of cold water is very refreshing in hot weather."
+    },
+    {
+        "fi": "keittiö",
+        "en": "kitchen",
+        "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxraXRjaGVufGVufDB8fHx8MTc3NzMzMTE1MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Siivoa keittiö.",
+        "sentence_en": "Clean up the kitchen."
+    },
+    {
+        "fi": "teelusikka",
+        "en": "teaspoon",
+        "image": "https://images.unsplash.com/photo-1715690998858-bcdf42b225ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWFzcG9vbnxlbnwwfHx8fDE3NzczMjQxMTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on teelusikka.",
+        "sentence_en": "This is a teaspoon."
+    },
+    {
+        "fi": "rätti",
+        "en": "steering wheel",
+        "image": "https://images.unsplash.com/photo-1612805144400-88c7821bf36f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzdGVlcmluZyUyMHdoZWVsfGVufDB8fHx8MTc3NzMzMTE1OXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Miksi rätti kädessäsi haisee niin hyvältä?",
+        "sentence_en": "Why does the rag in your hand smell so good?"
+    },
+    {
+        "fi": "keittää",
+        "en": "boil",
+        "image": "https://images.unsplash.com/photo-1586852855256-470372be1541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib2lsfGVufDB8fHx8MTc3NzMzMTE3MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Keitin munia.",
+        "sentence_en": "I boiled some eggs."
+    },
+    {
+        "fi": "mausteet",
+        "en": "spices",
+        "image": "https://images.unsplash.com/photo-1716816211590-c15a328a5ff0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcGljZXN8ZW58MHx8fHwxNzc3MzI0MTczfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tuo oli liian mausteista.",
+        "sentence_en": "It was too spicy."
+    }
+]
