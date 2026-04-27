@@ -1,0 +1,338 @@
+[
+    {
+        "fi": "sisäänkäynti",
+        "en": "Entrance",
+        "image": "no_image",
+        "sentence_fi": "Sisäänkäynti käymälään on hyvin likainen.",
+        "sentence_en": "The entrance to the toilet is very dirty."
+    },
+    {
+        "fi": "tiikeri",
+        "en": "tiger",
+        "image": "no_image",
+        "sentence_fi": "Tom ampui tiikerin.",
+        "sentence_en": "Tom shot a tiger."
+    },
+    {
+        "fi": "häkki",
+        "en": "cage",
+        "image": "no_image",
+        "sentence_fi": "Leijona makasi keskellä häkkiä.",
+        "sentence_en": "The lion lay in the middle of the cage."
+    },
+    {
+        "fi": "seepra",
+        "en": "zebra",
+        "image": "no_image",
+        "sentence_fi": "Näin seepran eläintarhassa.",
+        "sentence_en": "I saw a zebra at the zoo."
+    },
+    {
+        "fi": "eläinten ruoka",
+        "en": "animal food",
+        "image": "no_image",
+        "sentence_fi": "Tässä on eläinten ruoka.",
+        "sentence_en": "This is a animal food."
+    },
+    {
+        "fi": "panda",
+        "en": "panda",
+        "image": "no_image",
+        "sentence_fi": "Pandat ovat söpöjä.",
+        "sentence_en": "Pandas are cute."
+    },
+    {
+        "fi": "eläimet",
+        "en": "the animals",
+        "image": "no_image",
+        "sentence_fi": "Eläimet säikkyivät ukkosta.",
+        "sentence_en": "The animals were scared by the thunder."
+    },
+    {
+        "fi": "norsu",
+        "en": "elephant",
+        "image": "no_image",
+        "sentence_fi": "Norsut juovat vettä.",
+        "sentence_en": "Elephants drink water."
+    },
+    {
+        "fi": "kenguru",
+        "en": "kangaroo",
+        "image": "no_image",
+        "sentence_fi": "Menin Itävaltaan, mutten nähnyt yhtään kenguruja.",
+        "sentence_en": "I went to Austria, but I didn't see any kangaroos."
+    },
+    {
+        "fi": "sarvikuono",
+        "en": "rhino",
+        "image": "no_image",
+        "sentence_fi": "Sarvikuonot hyökkäävät joskus ihmisten päälle.",
+        "sentence_en": "Rhinos sometimes attack people."
+    },
+    {
+        "fi": "gorilla",
+        "en": "gorilla",
+        "image": "no_image",
+        "sentence_fi": "Tässä on gorilla.",
+        "sentence_en": "This is a gorilla."
+    },
+    {
+        "fi": "karhu",
+        "en": "bear",
+        "image": "no_image",
+        "sentence_fi": "Pelkään karhuja.",
+        "sentence_en": "I am afraid of bears."
+    },
+    {
+        "fi": "kameli",
+        "en": "camel",
+        "image": "no_image",
+        "sentence_fi": "Laylaa puri kameli.",
+        "sentence_en": "Layla was bitten by a camel."
+    },
+    {
+        "fi": "strutsi",
+        "en": "ostrich",
+        "image": "no_image",
+        "sentence_fi": "Miten vaarallinen strutsi on?",
+        "sentence_en": "How dangerous is an ostrich?"
+    },
+    {
+        "fi": "leijona",
+        "en": "lion",
+        "image": "no_image",
+        "sentence_fi": "Leijona karjuu.",
+        "sentence_en": "The lion roars."
+    },
+    {
+        "fi": "apina",
+        "en": "monkey",
+        "image": "no_image",
+        "sentence_fi": "Mun apina karkas!",
+        "sentence_en": "My monkey ran away!"
+    },
+    {
+        "fi": "flamingo",
+        "en": "flamingo",
+        "image": "no_image",
+        "sentence_fi": "Tässä on flamingo.",
+        "sentence_en": "This is a flamingo."
+    },
+    {
+        "fi": "papukaija",
+        "en": "parrot",
+        "image": "no_image",
+        "sentence_fi": "Syötitkö papukaijoja?",
+        "sentence_en": "Did you feed the parrots?"
+    },
+    {
+        "fi": "jääkarhu",
+        "en": "polar bear",
+        "image": "no_image",
+        "sentence_fi": "Jääkarhut jahtaavat mursuja.",
+        "sentence_en": "Polar bears hunt walruses."
+    },
+    {
+        "fi": "pingviini",
+        "en": "penguin",
+        "image": "no_image",
+        "sentence_fi": "Pingviini karkoitettiin ryhmästä.",
+        "sentence_en": "The penguin was expelled from the group."
+    },
+    {
+        "fi": "hai",
+        "en": "shark",
+        "image": "no_image",
+        "sentence_fi": "Hän on hai.",
+        "sentence_en": "He's a shark."
+    },
+    {
+        "fi": "riikinkukko",
+        "en": "peacock",
+        "image": "no_image",
+        "sentence_fi": "On sääli ettei saa katsoa lähempää noita riikinkukkoja, mutta tässä puutarhassa nurmikolla käveleminen ei ole sallittua.",
+        "sentence_en": "It's a shame to not be able to get nearer to observe those peacocks, but walking on the flowerbeds in this garden is prohibited."
+    },
+    {
+        "fi": "käärme",
+        "en": "snake",
+        "image": "no_image",
+        "sentence_fi": "Katso, käärme!",
+        "sentence_en": "Look, a snake!"
+    },
+    {
+        "fi": "krokotiili",
+        "en": "crocodile",
+        "image": "no_image",
+        "sentence_fi": "Krokotiili söi koiran.",
+        "sentence_en": "A crocodile ate a dog."
+    },
+    {
+        "fi": "eläintarhanhoitaja",
+        "en": "zookeeper",
+        "image": "no_image",
+        "sentence_fi": "Tässä on eläintarhanhoitaja.",
+        "sentence_en": "This is a zookeeper."
+    },
+    {
+        "fi": "hylje",
+        "en": "seal",
+        "image": "no_image",
+        "sentence_fi": "Hylje sukelsi jäätävän kylmään veteen.",
+        "sentence_en": "The seal dove into the freezing cold waters."
+    },
+    {
+        "fi": "jaguaari",
+        "en": "jaguar",
+        "image": "no_image",
+        "sentence_fi": "Hän uneksui villeistä jaguaareista.",
+        "sentence_en": "She dreamt about wild jaguars."
+    },
+    {
+        "fi": "poni",
+        "en": "pony",
+        "image": "no_image",
+        "sentence_fi": "Minusta ponit ovat yksisarvisia parempia.",
+        "sentence_en": "I prefer ponies to unicorns."
+    },
+    {
+        "fi": "leopardi",
+        "en": "leopard",
+        "image": "no_image",
+        "sentence_fi": "Leopardit ovat petoeläimiä.",
+        "sentence_en": "Leopards are predators."
+    },
+    {
+        "fi": "virtahepo",
+        "en": "hippo",
+        "image": "no_image",
+        "sentence_fi": "Tässä on virtahepo.",
+        "sentence_en": "This is a hippo."
+    },
+    {
+        "fi": "kirahvi",
+        "en": "giraffe",
+        "image": "no_image",
+        "sentence_fi": "Kirahvit ovat laumaeläimiä.",
+        "sentence_en": "Giraffes are herd animals."
+    },
+    {
+        "fi": "kotka",
+        "en": "Kotka",
+        "image": "no_image",
+        "sentence_fi": "Kotka on laskeutumaisillaan.",
+        "sentence_en": "The eagle is about to land."
+    },
+    {
+        "fi": "kala",
+        "en": "fish",
+        "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmaXNofGVufDB8fHx8MTc3NzMxNjg1NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kalaa, kiitos.",
+        "sentence_en": "Fish, please."
+    },
+    {
+        "fi": "villisika",
+        "en": "wild boar",
+        "image": "no_image",
+        "sentence_fi": "Tässä on villisika.",
+        "sentence_en": "This is a wild boar."
+    },
+    {
+        "fi": "kilpikonna",
+        "en": "turtle",
+        "image": "no_image",
+        "sentence_fi": "Kilpikonnat paistattelivat auringossa.",
+        "sentence_en": "The turtles basked in the sun."
+    },
+    {
+        "fi": "mursu",
+        "en": "walrus",
+        "image": "no_image",
+        "sentence_fi": "Jääkarhut jahtaavat mursuja.",
+        "sentence_en": "Polar bears hunt walruses."
+    },
+    {
+        "fi": "kettu",
+        "en": "fox",
+        "image": "no_image",
+        "sentence_fi": "Vangitsimme kaksi kettua.",
+        "sentence_en": "We caught two foxes."
+    },
+    {
+        "fi": "gaselli",
+        "en": "gazelle",
+        "image": "no_image",
+        "sentence_fi": "Tässä on gaselli.",
+        "sentence_en": "This is a gazelle."
+    },
+    {
+        "fi": "joutsen",
+        "en": "swan",
+        "image": "no_image",
+        "sentence_fi": "Siitä rumasta ankanpojasta tuli kaunis joutsen.",
+        "sentence_en": "The ugly duckling turned into a beautiful swan."
+    },
+    {
+        "fi": "eläinten ruoka",
+        "en": "animal food",
+        "image": "no_image",
+        "sentence_fi": "Tässä on eläinten ruoka.",
+        "sentence_en": "This is a animal food."
+    },
+    {
+        "fi": "peura",
+        "en": "deer",
+        "image": "no_image",
+        "sentence_fi": "Metsästäjät tappoivat peuran.",
+        "sentence_en": "The deer was killed by hunters."
+    },
+    {
+        "fi": "lintu",
+        "en": "bird",
+        "image": "no_image",
+        "sentence_fi": "Lintu loukkaantui.",
+        "sentence_en": "The bird was injured."
+    },
+    {
+        "fi": "vuohi",
+        "en": "goat",
+        "image": "no_image",
+        "sentence_fi": "Yannin vuohi laidunsi.",
+        "sentence_en": "Yanni's goat was grazing."
+    },
+    {
+        "fi": "pöllö",
+        "en": "owl",
+        "image": "no_image",
+        "sentence_fi": "Pöllöt metsästävät yöllä.",
+        "sentence_en": "Owls hunt at night."
+    },
+    {
+        "fi": "hirvi",
+        "en": "deer",
+        "image": "no_image",
+        "sentence_fi": "Hirveä löyhkä!",
+        "sentence_en": "It's really stinky."
+    },
+    {
+        "fi": "sammakko",
+        "en": "frog",
+        "image": "no_image",
+        "sentence_fi": "Käärme nielaisi sammakon.",
+        "sentence_en": "The snake swallowed a frog."
+    },
+    {
+        "fi": "jänis",
+        "en": "hare",
+        "image": "no_image",
+        "sentence_fi": "Jänis juoksi kilpaa kilpikonnan kanssa.",
+        "sentence_en": "A hare raced with a tortoise."
+    },
+    {
+        "fi": "aasi",
+        "en": "donkey",
+        "image": "no_image",
+        "sentence_fi": "Tuo on sinun aasisi.",
+        "sentence_en": "That's your donkey."
+    }
+]
