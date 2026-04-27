@@ -1,0 +1,107 @@
+[
+    {
+        "fi": "kaiuttimet",
+        "en": "tannoy",
+        "image": "no_image",
+        "sentence_fi": "He ovat ostaneet uudet kaiuttimet.",
+        "sentence_en": "They've bought new loudspeakers."
+    },
+    {
+        "fi": "rummut",
+        "en": "drums",
+        "image": "no_image",
+        "sentence_fi": "Lapsena Tom leikki usein rummuilla soittamista naputtamalla sormiaan ruokapöytää vasten. Hänen isäänsä se ärsytti suuresti.",
+        "sentence_en": "When Tom was a kid, he used to pretend he was playing the drums by tapping his fingers on the kitchen table, to the great irritation of his father."
+    },
+    {
+        "fi": "kitara",
+        "en": "guitar",
+        "image": "no_image",
+        "sentence_fi": "Haluan kitaran.",
+        "sentence_en": "I want a guitar."
+    },
+    {
+        "fi": "trumpetti",
+        "en": "trumpet",
+        "image": "no_image",
+        "sentence_fi": "Aikaa ei ole jaettu sen kulumisen mukaan, ei ole ukonilmaa tai trumpettien jyrinää ilmoittamaan uuden kuun tahi vuoden alkua. Silloinkin, kun alkaa uusi vuosisata, vain me kuolevaiset moikaamme kelloja ja räiskimme aseilla.",
+        "sentence_en": "Time has no divisions to mark its passage, there is never a thunderstorm or blare of trumpets to announce the beginning of a new month or year. Even when a new century begins it is only we mortals who ring bells and fire off pistols."
+    },
+    {
+        "fi": "kontrabasso",
+        "en": "double bass",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kontrabasso.",
+        "sentence_en": "This is a double bass."
+    },
+    {
+        "fi": "piano",
+        "en": "piano",
+        "image": "no_image",
+        "sentence_fi": "Osaatko soittaa pianoa?",
+        "sentence_en": "Can you play the piano?"
+    },
+    {
+        "fi": "viulu",
+        "en": "violin",
+        "image": "no_image",
+        "sentence_fi": "Soitatko muuten viulua?",
+        "sentence_en": "By the way, do you play the violin?"
+    },
+    {
+        "fi": "basso",
+        "en": "bass",
+        "image": "no_image",
+        "sentence_fi": "Sykkivä basso sai maan tärisemään.",
+        "sentence_en": "The pulsing bass was vibrating the floor."
+    },
+    {
+        "fi": "patarummut",
+        "en": "timpani",
+        "image": "no_image",
+        "sentence_fi": "Tässä on patarummut.",
+        "sentence_en": "This is a timpani."
+    },
+    {
+        "fi": "rumpu",
+        "en": "drum",
+        "image": "no_image",
+        "sentence_fi": "Osaatko soittaa rumpuja?",
+        "sentence_en": "Can you play the drums?"
+    },
+    {
+        "fi": "kosketinsoitin",
+        "en": "keyboard",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kosketinsoitin.",
+        "sentence_en": "This is a keyboard."
+    },
+    {
+        "fi": "saksofoni",
+        "en": "saxophone",
+        "image": "no_image",
+        "sentence_fi": "Tässä on saksofoni.",
+        "sentence_en": "This is a saxophone."
+    },
+    {
+        "fi": "huilu",
+        "en": "flute",
+        "image": "no_image",
+        "sentence_fi": "Hän soittaa huilua.",
+        "sentence_en": "She plays the flute."
+    },
+    {
+        "fi": "mikrofoni",
+        "en": "microphone",
+        "image": "no_image",
+        "sentence_fi": "Jostain syystä mikrofoni ei toiminut aiemmin.",
+        "sentence_en": "For some reason the microphone didn't work earlier."
+    },
+    {
+        "fi": "trumpetti",
+        "en": "trumpet",
+        "image": "no_image",
+        "sentence_fi": "Vihaan tuota trumpettia.",
+        "sentence_en": "I hate that trumpet."
+    }
+]
