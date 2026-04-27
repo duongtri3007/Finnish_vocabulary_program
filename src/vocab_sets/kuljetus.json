@@ -1,0 +1,387 @@
+[
+    {
+        "fi": "laiva",
+        "en": "ship",
+        "image": "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaGlwfGVufDB8fHx8MTc3NzMyNzU4MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Jättäkää laiva!",
+        "sentence_en": "Abandon ship."
+    },
+    {
+        "fi": "lentokone",
+        "en": "aircraft",
+        "image": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhaXJjcmFmdHxlbnwwfHx8fDE3NzczMjc1OTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Katso, lentokone Urumtšista.",
+        "sentence_en": "Look, it's the plane from Urumqi."
+    },
+    {
+        "fi": "paloauto",
+        "en": "fire truck",
+        "image": "https://images.unsplash.com/photo-1531431199010-1f9985f83baa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmaXJlJTIwdHJ1Y2t8ZW58MHx8fHwxNzc3MzI3NTk4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Miksi rakennuksemme edessä on paloautoja?",
+        "sentence_en": "Why are there fire trucks in front of our building?"
+    },
+    {
+        "fi": "kuorma-auto",
+        "en": "truck",
+        "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cnVja3xlbnwwfHx8fDE3NzczMjc2MDV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Missä kuorma-auto on?",
+        "sentence_en": "Where's the truck?"
+    },
+    {
+        "fi": "linja-auto",
+        "en": "bus",
+        "image": "https://images.unsplash.com/photo-1557223562-6c77ef16210f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxidXN8ZW58MHx8fHwxNzc3MzI3NjE3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Miksemme menisi linja-autolla?",
+        "sentence_en": "Why don't we go by bus?"
+    },
+    {
+        "fi": "moottorivene",
+        "en": "motorboat",
+        "image": "https://images.unsplash.com/photo-1543140313-318677635120?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtb3RvcmJvYXR8ZW58MHx8fHwxNzc3MzI3NjI3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on moottorivene.",
+        "sentence_en": "This is a motorboat."
+    },
+    {
+        "fi": "auto",
+        "en": "car",
+        "image": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXJ8ZW58MHx8fHwxNzc3MzI3NjM3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Auto!",
+        "sentence_en": "Car!"
+    },
+    {
+        "fi": "polkupyörä",
+        "en": "bicycle",
+        "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiaWN5Y2xlfGVufDB8fHx8MTc3NzMyNzY0Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomi ajaa polkupyörällä.",
+        "sentence_en": "Tom is riding his bicycle."
+    },
+    {
+        "fi": "lautta",
+        "en": "ferry",
+        "image": "https://images.unsplash.com/photo-1564835099575-3a09829cbee8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmZXJyeXxlbnwwfHx8fDE3NzczMjc2NDl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on lautta.",
+        "sentence_en": "This is a ferry."
+    },
+    {
+        "fi": "vene",
+        "en": "boat",
+        "image": "https://images.unsplash.com/photo-1563187867-2cd158d07999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib2F0fGVufDB8fHx8MTc3NzMyNzY1NHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nukuin veneessä.",
+        "sentence_en": "I slept on the boat."
+    },
+    {
+        "fi": "moottoripyörä",
+        "en": "motorbike",
+        "image": "https://images.unsplash.com/photo-1609630875171-b1321377ee65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtb3RvcmJpa2V8ZW58MHx8fHwxNzc3MzI3NjYxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tykkään moottoripyörästäsi.",
+        "sentence_en": "I like your motorbike."
+    },
+    {
+        "fi": "poliisiauto",
+        "en": "patrol car",
+        "image": "https://images.unsplash.com/photo-1664255967521-53f4f7746d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwYXRyb2wlMjBjYXJ8ZW58MHx8fHwxNzc3MzI3NjY2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kuinka monta poliisiautoa näit?",
+        "sentence_en": "How many police cars did you see?"
+    },
+    {
+        "fi": "kilpa-auto",
+        "en": "racing car",
+        "image": "https://images.unsplash.com/photo-1629661414961-62b0d03007ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyYWNpbmclMjBjYXJ8ZW58MHx8fHwxNzc3MzI3NjcxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on kilpa-auto.",
+        "sentence_en": "This is a racing car."
+    },
+    {
+        "fi": "vuokra-auto",
+        "en": "rental car",
+        "image": "https://images.unsplash.com/photo-1565043666747-69f6646db940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyZW50YWwlMjBjYXJ8ZW58MHx8fHwxNzc3MzI3MjQ3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Minun täytyi vuokrata auto.",
+        "sentence_en": "I had to hire a car."
+    },
+    {
+        "fi": "car sharing",
+        "en": "car sharing",
+        "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXIlMjBzaGFyaW5nfGVufDB8fHx8MTc3NzMyNzY4NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on car sharing.",
+        "sentence_en": "This is a car sharing."
+    },
+    {
+        "fi": "hinausauto",
+        "en": "tow truck",
+        "image": "https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b3clMjB0cnVja3xlbnwwfHx8fDE3NzczMjc2OTF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on hinausauto.",
+        "sentence_en": "This is a tow truck."
+    },
+    {
+        "fi": "roska-auto",
+        "en": "garbage truck",
+        "image": "https://images.unsplash.com/photo-1561069157-218187260215?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnYXJiYWdlJTIwdHJ1Y2t8ZW58MHx8fHwxNzc3MzI3Njk2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Roska-auton kanssa nokkakolarin ajanut taksi rutistui muodottomaksi.",
+        "sentence_en": "The taxi collided head-on with a dump truck and was badly crushed."
+    },
+    {
+        "fi": "moottori",
+        "en": "engine",
+        "image": "https://images.unsplash.com/photo-1552656967-7a0991a13906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlbmdpbmV8ZW58MHx8fHwxNzc3MzI3Njk5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Moottori ylikuumenee.",
+        "sentence_en": "The motor overheats."
+    },
+    {
+        "fi": "polttoaine",
+        "en": "fuel",
+        "image": "https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmdWVsfGVufDB8fHx8MTc3NzMyNzcwNXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomin autosta on loppunut polttoaine.",
+        "sentence_en": "Tom's car has run out of gas."
+    },
+    {
+        "fi": "huoltoasema",
+        "en": "gas station",
+        "image": "https://images.unsplash.com/photo-1567777176186-dfa735f1fe20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnYXMlMjBzdGF0aW9ufGVufDB8fHx8MTc3NzMyNzcwOXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Missä huoltoasema on?",
+        "sentence_en": "Where is the petrol station?"
+    },
+    {
+        "fi": "liikennemerkki",
+        "en": "traffic sign",
+        "image": "https://images.unsplash.com/photo-1577455112422-eb43643acaac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFmZmljJTIwc2lnbnxlbnwwfHx8fDE3NzczMjc3MTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Jos et ole huolellinen, et huomaa liikennemerkkiä.",
+        "sentence_en": "If you're not careful you'll miss a traffic sign!"
+    },
+    {
+        "fi": "liikenne",
+        "en": "transport",
+        "image": "https://images.unsplash.com/photo-1473042904451-00171c69419d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFuc3BvcnR8ZW58MHx8fHwxNzc3MzI3NzE4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Liikettä.",
+        "sentence_en": "Get going."
+    },
+    {
+        "fi": "ruuhka",
+        "en": "peak",
+        "image": "https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwZWFrfGVufDB8fHx8MTc3NzMyNzcyN3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Jäin jumiin ruuhkaan.",
+        "sentence_en": "I was caught in a traffic jam."
+    },
+    {
+        "fi": "parkkipaikka",
+        "en": "parking",
+        "image": "https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwYXJraW5nfGVufDB8fHx8MTc3NzMyNzczMXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Parkkipaikka on vapaa.",
+        "sentence_en": "The parking lot is empty."
+    },
+    {
+        "fi": "rautatieasema",
+        "en": "railway station",
+        "image": "https://images.unsplash.com/photo-1495313196544-7d1adf4e628f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyYWlsd2F5JTIwc3RhdGlvbnxlbnwwfHx8fDE3NzczMjc3Mzh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Rautatieaseman lähellä on auringonkukkapelto.",
+        "sentence_en": "There is a sunflower field near the train station."
+    },
+    {
+        "fi": "raiteet",
+        "en": "rails",
+        "image": "https://images.unsplash.com/photo-1495573258723-2c7be7a646ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyYWlsc3xlbnwwfHx8fDE3NzczMjc3NDN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Juna suistui raiteilta ja noin 30 matkustajaa joko kuoli tai loukkaantui.",
+        "sentence_en": "The train was derailed and about thirty passengers were either killed or injured."
+    },
+    {
+        "fi": "juna",
+        "en": "train",
+        "image": "https://images.unsplash.com/photo-1535535112387-56ffe8db21ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFpbnxlbnwwfHx8fDE3NzczMjc3NTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mennään junalla.",
+        "sentence_en": "Let's take a train."
+    },
+    {
+        "fi": "raitiovaunu",
+        "en": "tram",
+        "image": "https://images.unsplash.com/photo-1578950586898-faece8969e13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFtfGVufDB8fHx8MTc3NzMyNzc1NHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Berliinissä on raitiovaunuja.",
+        "sentence_en": "There are streetcars in Berlin."
+    },
+    {
+        "fi": "vaunu",
+        "en": "carriage",
+        "image": "https://images.unsplash.com/photo-1526813016870-1883a8cce785?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXJyaWFnZXxlbnwwfHx8fDE3NzczMjc3NjN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Juna koostuu viidestätoista vaunusta.",
+        "sentence_en": "The train is made up of fifteen cars."
+    },
+    {
+        "fi": "helikopteri",
+        "en": "helicopter",
+        "image": "https://images.unsplash.com/photo-1562361756-ef50fb3d0b2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxoZWxpY29wdGVyfGVufDB8fHx8MTc3NzMyNzc2OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Helikopteri kierteli yllämme.",
+        "sentence_en": "A helicopter circled over us."
+    },
+    {
+        "fi": "lentokenttä",
+        "en": "airport",
+        "image": "https://images.unsplash.com/photo-1542296332-2e4473faf563?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhaXJwb3J0fGVufDB8fHx8MTc3NzMyNzIyNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Näin Samin lentokentällä.",
+        "sentence_en": "I saw Sami at the airport."
+    },
+    {
+        "fi": "lähilennonjohto",
+        "en": "local air traffic control",
+        "image": "https://images.unsplash.com/photo-1663909160752-4a869b03443e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxsb2NhbCUyMGFpciUyMHRyYWZmaWMlMjBjb250cm9sfGVufDB8fHx8MTc3NzMyNzc4Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on lähilennonjohto.",
+        "sentence_en": "This is a local air traffic control."
+    },
+    {
+        "fi": "matkustaja",
+        "en": "passenger",
+        "image": "https://images.unsplash.com/photo-1483450388369-9ed95738483c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwYXNzZW5nZXJ8ZW58MHx8fHwxNzc3MzI3Nzg4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ainakin viisikymmentä matkustajaa kuoli.",
+        "sentence_en": "No fewer than 50 passengers were killed."
+    },
+    {
+        "fi": "kontti",
+        "en": "container",
+        "image": "https://images.unsplash.com/photo-1605732562742-3023a888e56e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb250YWluZXJ8ZW58MHx8fHwxNzc3MzI3NzkzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Layla konttasi lattialla.",
+        "sentence_en": "Layla was crawling on the floor."
+    },
+    {
+        "fi": "pahvilaatikko",
+        "en": "a cardboard box",
+        "image": "https://images.unsplash.com/photo-1629683555749-893ad794d910?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhJTIwY2FyZGJvYXJkJTIwYm94fGVufDB8fHx8MTc3NzMyNzgwMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarvin pari-kolme pahvilaatikkoa.",
+        "sentence_en": "I need a couple of empty cardboard boxes."
+    },
+    {
+        "fi": "kärryt",
+        "en": "cart",
+        "image": "https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXJ0fGVufDB8fHx8MTc3NzMyNzgzMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom on aloittelija, mutta hän pääsee kärryille nopeasti.",
+        "sentence_en": "Tom is a beginner, but he catches on fast."
+    },
+    {
+        "fi": "nousta / laskea",
+        "en": "rise / fall",
+        "image": "https://images.unsplash.com/photo-1668919859781-218283849476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyaXNlJTIwJTJGJTIwZmFsbHxlbnwwfHx8fDE3NzczMjc4NDJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on nousta / laskea.",
+        "sentence_en": "This is a rise / fall."
+    },
+    {
+        "fi": "kori",
+        "en": "basket",
+        "image": "no_image",
+        "sentence_fi": "Tämä kori on valmistettu rautalangasta.",
+        "sentence_en": "This cage is made of wire."
+    },
+    {
+        "fi": "junalaituri",
+        "en": "train platform",
+        "image": "no_image",
+        "sentence_fi": "Junalaiturilla käveleminen kun huomio on kiinnittynyt muihin asioihin on hyvin vaarallista.",
+        "sentence_en": "Walking on a train platform while distracted is very dangerous."
+    },
+    {
+        "fi": "tunneli",
+        "en": "tunnel",
+        "image": "no_image",
+        "sentence_fi": "Näin valoa tunnelin päässä.",
+        "sentence_en": "I saw a light at the end of the tunnel."
+    },
+    {
+        "fi": "linja-autopysäkki",
+        "en": "bus stop",
+        "image": "no_image",
+        "sentence_fi": "Tuo on linja-autopysäkki.",
+        "sentence_en": "That is a bus stop."
+    },
+    {
+        "fi": "metro",
+        "en": "metro",
+        "image": "https://images.unsplash.com/photo-1556695736-d287caebc48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtZXRyb3xlbnwwfHx8fDE3NzczMjcyNTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mennään metrolla.",
+        "sentence_en": "Let's take the underground."
+    },
+    {
+        "fi": "silta",
+        "en": "bridge",
+        "image": "no_image",
+        "sentence_fi": "Seison sillalla.",
+        "sentence_en": "I'm standing on the bridge."
+    },
+    {
+        "fi": "kypärä",
+        "en": "helmet",
+        "image": "no_image",
+        "sentence_fi": "Hae kypäräsi.",
+        "sentence_en": "Go get your helmet."
+    },
+    {
+        "fi": "taksi",
+        "en": "taxi",
+        "image": "https://images.unsplash.com/photo-1490650404312-a2175773bbf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0YXhpfGVufDB8fHx8MTc3NzMyNzIzOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Synnyin taksissa.",
+        "sentence_en": "I was born in a taxi."
+    },
+    {
+        "fi": "taksinkuljettaja",
+        "en": "taxi driver",
+        "image": "no_image",
+        "sentence_fi": "Heidän isänsä on taksinkuljettaja.",
+        "sentence_en": "Their father is a taxi driver."
+    },
+    {
+        "fi": "satama",
+        "en": "port",
+        "image": "https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwb3J0fGVufDB8fHx8MTc3NzMyNzIwM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lunta oli satamassa.",
+        "sentence_en": "It was snowing."
+    },
+    {
+        "fi": "konduktööri",
+        "en": "conductor",
+        "image": "no_image",
+        "sentence_fi": "Tässä on konduktööri.",
+        "sentence_en": "This is a conductor."
+    },
+    {
+        "fi": "myöhässä / ajoissa",
+        "en": "late / on time",
+        "image": "no_image",
+        "sentence_fi": "Juna oli myöhässä, mutta ehdin ajoissa joka tapauksessa.",
+        "sentence_en": "Even though the train was late, we made it in time."
+    },
+    {
+        "fi": "kapteeni",
+        "en": "captain",
+        "image": "no_image",
+        "sentence_fi": "Yooko on lentopallojoukkueen kapteeni.",
+        "sentence_en": "Yoko is the captain of the volleyball team."
+    },
+    {
+        "fi": "odottaa",
+        "en": "expect",
+        "image": "no_image",
+        "sentence_fi": "Odotimme.",
+        "sentence_en": "We waited."
+    },
+    {
+        "fi": "säkki",
+        "en": "bag",
+        "image": "no_image",
+        "sentence_fi": "Ostin eilen sian säkissä.",
+        "sentence_en": "Yesterday I bought a pig in a poke."
+    },
+    {
+        "fi": "ajaa",
+        "en": "drive",
+        "image": "no_image",
+        "sentence_fi": "Ajamme maalle.",
+        "sentence_en": "We're driving to the country."
+    },
+    {
+        "fi": "hidas / nopea",
+        "en": "slow / fast",
+        "image": "no_image",
+        "sentence_fi": "Kaikki ovat nopeita vastaamaan englanniksi. Ah, tai sitten minä olen vain liian hidas.",
+        "sentence_en": "Looks like everyone can reply in English so quickly. Ah, or maybe I'm just too slow."
+    },
+    {
+        "fi": "kantaa",
+        "en": "carry",
+        "image": "no_image",
+        "sentence_fi": "Hänellä on kanttia.",
+        "sentence_en": "He has guts."
+    }
+]
