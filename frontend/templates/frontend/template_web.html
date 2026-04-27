@@ -11,7 +11,7 @@
         font-family: 'Segoe UI', Arial, sans-serif; 
         text-align: center; 
         margin: 0;
-        padding: 20px;
+        padding: 10px;
         position: relative;
         z-index: 0;
 
@@ -24,24 +24,24 @@
     }
 
     .header-title {
-        font-size: clamp(1.8rem, 4vw, 3.5rem);
+        font-size: clamp(1.5rem, 4vw, 3.5rem);
         font-weight: 800;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         letter-spacing: -1px;
         text-transform: uppercase;
 
         background: linear-gradient(
-            90deg, 
-            #003580, 
-            #0066cc, 
-            #a5f3fc, 
-            #0066cc, 
-            #003580
+            90deg,
+            #00f5d4,
+            #4cc9f0,
+            #3a86ff,
+            #8338ec,
+            #00f5d4
         );
 
         text-shadow:
-            0 0 10px rgba(100, 200, 255, 0.6),
-            0 0 20px rgba(100, 200, 255, 0.4);
+            0 0 6px rgba(76, 201, 240, 0.5),
+            0 0 12px rgba(76, 201, 240, 0.3);
 
         background-size: 200% auto;
         background-clip: text;
@@ -57,7 +57,7 @@
     }
 
     .content-wrapper { 
-        min-height: 400px;
+        min-height: 50px;
         display: inline-block; 
         background-color: rgba(255, 255, 255, 0.9); /* 👈 nền trắng quay lại */
         padding: 40px;
@@ -171,30 +171,30 @@
 
 <body>
 
-    <div class="header-title">Finnish Vocabulary Program</div>
+    <div class="header-title">AuroraVocab</div>
 
     <div class="content-wrapper">
         {% block content %}
             <div class="menu-container">
 
                 <div class="menu-item">
-                    <a href="{% url 'add_word' %}" class="menu-button">1. 📘 Add new words</a>
+                    <a href="{% url 'add_word' %}" class="menu-button">📘 Add new words</a>
                 </div>
 
                 <div class="menu-item">
-                    <a href="{% url 'review_options' %}" class="menu-button">2. 🧠 Review all words</a>
+                    <a href="{% url 'review_options' %}" class="menu-button">📚 Show all words</a>
                 </div>
 
                 <div class="menu-item">
-                    <a href="{% url 'show_words' %}" class="menu-button">3. 📚 Show all words</a>
+                    <a href="{% url 'show_words' %}" class="menu-button">🧠 Review all words</a>
                 </div>
 
                 <div class="menu-item">
-                    <a href="{% url 'vocabulary_sets' %}" class="menu-button">4. 🗂 Vocabulary sets</a>
+                    <a href="{% url 'vocabulary_sets' %}" class="menu-button">🗂 Vocabulary sets</a>
                 </div>
 
                 {% for item in options %}
-                    {% if item not in "Add new words,Review all words,Show all words,Vocabulary sets" %}
+                    {% if item not in "Add new words,Review all words,Show all words,Vocabulary sets, Exit" %}
                         <div class="menu-item">
                             <a href="#" class="menu-button">
                                 {{ forloop.counter }}. {{ item }}
