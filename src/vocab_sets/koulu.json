@@ -1,0 +1,394 @@
+[
+    {
+        "fi": "jakaa",
+        "en": "share",
+        "image": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaGFyZXxlbnwwfHx8fDE3NzczMjI2NjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "On sinun vuorosi jakaa.",
+        "sentence_en": "It's your turn to deal."
+    },
+    {
+        "fi": "luokkahuone",
+        "en": "classroom",
+        "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjbGFzc3Jvb218ZW58MHx8fHwxNzc3MzIyNjgxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Olisipa luokkahuoneemme ilmastoitu.",
+        "sentence_en": "I wish our classroom were air-conditioned."
+    },
+    {
+        "fi": "taulu",
+        "en": "board",
+        "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib2FyZHxlbnwwfHx8fDE3NzczMjI2ODh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kuka maalasi tämän taulun?",
+        "sentence_en": "Who painted this picture?"
+    },
+    {
+        "fi": "koulunpiha",
+        "en": "school yard",
+        "image": "https://images.unsplash.com/photo-1584750153892-38414eb8e76a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjB5YXJkfGVufDB8fHx8MTc3NzMyMjY5NHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on koulunpiha.",
+        "sentence_en": "This is a school yard."
+    },
+    {
+        "fi": "opettaja",
+        "en": "teacher",
+        "image": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWFjaGVyfGVufDB8fHx8MTc3NzMyMjY5OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Opettaja soittaa.",
+        "sentence_en": "The teacher is on the phone."
+    },
+    {
+        "fi": "paperi",
+        "en": "paper",
+        "image": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwYXBlcnxlbnwwfHx8fDE3NzczMjI3MDJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Poltin paperin.",
+        "sentence_en": "I burned the paper."
+    },
+    {
+        "fi": "kynä",
+        "en": "pen",
+        "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwZW58ZW58MHx8fHwxNzc3MzIyNzA2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Piirrä kynällä.",
+        "sentence_en": "Draw with a pencil."
+    },
+    {
+        "fi": "kirjoituspöytä",
+        "en": "desk",
+        "image": "https://images.unsplash.com/photo-1518655048521-f130df041f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXNrfGVufDB8fHx8MTc3NzMyMjcxMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän tyhjensi kirjoituspöytänsä.",
+        "sentence_en": "He cleared out his desk."
+    },
+    {
+        "fi": "kirjoittaa",
+        "en": "write",
+        "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3cml0ZXxlbnwwfHx8fDE3NzczMjI3MTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kirjoitit.",
+        "sentence_en": "You wrote."
+    },
+    {
+        "fi": "oppilas",
+        "en": "pupil",
+        "image": "https://images.unsplash.com/photo-1705071393219-7c0c65afa314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwdXBpbHxlbnwwfHx8fDE3NzczMjI3MjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Oppilas loukkasi opettajaa.",
+        "sentence_en": "The student insulted the teacher."
+    },
+    {
+        "fi": "kirja",
+        "en": "book",
+        "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib29rfGVufDB8fHx8MTc3NzMyMjcyNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Puhumme kirjoista.",
+        "sentence_en": "We're talking about books."
+    },
+    {
+        "fi": "viivoitin",
+        "en": "ruler",
+        "image": "https://images.unsplash.com/photo-1529651795107-e5a141e34843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxydWxlcnxlbnwwfHx8fDE3NzczMjI3MzB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tämä on viivoitin.",
+        "sentence_en": "That's a ruler."
+    },
+    {
+        "fi": "reppu",
+        "en": "backpack",
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYWNrcGFja3xlbnwwfHx8fDE3NzczMjI3Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Laita tämä takaisin reppuusi.",
+        "sentence_en": "Put this in your backpack."
+    },
+    {
+        "fi": "penaali",
+        "en": "pencil case",
+        "image": "https://images.unsplash.com/photo-1632822300275-9867abf24bbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwZW5jaWwlMjBjYXNlfGVufDB8fHx8MTc3NzMyMjc0MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom ei ole mikään penaalin terävin kynä.",
+        "sentence_en": "Tom is no genius."
+    },
+    {
+        "fi": "lyijykynä",
+        "en": "pencil",
+        "image": "https://images.unsplash.com/photo-1595584354232-f07d525d87c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwZW5jaWx8ZW58MHx8fHwxNzc3MzIyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Onko tuo lyijykynä?",
+        "sentence_en": "Is that a pencil?"
+    },
+    {
+        "fi": "kynänteroitin",
+        "en": "pencil sharpener",
+        "image": "https://images.unsplash.com/photo-1624383416434-3d5fda7dc9a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwZW5jaWwlMjBzaGFycGVuZXJ8ZW58MHx8fHwxNzc3MzIyNzQ5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on kynänteroitin.",
+        "sentence_en": "This is a pencil sharpener."
+    },
+    {
+        "fi": "pyyhekumi",
+        "en": "eraser",
+        "image": "https://images.unsplash.com/photo-1667532447990-51c6704ef358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlcmFzZXJ8ZW58MHx8fHwxNzc3MzIyNzY0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomi on hukannut pyyhekuminsa.",
+        "sentence_en": "Tom has lost his eraser."
+    },
+    {
+        "fi": "piirustuslehtiö",
+        "en": "drawing pad",
+        "image": "https://images.unsplash.com/photo-1554757387-2a28855c78fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkcmF3aW5nJTIwcGFkfGVufDB8fHx8MTc3NzMyMjc2OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on piirustuslehtiö.",
+        "sentence_en": "This is a drawing pad."
+    },
+    {
+        "fi": "pensseli",
+        "en": "brush",
+        "image": "https://images.unsplash.com/photo-1622542796254-5b9c46ab0d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxicnVzaHxlbnwwfHx8fDE3NzczMjI3ODJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomilla oli pensseli kädessään.",
+        "sentence_en": "Tom had a paintbrush in his hand."
+    },
+    {
+        "fi": "vesivärit",
+        "en": "watercolors",
+        "image": "https://images.unsplash.com/photo-1605972713890-e157ae3f7018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3YXRlcmNvbG9yc3xlbnwwfHx8fDE3NzczMjI3ODZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on vesivärit.",
+        "sentence_en": "This is a watercolors."
+    },
+    {
+        "fi": "sakset",
+        "en": "scissors",
+        "image": "https://images.unsplash.com/photo-1503792501406-2c40da09e1e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzY2lzc29yc3xlbnwwfHx8fDE3NzczMjI3OTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Puhun saksaa.",
+        "sentence_en": "I speak German."
+    },
+    {
+        "fi": "liima",
+        "en": "glue",
+        "image": "https://images.unsplash.com/photo-1536786724684-63545518d243?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnbHVlfGVufDB8fHx8MTc3NzMyMjc5NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Älä unohda liimata postimerkkiä kirjeeseen.",
+        "sentence_en": "Don't forget to put a stamp on the letter."
+    },
+    {
+        "fi": "kotitehtävä",
+        "en": "homework",
+        "image": "https://images.unsplash.com/photo-1773332585698-cba3c91b73e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHxob21ld29ya3xlbnwwfHx8fDE3NzczMjI3OTh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Minä teen kotitehtäviäni.",
+        "sentence_en": "I'm doing my homework."
+    },
+    {
+        "fi": "luku",
+        "en": "number",
+        "image": "https://images.unsplash.com/photo-1621440318464-72633426377b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxudW1iZXJ8ZW58MHx8fHwxNzc3MzIyODI2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Se on kolminumeroinen luku.",
+        "sentence_en": "It's a three-digit number."
+    },
+    {
+        "fi": "lisätä",
+        "en": "add",
+        "image": "https://images.unsplash.com/photo-1608402907282-e6c63c782526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhZGR8ZW58MHx8fHwxNzc3MzIyODYzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lisää kahvia?",
+        "sentence_en": "More coffee?"
+    },
+    {
+        "fi": "vähentää",
+        "en": "reduce",
+        "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyZWR1Y2V8ZW58MHx8fHwxNzc3MzIyODY3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Rekyyli vähentää aseen tarkkuutta.",
+        "sentence_en": "The recoil reduces the weapon's accuracy."
+    },
+    {
+        "fi": "jakaa",
+        "en": "share",
+        "image": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaGFyZXxlbnwwfHx8fDE3NzczMjI2NjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Väitöskirja tulee jakaa kappaleisiin.",
+        "sentence_en": "A dissertation should be divided into paragraphs."
+    },
+    {
+        "fi": "kertoa",
+        "en": "tell",
+        "image": "https://images.unsplash.com/photo-1617575521317-d2974f3b56d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWxsfGVufDB8fHx8MTc3NzMyMjg3NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Voit kertoa totuuden.",
+        "sentence_en": "You can tell the truth."
+    },
+    {
+        "fi": "taskulaskin",
+        "en": "Pocket calculator",
+        "image": "https://images.unsplash.com/photo-1708449903767-c4e97772c26e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxQb2NrZXQlMjBjYWxjdWxhdG9yfGVufDB8fHx8MTc3NzMyMjg4MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Sillä pöydällä oleva taskulaskin on minun.",
+        "sentence_en": "The calculator on the table is mine."
+    },
+    {
+        "fi": "laskea",
+        "en": "calculate",
+        "image": "https://images.unsplash.com/photo-1625225233840-695456021cde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdGV8ZW58MHx8fHwxNzc3MzIyODgzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Laske sataan.",
+        "sentence_en": "Count to one hundred."
+    },
+    {
+        "fi": "kirjain",
+        "en": "letter",
+        "image": "https://images.unsplash.com/photo-1566125882500-87e10f726cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxsZXR0ZXJ8ZW58MHx8fHwxNzc3MzIyODkxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kirjoita!",
+        "sentence_en": "Type."
+    },
+    {
+        "fi": "aakkoset",
+        "en": "alphabet",
+        "image": "https://images.unsplash.com/photo-1652643105908-d1e6eea8c147?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhbHBoYWJldHxlbnwwfHx8fDE3NzczMjI4OTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kieltä kirjoitetaan latinalaisilla aakkosilla.",
+        "sentence_en": "This language is written using the Latin alphabet."
+    },
+    {
+        "fi": "sana",
+        "en": "word",
+        "image": "https://images.unsplash.com/photo-1561651188-d207bbec4ec3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3b3JkfGVufDB8fHx8MTc3NzMyMjg5OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Perun sanani.",
+        "sentence_en": "I take back everything I said."
+    },
+    {
+        "fi": "teksti",
+        "en": "text",
+        "image": "https://images.unsplash.com/photo-1528459199957-0ff28496a7f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZXh0fGVufDB8fHx8MTc3NzMyMjkwMnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Opettaja luetuttaa tekstin ääneen.",
+        "sentence_en": "The teacher has the text read aloud."
+    },
+    {
+        "fi": "lukea",
+        "en": "read",
+        "image": "https://images.unsplash.com/photo-1630343710506-89f8b9f21d31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyZWFkfGVufDB8fHx8MTc3NzMyMjkwNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nainen lukee.",
+        "sentence_en": "A woman is reading."
+    },
+    {
+        "fi": "liitu",
+        "en": "chalk",
+        "image": "https://images.unsplash.com/photo-1707855857229-cb7b93dabf51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGFsa3xlbnwwfHx8fDE3NzczMjM4NTF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Antaisitko kolme liitua kiitos.",
+        "sentence_en": "Give me three pieces of chalk."
+    },
+    {
+        "fi": "oppitunti",
+        "en": "lesson",
+        "image": "https://images.unsplash.com/photo-1625674967351-655dfa7362c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxsZXNzb258ZW58MHx8fHwxNzc3MzIzODY5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Oppitunteja on liikaa.",
+        "sentence_en": "We have too many classes."
+    },
+    {
+        "fi": "opettajan muistikirja",
+        "en": "teacher's notebook",
+        "image": "https://images.unsplash.com/photo-1588561181397-fed38f837e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWFjaGVyJTI3cyUyMG5vdGVib29rfGVufDB8fHx8MTc3NzMyMzg3NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on opettajan muistikirja.",
+        "sentence_en": "This is a teacher's notebook."
+    },
+    {
+        "fi": "koe",
+        "en": "test",
+        "image": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZXN0fGVufDB8fHx8MTc3NzMyMzg4N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Koe epäonnistui.",
+        "sentence_en": "That experiment was a failure."
+    },
+    {
+        "fi": "todistus",
+        "en": "certificate",
+        "image": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZXxlbnwwfHx8fDE3NzczMjM4OTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Todistus jätetään harjoitustehtäväksi.",
+        "sentence_en": "The proof is left as an exercise to the reader."
+    },
+    {
+        "fi": "koulupuku",
+        "en": "school uniform",
+        "image": "https://images.unsplash.com/photo-1566827886031-7d0f288f76ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjB1bmlmb3JtfGVufDB8fHx8MTc3NzMyMzg5Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ihan vaan varmistaakseni kysyn, että eikö huomenna pidäkin olla koulupuku?",
+        "sentence_en": "I want to ask, just in case - we should wear our uniforms tomorrow, right?"
+    },
+    {
+        "fi": "koulutus",
+        "en": "training",
+        "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFpbmluZ3xlbnwwfHx8fDE3NzczMjM5MDB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Sen opiston koulutus on yksinkertaisesti surkeaa.",
+        "sentence_en": "The education in that institute is simply pathetic."
+    },
+    {
+        "fi": "sanakirja",
+        "en": "dictionary",
+        "image": "https://images.unsplash.com/photo-1583361704493-d4d4d1b1d70a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkaWN0aW9uYXJ5fGVufDB8fHx8MTc3NzMyMzkwM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarvitsen sanakirjaa.",
+        "sentence_en": "I need a dictionary."
+    },
+    {
+        "fi": "yliopisto",
+        "en": "university",
+        "image": "https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5fGVufDB8fHx8MTc3NzMyMzkwNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Yliopistolla on ruokala.",
+        "sentence_en": "The university has a cafeteria."
+    },
+    {
+        "fi": "mikroskooppi",
+        "en": "microscope",
+        "image": "https://images.unsplash.com/photo-1526930382372-67bf22c0fce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtaWNyb3Njb3BlfGVufDB8fHx8MTc3NzMyMzkwOXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mikroskoopin alla jotkin virukset näyttävät varsin kauniilta.",
+        "sentence_en": "Under a microscope, some viruses appear quite beautiful."
+    },
+    {
+        "fi": "kartta",
+        "en": "map",
+        "image": "https://images.unsplash.com/photo-1619468129361-605ebea04b44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtYXB8ZW58MHx8fHwxNzc3MzIzOTEzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarvitsen kartan.",
+        "sentence_en": "I need a map."
+    },
+    {
+        "fi": "roskakori",
+        "en": "trash can",
+        "image": "https://images.unsplash.com/photo-1683516435482-f3cea544ee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFzaCUyMGNhbnxlbnwwfHx8fDE3NzczMjM5MTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Roskakori on tyhjä.",
+        "sentence_en": "The bin is empty."
+    },
+    {
+        "fi": "voileipä",
+        "en": "sandwich",
+        "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYW5kd2ljaHxlbnwwfHx8fDE3NzczMTg5NzV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tee minulle voileipä.",
+        "sentence_en": "Make me a sandwich."
+    },
+    {
+        "fi": "internet",
+        "en": "Internet",
+        "image": "https://images.unsplash.com/photo-1773332585760-8b5dc6079a74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHxJbnRlcm5ldHxlbnwwfHx8fDE3NzczMjM5MjR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Internet on sokkelo.",
+        "sentence_en": "The Internet is a labyrinth."
+    },
+    {
+        "fi": "muistivihko",
+        "en": "notebook",
+        "image": "https://images.unsplash.com/photo-1612367980327-7454a7276aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxub3RlYm9va3xlbnwwfHx8fDE3NzczMjM5Mjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän piirsi kirjassa olevan kuvan muistivihkoonsa.",
+        "sentence_en": "She transferred the picture in the book to her notebook."
+    },
+    {
+        "fi": "kello",
+        "en": "clock",
+        "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjbG9ja3xlbnwwfHx8fDE3NzczMjM5MzB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kuulin kellon.",
+        "sentence_en": "I heard the bell."
+    },
+    {
+        "fi": "piirtää",
+        "en": "draw",
+        "image": "https://images.unsplash.com/photo-1493932484895-752d1471eab5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkcmF3fGVufDB8fHx8MTc3NzMyMzkzNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Endoplasmakalvosto on vaikea piirtää.",
+        "sentence_en": "The endoplasmic reticulum is hard to draw."
+    },
+    {
+        "fi": "oppia",
+        "en": "learn",
+        "image": "https://images.unsplash.com/photo-1611348586755-53860f7ae57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxsZWFybnxlbnwwfHx8fDE3NzczMjM5Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kokemuksesta oppii.",
+        "sentence_en": "One learns by experience."
+    },
+    {
+        "fi": "viivoitin",
+        "en": "ruler",
+        "image": "https://images.unsplash.com/photo-1529651795107-e5a141e34843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxydWxlcnxlbnwwfHx8fDE3NzczMjI3MzB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Viivoitin on lyhyt.",
+        "sentence_en": "The ruler is short."
+    },
+    {
+        "fi": "kirjoittaa",
+        "en": "write",
+        "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3cml0ZXxlbnwwfHx8fDE3NzczMjI3MTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kirjoitin hänelle.",
+        "sentence_en": "I've written to him."
+    },
+    {
+        "fi": "koulu",
+        "en": "school",
+        "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzY2hvb2x8ZW58MHx8fHwxNzc3MzIzOTUyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pyöräilen kouluun.",
+        "sentence_en": "I go to school by bicycle."
+    }
+]
