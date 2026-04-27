@@ -1,0 +1,422 @@
+[
+    {
+        "fi": "suihku",
+        "en": "shower",
+        "image": "https://images.unsplash.com/photo-1652662700928-5a4685e87d64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaG93ZXJ8ZW58MHx8fHwxNzc3MzMxMjIyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Olen suihkussa.",
+        "sentence_en": "I'm in the shower."
+    },
+    {
+        "fi": "lämmitys",
+        "en": "heating",
+        "image": "https://images.unsplash.com/photo-1575199529471-12f5d98b24d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxoZWF0aW5nfGVufDB8fHx8MTc3NzMzMTIzMnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lämmitys ei toimi.",
+        "sentence_en": "The heating doesn't work."
+    },
+    {
+        "fi": "pyyhe",
+        "en": "towel",
+        "image": "https://images.unsplash.com/photo-1523471826770-c437b4636fe6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b3dlbHxlbnwwfHx8fDE3NzczMzEyMzV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tämä pyyhe on tahmea.",
+        "sentence_en": "This towel is sticky."
+    },
+    {
+        "fi": "suihkuverho",
+        "en": "shower curtain",
+        "image": "https://images.unsplash.com/photo-1560185127-bdf08e449371?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaG93ZXIlMjBjdXJ0YWlufGVufDB8fHx8MTc3NzMzMTI0Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on suihkuverho.",
+        "sentence_en": "This is a shower curtain."
+    },
+    {
+        "fi": "vaahtokylpy",
+        "en": "bubble bath",
+        "image": "https://images.unsplash.com/photo-1559304787-945aa4341065?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxidWJibGUlMjBiYXRofGVufDB8fHx8MTc3NzMzMTI0Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on vaahtokylpy.",
+        "sentence_en": "This is a bubble bath."
+    },
+    {
+        "fi": "kylpyamme",
+        "en": "bath",
+        "image": "https://images.unsplash.com/photo-1631215750638-bdde5f616128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYXRofGVufDB8fHx8MTc3NzMzMTI1MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Onko kylpyamme puhdas?",
+        "sentence_en": "Is the bath clean?"
+    },
+    {
+        "fi": "pesukone",
+        "en": "washing machine",
+        "image": "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3YXNoaW5nJTIwbWFjaGluZXxlbnwwfHx8fDE3NzczMzEyNTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Onko talossa pesukone?",
+        "sentence_en": "Is there a washing machine in the house?"
+    },
+    {
+        "fi": "potta",
+        "en": "potty",
+        "image": "no_image",
+        "sentence_fi": "Pää kii, tai muuten potkin sut ulos.",
+        "sentence_en": "Shut up, or I'll kick you out."
+    },
+    {
+        "fi": "kaakelit",
+        "en": "tiles",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kaakelit.",
+        "sentence_en": "This is a tiles."
+    },
+    {
+        "fi": "lasi",
+        "en": "glass",
+        "image": "https://images.unsplash.com/photo-1514651029128-173d2e6ea851?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnbGFzc3xlbnwwfHx8fDE3NzczMjI1NjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Unohdin lasit.",
+        "sentence_en": "I forgot my glasses."
+    },
+    {
+        "fi": "vesihana",
+        "en": "water tap",
+        "image": "https://images.unsplash.com/photo-1495647688236-ed6ef40cb28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3YXRlciUyMHRhcHxlbnwwfHx8fDE3NzczMzEwNDN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on vesihana.",
+        "sentence_en": "This is a water tap."
+    },
+    {
+        "fi": "lavuaari",
+        "en": "sink",
+        "image": "https://images.unsplash.com/photo-1609210884848-2d530cfb2a07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaW5rfGVufDB8fHx8MTc3NzMzMTAwOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lavuaari on graniittia.",
+        "sentence_en": "The washbasin is made of granite."
+    },
+    {
+        "fi": "vessa",
+        "en": "loo",
+        "image": "no_image",
+        "sentence_fi": "Käyn vessassa.",
+        "sentence_en": "I'm going to the restroom."
+    },
+    {
+        "fi": "kyykkyvessa",
+        "en": "squatting",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kyykkyvessa.",
+        "sentence_en": "This is a squatting."
+    },
+    {
+        "fi": "bidee",
+        "en": "bidet",
+        "image": "no_image",
+        "sentence_fi": "Tässä on bidee.",
+        "sentence_en": "This is a bidet."
+    },
+    {
+        "fi": "pisuaari",
+        "en": "urinal",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pisuaari.",
+        "sentence_en": "This is a urinal."
+    },
+    {
+        "fi": "vessapaperi",
+        "en": "toilet paper",
+        "image": "no_image",
+        "sentence_fi": "Tämä on vessapaperia.",
+        "sentence_en": "This is a roll of toilet paper."
+    },
+    {
+        "fi": "vessaharja",
+        "en": "Toilet brush",
+        "image": "no_image",
+        "sentence_fi": "Tässä on vessaharja.",
+        "sentence_en": "This is a Toilet brush."
+    },
+    {
+        "fi": "hammasharja",
+        "en": "toothbrush",
+        "image": "no_image",
+        "sentence_fi": "Onko tuo minun hammasharjani?",
+        "sentence_en": "Is that my toothbrush?"
+    },
+    {
+        "fi": "hammastahna",
+        "en": "toothpaste",
+        "image": "no_image",
+        "sentence_fi": "Missä hammastahna on?",
+        "sentence_en": "Where can I find toothpaste?"
+    },
+    {
+        "fi": "hammaslanka",
+        "en": "dental floss",
+        "image": "no_image",
+        "sentence_fi": "Älä unohda käyttää hammaslankaa.",
+        "sentence_en": "Don't forget to floss."
+    },
+    {
+        "fi": "pestä",
+        "en": "wash",
+        "image": "no_image",
+        "sentence_fi": "Pesin sen.",
+        "sentence_en": "I washed it."
+    },
+    {
+        "fi": "käsisuihku",
+        "en": "hand shower",
+        "image": "no_image",
+        "sentence_fi": "Tässä on käsisuihku.",
+        "sentence_en": "This is a hand shower."
+    },
+    {
+        "fi": "intiimisuihku",
+        "en": "intimate shower",
+        "image": "no_image",
+        "sentence_fi": "Tässä on intiimisuihku.",
+        "sentence_en": "This is a intimate shower."
+    },
+    {
+        "fi": "pesuvati",
+        "en": "washbasin",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pesuvati.",
+        "sentence_en": "This is a washbasin."
+    },
+    {
+        "fi": "selkäharja",
+        "en": "dorsal crest",
+        "image": "no_image",
+        "sentence_fi": "Tässä on selkäharja.",
+        "sentence_en": "This is a dorsal crest."
+    },
+    {
+        "fi": "saippua",
+        "en": "soap",
+        "image": "no_image",
+        "sentence_fi": "Saippua, kiitos.",
+        "sentence_en": "Soap, please."
+    },
+    {
+        "fi": "suihkugeeli",
+        "en": "shower gel",
+        "image": "no_image",
+        "sentence_fi": "Tässä on suihkugeeli.",
+        "sentence_en": "This is a shower gel."
+    },
+    {
+        "fi": "shampoo",
+        "en": "shampoo",
+        "image": "no_image",
+        "sentence_fi": "Tom sai shampoota silmiinsä.",
+        "sentence_en": "Tom got shampoo in his eyes."
+    },
+    {
+        "fi": "pesulappu",
+        "en": "washcloth",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pesulappu.",
+        "sentence_en": "This is a washcloth."
+    },
+    {
+        "fi": "viemäri",
+        "en": "sewer",
+        "image": "no_image",
+        "sentence_fi": "Kun irrotin lavuaarin tulpan, vesi virtasi syöksähtäen alas viemäriin.",
+        "sentence_en": "When I unplugged the bathroom sink, the water gushed down the drain."
+    },
+    {
+        "fi": "voide",
+        "en": "cream",
+        "image": "no_image",
+        "sentence_fi": "Savlon on ihoa kosteuttava voide.",
+        "sentence_en": "Savlon is a moisturizing skin cream."
+    },
+    {
+        "fi": "deodorantti",
+        "en": "deodorant",
+        "image": "no_image",
+        "sentence_fi": "Sinun pitäisi käyttää deodoranttia.",
+        "sentence_en": "You should use a deodorant."
+    },
+    {
+        "fi": "peili",
+        "en": "mirror",
+        "image": "no_image",
+        "sentence_fi": "Seinällä riippuu suuri peili.",
+        "sentence_en": "There is a large mirror hanging on the wall."
+    },
+    {
+        "fi": "käsipeili",
+        "en": "hand mirror",
+        "image": "no_image",
+        "sentence_fi": "Tässä on käsipeili.",
+        "sentence_en": "This is a hand mirror."
+    },
+    {
+        "fi": "partaveitsi",
+        "en": "razor",
+        "image": "no_image",
+        "sentence_fi": "Tässä on partaveitsi.",
+        "sentence_en": "This is a razor."
+    },
+    {
+        "fi": "partavaahto",
+        "en": "shaving foam",
+        "image": "no_image",
+        "sentence_fi": "Tässä on partavaahto.",
+        "sentence_en": "This is a shaving foam."
+    },
+    {
+        "fi": "partavesi",
+        "en": "aftershave",
+        "image": "no_image",
+        "sentence_fi": "Käytättekö partavettä?",
+        "sentence_en": "Do you use aftershave?"
+    },
+    {
+        "fi": "kampa",
+        "en": "comb",
+        "image": "no_image",
+        "sentence_fi": "Hän kamppasi hänet.",
+        "sentence_en": "He tripped him up."
+    },
+    {
+        "fi": "harja",
+        "en": "brush",
+        "image": "https://images.unsplash.com/photo-1622542796254-5b9c46ab0d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxicnVzaHxlbnwwfHx8fDE3NzczMjI3ODJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Harjoita armollisuutta.",
+        "sentence_en": "Practice mercy."
+    },
+    {
+        "fi": "hiustenkuivaaja",
+        "en": "hair dryer",
+        "image": "no_image",
+        "sentence_fi": "En pysty kuivata hiuksiani. Minulla ei ole hiustenkuivaajaa.",
+        "sentence_en": "I cannot dry my hair. I don't have a hairdrier."
+    },
+    {
+        "fi": "hiuslakka",
+        "en": "hairspray",
+        "image": "no_image",
+        "sentence_fi": "Tässä on hiuslakka.",
+        "sentence_en": "This is a hairspray."
+    },
+    {
+        "fi": "meikki",
+        "en": "makeup",
+        "image": "no_image",
+        "sentence_fi": "En käytä lainkaan meikkiä.",
+        "sentence_en": "I don't wear makeup at all."
+    },
+    {
+        "fi": "huulipuna",
+        "en": "lipstick",
+        "image": "no_image",
+        "sentence_fi": "Tässä on huulipuna.",
+        "sentence_en": "This is a lipstick."
+    },
+    {
+        "fi": "kynsilakka",
+        "en": "nail polish",
+        "image": "no_image",
+        "sentence_fi": "Kun Meredith osti tämän pohjois-teksasilaisen maapalstan useita vuosia sitten, se oli ylilaidunnettu ja rikkakasvien valtaama. Nyt hän on innoissaan löytäessään tumman vihreän sienimöykyn, jonka hän pyöräyttää kimaltelevalla kynsilakalla lakatun peukalonsa alle.",
+        "sentence_en": "When Meredith bought this northern Texas land several years ago, it was overgrazed and overrun with weeds. Now, she’s thrilled to find a dark green blob of fungus she rolls under her sparkly-nail-polished thumb."
+    },
+    {
+        "fi": "pumpuli",
+        "en": "cotton",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pumpuli.",
+        "sentence_en": "This is a cotton."
+    },
+    {
+        "fi": "kynsisakset",
+        "en": "nail scissors",
+        "image": "no_image",
+        "sentence_fi": "Hän yleensä käyttää kynsisaksia.",
+        "sentence_en": "She usually uses nail scissors."
+    },
+    {
+        "fi": "hajuvesi",
+        "en": "perfume",
+        "image": "no_image",
+        "sentence_fi": "Onko sinulla hajuvettä?",
+        "sentence_en": "Are you wearing perfume?"
+    },
+    {
+        "fi": "kosmetiikkalaukku",
+        "en": "cosmetic bag",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kosmetiikkalaukku.",
+        "sentence_en": "This is a cosmetic bag."
+    },
+    {
+        "fi": "jakkara",
+        "en": "stool",
+        "image": "no_image",
+        "sentence_fi": "Tom istui nurkassa jakkaralla.",
+        "sentence_en": "Tom sat on a stool in the corner."
+    },
+    {
+        "fi": "vaaka",
+        "en": "horizontal",
+        "image": "no_image",
+        "sentence_fi": "Kaksitoista eläinradan merkkiä ovat oinas, härkä, kaksoset, rapu, leijona, neitsyt, vaaka, skorpioni, jousimies, kauris, vesimies ja kalat.",
+        "sentence_en": "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces."
+    },
+    {
+        "fi": "kylpytakki",
+        "en": "bathrobe",
+        "image": "no_image",
+        "sentence_fi": "Miksi olet kylpytakissa?",
+        "sentence_en": "Why are you in your bathrobe?"
+    },
+    {
+        "fi": "kumihansikkaat",
+        "en": "rubber gloves",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kumihansikkaat.",
+        "sentence_en": "This is a rubber gloves."
+    },
+    {
+        "fi": "tamponi",
+        "en": "tampon",
+        "image": "no_image",
+        "sentence_fi": "Tässä on tamponi.",
+        "sentence_en": "This is a tampon."
+    },
+    {
+        "fi": "terveysside",
+        "en": "sanitary napkin",
+        "image": "no_image",
+        "sentence_fi": "Kuinka monta terveyssidettä tarvitset joka päivä?",
+        "sentence_en": "How many sanitary towels do you need every day?"
+    },
+    {
+        "fi": "kemiallinen wc",
+        "en": "chemical toilet",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kemiallinen wc.",
+        "sentence_en": "This is a chemical toilet."
+    },
+    {
+        "fi": "pesuaine",
+        "en": "detergent",
+        "image": "https://images.unsplash.com/photo-1624372635282-b324bcdd4907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXRlcmdlbnR8ZW58MHx8fHwxNzc3MzMxMTQwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on pesuaine.",
+        "sentence_en": "This is a detergent."
+    },
+    {
+        "fi": "kylpyhuone",
+        "en": "bathroom",
+        "image": "no_image",
+        "sentence_fi": "Missä kylpyhuone on?",
+        "sentence_en": "Where is the bathroom?"
+    },
+    {
+        "fi": "lavuaari",
+        "en": "sink",
+        "image": "https://images.unsplash.com/photo-1609210884848-2d530cfb2a07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaW5rfGVufDB8fHx8MTc3NzMzMTAwOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Voi perse. Pudotin vehkeeni lavuaariin.",
+        "sentence_en": "Ah, crap. I dropped my doohickey into the sink."
+    },
+    {
+        "fi": "vesi",
+        "en": "water",
+        "image": "https://images.unsplash.com/photo-1553531768-88af16561c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHx3YXRlcnxlbnwwfHx8fDE3NzczMjI0ODB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vesi jäätyi.",
+        "sentence_en": "The water is frozen."
+    }
+]
