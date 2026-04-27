@@ -1,0 +1,562 @@
+[
+    {
+        "fi": "pöytä",
+        "en": "table",
+        "image": "no_image",
+        "sentence_fi": "Mikä pöytä?",
+        "sentence_en": "Which table?"
+    },
+    {
+        "fi": "tarjoilija",
+        "en": "Waiter",
+        "image": "https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxXYWl0ZXJ8ZW58MHx8fHwxNzc3MzIzOTY3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarjoilijaa kaivataan.",
+        "sentence_en": "Waiter needed."
+    },
+    {
+        "fi": "ruokalista",
+        "en": "menu",
+        "image": "https://images.unsplash.com/photo-1625173616412-7b403d49a41e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtZW51fGVufDB8fHx8MTc3NzMyNDAwMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Onko ruokala jo auki?",
+        "sentence_en": "Is the cafeteria open yet?"
+    },
+    {
+        "fi": "tuoli",
+        "en": "chair",
+        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGFpcnxlbnwwfHx8fDE3NzczMjQwMDV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tämä tuoli on kevyt.",
+        "sentence_en": "This chair is light."
+    },
+    {
+        "fi": "keitto",
+        "en": "soup",
+        "image": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzb3VwfGVufDB8fHx8MTc3NzMyNDAyMXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Söin vain keittoa.",
+        "sentence_en": "I only ate soup."
+    },
+    {
+        "fi": "pitsa",
+        "en": "pizza",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwaXp6YXxlbnwwfHx8fDE3NzczMTg5NDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tilaan kaksi pitsaa.",
+        "sentence_en": "I'll order two pizzas."
+    },
+    {
+        "fi": "pöytäliina",
+        "en": "tablecloth",
+        "image": "https://images.unsplash.com/photo-1696673022696-f6d89dc9f96b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0YWJsZWNsb3RofGVufDB8fHx8MTc3NzMyNDAyOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pöytäliina on kaapissa.",
+        "sentence_en": "The tablecloth is in the cupboard."
+    },
+    {
+        "fi": "ruokailuvälineet",
+        "en": "cutlery",
+        "image": "https://images.unsplash.com/photo-1607637508078-17fa89da51b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjdXRsZXJ5fGVufDB8fHx8MTc3NzMyNDAzNXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Panisitko ruokailuvälineet kaappiin?",
+        "sentence_en": "Can you put the dishes in the cabinet?"
+    },
+    {
+        "fi": "alkuruoka",
+        "en": "appetizer",
+        "image": "https://images.unsplash.com/photo-1577906096429-f73c2c312435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhcHBldGl6ZXJ8ZW58MHx8fHwxNzc3MzI0MDQwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom söi erehdyksessä alkuruokansa salaattihaarukallaan.",
+        "sentence_en": "Tom mistakenly ate his entree with his salad fork."
+    },
+    {
+        "fi": "pääruoka",
+        "en": "main course",
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtYWluJTIwY291cnNlfGVufDB8fHx8MTc3NzMyNDA0M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on pääruoka.",
+        "sentence_en": "This is a main course."
+    },
+    {
+        "fi": "jälkiruoka",
+        "en": "dessert",
+        "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0fGVufDB8fHx8MTc3NzMyNDA1Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mikä jälkiruoka hänen pitäisi syödä?",
+        "sentence_en": "Which dessert should he eat?"
+    },
+    {
+        "fi": "juomat",
+        "en": "drinks",
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkcmlua3N8ZW58MHx8fHwxNzc3MzIyNTYxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Valmistin itselleni juoman.",
+        "sentence_en": "I fixed myself a drink."
+    },
+    {
+        "fi": "ruoka",
+        "en": "food",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb29kfGVufDB8fHx8MTc3NzMxODcwOXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ruoka maksaa.",
+        "sentence_en": "Food costs money."
+    },
+    {
+        "fi": "pullo",
+        "en": "bottle",
+        "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib3R0bGV8ZW58MHx8fHwxNzc3MzIyNTU1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Avaa pullo.",
+        "sentence_en": "Open the bottle."
+    },
+    {
+        "fi": "pikaruoka",
+        "en": "fastfood",
+        "image": "https://images.unsplash.com/photo-1632203171982-cc0df6e9ceb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmYXN0Zm9vZHxlbnwwfHx8fDE3NzczMjQwNjl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Olen kyllästynyt syömään pikaruokaa.",
+        "sentence_en": "I'm tired of eating fast food."
+    },
+    {
+        "fi": "katuruoka",
+        "en": "street food",
+        "image": "https://images.unsplash.com/photo-1552912470-ee2e96439539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzdHJlZXQlMjBmb29kfGVufDB8fHx8MTc3NzMyNDA3Mnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on katuruoka.",
+        "sentence_en": "This is a street food."
+    },
+    {
+        "fi": "teekannu",
+        "en": "teapot",
+        "image": "https://images.unsplash.com/photo-1683558654439-8b9986cbf1dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWFwb3R8ZW58MHx8fHwxNzc3MzI0MDc3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on teekannu.",
+        "sentence_en": "This is a teapot."
+    },
+    {
+        "fi": "sokeriastia",
+        "en": "sugar bowl",
+        "image": "https://images.unsplash.com/photo-1628606050166-20b1f9f5a98a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzdWdhciUyMGJvd2x8ZW58MHx8fHwxNzc3MzI0MDgxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on sokeriastia.",
+        "sentence_en": "This is a sugar bowl."
+    },
+    {
+        "fi": "annos",
+        "en": "dose",
+        "image": "https://images.unsplash.com/photo-1618675523373-026f54ca1497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkb3NlfGVufDB8fHx8MTc3NzMyNDA4NHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Anna mun annos.",
+        "sentence_en": "Give me my portion."
+    },
+    {
+        "fi": "espressokeitin",
+        "en": "espresso machine",
+        "image": "https://images.unsplash.com/photo-1582572426223-d152057ba012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMG1hY2hpbmV8ZW58MHx8fHwxNzc3MzI0MDg4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on espressokeitin.",
+        "sentence_en": "This is a espresso machine."
+    },
+    {
+        "fi": "syöttötuoli",
+        "en": "high chair",
+        "image": "https://images.unsplash.com/photo-1728473185541-a1b3cfd86c0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxoaWdoJTIwY2hhaXJ8ZW58MHx8fHwxNzc3MzI0MDkyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on syöttötuoli.",
+        "sentence_en": "This is a high chair."
+    },
+    {
+        "fi": "lasku",
+        "en": "fall",
+        "image": "https://images.unsplash.com/photo-1507371341162-763b5e419408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmYWxsfGVufDB8fHx8MTc3NzMyNDA5N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Saisinko laskun!",
+        "sentence_en": "The check, please."
+    },
+    {
+        "fi": "tarjotin",
+        "en": "tray",
+        "image": "https://images.unsplash.com/photo-1447949122973-9711a09951d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmF5fGVufDB8fHx8MTc3NzMyNDEwMXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän oli niin ystävällinen tarjotessaan paikkansa minulle.",
+        "sentence_en": "He was so kind as to offer his seat to me."
+    },
+    {
+        "fi": "veitsi",
+        "en": "knife",
+        "image": "https://images.unsplash.com/photo-1588597575483-f4e43e191c94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxrbmlmZXxlbnwwfHx8fDE3NzczMjQxMDV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Veit sanat suustani.",
+        "sentence_en": "You took the words right out of my mouth."
+    },
+    {
+        "fi": "haarukka",
+        "en": "fork",
+        "image": "https://images.unsplash.com/photo-1569702824812-351205c9cde5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb3JrfGVufDB8fHx8MTc3NzMyNDEwOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pesen yhden haarukan.",
+        "sentence_en": "I'm washing up a fork."
+    },
+    {
+        "fi": "lusikka",
+        "en": "spoon",
+        "image": "https://images.unsplash.com/photo-1619367300933-376d8c5cd5f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcG9vbnxlbnwwfHx8fDE3NzczMjQxMTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Heitti lusikan nurkkaan.",
+        "sentence_en": "He kicked the bucket."
+    },
+    {
+        "fi": "teelusikka",
+        "en": "teaspoon",
+        "image": "https://images.unsplash.com/photo-1715690998858-bcdf42b225ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWFzcG9vbnxlbnwwfHx8fDE3NzczMjQxMTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on teelusikka.",
+        "sentence_en": "This is a teaspoon."
+    },
+    {
+        "fi": "servietti",
+        "en": "serviette",
+        "image": "https://images.unsplash.com/photo-1636715940394-493e67594b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzZXJ2aWV0dGV8ZW58MHx8fHwxNzc3MzI0MTIzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on servietti.",
+        "sentence_en": "This is a serviette."
+    },
+    {
+        "fi": "lasi",
+        "en": "glass",
+        "image": "https://images.unsplash.com/photo-1514651029128-173d2e6ea851?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnbGFzc3xlbnwwfHx8fDE3NzczMjI1NjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Unohdin lasit.",
+        "sentence_en": "I forgot my glasses."
+    },
+    {
+        "fi": "lautanen",
+        "en": "plate",
+        "image": "https://images.unsplash.com/photo-1587334207810-4915c4e40c67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwbGF0ZXxlbnwwfHx8fDE3NzczMjQxMzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lasi ja lautanen särkyivät.",
+        "sentence_en": "Glasses and dishes were broken."
+    },
+    {
+        "fi": "syvä lautanen",
+        "en": "soup plate",
+        "image": "https://images.unsplash.com/photo-1609355108742-dcbc6c51a3a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzb3VwJTIwcGxhdGV8ZW58MHx8fHwxNzc3MzI0MTM1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on syvä lautanen.",
+        "sentence_en": "This is a soup plate."
+    },
+    {
+        "fi": "aluslautanen",
+        "en": "saucer",
+        "image": "https://images.unsplash.com/photo-1551807306-4bcd16b92a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYXVjZXJ8ZW58MHx8fHwxNzc3MzI0MTM5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on aluslautanen.",
+        "sentence_en": "This is a saucer."
+    },
+    {
+        "fi": "kastike",
+        "en": "sauce",
+        "image": "https://images.unsplash.com/photo-1563599175592-c58dc214deff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYXVjZXxlbnwwfHx8fDE3NzczMjQxNDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haluaisitko hieman lisää kastiketta?",
+        "sentence_en": "Would you like some more gravy?"
+    },
+    {
+        "fi": "suolasirotin",
+        "en": "salt shaker",
+        "image": "https://images.unsplash.com/photo-1648595093268-c0fd39b4cc30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYWx0JTIwc2hha2VyfGVufDB8fHx8MTc3NzMyNDE1MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on suolasirotin.",
+        "sentence_en": "This is a salt shaker."
+    },
+    {
+        "fi": "pippurimylly",
+        "en": "pepper mill",
+        "image": "https://images.unsplash.com/photo-1653206223797-4a6a73cd0af2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwZXBwZXIlMjBtaWxsfGVufDB8fHx8MTc3NzMyNDE1N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on pippurimylly.",
+        "sentence_en": "This is a pepper mill."
+    },
+    {
+        "fi": "etikka",
+        "en": "vinegar",
+        "image": "https://images.unsplash.com/photo-1628268909461-ec1eec52a74e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx2aW5lZ2FyfGVufDB8fHx8MTc3NzMyNDE2MXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hunajalla saa kiinni enemmän kärpäsiä kuin etikalla.",
+        "sentence_en": "You catch more flies with honey than with vinegar."
+    },
+    {
+        "fi": "öljy",
+        "en": "oil",
+        "image": "https://images.unsplash.com/photo-1627436712678-960862eac951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvaWx8ZW58MHx8fHwxNzc3MzI0MTcwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Laitoitko öljyä pannulle?",
+        "sentence_en": "Did you put oil in the pan?"
+    },
+    {
+        "fi": "mausteet",
+        "en": "spices",
+        "image": "https://images.unsplash.com/photo-1716816211590-c15a328a5ff0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcGljZXN8ZW58MHx8fHwxNzc3MzI0MTczfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän yritti maustaa keskustelua naapurijuoruilla.",
+        "sentence_en": "She tried to spice up the conversation with gossip about the neighbors."
+    },
+    {
+        "fi": "ketsuppi",
+        "en": "ketchup",
+        "image": "no_image",
+        "sentence_fi": "Ketsuppi on loppunut.",
+        "sentence_en": "We're out of ketchup."
+    },
+    {
+        "fi": "sinappi",
+        "en": "mustard",
+        "image": "no_image",
+        "sentence_fi": "Tavallisesti Tom panee makkarasämpylöihinsä sinappia ja ketsuppia.",
+        "sentence_en": "Tom usually puts mustard and ketchup on his hot dogs."
+    },
+    {
+        "fi": "majoneesi",
+        "en": "mayonnaise",
+        "image": "no_image",
+        "sentence_fi": "Onko majoneesi soitin?",
+        "sentence_en": "Is mayonnaise a musical instrument?"
+    },
+    {
+        "fi": "tee",
+        "en": "tea",
+        "image": "https://images.unsplash.com/photo-1531969179221-3946e6b5a5e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWF8ZW58MHx8fHwxNzc3MzIyNTM2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tee se.",
+        "sentence_en": "Do it."
+    },
+    {
+        "fi": "cappuccino",
+        "en": "cappuccino",
+        "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXBwdWNjaW5vfGVufDB8fHx8MTc3NzMyMjU0OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Joimme cappuccinot ja juttelimme vanhoista ajoista.",
+        "sentence_en": "We drank cappuccinos and talked about old times."
+    },
+    {
+        "fi": "viini",
+        "en": "wine",
+        "image": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3aW5lfGVufDB8fHx8MTc3NzMyMjUyM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Viini auttaa ruoansulatusta.",
+        "sentence_en": "Wine helps digest food."
+    },
+    {
+        "fi": "kokis",
+        "en": "coke",
+        "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb2tlfGVufDB8fHx8MTc3NzMyMjUxOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kuolisin mieluummin kuin kokisin jotain niin hirveää itse.",
+        "sentence_en": "I would rather die than have such a terrible experience."
+    },
+    {
+        "fi": "hampurilainen",
+        "en": "hamburger",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxoYW1idXJnZXJ8ZW58MHx8fHwxNzc3MzE4OTYxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Jos on vielä nälkä, syö vielä yksi hampurilainen.",
+        "sentence_en": "If you're still hungry, have another hamburger."
+    },
+    {
+        "fi": "kuppi",
+        "en": "cup",
+        "image": "no_image",
+        "sentence_fi": "Saisinko kupin teetä?",
+        "sentence_en": "Can I have a cup of tea?"
+    },
+    {
+        "fi": "ranskalaiset",
+        "en": "French",
+        "image": "https://images.unsplash.com/photo-1551866442-64e75e911c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxGcmVuY2h8ZW58MHx8fHwxNzc3MzE4OTIxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ranskalaisia, kiitos.",
+        "sentence_en": "Some french fries, please."
+    },
+    {
+        "fi": "valkosipuli",
+        "en": "garlic",
+        "image": "https://images.unsplash.com/photo-1636210589096-a53d5dacd702?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnYXJsaWN8ZW58MHx8fHwxNzc3MzE4NzkyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Riittääkö kaksi kynttä valkosipulia?",
+        "sentence_en": "Will two cloves of garlic be enough?"
+    },
+    {
+        "fi": "pöytä",
+        "en": "table",
+        "image": "no_image",
+        "sentence_fi": "Kata pöytä!",
+        "sentence_en": "Lay the table!"
+    },
+    {
+        "fi": "pippuri",
+        "en": "pepper",
+        "image": "no_image",
+        "sentence_fi": "Pippuri on mauste.",
+        "sentence_en": "Pepper is a spice."
+    },
+    {
+        "fi": "hedelmät",
+        "en": "fruit",
+        "image": "no_image",
+        "sentence_fi": "Syön hedelmää.",
+        "sentence_en": "I eat fruit."
+    },
+    {
+        "fi": "liha",
+        "en": "meat",
+        "image": "no_image",
+        "sentence_fi": "Syön lihaa.",
+        "sentence_en": "I eat meat."
+    },
+    {
+        "fi": "paisti",
+        "en": "roast",
+        "image": "https://images.unsplash.com/photo-1580476262843-d5e9b687d4d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyb2FzdHxlbnwwfHx8fDE3NzczMTkwNDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tänään aurinko paistaa.",
+        "sentence_en": "Today is a sunny day."
+    },
+    {
+        "fi": "curry",
+        "en": "curry",
+        "image": "no_image",
+        "sentence_fi": "Curry oli keskinkertaista.",
+        "sentence_en": "The curry was nothing special."
+    },
+    {
+        "fi": "vanukas",
+        "en": "pudding",
+        "image": "no_image",
+        "sentence_fi": "Tässä on vanukas.",
+        "sentence_en": "This is a pudding."
+    },
+    {
+        "fi": "makkara",
+        "en": "sausage",
+        "image": "https://images.unsplash.com/photo-1585325701165-351af916e581?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYXVzYWdlfGVufDB8fHx8MTc3NzMxOTAyNnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Miksi paistoit vain kaksi makkaraa?",
+        "sentence_en": "Why did you fry two sausages only?"
+    },
+    {
+        "fi": "riisi",
+        "en": "rice",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyaWNlfGVufDB8fHx8MTc3NzMxODg5N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Keittäkää se riisi!",
+        "sentence_en": "Cook the rice."
+    },
+    {
+        "fi": "kana",
+        "en": "chicken",
+        "image": "https://images.unsplash.com/photo-1612170153139-6f881ff067e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGlja2VufGVufDB8fHx8MTc3NzMxNjg0Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kana oli herkullista.",
+        "sentence_en": "The chicken was great."
+    },
+    {
+        "fi": "salaatti",
+        "en": "salad",
+        "image": "https://images.unsplash.com/photo-1607532941433-304659e8198a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYWxhZHxlbnwwfHx8fDE3NzczMTg5MTN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Piditkö salaatista?",
+        "sentence_en": "Did you like the salad?"
+    },
+    {
+        "fi": "kahvinkeitin",
+        "en": "coffee maker",
+        "image": "no_image",
+        "sentence_fi": "Yhdysvalloissa on tavallista antaa häissä morsiamelle lahja kuten laseja tai kahvinkeitin.",
+        "sentence_en": "In the U.S., it is common to give a present, such as glasses or a coffee-maker, to the bride at weddings."
+    },
+    {
+        "fi": "mehu",
+        "en": "juice",
+        "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxqdWljZXxlbnwwfHx8fDE3NzczMjI1MDl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Otan vain mehua.",
+        "sentence_en": "I'm only going to drink juice."
+    },
+    {
+        "fi": "kahvi",
+        "en": "coffee",
+        "image": "https://images.unsplash.com/photo-1556742526-795a8eac090e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHxjb2ZmZWV8ZW58MHx8fHwxNzc3MzIyNTM5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Keitetään kahvit.",
+        "sentence_en": "Let's make some coffee."
+    },
+    {
+        "fi": "leike",
+        "en": "section",
+        "image": "https://images.unsplash.com/photo-1691315037260-cb957ce7b74f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzZWN0aW9ufGVufDB8fHx8MTc3NzMxODk4M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on leike.",
+        "sentence_en": "This is a section."
+    },
+    {
+        "fi": "vesi",
+        "en": "water",
+        "image": "https://images.unsplash.com/photo-1553531768-88af16561c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHx3YXRlcnxlbnwwfHx8fDE3NzczMjI0ODB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vesi nousee.",
+        "sentence_en": "The water is rising."
+    },
+    {
+        "fi": "spagetti",
+        "en": "spaghetti",
+        "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcGFnaGV0dGl8ZW58MHx8fHwxNzc3MzE4ODc3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tuomo teki illalliseksi spagettia.",
+        "sentence_en": "Tom made spaghetti for dinner."
+    },
+    {
+        "fi": "vieras",
+        "en": "guest",
+        "image": "no_image",
+        "sentence_fi": "Äidinkieleni on toiselle vieras kieli.",
+        "sentence_en": "My native language is a foreign language for someone else."
+    },
+    {
+        "fi": "paistettu kananmuna",
+        "en": "fried egg",
+        "image": "https://images.unsplash.com/photo-1691480184494-d9f822edd4d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmcmllZCUyMGVnZ3xlbnwwfHx8fDE3NzczMTkyODR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on paistettu kananmuna.",
+        "sentence_en": "This is a fried egg."
+    },
+    {
+        "fi": "paahtoleipä",
+        "en": "toast",
+        "image": "https://images.unsplash.com/photo-1612827788868-c8632040ab64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b2FzdHxlbnwwfHx8fDE3NzczMTkyMjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Paahtoleipä on palanut mustaksi.",
+        "sentence_en": "The toast has burned black."
+    },
+    {
+        "fi": "kasvikset",
+        "en": "vegetables",
+        "image": "no_image",
+        "sentence_fi": "Miksi et syö kasviksia?",
+        "sentence_en": "Why don't you eat vegetables?"
+    },
+    {
+        "fi": "",
+        "en": "",
+        "image": "no_image",
+        "sentence_fi": "Laihdutatko?",
+        "sentence_en": "Are you losing weight?"
+    },
+    {
+        "fi": "astiat",
+        "en": "dishes",
+        "image": "no_image",
+        "sentence_fi": "Missä astiat ovat?",
+        "sentence_en": "Where are the dishes?"
+    },
+    {
+        "fi": "kala",
+        "en": "fish",
+        "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmaXNofGVufDB8fHx8MTc3NzMxNjg1NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mennään kalaan!",
+        "sentence_en": "Let's go fishing."
+    },
+    {
+        "fi": "olut",
+        "en": "beer",
+        "image": "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiZWVyfGVufDB8fHx8MTc3NzMyMjUyN3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "En ollut kokouksessa.",
+        "sentence_en": "I wasn't present at that meeting."
+    },
+    {
+        "fi": "jäätelö",
+        "en": "ice cream",
+        "image": "no_image",
+        "sentence_fi": "Haluan jäätelöä.",
+        "sentence_en": "I want ice cream."
+    },
+    {
+        "fi": "suola",
+        "en": "salt",
+        "image": "no_image",
+        "sentence_fi": "Antakaa suola.",
+        "sentence_en": "Pass me the salt."
+    },
+    {
+        "fi": "paistetut perunat",
+        "en": "sautee potatoes",
+        "image": "https://images.unsplash.com/photo-1633959639799-6d3f66e05710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzYXV0ZWUlMjBwb3RhdG9lc3xlbnwwfHx8fDE3NzczMTg5Mjl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on paistetut perunat.",
+        "sentence_en": "This is a sautee potatoes."
+    },
+    {
+        "fi": "leipä",
+        "en": "bread",
+        "image": "https://images.unsplash.com/photo-1598373182133-52452f7691ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxicmVhZHxlbnwwfHx8fDE3NzczMTkxNjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haluaisitko leipää?",
+        "sentence_en": "Would you like bread?"
+    },
+    {
+        "fi": "espresso",
+        "en": "espresso",
+        "image": "https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlc3ByZXNzb3xlbnwwfHx8fDE3NzczMjI1NDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on espresso.",
+        "sentence_en": "This is a espresso."
+    },
+    {
+        "fi": "spagetti",
+        "en": "spaghetti",
+        "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcGFnaGV0dGl8ZW58MHx8fHwxNzc3MzE4ODc3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Se on spagettia.",
+        "sentence_en": "This is spaghetti."
+    }
+]
