@@ -1,0 +1,352 @@
+[
+    {
+        "fi": "lehti",
+        "en": "leaf",
+        "image": "no_image",
+        "sentence_fi": "Lehti on tahmea.",
+        "sentence_en": "The leaf is sticky."
+    },
+    {
+        "fi": "tienviitta",
+        "en": "signpost",
+        "image": "no_image",
+        "sentence_fi": "Me emme nähneet yhtään tienviittaa.",
+        "sentence_en": "We didn't see any signs."
+    },
+    {
+        "fi": "tie",
+        "en": "road",
+        "image": "no_image",
+        "sentence_fi": "Tie on pitkä.",
+        "sentence_en": "The road is long."
+    },
+    {
+        "fi": "niitty",
+        "en": "meadow",
+        "image": "no_image",
+        "sentence_fi": "Rakastavaiset käveleskelivät ympäriinsä niittyä metsämansikoita etsien.",
+        "sentence_en": "The lovers roamed around the fields in search of wild berries."
+    },
+    {
+        "fi": "retkeilijä",
+        "en": "hiker",
+        "image": "no_image",
+        "sentence_fi": "Tässä on retkeilijä.",
+        "sentence_en": "This is a hiker."
+    },
+    {
+        "fi": "kivi",
+        "en": "stone",
+        "image": "no_image",
+        "sentence_fi": "Kivi on kova.",
+        "sentence_en": "The stone is hard."
+    },
+    {
+        "fi": "joki",
+        "en": "river",
+        "image": "no_image",
+        "sentence_fi": "Joki oli kaunis.",
+        "sentence_en": "The river was beautiful."
+    },
+    {
+        "fi": "puu",
+        "en": "wood",
+        "image": "no_image",
+        "sentence_fi": "Puu kaatuu!",
+        "sentence_en": "Timber!"
+    },
+    {
+        "fi": "ruoho",
+        "en": "grass",
+        "image": "no_image",
+        "sentence_fi": "Lammas syö ruohoa.",
+        "sentence_en": "Sheep feed on grass."
+    },
+    {
+        "fi": "kukka",
+        "en": "flower",
+        "image": "no_image",
+        "sentence_fi": "Ruusu on kukka.",
+        "sentence_en": "A rose is a flower."
+    },
+    {
+        "fi": "laakso",
+        "en": "valley",
+        "image": "no_image",
+        "sentence_fi": "He marssivat luoteeseen, Shenandoahin laaksoon.",
+        "sentence_en": "They marched northwest into the Shenandoah Valley."
+    },
+    {
+        "fi": "vuori",
+        "en": "mountain",
+        "image": "no_image",
+        "sentence_fi": "Vuori on lumen peitossa.",
+        "sentence_en": "The mountain is covered with snow."
+    },
+    {
+        "fi": "järvi",
+        "en": "lake",
+        "image": "no_image",
+        "sentence_fi": "Ajetaan järvelle.",
+        "sentence_en": "Let's drive to the lake."
+    },
+    {
+        "fi": "metsä",
+        "en": "forest",
+        "image": "no_image",
+        "sentence_fi": "Eksyimme metsään.",
+        "sentence_en": "We went astray in the woods."
+    },
+    {
+        "fi": "aavikko",
+        "en": "desert",
+        "image": "no_image",
+        "sentence_fi": "Saharan aavikko laajentuu.",
+        "sentence_en": "The Sahara Desert is expanding."
+    },
+    {
+        "fi": "tulivuori",
+        "en": "volcano",
+        "image": "no_image",
+        "sentence_fi": "Tämä on aktiivinen tulivuori.",
+        "sentence_en": "This is an active volcano."
+    },
+    {
+        "fi": "linna",
+        "en": "castle",
+        "image": "no_image",
+        "sentence_fi": "Avasin linkin.",
+        "sentence_en": "I opened the link."
+    },
+    {
+        "fi": "sateenkaari",
+        "en": "rainbow",
+        "image": "no_image",
+        "sentence_fi": "Oletko koskaan nähnyt sateenkaarta?",
+        "sentence_en": "Have you ever seen a rainbow?"
+    },
+    {
+        "fi": "sieni",
+        "en": "mushroom",
+        "image": "https://images.unsplash.com/photo-1571074635691-b910c7a5cdbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtdXNocm9vbXxlbnwwfHx8fDE3NzczMTg4Mzl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Sieni imee vettä.",
+        "sentence_en": "A sponge absorbs water."
+    },
+    {
+        "fi": "palmu",
+        "en": "palm",
+        "image": "https://images.unsplash.com/photo-1525923838299-2312b60f6d69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwYWxtfGVufDB8fHx8MTc3NzMyNzIxNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Näitkö palmut?",
+        "sentence_en": "Did you see the palm trees?"
+    },
+    {
+        "fi": "hyttynen",
+        "en": "mosquito",
+        "image": "no_image",
+        "sentence_fi": "Minnesotan osavaltion kansallislintu on hyttynen.",
+        "sentence_en": "Minnesota's state bird is the mosquito."
+    },
+    {
+        "fi": "kärpänen",
+        "en": "fly",
+        "image": "no_image",
+        "sentence_fi": "Kärpänen on hyönteinen.",
+        "sentence_en": "Flies are insects."
+    },
+    {
+        "fi": "muurahainen",
+        "en": "ant",
+        "image": "no_image",
+        "sentence_fi": "Muurahainen voi nostaa yli viisikymmentä kertaa oman painonsa verran.",
+        "sentence_en": "An ant can lift more than 50 times its weight."
+    },
+    {
+        "fi": "mehiläinen",
+        "en": "bee",
+        "image": "no_image",
+        "sentence_fi": "Mehiläinen pörrää ympäriinsä.",
+        "sentence_en": "A bee is buzzing around."
+    },
+    {
+        "fi": "hämähäkki",
+        "en": "spider",
+        "image": "no_image",
+        "sentence_fi": "Inhoan hämähäkkejä.",
+        "sentence_en": "I abhor spiders."
+    },
+    {
+        "fi": "kovakuoriainen",
+        "en": "beetle",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kovakuoriainen.",
+        "sentence_en": "This is a beetle."
+    },
+    {
+        "fi": "sammakko",
+        "en": "frog",
+        "image": "no_image",
+        "sentence_fi": "Käärme hotkaisi sammakon.",
+        "sentence_en": "The snake swallowed a frog."
+    },
+    {
+        "fi": "orava",
+        "en": "squirrel",
+        "image": "no_image",
+        "sentence_fi": "Näetkö oravat?",
+        "sentence_en": "Can you see the squirrels?"
+    },
+    {
+        "fi": "siili",
+        "en": "hedgehog",
+        "image": "no_image",
+        "sentence_fi": "Siili on ylpeä lintu. Se ei lennä, jos sitä ei potkaise.",
+        "sentence_en": "Hedgehog is a proud bird. If you don't kick it, it won't fly."
+    },
+    {
+        "fi": "jänis",
+        "en": "hare",
+        "image": "no_image",
+        "sentence_fi": "Jänis juoksi kilpaa kilpikonnan kanssa.",
+        "sentence_en": "A hare raced with a tortoise."
+    },
+    {
+        "fi": "pöllö",
+        "en": "owl",
+        "image": "no_image",
+        "sentence_fi": "Pöllöt metsästävät öisin.",
+        "sentence_en": "Owls hunt at night."
+    },
+    {
+        "fi": "lintu",
+        "en": "bird",
+        "image": "no_image",
+        "sentence_fi": "Lintu sirkuttaa.",
+        "sentence_en": "Birds sing."
+    },
+    {
+        "fi": "joutsen",
+        "en": "swan",
+        "image": "no_image",
+        "sentence_fi": "Rumasta ankanpojasta tuli kaunis joutsen.",
+        "sentence_en": "The ugly duckling turned into a beautiful swan."
+    },
+    {
+        "fi": "villisika",
+        "en": "wild boar",
+        "image": "no_image",
+        "sentence_fi": "Tässä on villisika.",
+        "sentence_en": "This is a wild boar."
+    },
+    {
+        "fi": "peura",
+        "en": "deer",
+        "image": "no_image",
+        "sentence_fi": "Hevoset ovat vahvempia kuin peurat.",
+        "sentence_en": "Horses are stronger than deer."
+    },
+    {
+        "fi": "hirvi",
+        "en": "deer",
+        "image": "no_image",
+        "sentence_fi": "Tää on hirvee.",
+        "sentence_en": "It's terrible."
+    },
+    {
+        "fi": "pato",
+        "en": "dam",
+        "image": "no_image",
+        "sentence_fi": "Tom ei voinut mitenkään tietää että pato ei kestäisi.",
+        "sentence_en": "Tom had no way of knowing that the dam wouldn't hold."
+    },
+    {
+        "fi": "tuulimylly",
+        "en": "windmill",
+        "image": "no_image",
+        "sentence_fi": "Tässä on tuulimylly.",
+        "sentence_en": "This is a windmill."
+    },
+    {
+        "fi": "aurinkopaneeli",
+        "en": "solar panel",
+        "image": "no_image",
+        "sentence_fi": "Aurinkopaneeli ottaa vastaan aurinkoenergiaa.",
+        "sentence_en": "The solar panel captures solar energy."
+    },
+    {
+        "fi": "ilmasto",
+        "en": "climate",
+        "image": "no_image",
+        "sentence_fi": "Ilmasto muuttuu.",
+        "sentence_en": "The climate is changing."
+    },
+    {
+        "fi": "teltta",
+        "en": "tent",
+        "image": "no_image",
+        "sentence_fi": "Pystytetään teltta tähän.",
+        "sentence_en": "Let's put up our tent here."
+    },
+    {
+        "fi": "metsästäjä",
+        "en": "hunter",
+        "image": "no_image",
+        "sentence_fi": "Metsästäjä tappoi ketun.",
+        "sentence_en": "The hunter killed the fox."
+    },
+    {
+        "fi": "koira",
+        "en": "dog",
+        "image": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkb2d8ZW58MHx8fHwxNzc3MzE2NTE0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pureeko koiranne?",
+        "sentence_en": "Does your dog bite?"
+    },
+    {
+        "fi": "saari",
+        "en": "island",
+        "image": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxpc2xhbmR8ZW58MHx8fHwxNzc3MzI3MjIyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Saari vajoaa.",
+        "sentence_en": "The island is sinking."
+    },
+    {
+        "fi": "makuupussi",
+        "en": "sleeping bag",
+        "image": "no_image",
+        "sentence_fi": "Turistit leiriytyivät kedolle, avasivat makuupussinsa ja täyttivät ilmapatjansa.",
+        "sentence_en": "The tourists camped in the meadow, unpacked their sleeping-bags, and inflated their air-beds."
+    },
+    {
+        "fi": "hiiri",
+        "en": "mouse",
+        "image": "no_image",
+        "sentence_fi": "Hiiri!",
+        "sentence_en": "Mouse!"
+    },
+    {
+        "fi": "rotta",
+        "en": "rat",
+        "image": "no_image",
+        "sentence_fi": "Keittiössä on rottia.",
+        "sentence_en": "There are rats in the kitchen."
+    },
+    {
+        "fi": "reppu",
+        "en": "backpack",
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYWNrcGFja3xlbnwwfHx8fDE3NzczMjI3Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Laita tämä reppuusi.",
+        "sentence_en": "Put this back into your backpack."
+    },
+    {
+        "fi": "kukka",
+        "en": "flower",
+        "image": "no_image",
+        "sentence_fi": "Se tuoksuu kukilta.",
+        "sentence_en": "It has a floral scent."
+    },
+    {
+        "fi": "ranta",
+        "en": "beach",
+        "image": "no_image",
+        "sentence_fi": "Menin rannalle.",
+        "sentence_en": "I went to the beach."
+    }
+]
