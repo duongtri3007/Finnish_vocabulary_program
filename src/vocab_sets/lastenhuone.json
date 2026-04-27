@@ -1,0 +1,317 @@
+[
+    {
+        "fi": "herätyskello",
+        "en": "alarm clock",
+        "image": "no_image",
+        "sentence_fi": "Herätyskello soi.",
+        "sentence_en": "The alarm clock is ringing."
+    },
+    {
+        "fi": "sänky",
+        "en": "bed",
+        "image": "no_image",
+        "sentence_fi": "Petaa sänky.",
+        "sentence_en": "Make your bed."
+    },
+    {
+        "fi": "pehmolelu",
+        "en": "soft toy",
+        "image": "no_image",
+        "sentence_fi": "Tämä pehmolelu kuuluu pikkutytölle.",
+        "sentence_en": "This stuffed animal belongs to the little girl."
+    },
+    {
+        "fi": "leikkiauto",
+        "en": "toy car",
+        "image": "no_image",
+        "sentence_fi": "Tässä on leikkiauto.",
+        "sentence_en": "This is a toy car."
+    },
+    {
+        "fi": "nukkekoti",
+        "en": "a dollhouse",
+        "image": "no_image",
+        "sentence_fi": "Tässä on nukkekoti.",
+        "sentence_en": "This is a a dollhouse."
+    },
+    {
+        "fi": "lahja",
+        "en": "gift",
+        "image": "no_image",
+        "sentence_fi": "Kiitos lahjasta!",
+        "sentence_en": "Thank you for your gift!"
+    },
+    {
+        "fi": "helistin",
+        "en": "rattle",
+        "image": "no_image",
+        "sentence_fi": "Tässä on helistin.",
+        "sentence_en": "This is a rattle."
+    },
+    {
+        "fi": "ilmapallo",
+        "en": "balloon",
+        "image": "no_image",
+        "sentence_fi": "Minun ilmapalloni räjähti!",
+        "sentence_en": "My balloon popped!"
+    },
+    {
+        "fi": "lastenvaunut",
+        "en": "pram",
+        "image": "no_image",
+        "sentence_fi": "Lastenvaunuissa nukkuva vauva on söpö kuin enkeli.",
+        "sentence_en": "The baby sleeping in the baby carriage is as cute as an angel."
+    },
+    {
+        "fi": "korttipeli",
+        "en": "card game",
+        "image": "no_image",
+        "sentence_fi": "Tässä on korttipeli.",
+        "sentence_en": "This is a card game."
+    },
+    {
+        "fi": "palapeli",
+        "en": "puzzle",
+        "image": "no_image",
+        "sentence_fi": "Olisit pystynyt tekemään palapelin valmiiksi, jos sinulla olisi ollut hieman enemmän kärsivällisyyttä.",
+        "sentence_en": "You'd be able to do the puzzle if only you had a little bit more patience."
+    },
+    {
+        "fi": "sarjakuva",
+        "en": "cartoon",
+        "image": "no_image",
+        "sentence_fi": "Tomi luki sarjakuvaa.",
+        "sentence_en": "Tom was reading a comic book."
+    },
+    {
+        "fi": "legopalikat",
+        "en": "lego blocks",
+        "image": "no_image",
+        "sentence_fi": "Tässä on legopalikat.",
+        "sentence_en": "This is a lego blocks."
+    },
+    {
+        "fi": "rakennuspalikat",
+        "en": "building blocks",
+        "image": "no_image",
+        "sentence_fi": "Tässä on rakennuspalikat.",
+        "sentence_en": "This is a building blocks."
+    },
+    {
+        "fi": "supersankari",
+        "en": "superhero",
+        "image": "no_image",
+        "sentence_fi": "Huomattavin seikka Lepakkomiehestä on, että hän on supersankari.",
+        "sentence_en": "The thing you have to know about Batman is, he's a superhero."
+    },
+    {
+        "fi": "potkupuku",
+        "en": "kick suit",
+        "image": "no_image",
+        "sentence_fi": "Tässä on potkupuku.",
+        "sentence_en": "This is a kick suit."
+    },
+    {
+        "fi": "frisbee",
+        "en": "frisbee",
+        "image": "no_image",
+        "sentence_fi": "Tom on ulkona heittelemässä frisbeetä koiransa kanssa.",
+        "sentence_en": "Tom is outside playing frisbee with his dog."
+    },
+    {
+        "fi": "mobile",
+        "en": "mobile",
+        "image": "no_image",
+        "sentence_fi": "Tässä on mobile.",
+        "sentence_en": "This is a mobile."
+    },
+    {
+        "fi": "lautapeli",
+        "en": "board game",
+        "image": "no_image",
+        "sentence_fi": "Minä tykkään pelata lautapelejä.",
+        "sentence_en": "I like to play board games."
+    },
+    {
+        "fi": "noppa",
+        "en": "dice",
+        "image": "no_image",
+        "sentence_fi": "Heitä noppia.",
+        "sentence_en": "Throw the dice."
+    },
+    {
+        "fi": "pienoisjunarata",
+        "en": "miniature train track",
+        "image": "no_image",
+        "sentence_fi": "Tässä on pienoisjunarata.",
+        "sentence_en": "This is a miniature train track."
+    },
+    {
+        "fi": "tutti",
+        "en": "pacifier",
+        "image": "no_image",
+        "sentence_fi": "Tutkin sen dokumentin vielä kertaalleen.",
+        "sentence_en": "We checked the document again."
+    },
+    {
+        "fi": "juhlat",
+        "en": "party",
+        "image": "no_image",
+        "sentence_fi": "Menettekö juhliin?",
+        "sentence_en": "Are you going to the party?"
+    },
+    {
+        "fi": "kuvakirja",
+        "en": "picture book",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kuvakirja.",
+        "sentence_en": "This is a picture book."
+    },
+    {
+        "fi": "pallo",
+        "en": "ball",
+        "image": "no_image",
+        "sentence_fi": "Heitä pallo Tomille.",
+        "sentence_en": "Throw the ball at Tom."
+    },
+    {
+        "fi": "nukke",
+        "en": "doll",
+        "image": "no_image",
+        "sentence_fi": "Se on nukke.",
+        "sentence_en": "It's a doll."
+    },
+    {
+        "fi": "leikkiä",
+        "en": "play",
+        "image": "no_image",
+        "sentence_fi": "Leikkaa!",
+        "sentence_en": "Cut!"
+    },
+    {
+        "fi": "hiekkalaatikko",
+        "en": "sandbox",
+        "image": "no_image",
+        "sentence_fi": "Tom ja Mari leikkivät yhdessä hiekkalaatikolla ja tekivät hiekkalinnoja.",
+        "sentence_en": "Tom and Mary played in the sandpit together and made sand castles."
+    },
+    {
+        "fi": "keinu",
+        "en": "swing",
+        "image": "no_image",
+        "sentence_fi": "Rakastan keinuani.",
+        "sentence_en": "I love my swing seat."
+    },
+    {
+        "fi": "lelut",
+        "en": "toys",
+        "image": "no_image",
+        "sentence_fi": "Siivoapa lelusi.",
+        "sentence_en": "Put your toys away."
+    },
+    {
+        "fi": "pelikonsoli",
+        "en": "game console",
+        "image": "no_image",
+        "sentence_fi": "Uusi pelikonsoli on julkaistu. Sen nimi on Nintendo 64!",
+        "sentence_en": "There's a new console out. It's called the Nintendo 64!"
+    },
+    {
+        "fi": "kolmipyörä",
+        "en": "tricycle",
+        "image": "no_image",
+        "sentence_fi": "Tuo on kolmipyörä.",
+        "sentence_en": "That is a tricycle."
+    },
+    {
+        "fi": "nalle",
+        "en": "teddy",
+        "image": "no_image",
+        "sentence_fi": "Tomi ei saa unta ilman nallea.",
+        "sentence_en": "Tom can't sleep without his teddy bear."
+    },
+    {
+        "fi": "viivoitin",
+        "en": "ruler",
+        "image": "https://images.unsplash.com/photo-1529651795107-e5a141e34843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxydWxlcnxlbnwwfHx8fDE3NzczMjI3MzB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tämä on viivoitin.",
+        "sentence_en": "That's a ruler."
+    },
+    {
+        "fi": "reppu",
+        "en": "backpack",
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiYWNrcGFja3xlbnwwfHx8fDE3NzczMjI3Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Laita tämä takaisin reppuusi.",
+        "sentence_en": "Put this in your backpack."
+    },
+    {
+        "fi": "roskakori",
+        "en": "trash can",
+        "image": "https://images.unsplash.com/photo-1683516435482-f3cea544ee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0cmFzaCUyMGNhbnxlbnwwfHx8fDE3NzczMjM5MTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pääsi ei ole roskakori.",
+        "sentence_en": "Your head is not a trash bin."
+    },
+    {
+        "fi": "piirustus",
+        "en": "drawing",
+        "image": "https://images.unsplash.com/photo-1602738328654-51ab2ae6c4ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkcmF3aW5nfGVufDB8fHx8MTc3NzMyMjc3OXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on piirustus.",
+        "sentence_en": "This is a drawing."
+    },
+    {
+        "fi": "tuttipullo",
+        "en": "feeding bottle",
+        "image": "no_image",
+        "sentence_fi": "Tässä on tuttipullo.",
+        "sentence_en": "This is a feeding bottle."
+    },
+    {
+        "fi": "vesivärit",
+        "en": "watercolors",
+        "image": "https://images.unsplash.com/photo-1605972713890-e157ae3f7018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3YXRlcmNvbG9yc3xlbnwwfHx8fDE3NzczMjI3ODZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on vesivärit.",
+        "sentence_en": "This is a watercolors."
+    },
+    {
+        "fi": "tyyny",
+        "en": "pillow",
+        "image": "no_image",
+        "sentence_fi": "Saisinko tyynyn?",
+        "sentence_en": "Can I get a pillow?"
+    },
+    {
+        "fi": "lyijykynä",
+        "en": "pencil",
+        "image": "https://images.unsplash.com/photo-1595584354232-f07d525d87c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwZW5jaWx8ZW58MHx8fHwxNzc3MzIyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Onko tuo lyijykynä?",
+        "sentence_en": "Is that a pencil?"
+    },
+    {
+        "fi": "pensseli",
+        "en": "brush",
+        "image": "https://images.unsplash.com/photo-1622542796254-5b9c46ab0d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxicnVzaHxlbnwwfHx8fDE3NzczMjI3ODJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomilla oli pensseli kädessään.",
+        "sentence_en": "Tom had a paintbrush in his hand."
+    },
+    {
+        "fi": "päiväpeitto",
+        "en": "bedspread",
+        "image": "no_image",
+        "sentence_fi": "Tässä on päiväpeitto.",
+        "sentence_en": "This is a bedspread."
+    },
+    {
+        "fi": "piirustuslehtiö",
+        "en": "drawing pad",
+        "image": "https://images.unsplash.com/photo-1554757387-2a28855c78fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkcmF3aW5nJTIwcGFkfGVufDB8fHx8MTc3NzMyMjc2OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on piirustuslehtiö.",
+        "sentence_en": "This is a drawing pad."
+    },
+    {
+        "fi": "leikkikenttä",
+        "en": "playground",
+        "image": "no_image",
+        "sentence_fi": "Leikkikentällä on kaksi tyttöä.",
+        "sentence_en": "There are two girls in the playground."
+    }
+]
