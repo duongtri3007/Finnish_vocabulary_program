@@ -1,0 +1,555 @@
+[
+    {
+        "fi": "maatila",
+        "en": "farm",
+        "image": "no_image",
+        "sentence_fi": "Tomi kasvoi maatilalla.",
+        "sentence_en": "Tom grew up on a farm."
+    },
+    {
+        "fi": "liiteri",
+        "en": "shed",
+        "image": "no_image",
+        "sentence_fi": "Tässä on liiteri.",
+        "sentence_en": "This is a shed."
+    },
+    {
+        "fi": "lato",
+        "en": "barn",
+        "image": "no_image",
+        "sentence_fi": "Lato oli tyhjä.",
+        "sentence_en": "The barn was empty."
+    },
+    {
+        "fi": "heinäpaali",
+        "en": "a hay bale",
+        "image": "no_image",
+        "sentence_fi": "Tässä on heinäpaali.",
+        "sentence_en": "This is a a hay bale."
+    },
+    {
+        "fi": "pelto",
+        "en": "field",
+        "image": "no_image",
+        "sentence_fi": "Tähdet loistivat hiljaisten peltojen yllä.",
+        "sentence_en": "The stars were shining over the silent fields."
+    },
+    {
+        "fi": "varsa",
+        "en": "foal",
+        "image": "no_image",
+        "sentence_fi": "Hän on varsin seksikäs.",
+        "sentence_en": "He's got lots of sex appeal."
+    },
+    {
+        "fi": "traktori",
+        "en": "tractor",
+        "image": "no_image",
+        "sentence_fi": "Haluaisin oppia ajamaan traktoria.",
+        "sentence_en": "I want to learn how to drive a tractor."
+    },
+    {
+        "fi": "peräkärry",
+        "en": "trailer",
+        "image": "no_image",
+        "sentence_fi": "Tässä on peräkärry.",
+        "sentence_en": "This is a trailer."
+    },
+    {
+        "fi": "karitsa",
+        "en": "lamb",
+        "image": "no_image",
+        "sentence_fi": "Vuonna 2009 kojootit tappoivat 2 5000 lammasta ja 12 000 karitsaa Montanan osavaltiossa.",
+        "sentence_en": "In 2009, coyotes killed 2,500 sheep and 12,000 lambs in the state of Montana."
+    },
+    {
+        "fi": "aasi",
+        "en": "donkey",
+        "image": "no_image",
+        "sentence_fi": "Tule tänne, aasi!",
+        "sentence_en": "Come here, donkey!"
+    },
+    {
+        "fi": "lammas",
+        "en": "sheep",
+        "image": "no_image",
+        "sentence_fi": "Olen perheen musta lammas.",
+        "sentence_en": "I'm the black sheep of the family."
+    },
+    {
+        "fi": "vuohi",
+        "en": "goat",
+        "image": "no_image",
+        "sentence_fi": "Kun hän pääsi takaisin jaloilleen, tyttö ja vuohi olivat kadonneet.",
+        "sentence_en": "When he got back up on his feet, the girl and the goat had disappeared."
+    },
+    {
+        "fi": "lehmä",
+        "en": "cow",
+        "image": "no_image",
+        "sentence_fi": "Lehmä ammui.",
+        "sentence_en": "\"Moo, moo,\" said the cow."
+    },
+    {
+        "fi": "vasikka",
+        "en": "calf",
+        "image": "no_image",
+        "sentence_fi": "Lehmä menetti vasikkansa.",
+        "sentence_en": "The cow lost its calf."
+    },
+    {
+        "fi": "sika",
+        "en": "swine",
+        "image": "no_image",
+        "sentence_fi": "Sika outoo!",
+        "sentence_en": "It's so weird."
+    },
+    {
+        "fi": "porsas",
+        "en": "piglet",
+        "image": "no_image",
+        "sentence_fi": "Hän syö kuin porsas.",
+        "sentence_en": "She eats like a pig."
+    },
+    {
+        "fi": "sonni",
+        "en": "bull",
+        "image": "no_image",
+        "sentence_fi": "Lyhythousuinen sonni on karannut.",
+        "sentence_en": "A bull with short trousers has escaped."
+    },
+    {
+        "fi": "hanhi",
+        "en": "goose",
+        "image": "no_image",
+        "sentence_fi": "Älä tapa hanhea, joka munii kultamunia.",
+        "sentence_en": "Don't kill the goose that lays the golden eggs."
+    },
+    {
+        "fi": "ankka",
+        "en": "duck",
+        "image": "no_image",
+        "sentence_fi": "Ankka syö ananasta.",
+        "sentence_en": "The duck eats pineapple."
+    },
+    {
+        "fi": "tipu",
+        "en": "chick",
+        "image": "no_image",
+        "sentence_fi": "Varsa on nuori hevonen, vasikka on nuori lehmä ja tipu on nuori lintu.",
+        "sentence_en": "A foal is a young horse, a calf is a young cow, and a chick is a young bird."
+    },
+    {
+        "fi": "kana",
+        "en": "chicken",
+        "image": "https://images.unsplash.com/photo-1612170153139-6f881ff067e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjaGlja2VufGVufDB8fHx8MTc3NzMxNjg0Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kanaa, kiitos.",
+        "sentence_en": "Chicken, please."
+    },
+    {
+        "fi": "kukko",
+        "en": "cock",
+        "image": "no_image",
+        "sentence_fi": "Kukko kiekuu »kukkokiekuu!» aamuisin.",
+        "sentence_en": "The rooster crows, \"Cock-a-doodle-doo!\" in the morning."
+    },
+    {
+        "fi": "rotta",
+        "en": "rat",
+        "image": "no_image",
+        "sentence_fi": "En siedä rottia.",
+        "sentence_en": "I can't stand rats."
+    },
+    {
+        "fi": "kissa",
+        "en": "cat",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXR8ZW58MHx8fHwxNzc3MzE2NjQ3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vitun kissa!",
+        "sentence_en": "Fucking cat!"
+    },
+    {
+        "fi": "härkä",
+        "en": "Taurus",
+        "image": "no_image",
+        "sentence_fi": "Tartu härkää sarvista!",
+        "sentence_en": "Grab the bull by the horns!"
+    },
+    {
+        "fi": "hiiri",
+        "en": "mouse",
+        "image": "no_image",
+        "sentence_fi": "Hiiri ei halua kuolla.",
+        "sentence_en": "The mouse doesn't want to die."
+    },
+    {
+        "fi": "koira",
+        "en": "dog",
+        "image": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkb2d8ZW58MHx8fHwxNzc3MzE2NTE0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pureeko koiranne?",
+        "sentence_en": "Does your dog bite?"
+    },
+    {
+        "fi": "koirankoppi",
+        "en": "doghouse",
+        "image": "no_image",
+        "sentence_fi": "Tein tämän koirankopin ihan itse.",
+        "sentence_en": "I made this kennel by myself."
+    },
+    {
+        "fi": "puutarhaletku",
+        "en": "garden hose",
+        "image": "no_image",
+        "sentence_fi": "Tässä on puutarhaletku.",
+        "sentence_en": "This is a garden hose."
+    },
+    {
+        "fi": "kastelukannu",
+        "en": "watering can",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kastelukannu.",
+        "sentence_en": "This is a watering can."
+    },
+    {
+        "fi": "viikate",
+        "en": "scythe",
+        "image": "no_image",
+        "sentence_fi": "Tässä on viikate.",
+        "sentence_en": "This is a scythe."
+    },
+    {
+        "fi": "aura",
+        "en": "aura",
+        "image": "no_image",
+        "sentence_fi": "Hyvä vaimo on kultaisen auran arvoinen.",
+        "sentence_en": "A good wife is worth a golden plow."
+    },
+    {
+        "fi": "sirppi",
+        "en": "sickle",
+        "image": "no_image",
+        "sentence_fi": "Tässä on sirppi.",
+        "sentence_en": "This is a sickle."
+    },
+    {
+        "fi": "kuokka",
+        "en": "hoe",
+        "image": "no_image",
+        "sentence_fi": "Kuokin Tomin luona kolme yötä.",
+        "sentence_en": "I crashed at Tom's place for three nights."
+    },
+    {
+        "fi": "talikko",
+        "en": "fork",
+        "image": "https://images.unsplash.com/photo-1569702824812-351205c9cde5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb3JrfGVufDB8fHx8MTc3NzMyNDEwOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on talikko.",
+        "sentence_en": "This is a fork."
+    },
+    {
+        "fi": "kirves",
+        "en": "ax",
+        "image": "no_image",
+        "sentence_fi": "Eikö se ollutkin Kafka, joka kirjoitti, että kirjan tulee olla kirves jäätyneelle merelle sisällämme?",
+        "sentence_en": "Wasn't it Kafka who wrote that a book must be the axe for the frozen sea within us?"
+    },
+    {
+        "fi": "kottikärryt",
+        "en": "wheelbarrows",
+        "image": "no_image",
+        "sentence_fi": "Hän täytti kottikärrynsä kuihtuneilla kukilla.",
+        "sentence_en": "She filled her wheelbarrow with withered flowers."
+    },
+    {
+        "fi": "kaukalo",
+        "en": "trough",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kaukalo.",
+        "sentence_en": "This is a trough."
+    },
+    {
+        "fi": "maitokannu",
+        "en": "a milk jug",
+        "image": "no_image",
+        "sentence_fi": "Tässä on maitokannu.",
+        "sentence_en": "This is a a milk jug."
+    },
+    {
+        "fi": "säkki",
+        "en": "bag",
+        "image": "no_image",
+        "sentence_fi": "Eilen ostin sian säkissä.",
+        "sentence_en": "I bought a pig in a poke yesterday."
+    },
+    {
+        "fi": "aita",
+        "en": "fence",
+        "image": "no_image",
+        "sentence_fi": "Hän asetti tikapuut aitaa vasten.",
+        "sentence_en": "He placed the ladder against the fence."
+    },
+    {
+        "fi": "talli",
+        "en": "wallop",
+        "image": "no_image",
+        "sentence_fi": "Talleta tämä shekki minun käyttelytililleni.",
+        "sentence_en": "Deposit this check in my checking account."
+    },
+    {
+        "fi": "kasvihuone",
+        "en": "greenhouse",
+        "image": "no_image",
+        "sentence_fi": "Kukkien tuoksu oli ensimmäinen asia, jonka Sarah huomasi kun hän astui sisään kasvihuoneeseen.",
+        "sentence_en": "The aroma of the flowers was the first thing Sarah noticed when she entered the greenhouse."
+    },
+    {
+        "fi": "maa",
+        "en": "country",
+        "image": "no_image",
+        "sentence_fi": "Koko maa suree.",
+        "sentence_en": "The whole country is in mourning."
+    },
+    {
+        "fi": "siemen",
+        "en": "seed",
+        "image": "no_image",
+        "sentence_fi": "Vitseissä piilee usein totuuden siemen.",
+        "sentence_en": "There's many a true word spoken in jest."
+    },
+    {
+        "fi": "lannoite",
+        "en": "fertilizer",
+        "image": "no_image",
+        "sentence_fi": "Nyt on paras aika lannoittaa pellot.",
+        "sentence_en": "This is the best time to fertilize the fields."
+    },
+    {
+        "fi": "leikkuupuimuri",
+        "en": "combine harvester",
+        "image": "no_image",
+        "sentence_fi": "Tässä on leikkuupuimuri.",
+        "sentence_en": "This is a combine harvester."
+    },
+    {
+        "fi": "kerätä sato",
+        "en": "to gather the harvest",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kerätä sato.",
+        "sentence_en": "This is a to gather the harvest."
+    },
+    {
+        "fi": "sato",
+        "en": "harvest",
+        "image": "no_image",
+        "sentence_fi": "Sato seisoi kiven päällä.",
+        "sentence_en": "Mr Sato was standing on top of a boulder."
+    },
+    {
+        "fi": "jamssit",
+        "en": "yams",
+        "image": "no_image",
+        "sentence_fi": "Tässä on jamssit.",
+        "sentence_en": "This is a yams."
+    },
+    {
+        "fi": "vehnä",
+        "en": "wheat",
+        "image": "no_image",
+        "sentence_fi": "Maaseudulla oli upeaa suven aikaan: vehnä oli keltaista, kaura vihreää, heinä pinottu vihreälle niitylle.",
+        "sentence_en": "It was beautiful in the country, it was summer-time; the wheat was yellow, the oats were green, the hay was stacked up in the green meadow."
+    },
+    {
+        "fi": "soija",
+        "en": "soy",
+        "image": "no_image",
+        "sentence_fi": "Kämppäkaverini on allerginen soijalle. Kun vegaaniveljeni tulee kylään, en oikein tiedä mitä ruokaa laittaisin.",
+        "sentence_en": "My flatmate is allergic to soya. Whenever my brother, who is vegan, comes to visit, I never know what to cook."
+    },
+    {
+        "fi": "maissi",
+        "en": "corn",
+        "image": "no_image",
+        "sentence_fi": "Maissin takia!",
+        "sentence_en": "For corn's sake!"
+    },
+    {
+        "fi": "peruna",
+        "en": "potato",
+        "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxwb3RhdG98ZW58MHx8fHwxNzc3MzE2Mzk4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kreikka peruu kansanäänestyksen.",
+        "sentence_en": "Greece cancels the referendum."
+    },
+    {
+        "fi": "rypsi",
+        "en": "canola",
+        "image": "no_image",
+        "sentence_fi": "Tässä on rypsi.",
+        "sentence_en": "This is a canola."
+    },
+    {
+        "fi": "hedelmäpuu",
+        "en": "fruit tree",
+        "image": "no_image",
+        "sentence_fi": "Hän jatkoi kävelyään herukoiden, karviaismarjojen, hedelmäpuiden ja pensasaitojen ohi.",
+        "sentence_en": "He continued to walk past currants, gooseberries, fruit trees and hedges."
+    },
+    {
+        "fi": "maniokki",
+        "en": "manioc",
+        "image": "no_image",
+        "sentence_fi": "Tässä on maniokki.",
+        "sentence_en": "This is a manioc."
+    },
+    {
+        "fi": "vilja",
+        "en": "grain",
+        "image": "no_image",
+        "sentence_fi": "Viljan vuoksi!",
+        "sentence_en": "For corn's sake!"
+    },
+    {
+        "fi": "lämmin / viileä",
+        "en": "warm / cool",
+        "image": "no_image",
+        "sentence_fi": "Tässä on lämmin / viileä.",
+        "sentence_en": "This is a warm / cool."
+    },
+    {
+        "fi": "vesi",
+        "en": "water",
+        "image": "https://images.unsplash.com/photo-1553531768-88af16561c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHx3YXRlcnxlbnwwfHx8fDE3NzczMjI0ODB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vesi nousee.",
+        "sentence_en": "The water is rising."
+    },
+    {
+        "fi": "kärpänen",
+        "en": "fly",
+        "image": "no_image",
+        "sentence_fi": "Kärpänen ei lennä suljettuun suuhun.",
+        "sentence_en": "A fly does not fly into a shut mouth."
+    },
+    {
+        "fi": "kuuma / kylmä",
+        "en": "hot / cold",
+        "image": "no_image",
+        "sentence_fi": "On kylmä, joten haluan syödä jotakin kuumaa.",
+        "sentence_en": "It's cold, so I want to eat something hot."
+    },
+    {
+        "fi": "riisi",
+        "en": "rice",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyaWNlfGVufDB8fHx8MTc3NzMxODg5N3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Keitä riisi.",
+        "sentence_en": "Cook the rice."
+    },
+    {
+        "fi": "kärryt",
+        "en": "cart",
+        "image": "https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXJ0fGVufDB8fHx8MTc3NzMyNzgzMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "En nyt pysy ihan kärryillä.",
+        "sentence_en": "I don't quite follow you."
+    },
+    {
+        "fi": "eläinten ruoka",
+        "en": "animal food",
+        "image": "no_image",
+        "sentence_fi": "Tässä on eläinten ruoka.",
+        "sentence_en": "This is a animal food."
+    },
+    {
+        "fi": "ilmasto",
+        "en": "climate",
+        "image": "no_image",
+        "sentence_fi": "Ilmasto on mukava.",
+        "sentence_en": "The climate is pleasant."
+    },
+    {
+        "fi": "appelsiini",
+        "en": "orange",
+        "image": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvcmFuZ2V8ZW58MHx8fHwxNzc3MzE4NzM3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Maapallo on sininen. Aivan kuin appelsiini.",
+        "sentence_en": "The Earth is blue like an orange."
+    },
+    {
+        "fi": "sipuli",
+        "en": "onion",
+        "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvbmlvbnxlbnwwfHx8fDE3NzczMTcwMDl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom viipaloi sipulin.",
+        "sentence_en": "Tom sliced the onion."
+    },
+    {
+        "fi": "omena",
+        "en": "apple",
+        "image": "https://images.unsplash.com/photo-1630563451961-ac2ff27616ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhcHBsZXxlbnwwfHx8fDE3NzczMTU1NTh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Omena tippui!",
+        "sentence_en": "The apple fell!"
+    },
+    {
+        "fi": "mehiläinen",
+        "en": "bee",
+        "image": "no_image",
+        "sentence_fi": "Pistikö mehiläinen?",
+        "sentence_en": "Were you stung by a bee?"
+    },
+    {
+        "fi": "hyttynen",
+        "en": "mosquito",
+        "image": "no_image",
+        "sentence_fi": "Hyttynen pisti minua juuri.",
+        "sentence_en": "A mosquito just bit me."
+    },
+    {
+        "fi": "kovakuoriainen",
+        "en": "beetle",
+        "image": "no_image",
+        "sentence_fi": "Tässä on kovakuoriainen.",
+        "sentence_en": "This is a beetle."
+    },
+    {
+        "fi": "kasvikset",
+        "en": "vegetables",
+        "image": "no_image",
+        "sentence_fi": "Miksi et syö kasviksia?",
+        "sentence_en": "Why don't you eat vegetables?"
+    },
+    {
+        "fi": "ämpäri",
+        "en": "bucket",
+        "image": "no_image",
+        "sentence_fi": "Täytä ämpäri vedellä.",
+        "sentence_en": "Fill the bucket with water."
+    },
+    {
+        "fi": "hunaja",
+        "en": "honey",
+        "image": "no_image",
+        "sentence_fi": "Tykkään hunajasta.",
+        "sentence_en": "I like honey."
+    },
+    {
+        "fi": "eläimet",
+        "en": "the animals",
+        "image": "no_image",
+        "sentence_fi": "Eläimet säikkyivät ukkosta.",
+        "sentence_en": "The animals were scared by the thunder."
+    },
+    {
+        "fi": "porkkana",
+        "en": "carrot",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXJyb3R8ZW58MHx8fHwxNzc3MzE2Nzg2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Porkkana on hyväksi silmille. Oletko koskaan nähnyt silmälasipäistä jänistä?",
+        "sentence_en": "Carrots are good for the eyes. Have you ever seen a rabbit with glasses on?"
+    },
+    {
+        "fi": "kananmuna",
+        "en": "egg",
+        "image": "https://images.unsplash.com/photo-1607690424560-35d967d6ad7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlZ2d8ZW58MHx8fHwxNzc3MzE5Mjc2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tom sirotteli suolaa kananmunaan.",
+        "sentence_en": "Tom put some salt on his eggs."
+    },
+    {
+        "fi": "hedelmät",
+        "en": "fruit",
+        "image": "no_image",
+        "sentence_fi": "Myyttekö hedelmiä?",
+        "sentence_en": "Do you sell fruit?"
+    }
+]
