@@ -1,0 +1,107 @@
+[
+    {
+        "fi": "vesi",
+        "en": "water",
+        "image": "https://images.unsplash.com/photo-1553531768-88af16561c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHx3YXRlcnxlbnwwfHx8fDE3NzczMjI0ODB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Keitä vesi.",
+        "sentence_en": "Boil the water."
+    },
+    {
+        "fi": "mehu",
+        "en": "juice",
+        "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxqdWljZXxlbnwwfHx8fDE3NzczMjI1MDl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ostitko mehua?",
+        "sentence_en": "Did you buy juice?"
+    },
+    {
+        "fi": "maito",
+        "en": "milk",
+        "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtaWxrfGVufDB8fHx8MTc3NzMyMjUxNXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Otatko maitoa?",
+        "sentence_en": "Would you like a cup of milk?"
+    },
+    {
+        "fi": "kokis",
+        "en": "coke",
+        "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb2tlfGVufDB8fHx8MTc3NzMyMjUxOHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Yksi kokis, kiitos.",
+        "sentence_en": "A coke, please."
+    },
+    {
+        "fi": "viini",
+        "en": "wine",
+        "image": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3aW5lfGVufDB8fHx8MTc3NzMyMjUyM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Viini on alkoholijuoma.",
+        "sentence_en": "Wine is an alcoholic beverage."
+    },
+    {
+        "fi": "olut",
+        "en": "beer",
+        "image": "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxiZWVyfGVufDB8fHx8MTc3NzMyMjUyN3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "En ollut kokouksessa.",
+        "sentence_en": "I wasn't present at that meeting."
+    },
+    {
+        "fi": "alkoholi",
+        "en": "alcohol",
+        "image": "https://images.unsplash.com/photo-1508253730651-e5ace80a7025?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhbGNvaG9sfGVufDB8fHx8MTc3NzMyMjUzMHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Juotko alkoholia?",
+        "sentence_en": "Do you drink?"
+    },
+    {
+        "fi": "kaakao",
+        "en": "cocoa",
+        "image": "https://images.unsplash.com/photo-1493925410384-84f842e616fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb2NvYXxlbnwwfHx8fDE3NzczMjI1MzN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomi hörppäsi kaakaotansa.",
+        "sentence_en": "Tom sipped his hot chocolate."
+    },
+    {
+        "fi": "tee",
+        "en": "tea",
+        "image": "https://images.unsplash.com/photo-1531969179221-3946e6b5a5e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWF8ZW58MHx8fHwxNzc3MzIyNTM2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tee parhaasi!",
+        "sentence_en": "Do your best!"
+    },
+    {
+        "fi": "kahvi",
+        "en": "coffee",
+        "image": "https://images.unsplash.com/photo-1556742526-795a8eac090e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHxjb2ZmZWV8ZW58MHx8fHwxNzc3MzIyNTM5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Keitetään kahvit.",
+        "sentence_en": "Let's make some coffee."
+    },
+    {
+        "fi": "espresso",
+        "en": "espresso",
+        "image": "https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxlc3ByZXNzb3xlbnwwfHx8fDE3NzczMjI1NDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on espresso.",
+        "sentence_en": "This is a espresso."
+    },
+    {
+        "fi": "cappuccino",
+        "en": "cappuccino",
+        "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYXBwdWNjaW5vfGVufDB8fHx8MTc3NzMyMjU0OHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Joimme cappuccinot ja juttelimme vanhoista ajoista.",
+        "sentence_en": "We drank cappuccinos and talked about old times."
+    },
+    {
+        "fi": "pullo",
+        "en": "bottle",
+        "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxib3R0bGV8ZW58MHx8fHwxNzc3MzIyNTU1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Ravista pulloa.",
+        "sentence_en": "Shake the bottle."
+    },
+    {
+        "fi": "juomat",
+        "en": "drinks",
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkcmlua3N8ZW58MHx8fHwxNzc3MzIyNTYxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Olen juomassa olutta.",
+        "sentence_en": "I'm drinking a beer."
+    },
+    {
+        "fi": "lasi",
+        "en": "glass",
+        "image": "https://images.unsplash.com/photo-1514651029128-173d2e6ea851?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxnbGFzc3xlbnwwfHx8fDE3NzczMjI1NjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tarvitsen uudet lasit.",
+        "sentence_en": "I need new glasses."
+    }
+]
