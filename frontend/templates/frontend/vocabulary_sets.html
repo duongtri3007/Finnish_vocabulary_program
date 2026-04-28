@@ -2,6 +2,7 @@
 
 {% block content %}
 <style>
+    /* ===== PAGE CONTAINER ===== */
     /* Container for the grid */
     .sets-container {
         max-width: 1000px;
@@ -9,6 +10,7 @@
         padding: 0 20px;
     }
 
+    /* ===== HEADER SECTION ===== */
     .sets-header {
         margin-bottom: 40px;
     }
@@ -19,6 +21,7 @@
         font-size: 2.5rem;
     }
 
+    /* ===== RESPONSIVE GRID FOR SET CARDS ===== */
     /* Grid Layout: Responsive 1-20 boxes */
     .sets-grid {
         display: grid;
@@ -26,6 +29,7 @@
         gap: 25px;
     }
 
+    /* ===== INDIVIDUAL SET CARD ===== */
     /* Individual Card Style */
     .set-card {
         aspect-ratio: 1 / 1;
@@ -42,6 +46,7 @@
         overflow: hidden;
     }
 
+    /* ===== HOVER EFFECTS ===== */
     /* Hover Effects */
     .set-card:hover {
         border-color: #003580;
@@ -65,15 +70,16 @@
         opacity: 1;
     }
 
+    /* ===== TEXT INSIDE CARD ===== */
     .set-number {
-        font-size: 2.8rem;
+        font-size: 2rem;
         font-weight: 900;
         color: #003580;
         line-height: 1;
     }
 
     .set-label {
-        font-size: 0.85rem;
+        font-size: 0.7rem;
         text-transform: uppercase;
         letter-spacing: 2px;
         color: #888;
@@ -86,27 +92,46 @@
         color: #003580;
     }
 
+    /* ===== BACK BUTTON ===== */
     .back-btn {
-        display: inline-block;
-        margin-top: 50px;
-        color: #666;
+        position: fixed;   
+        top: 20px;
+        left: 20px;
+
         text-decoration: none;
-        font-weight: 500;
+        color: #003580;
+        font-weight: bold;
+        font-size: 0.9rem;
+
+        background: rgba(255, 255, 255, 0.9);
+        padding: 8px 12px;
+        border-radius: 8px;
+
+        box-shadow: 0 4px 10px rgba(0,0,0,0.12);
         transition: 0.2s;
     }
 
     .back-btn:hover {
-        color: #003580;
+        color: #00265a;
         text-decoration: underline;
+        transform: translateY(-2px);
     }
 </style>
 
 <div class="sets-container text-center">
+
+    <!-- ===== BACK NAVIGATION ===== -->
+    <a href="{% url 'main_menu' %}" class="back-btn">
+        <i class="fas fa-arrow-left"></i> ← Back to Menu
+    </a>
+
+    <!-- ===== PAGE HEADER ===== -->
     <div class="sets-header">
         <h2>Vocabulary Sets</h2>
         <p class="text-muted">Explore categorized Finnish words to expand your knowledge</p>
     </div>
 
+    <!-- ===== SET LIST GRID ===== -->
     <div class="sets-grid">
         {% for set_id in sets %}
             <a href="{% url 'view_set' set_id %}" class="set-card">
@@ -116,8 +141,6 @@
         {% endfor %}
     </div>
 
-    <a href="{% url 'main_menu' %}" class="back-btn">
-        <i class="fas fa-arrow-left"></i> Return to Main Menu
-    </a>
+
 </div>
 {% endblock %}
