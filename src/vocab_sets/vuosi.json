@@ -1,0 +1,226 @@
+[
+    {
+        "fi": "sade",
+        "en": "rain",
+        "image": "https://images.unsplash.com/photo-1503435824048-a799a3a84bf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyYWlufGVufDB8fHx8MTc3NzMzNDc0M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Loppuks sade?",
+        "sentence_en": "Has it stopped raining?"
+    },
+    {
+        "fi": "sateenkaari",
+        "en": "rainbow",
+        "image": "https://images.unsplash.com/photo-1593362831502-5c3ad1c05f57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyYWluYm93fGVufDB8fHx8MTc3NzMzNDc1MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Sateenkaari on luonnonilmiö.",
+        "sentence_en": "A rainbow is a natural phenomenon."
+    },
+    {
+        "fi": "tuuli",
+        "en": "wind",
+        "image": "https://images.unsplash.com/photo-1505672678657-cc7037095e60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3aW5kfGVufDB8fHx8MTc3NzMzNDc1M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tuuli hiljentyi.",
+        "sentence_en": "The wind calmed down."
+    },
+    {
+        "fi": "lumi",
+        "en": "snow",
+        "image": "https://images.unsplash.com/photo-1457269449834-928af64c684d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzbm93fGVufDB8fHx8MTc3NzMzNDc1Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lumi kinostuu.",
+        "sentence_en": "The snow is compacting."
+    },
+    {
+        "fi": "kevät",
+        "en": "spring",
+        "image": "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzcHJpbmd8ZW58MHx8fHwxNzc3MzM0NzYxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Kevät saapui.",
+        "sentence_en": "Spring has come around."
+    },
+    {
+        "fi": "kesä",
+        "en": "summer",
+        "image": "https://images.unsplash.com/photo-1564419431636-fe02f0eff7aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MXwxfHNlYXJjaHwxfHxzdW1tZXJ8ZW58MHx8fHwxNzc3MzM0NzY1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lorvin koko kesän.",
+        "sentence_en": "I slacked off all summer."
+    },
+    {
+        "fi": "syksy",
+        "en": "autumn",
+        "image": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhdXR1bW58ZW58MHx8fHwxNzc3MzM0NzY4fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Syksy vaihtui talveksi.",
+        "sentence_en": "Autumn changed into winter."
+    },
+    {
+        "fi": "talvi",
+        "en": "winter",
+        "image": "https://images.unsplash.com/photo-1457269449834-928af64c684d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3aW50ZXJ8ZW58MHx8fHwxNzc3MzM0NzcxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Talvi tulee.",
+        "sentence_en": "Winter is coming."
+    },
+    {
+        "fi": "sääennuste",
+        "en": "forecast",
+        "image": "https://images.unsplash.com/photo-1718778449026-fc05939d7650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxmb3JlY2FzdHxlbnwwfHx8fDE3NzczMzQ3NzV8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Sääennusteen mukaan huomenna sataa lunta.",
+        "sentence_en": "According to the weather forecast, tomorrow will be snowy."
+    },
+    {
+        "fi": "lämpömittari",
+        "en": "thermometer",
+        "image": "no_image",
+        "sentence_fi": "Tom katsoi lämpömittaria.",
+        "sentence_en": "Tom looked at the thermometer."
+    },
+    {
+        "fi": "auringonpaiste",
+        "en": "sunshine",
+        "image": "no_image",
+        "sentence_fi": "Auringonpaiste tuntuu hyvältä.",
+        "sentence_en": "The sun feels good."
+    },
+    {
+        "fi": "pilvi",
+        "en": "cloud",
+        "image": "no_image",
+        "sentence_fi": "On pilvistä.",
+        "sentence_en": "It's cloudy."
+    },
+    {
+        "fi": "sumu",
+        "en": "fog",
+        "image": "no_image",
+        "sentence_fi": "Tuomas hävisi sumuun.",
+        "sentence_en": "Tom disappeared into the mist."
+    },
+    {
+        "fi": "ilmankosteus",
+        "en": "air humidity",
+        "image": "no_image",
+        "sentence_fi": "Ilmankosteus on melko korkea.",
+        "sentence_en": "It's quite humid."
+    },
+    {
+        "fi": "salama",
+        "en": "flash",
+        "image": "no_image",
+        "sentence_fi": "Tomin tappoi salama.",
+        "sentence_en": "Tom was struck by lightning and died."
+    },
+    {
+        "fi": "ukkonen",
+        "en": "thunder",
+        "image": "no_image",
+        "sentence_fi": "Ukkonen jyrisi.",
+        "sentence_en": "The thunder growled."
+    },
+    {
+        "fi": "myrsky",
+        "en": "storm",
+        "image": "no_image",
+        "sentence_fi": "Sinä yönä myrskysi.",
+        "sentence_en": "There was a storm that night."
+    },
+    {
+        "fi": "rae",
+        "en": "grain",
+        "image": "no_image",
+        "sentence_fi": "Tässä on rae.",
+        "sentence_en": "This is a grain."
+    },
+    {
+        "fi": "monsuuni",
+        "en": "monsoon",
+        "image": "no_image",
+        "sentence_fi": "Tässä on monsuuni.",
+        "sentence_en": "This is a monsoon."
+    },
+    {
+        "fi": "tulva",
+        "en": "flood",
+        "image": "no_image",
+        "sentence_fi": "Lumivyöryt liikkuvat tulvia nopeammin.",
+        "sentence_en": "Avalanches move faster than floods."
+    },
+    {
+        "fi": "jää",
+        "en": "ice",
+        "image": "no_image",
+        "sentence_fi": "Löydettäväksi jää...",
+        "sentence_en": "To be discovered..."
+    },
+    {
+        "fi": "tammikuu",
+        "en": "January",
+        "image": "no_image",
+        "sentence_fi": "Onko jo tammikuu?",
+        "sentence_en": "Is it January already?"
+    },
+    {
+        "fi": "helmikuu",
+        "en": "February",
+        "image": "no_image",
+        "sentence_fi": "Neljästoista helmikuuta on ystävänpäivä.",
+        "sentence_en": "February 14th is Valentine's Day."
+    },
+    {
+        "fi": "maaliskuu",
+        "en": "March",
+        "image": "no_image",
+        "sentence_fi": "Täällä oli kylmää läpi maaliskuun.",
+        "sentence_en": "It was cold here through March."
+    },
+    {
+        "fi": "toukokuu",
+        "en": "May",
+        "image": "no_image",
+        "sentence_fi": "Hän matkusti Pariisiin toukokuun lopulla.",
+        "sentence_en": "He went to Paris at the end of May."
+    },
+    {
+        "fi": "kesäkuu",
+        "en": "June",
+        "image": "no_image",
+        "sentence_fi": "Sadekausi alkaa kesäkuussa.",
+        "sentence_en": "Rainy season begins in June."
+    },
+    {
+        "fi": "heinäkuu",
+        "en": "July",
+        "image": "no_image",
+        "sentence_fi": "Kesäloma alkaa heinäkuussa.",
+        "sentence_en": "The summer vacation begins in July."
+    },
+    {
+        "fi": "elokuu",
+        "en": "August",
+        "image": "no_image",
+        "sentence_fi": "Nyt on elokuu.",
+        "sentence_en": "We're now in August."
+    },
+    {
+        "fi": "syyskuu",
+        "en": "September",
+        "image": "no_image",
+        "sentence_fi": "Tänään on ensimmäinen syyskuuta.",
+        "sentence_en": "Today is September first."
+    },
+    {
+        "fi": "lokakuu",
+        "en": "October",
+        "image": "no_image",
+        "sentence_fi": "Mari synnyttää lokakuussa.",
+        "sentence_en": "Mary is going to have a baby in October."
+    },
+    {
+        "fi": "marraskuu",
+        "en": "November",
+        "image": "no_image",
+        "sentence_fi": "Syntymäpäiväni on marraskuun kymmenes.",
+        "sentence_en": "My birthday is November 10th."
+    },
+    {
+        "fi": "joulukuu",
+        "en": "December",
+        "image": "no_image",
+        "sentence_fi": "Laitetaan joulukuusi tähän.",
+        "sentence_en": "Let's put up the Christmas tree here."
+    }
+]
