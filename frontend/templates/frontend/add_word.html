@@ -91,21 +91,33 @@
     </div>
 
     <script>
+        // Input fields for Finnish and English words
         const fiInput = document.getElementById('fi_input');
         const enInput = document.getElementById('en_input');
+
+        // UI elements for AI preview and loading state
         const previewArea = document.getElementById('ai-preview');
         const loadingStatus = document.getElementById('loading-status');
+
+        // Output fields
         const exInput = document.getElementById('ex_input');
         const imgDisplay = document.getElementById('word-img');
         const imgHidden = document.getElementById('img_hidden');
 
+        // API key for Unsplash image search
         const UNSPLASH_KEY = 'BAzazffKq-eqECErlrhZhd1aKOiGmwSX_TKJjt5T20o';
+
+        // Used for debouncing user input
         let timer;
+
+        // Used to cancel previous API calls when user types quickly
         let controller;
 
+        // Sync input fields with debounce
         fiInput.addEventListener('input', () => startSync(fiInput.value, 'fi', 'en', enInput));
         enInput.addEventListener('input', () => startSync(enInput.value, 'en', 'fi', fiInput));
 
+        /*** Debounce function to avoid excessive API calls while typing*/
         function startSync(val, from, to, target) {
             if (controller) controller.abort();
             clearTimeout(timer);
@@ -117,6 +129,7 @@
             timer = setTimeout(() => fetchAI(val, from, to, target), 850);
         }
 
+        /*** Fetch translation, image, and example sentence*/
         async function fetchAI(value, fromLang, toLang, targetElement) {
             controller = new AbortController();
             loadingStatus.style.display = 'block';
