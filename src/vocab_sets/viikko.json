@@ -1,0 +1,107 @@
+[
+    {
+        "fi": "maanantai",
+        "en": "Monday",
+        "image": "https://images.unsplash.com/photo-1691097097192-03866b391c97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxNb25kYXl8ZW58MHx8fHwxNzc3MzM0NjAxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Toissapäivänä oli maanantai.",
+        "sentence_en": "The day before yesterday was Monday."
+    },
+    {
+        "fi": "tiistai",
+        "en": "Tuesday",
+        "image": "https://images.unsplash.com/photo-1691097097368-3715f5cb5f7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxUdWVzZGF5fGVufDB8fHx8MTc3NzMzNDYwNXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Huomenna on tiistai kymmenes lokakuuta.",
+        "sentence_en": "Tomorrow is Tuesday, the tenth of October."
+    },
+    {
+        "fi": "keskiviikko",
+        "en": "Wednesday",
+        "image": "https://images.unsplash.com/photo-1691097097104-5d1d91ebba42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxXZWRuZXNkYXl8ZW58MHx8fHwxNzc3MzM0NjA5fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän on ollut sairaana viimeviikon keskiviikosta asti.",
+        "sentence_en": "She has been sick since last Wednesday."
+    },
+    {
+        "fi": "perjantai",
+        "en": "Friday",
+        "image": "https://images.unsplash.com/photo-1546074177-9e4787e95be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxGcmlkYXl8ZW58MHx8fHwxNzc3MzM0NjEyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Luojan kiitos on perjantai!",
+        "sentence_en": "Thank God it's Friday!"
+    },
+    {
+        "fi": "lauantai",
+        "en": "Saturday",
+        "image": "https://images.unsplash.com/photo-1691097097517-e30038aeda68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxTYXR1cmRheXxlbnwwfHx8fDE3NzczMzQ2MTh8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tänään on lauantai.",
+        "sentence_en": "It is Saturday."
+    },
+    {
+        "fi": "torstai",
+        "en": "Thursday",
+        "image": "https://images.unsplash.com/photo-1691097097069-09197bf73de1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxUaHVyc2RheXxlbnwwfHx8fDE3NzczMzQ2Mjl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tänään on torstai, 5. syyskuuta 2013.",
+        "sentence_en": "Today is Thursday, 5 September 2013."
+    },
+    {
+        "fi": "sunnuntai",
+        "en": "Sunday",
+        "image": "https://images.unsplash.com/photo-1529704349-64db1cf879f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxTdW5kYXl8ZW58MHx8fHwxNzc3MzM0NjMzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Huomenna on sunnuntai.",
+        "sentence_en": "It is Sunday tomorrow."
+    },
+    {
+        "fi": "eilen",
+        "en": "yesterday",
+        "image": "https://images.unsplash.com/photo-1738197373000-d801e1d5b2ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx5ZXN0ZXJkYXl8ZW58MHx8fHwxNzc3MzM0NjY2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Eilen tihutti.",
+        "sentence_en": "There was a light rain yesterday."
+    },
+    {
+        "fi": "tänään",
+        "en": "today",
+        "image": "https://images.unsplash.com/photo-1667669325817-b387fd46700c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b2RheXxlbnwwfHx8fDE3NzczMzQ2Njl8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Suljettu tänään.",
+        "sentence_en": "Today is our regular closing day."
+    },
+    {
+        "fi": "aamu",
+        "en": "morning",
+        "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtb3JuaW5nfGVufDB8fHx8MTc3NzMzNDY4M3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nähdään aamulla.",
+        "sentence_en": "See you in the morning."
+    },
+    {
+        "fi": "huomenna",
+        "en": "tomorrow",
+        "image": "https://images.unsplash.com/photo-1608349380900-4bd9cc782770?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0b21vcnJvd3xlbnwwfHx8fDE3NzczMzQ2NzJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Huomenna?",
+        "sentence_en": "Tomorrow?"
+    },
+    {
+        "fi": "keskipäivä",
+        "en": "midday",
+        "image": "https://images.unsplash.com/photo-1668012961783-79e7ff78cb98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtaWRkYXl8ZW58MHx8fHwxNzc3MzM0Njk0fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hän tulee keskipäivällä.",
+        "sentence_en": "He comes at noon."
+    },
+    {
+        "fi": "ilta",
+        "en": "evening",
+        "image": "https://images.unsplash.com/photo-1561915573-b78892da34b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxldmVuaW5nfGVufDB8fHx8MTc3NzMzNDY5Nnww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Mitä syömme illalla?",
+        "sentence_en": "What do we eat tonight?"
+    },
+    {
+        "fi": "työpäivät",
+        "en": "working days",
+        "image": "https://images.unsplash.com/photo-1690384058153-09d5cfe13690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3b3JraW5nJTIwZGF5c3xlbnwwfHx8fDE3NzczMzQ3MDF8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tomilla oli ikävä työpäivä.",
+        "sentence_en": "Tom had a bad day at work."
+    },
+    {
+        "fi": "viikonloppu",
+        "en": "weekend",
+        "image": "https://images.unsplash.com/photo-1628349407899-46565857ab55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3ZWVrZW5kfGVufDB8fHx8MTc3NzMzNDcwM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nähdään viikonloppuna.",
+        "sentence_en": "See you at the weekend."
+    }
+]
