@@ -1,0 +1,51 @@
+[
+    {
+        "fi": "ympyrä",
+        "en": "circle",
+        "image": "no_image",
+        "sentence_fi": "Piirrä ympyrä.",
+        "sentence_en": "Draw a circle."
+    },
+    {
+        "fi": "neliö",
+        "en": "square",
+        "image": "no_image",
+        "sentence_fi": "Kahden neliö on neljä.",
+        "sentence_en": "Two squared equals four."
+    },
+    {
+        "fi": "suorakulmio",
+        "en": "rectangle",
+        "image": "no_image",
+        "sentence_fi": "Jokainen neliö on suorakulmio.",
+        "sentence_en": "Every square is a rectangle."
+    },
+    {
+        "fi": "kolmio",
+        "en": "triangle",
+        "image": "no_image",
+        "sentence_fi": "Toiselle tielle käännyttäessä on kolmio.",
+        "sentence_en": "There'll be a give way sign at a turning onto another road."
+    },
+    {
+        "fi": "pallo",
+        "en": "ball",
+        "image": "no_image",
+        "sentence_fi": "Heitä pallo hänelle!",
+        "sentence_en": "Toss her the ball."
+    },
+    {
+        "fi": "kuutio",
+        "en": "cube",
+        "image": "no_image",
+        "sentence_fi": "Kolme korotettuna kuutioon on 27.",
+        "sentence_en": "Three cubed makes twenty-seven."
+    },
+    {
+        "fi": "muodot",
+        "en": "lines",
+        "image": "no_image",
+        "sentence_fi": "Miten voin antaa panokseni Tatoeballe äänitiedoston muodossa?",
+        "sentence_en": "How do I contribute audio in Tatoeba?"
+    }
+]
