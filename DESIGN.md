@@ -47,7 +47,6 @@ It can save words, load words, give user multiple options to learn, track user's
 ## 7. Data Storage & Structures
 *How are we keeping track of information?*
 * **Variables/Collections:** [We will use a List to store the inventory and a Dictionary for learning words and a file to track learning progress.]
-* **Persistence:** [We will save the team's progress in a file called `save_data.txt`.]
 
 ## 8. Development Timeline (Milestones)
 *What is our plan for finishing on time?*
@@ -58,6 +57,5 @@ It can save words, load words, give user multiple options to learn, track user's
 ---
 
 ### Team Checklist:
-* **Consistency:** Are we all using the same variable naming style (user_choice, new_word, score_total)?
+* **Consistency:** Are we all using the same variable naming style (user_choice, new_word)?
 * **Communication:** How will we communicate? (Discord, Messenger, WhatsApp, Outlook)
-* **Integration:** Have we tested if Member A's function actually works with Member B's function? (They can compete with each other.)
