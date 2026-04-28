@@ -6,94 +6,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Word | Smart Vocabulary Creator</title>
     <style>
+        /* ===== GLOBAL LAYOUT ===== */
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            display: flex; justify-content: center; align-items: center; 
-            min-height: 100vh; margin: 0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+
+            /* Background image */
             background-image: url("{% static 'frontend/addword_img.png' %}");
-            background-size: cover; background-position: center;
+            background-size: cover;
+            background-position: center;
         }
 
+        /* ===== MAIN FORM CARD ===== */
         .form-card { 
             background: rgba(255, 255, 255, 0.96);
-            padding: 30px; border-radius: 16px; border: 2px solid #000; 
-            box-shadow: 0 15px 35px rgba(0,0,0,0.2); width: 380px; text-align: center;
+            padding: 30px;
+            border-radius: 16px;
+            border: 2px solid #000;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            width: 380px;
+            text-align: center;
         }
 
         h2 { color: #003580; margin-top: 0; }
-        label { display: block; text-align: left; font-size: 0.75rem; font-weight: bold; margin-top: 10px; color: #555; }
 
+        /* ===== FORM LABELS ===== */
+        label {
+            display: block;
+            text-align: left;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        /* ===== INPUT FIELDS ===== */
         input, textarea { 
-            width: 100%; padding: 12px; margin: 5px 0 12px 0; 
-            border: 2px solid #000; border-radius: 8px; box-sizing: border-box; 
-            font-size: 1rem; transition: border-color 0.3s;
+            width: 100%;
+            padding: 12px;
+            margin: 5px 0 12px 0;
+            border: 2px solid #000;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 1rem;
+            transition: border-color 0.3s;
         }
 
-        input:focus { border-color: #003580; outline: none; }
+        input:focus {
+            border-color: #003580;
+            outline: none;
+        }
 
-        #loading-status { font-size: 0.8rem; color: #003580; font-weight: bold; height: 20px; display: none; margin-bottom: 10px; }
+        /* ===== LOADING (PROGRESS BAR) ===== */
+        #loading-status {
+            display: none;
+            margin-bottom: 12px;
+        }
 
+        .progress-text {
+            font-size: 0.8rem;
+            color: #003580;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #dbeafe;
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        /* Loading bar */
+        .progress-fill {
+            width: 40%;
+            height: 100%;
+            background: linear-gradient(90deg, #0d90b8, #115eda, #4cc9f0);
+            border-radius: 999px;
+            animation: progressMove 1.1s ease-in-out infinite;
+        }
+
+        @keyframes progressMove {
+            0% { transform: translateX(-120%); }
+            100% { transform: translateX(260%); }
+        }
+
+        /* ===== AI PREVIEW SECTION ===== */
         #ai-preview { 
-            display: none; opacity: 0; transform: translateY(10px);
-            transition: all 0.4s ease; border-top: 1px dashed #bbb; padding-top: 15px;
+            display: none;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.4s ease;
+            border-top: 1px dashed #bbb;
+            padding-top: 15px;
         }
 
-        #ai-preview.active { display: block; opacity: 1; transform: translateY(0); }
+        #ai-preview.active {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
 
+        /* ===== IMAGE PREVIEW ===== */
         .img-container {
-            width: 100%; height: 170px; background: #eee;
-            border-radius: 10px; border: 1px solid #000; margin-bottom: 12px;
-            overflow: hidden; display: flex; align-items: center; justify-content: center;
+            width: 100%;
+            height: 170px;
+            background: #eee;
+            border-radius: 10px;
+            border: 1px solid #000;
+            margin-bottom: 12px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        #word-img { width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.5s; }
+        #word-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
 
-        textarea { height: 95px; resize: none; background: #fff; line-height: 1.4; font-size: 0.95rem; }
+        textarea {
+            height: 95px;
+            resize: none;
+            line-height: 1.4;
+            font-size: 0.95rem;
+        }
 
+        /* ===== SUBMIT BUTTON ===== */
         button { 
-            width: 100%; padding: 14px; background: #003580; color: #fff; 
-            border: none; border-radius: 8px; cursor: pointer; font-size: 1.1rem; font-weight: bold;
+            width: 100%;
+            padding: 14px;
+            background: #003580;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: bold;
             transition: background 0.2s;
         }
 
         button:hover { background: #00265a; }
 
-        /* ===== BACK BUTTON  ===== */
+        /* ===== BACK BUTTON (GLOBAL STYLE) ===== */
         .back-link {
-            position: fixed;     
+            position: fixed;
             top: 20px;
             left: 20px;
-
-            color: #666;
+            color: #003580;
+            font-weight: bold;
+            font-size: 0.9rem;
             text-decoration: none;
-            font-size: 0.85rem;
-
-            
             background: rgba(255, 255, 255, 0.9);
-            padding: 6px 10px;
-            border-radius: 6px;
-
+            padding: 8px 12px;
+            border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
             transition: 0.2s;
+        }
+
+        .back-link:hover {
+            color: #00265a;
+            text-decoration: underline;
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
     <div class="form-card">
         <h2>Add Word</h2>
-        
+
+        <!-- ===== FORM ===== -->
         <form method="POST" id="word-form">
             {% csrf_token %}
-            
+
+            <!-- Finnish input -->
             <label>FINNISH WORD</label>
             <input type="text" name="finnish_word" id="fi_input" placeholder="e.g. Pelata" autocomplete="off" required>
-
+            
+            <!-- English input -->
             <label>ENGLISH WORD</label>
             <input type="text" name="english_word" id="en_input" placeholder="e.g. To play" autocomplete="off" required>
 
-            <div id="loading-status">AI is generating context...</div>
+            <!-- Loading progress -->
+            <div id="loading-status">
+                <div class="progress-text">Loading...</div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
 
+            <!-- AI preview -->
             <div id="ai-preview">
                 <div class="img-container">
                     <img id="word-img" src="" alt="Context Image">
@@ -105,10 +216,11 @@
 
             <button type="submit">Save Word</button>
         </form>
-        <a href="{% url 'main_menu' %}" class="back-link">← Return to Menu</a>
+        <a href="{% url 'main_menu' %}" class="back-link">← Back to Menu</a>
     </div>
 
     <script>
+        // ===== DOM REFERENCES =====
         // Input fields for Finnish and English words
         const fiInput = document.getElementById('fi_input');
         const enInput = document.getElementById('en_input');
@@ -139,14 +251,19 @@
         function startSync(val, from, to, target) {
             if (controller) controller.abort();
             clearTimeout(timer);
-            
+            val = val.toLowerCase();
+            if (from === 'fi') fiInput.value = val;
+            if (from === 'en') enInput.value = val;
+
             if (val.length < 2) {
                 previewArea.classList.remove('active');
                 return;
             }
+    
             timer = setTimeout(() => fetchAI(val, from, to, target), 850);
         }
 
+        // ===== MAIN AI PROCESS =====
         /*** Fetch translation, image, and example sentence*/
         async function fetchAI(value, fromLang, toLang, targetElement) {
             controller = new AbortController();
