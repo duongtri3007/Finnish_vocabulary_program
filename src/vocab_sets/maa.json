@@ -1,0 +1,135 @@
+[
+    {
+        "fi": "Eurooppa",
+        "en": "Europe",
+        "image": "no_image",
+        "sentence_fi": "Milloin menette Eurooppaan?",
+        "sentence_en": "When are you going to Europe?"
+    },
+    {
+        "fi": "Pohjois-Amerikka",
+        "en": "North America",
+        "image": "no_image",
+        "sentence_fi": "Tom tahtoi käydä Pohjois-Amerikassa.",
+        "sentence_en": "Tom wanted to visit North America."
+    },
+    {
+        "fi": "Etelä-Amerikka",
+        "en": "South America",
+        "image": "no_image",
+        "sentence_fi": "Ecuador on Etelä-Amerikan luoteisosassa sijaitseva valtio.",
+        "sentence_en": "Ecuador is a country situated in the northwest part of South America."
+    },
+    {
+        "fi": "Afrikka",
+        "en": "Africa",
+        "image": "no_image",
+        "sentence_fi": "Hän lähti Afrikasta pysyvästi.",
+        "sentence_en": "He left Africa forever."
+    },
+    {
+        "fi": "Aasia",
+        "en": "Asia",
+        "image": "https://images.unsplash.com/photo-1522547902298-51566e4fb383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxBc2lhfGVufDB8fHx8MTc3NzMzNDQwNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Aasia on paljon suurempi kuin Australia.",
+        "sentence_en": "Asia is much larger than Australia."
+    },
+    {
+        "fi": "Australia",
+        "en": "Australia",
+        "image": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxBdXN0cmFsaWF8ZW58MHx8fHwxNzc3MzM0NDA2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Australia on sätkynukkevaltio.",
+        "sentence_en": "Australia is a puppet state."
+    },
+    {
+        "fi": "Atlantin valtameri",
+        "en": "Atlantic Ocean",
+        "image": "https://images.unsplash.com/photo-1592500626473-e988dbea2184?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxBdGxhbnRpYyUyME9jZWFufGVufDB8fHx8MTc3NzMzNDQxM3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Brasiliaa ympäröi kymmenen maata ja Atlantin valtameri.",
+        "sentence_en": "Brazil is surrounded by ten countries and the Atlantic Ocean."
+    },
+    {
+        "fi": "Tyynimeri",
+        "en": "The Pacific Ocean",
+        "image": "https://images.unsplash.com/photo-1520989739232-e32e849a8426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxUaGUlMjBQYWNpZmljJTIwT2NlYW58ZW58MHx8fHwxNzc3MzM0NDIwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Atlantin valtameri on suolaisempi kuin Tyynimeri",
+        "sentence_en": "The Atlantic Ocean is saltier than the Pacific Ocean."
+    },
+    {
+        "fi": "Intian valtameri",
+        "en": "Indian Ocean",
+        "image": "https://images.unsplash.com/photo-1584793931851-a5aaaed5597d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBPY2VhbnxlbnwwfHx8fDE3NzczMzQ0MjR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on Intian valtameri.",
+        "sentence_en": "This is a Indian Ocean."
+    },
+    {
+        "fi": "Eteläinen jäämeri",
+        "en": "Southern Arctic Ocean",
+        "image": "no_image",
+        "sentence_fi": "Tässä on Eteläinen jäämeri.",
+        "sentence_en": "This is a Southern Arctic Ocean."
+    },
+    {
+        "fi": "Pohjoinen jäämeri",
+        "en": "Arctic Ocean",
+        "image": "https://images.unsplash.com/photo-1509326066092-14b2e882fe86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxBcmN0aWMlMjBPY2VhbnxlbnwwfHx8fDE3NzczMzQ0MzN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on Pohjoinen jäämeri.",
+        "sentence_en": "This is a Arctic Ocean."
+    },
+    {
+        "fi": "pohjoisnapa",
+        "en": "North Pole",
+        "image": "https://images.unsplash.com/photo-1519832064761-bbc1d76d4ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMFBvbGV8ZW58MHx8fHwxNzc3MzM0NDM3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Hokkaido sijaitsee Pohjois-Japanissa.",
+        "sentence_en": "Hokkaido lies in the north of Japan."
+    },
+    {
+        "fi": "etelänapa",
+        "en": "the south pole",
+        "image": "https://images.unsplash.com/photo-1561990170-6d82faed96e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0aGUlMjBzb3V0aCUyMHBvbGV8ZW58MHx8fHwxNzc3MzM0NDQxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Etelään päin.",
+        "sentence_en": "To the south."
+    },
+    {
+        "fi": "Antarktis",
+        "en": "Antarctic",
+        "image": "https://images.unsplash.com/photo-1535752385016-16aa049b6a8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxBbnRhcmN0aWN8ZW58MHx8fHwxNzc3MzM0NDQ1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on Antarktis.",
+        "sentence_en": "This is a Antarctic."
+    },
+    {
+        "fi": "maa",
+        "en": "country",
+        "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjb3VudHJ5fGVufDB8fHx8MTc3NzMzNDQ0OXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Maa on planeetta.",
+        "sentence_en": "Earth is a planet."
+    },
+    {
+        "fi": "meri",
+        "en": "sea",
+        "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzZWF8ZW58MHx8fHwxNzc3MzM0NDUyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Meri on sininen.",
+        "sentence_en": "The sea is blue."
+    },
+    {
+        "fi": "saari",
+        "en": "island",
+        "image": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxpc2xhbmR8ZW58MHx8fHwxNzc3MzI3MjIyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vajoaako saari?",
+        "sentence_en": "Is the island sinking?"
+    },
+    {
+        "fi": "kansa",
+        "en": "callus",
+        "image": "no_image",
+        "sentence_fi": "Kuningas sorti kansaansa.",
+        "sentence_en": "The king oppressed his people."
+    },
+    {
+        "fi": "osavaltio",
+        "en": "state",
+        "image": "https://images.unsplash.com/photo-1528085141909-3b22d96ee1d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzdGF0ZXxlbnwwfHx8fDE3NzczMzQ0NjN8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lääkekannabis on laillista tässä osavaltiossa.",
+        "sentence_en": "Medical marijuana is legal in this state."
+    }
+]
