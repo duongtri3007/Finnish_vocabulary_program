@@ -1,0 +1,93 @@
+[
+    {
+        "fi": "tuntiviisari",
+        "en": "wise man",
+        "image": "https://images.unsplash.com/photo-1603474058028-2bdde2997747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx3aXNlJTIwbWFufGVufDB8fHx8MTc3NzMzNDUxN3ww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on tuntiviisari.",
+        "sentence_en": "This is a wise man."
+    },
+    {
+        "fi": "kellotaulu",
+        "en": "clock face",
+        "image": "https://images.unsplash.com/photo-1528387810833-7b46bb8e8778?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjbG9jayUyMGZhY2V8ZW58MHx8fHwxNzc3MzM0NTIyfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on kellotaulu.",
+        "sentence_en": "This is a clock face."
+    },
+    {
+        "fi": "sekuntiviisari",
+        "en": "second hand",
+        "image": "https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzZWNvbmQlMjBoYW5kfGVufDB8fHx8MTc3NzMzNDUyOXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on sekuntiviisari.",
+        "sentence_en": "This is a second hand."
+    },
+    {
+        "fi": "minuuttiviisari",
+        "en": "minute hand",
+        "image": "https://images.unsplash.com/photo-1664899303670-9b7662545a34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtaW51dGUlMjBoYW5kfGVufDB8fHx8MTc3NzMzNDUzNHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tässä on minuuttiviisari.",
+        "sentence_en": "This is a minute hand."
+    },
+    {
+        "fi": "digitaalikello",
+        "en": "Digital clock",
+        "image": "https://images.unsplash.com/photo-1591436123200-5ccc6511c0e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxEaWdpdGFsJTIwY2xvY2t8ZW58MHx8fHwxNzc3MzM0NTQwfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Vuoden trendisana oli digitaalinen: digitaalikellot, digitaaliset mikroaaltouunit, jopa digitaaliset täytekynät.",
+        "sentence_en": "The trendy word of the year was \"digital\": digital clocks, digital microwave ovens, even digital fountain pens."
+    },
+    {
+        "fi": "Paljonko kello on?",
+        "en": "What time is it?",
+        "image": "https://images.unsplash.com/photo-1640431897897-727c6e5645c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxXaGF0JTIwdGltZSUyMGlzJTIwaXQlM0Z8ZW58MHx8fHwxNzc3MzM0NTUxfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tiedätkö miten paljon kello on?",
+        "sentence_en": "Do you know what time it is?"
+    },
+    {
+        "fi": "päivä",
+        "en": "day",
+        "image": "https://images.unsplash.com/photo-1588746853740-bd35aad10bfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkYXl8ZW58MHx8fHwxNzc3MzM0NTU3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Päivää!",
+        "sentence_en": "Good morning!"
+    },
+    {
+        "fi": "aika",
+        "en": "time",
+        "image": "https://images.unsplash.com/photo-1501139083538-0139583c060f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0aW1lfGVufDB8fHx8MTc3NzMzNDU2MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Aika ironista.",
+        "sentence_en": "It's ironic."
+    },
+    {
+        "fi": "nyt",
+        "en": "now",
+        "image": "https://images.unsplash.com/photo-1578687388475-47f94962f6e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxub3d8ZW58MHx8fHwxNzc3MzM0NTY1fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Nyt tihuttaa.",
+        "sentence_en": "The rain has let up."
+    },
+    {
+        "fi": "minuutti",
+        "en": "minute",
+        "image": "https://images.unsplash.com/photo-1508962914676-134849a727f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxtaW51dGV8ZW58MHx8fHwxNzc3MzM0NTY3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Odota viisi minuuttia.",
+        "sentence_en": "Please wait for five minutes."
+    },
+    {
+        "fi": "tunti",
+        "en": "hour",
+        "image": "https://images.unsplash.com/photo-1508962914676-134849a727f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxob3VyfGVufDB8fHx8MTc3NzMzNDU3MHww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Tiedän tunteen.",
+        "sentence_en": "I know that feeling."
+    },
+    {
+        "fi": "päivä / yö",
+        "en": "day / night",
+        "image": "https://images.unsplash.com/photo-1621788641242-f3d8a7c42ea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxkYXklMjAlMkYlMjBuaWdodHxlbnwwfHx8fDE3NzczMzQ1NzR8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Päivä ja yö tulevat vuorotellen.",
+        "sentence_en": "Day alternates with night."
+    },
+    {
+        "fi": "kello",
+        "en": "clock",
+        "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjbG9ja3xlbnwwfHx8fDE3NzczMjM5MzB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Pidän kelloista.",
+        "sentence_en": "I like clocks."
+    }
+]
