@@ -2,15 +2,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Finnish Learning - Review</title>
+    <title>Finnish Learning - Review Options</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
             background-image: url("{% static 'frontend/reviewoption.png' %}");
-            background-size: cover;           /* cover the whole viewport */
-            background-position: center;      /* center the image */
-            background-repeat: no-repeat;     /* prevent tiling */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,18 +19,18 @@
         }
 
         .container {
-            background: rgba(255,255,255,0.95);  /* slightly transparent so background is visible */
+            background: rgba(255,255,255,0.95);
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 6px 12px rgba(0,0,0,0.15);
             text-align: center;
-            width: 350px;
+            width: 380px;
         }
 
         /* Rainbow gradient header */
         h2.rainbow-text {
             margin-top: 0;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-weight: 800;
             font-size: 1.8rem;
             background: linear-gradient(
@@ -41,6 +41,17 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: rainbowFlow 5s linear infinite, slideDown 0.6s ease forwards;
+        }
+
+        /* Set indicator text */
+        .set-indicator {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 25px;
+            font-style: italic;
+            opacity: 0;
+            animation: slideDown 0.6s ease forwards;
+            animation-delay: 0.1s;
         }
 
         @keyframes rainbowFlow {
@@ -68,8 +79,8 @@
         }
 
         /* Delay each button so they appear one by one */
-        .btn-custom:nth-child(2) { animation-delay: 0.2s; }
-        .btn-custom:nth-child(3) { animation-delay: 0.4s; }
+        .btn-custom:nth-child(3) { animation-delay: 0.3s; }
+        .btn-custom:nth-child(4) { animation-delay: 0.5s; }
 
         .btn-custom:hover {
             background-color: #002255;
@@ -84,7 +95,7 @@
             text-decoration: none;
             opacity: 0;
             animation: slideDown 0.6s ease forwards;
-            animation-delay: 0.6s;
+            animation-delay: 0.7s;
         }
 
         .back-link:hover {
@@ -99,16 +110,24 @@
 
         <h2 class="rainbow-text">Select Review Mode</h2>
 
-        <a href="{% url 'review_flashcards' %}" class="btn-custom">
+        <div class="set-indicator">
+            {% if set_name %}
+                Reviewing Set: <strong>{{ set_name }}</strong>
+            {% else %}
+                Reviewing: <strong>All Saved Words</strong>
+            {% endif %}
+        </div>
+
+        <a href="{% url 'review_flashcards' %}{% if set_name %}?set_name={{ set_name|urlencode }}{% endif %}" class="btn-custom">
             Flashcards Mode
         </a>
 
-        <a href="{% url 'review_quiz' %}" class="btn-custom">
+        <a href="{% url 'review_quiz' %}{% if set_name %}?set_name={{ set_name|urlencode }}{% endif %}" class="btn-custom">
             Multiple Choice Quiz
         </a>
 
         <a href="{% url 'main_menu' %}" class="back-link">
-            ← Back 
+            ← Back to Main Menu
         </a>
 
     </div>

@@ -27,17 +27,44 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
-        h1 {
-            color: #003580;
-            text-align: center;
+        /* Flexbox header to align title and review button */
+        .header-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             border-bottom: 2px solid #003580;
             padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #003580;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Review Button Style */
+        .review-btn {
+            background-color: #003580;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .review-btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
             table-layout: fixed;
         }
 
@@ -53,13 +80,11 @@
             color: white;
         }
 
-        th:last-child,
-        td:last-child {
+        th:last-child, td:last-child {
             border-right: none;
         }
 
-        th:first-child,
-        td:first-child {
+        th:first-child, td:first-child {
             width: 60px;
         }
 
@@ -82,7 +107,15 @@
 <div class="container">
     <a href="{% url 'vocabulary_sets' %}" class="back-btn">← Back to Vocabulary Sets</a>
 
-    <h1>{% if set_title %}{{ set_title }}{% else %}Saved Vocabulary{% endif %}</h1>
+    <div class="header-wrapper">
+        <h1>{% if set_title %}{{ set_title }}{% else %}Saved Vocabulary{% endif %}</h1>
+        
+        {% if vocabulary %}
+        <a href="{% url 'review_options' %}?set_name={{ set_title|urlencode }}" class="review-btn">
+            <span>📚</span> Review this set
+        </a>
+        {% endif %}
+    </div>
 
     <table>
         <thead>

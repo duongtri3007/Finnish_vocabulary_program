@@ -17,34 +17,29 @@
         min-height: 100vh;
         margin: 0;
         font-family: Arial, sans-serif;
-
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .header-title {
-        display: none;
-    }
+    .header-title { display: none; }
 
-    /* --- Quiz Container --- */
     .quiz-container {
-        max-width: 480px;          /* slightly smaller width */
-        width: 90%;                /* responsive */
-        max-height: 85vh;          /* reduce height to fit window */
-        overflow-y: auto;          /* allow tiny scroll if necessary */
+        max-width: 480px;
+        width: 90%;
+        max-height: 85vh;
+        overflow-y: auto;
         padding: 20px 25px;
-        background: rgba(255,255,255,0.95); /* semi-transparent for background effect */
+        background: rgba(255,255,255,0.95);
         border-radius: 20px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         border: 2px solid #eee;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start; /* top alignment */
+        justify-content: flex-start;
     }
 
-    /* --- Quiz Header --- */
     .quiz-header {
         display: flex;
         justify-content: space-between;
@@ -63,13 +58,10 @@
         font-size: 0.9rem;
     }
 
-    /* --- Question Box --- */
-    .question-box {
-        margin-bottom: 20px;
-    }
+    .question-box { margin-bottom: 20px; }
 
     .finnish-word {
-        font-size: 2.2rem;        /* slightly smaller to fit */
+        font-size: 2.2rem;
         color: var(--finnish-blue);
         font-weight: 800;
         margin: 10px 0;
@@ -77,16 +69,15 @@
         text-align: center;
     }
 
-    /* --- Options Grid --- */
     .options-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 12px;                /* reduced gap for vertical fit */
+        gap: 12px;
     }
 
     .quiz-option {
         padding: 12px;
-        font-size: 1rem;          /* smaller font */
+        font-size: 1rem;
         font-weight: 600;
         border: 2px solid #ddd;
         background: white;
@@ -94,8 +85,6 @@
         border-radius: 12px;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
-        position: relative;
-        overflow: hidden;
     }
 
     .quiz-option:hover {
@@ -104,7 +93,6 @@
         transform: translateY(-2px);
     }
 
-    /* --- Spectacular Effects --- */
     .fade-out { opacity: 0.3; transform: scale(0.95); pointer-events: none; }
     .quiz-option.disabled { pointer-events: none; }
 
@@ -112,9 +100,7 @@
         background-color: var(--success-green) !important;
         color: white !important;
         border-color: var(--success-green) !important;
-        box-shadow: 0 0 20px rgba(40, 167, 69, 0.5);
         animation: pulseCorrect 1s infinite;
-        z-index: 2;
     }
 
     @keyframes pulseCorrect {
@@ -136,40 +122,7 @@
         20%, 40%, 60%, 80% { transform: translateX(6px); }
     }
 
-    /* --- Quiz Page Header --- */
-    .container.text-center h2 {
-        color: var(--finnish-blue);
-        margin-top: 10px;
-        font-size: 1.7rem;
-    }
-
-    .container.text-center p {
-        margin-bottom: 15px;
-        font-weight: 500;
-    }
-
-    /* --- Back link smaller --- */
-    .container.text-center a {
-        font-size: 0.85rem;
-    }
-
-    /* --- Responsive Adjustments --- */
-    @media (max-height: 700px) {
-        .quiz-container {
-            max-height: 75vh;
-            padding: 15px 20px;
-        }
-
-        .finnish-word {
-            font-size: 2rem;
-        }
-
-        .quiz-option {
-            padding: 10px;
-            font-size: 0.95rem;
-        }
-    }
-
+    .container.text-center h2 { color: var(--finnish-blue); margin-top: 10px; font-size: 1.7rem; }
 </style>
 
 <div class="container text-center">
@@ -180,7 +133,6 @@
         {% for item in quiz_data %}
             <div class="quiz-item" id="q-{{ forloop.counter }}" style="display: {% if forloop.first %}block{% else %}none{% endif %};">
                 <div class="quiz-container">
-                    
                     <div class="quiz-header">
                         <small>Question {{ forloop.counter }} of {{ quiz_data|length }}</small>
                         <div class="score-badge">Score: <span class="current-score">0</span></div>
@@ -205,11 +157,14 @@
     </div>
 
     <br>
-    <a href="{% url 'review_options' %}" style="text-decoration: none; color: #888;">← Back to Options</a>
+    <a href="{% url 'review_options' %}{% if set_name %}?set_name={{ set_name|urlencode }}{% endif %}" 
+       style="text-decoration: none; color: #888;">← Back to Options</a>
 </div>
 
 <script>
     let globalScore = 0;
+    // Capture the set name for the final redirect
+    const setName = "{{ set_name|default:'' }}";
 
     function processAnswer(selectedBtn, correctAnswerValue, currentQuestionId) {
         const currentQuizItem = document.getElementById('q-' + currentQuestionId);
@@ -242,7 +197,7 @@
 
         setTimeout(() => {
             goToNextQuestionInQuiz(currentQuestionId);
-        }, 2000);
+        }, 1500);
     }
 
     function goToNextQuestionInQuiz(id) {
@@ -254,7 +209,13 @@
             next.style.display = 'block';
         } else {
             alert("Quiz Completed! Your Final Score: " + globalScore + ". Kiitos!");
-            window.location.href = "{% url 'review_options' %}";
+            
+            // Redirect while preserving the set context
+            let url = "{% url 'review_options' %}";
+            if (setName) {
+                url += "?set_name=" + encodeURIComponent(setName);
+            }
+            window.location.href = url;
         }
     }
 </script>
