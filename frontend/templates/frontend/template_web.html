@@ -3,11 +3,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Responsive layout for mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Application title shown in browser tab -->
     <title>WordNest</title>
+    <!-- Favicon (tab icon) -->
     <link rel="icon" type="image/png" href="{% static 'frontend/wordnet_favicon.png' %}">
 
 <style>
+    /* ===== GLOBAL STYLE ===== */
     body { 
         font-family: 'Segoe UI', Arial, sans-serif; 
         text-align: center; 
@@ -16,6 +20,7 @@
         position: relative;
         z-index: 0;
 
+        /* Background image setup */
         background-image: url("{% static 'frontend/background_img.png' %}");
         background-size: cover;
         background-position: center;
@@ -23,7 +28,7 @@
         background-repeat: no-repeat;
         background-color: #f4f4f4; 
     }
-
+    /* ===== HEADER TITLE ===== */
     .header-title {
         font-size: clamp(1.5rem, 4vw, 3.5rem);
         font-weight: 800;
@@ -57,6 +62,7 @@
             floatTitle 4s ease-in-out infinite;
     }
 
+    /* ===== MAIN CONTENT CONTAINER ===== */
     .content-wrapper { 
         min-height: 330px;
         display: inline-block; 
@@ -67,6 +73,7 @@
         box-shadow: 0 10px 30px rgba(0,0,0,0.25); 
     }
 
+    /* ===== ITEMS MENU  ===== */
     .menu-item {
         opacity: 0;
         transform: translateY(20px);
@@ -80,6 +87,7 @@
     .menu-item:nth-child(5) { animation-delay: 1.2s; }
     .menu-item:nth-child(6) { animation-delay: 1.4s; }
 
+    /* ===== MENU BUTTON ===== */
     .menu-button {
         display: block;
         width: 280px;
@@ -117,6 +125,7 @@
             0 6px 10px rgba(0,0,0,0.16);
     }
 
+    /* ===== ANIMATIONS ===== */
     @keyframes jellyHover {
         0%   { transform: scale(1, 1); }
         30%  { transform: scale(1.08, 0.90); }
@@ -172,8 +181,10 @@
 
 <body>
 
+    <!-- App Title -->
     <div class="header-title">WordNest</div>
 
+    <!-- Main Menu -->
     <div class="content-wrapper">
         {% block content %}
             <div class="menu-container">
@@ -194,6 +205,7 @@
                     <a href="{% url 'vocabulary_sets' %}" class="menu-button">🗂 Vocabulary sets</a>
                 </div>
 
+                <!-- Options -->
                 {% for item in options %}
                     {% if item not in "Add new words,Review all words,Show all words,Vocabulary sets, Exit" %}
                         <div class="menu-item">
