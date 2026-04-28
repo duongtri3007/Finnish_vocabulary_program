@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Finnish Learning - Review</title>
+    <title>Finnish Learning - Review Options</title>
 
     <style>
         /* ===== GLOBAL PAGE LAYOUT ===== */
@@ -30,13 +30,13 @@
             border-radius: 12px;
             box-shadow: 0 6px 12px rgba(0,0,0,0.15);
             text-align: center;
-            width: 350px;
+            width: 380px;
         }
 
         /* ===== HEADER  ===== */
         h2.title {
             margin-top: 0;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-weight: 800;
             font-size: 1.8rem;
             background: linear-gradient(
@@ -47,6 +47,17 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: rainbowFlow 5s linear infinite, slideDown 0.6s ease forwards;
+        }
+
+        /* Set indicator text */
+        .set-indicator {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 25px;
+            font-style: italic;
+            opacity: 0;
+            animation: slideDown 0.6s ease forwards;
+            animation-delay: 0.1s;
         }
 
         @keyframes rainbowFlow {
@@ -75,8 +86,8 @@
         }
 
         /* Delay each button so they appear one by one */
-        .btn-custom:nth-child(2) { animation-delay: 0.2s; }
-        .btn-custom:nth-child(3) { animation-delay: 0.4s; }
+        .btn-custom:nth-child(3) { animation-delay: 0.3s; }
+        .btn-custom:nth-child(4) { animation-delay: 0.5s; }
 
         /* Hover effect */
         .btn-custom:hover {
@@ -125,7 +136,7 @@
             Flashcards Mode
         </a>
 
-        <a href="{% url 'review_quiz' %}" class="btn-custom">
+        <a href="{% url 'review_quiz' %}{% if set_name %}?set_name={{ set_name|urlencode }}{% endif %}" class="btn-custom">
             Multiple Choice Quiz
         </a>
 

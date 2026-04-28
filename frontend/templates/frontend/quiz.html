@@ -19,7 +19,6 @@
         min-height: 100vh;
         margin: 0;
         font-family: Arial, sans-serif;
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -98,8 +97,6 @@
         border-radius: 12px;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
-        position: relative;
-        overflow: hidden;
     }
 
     .quiz-option:hover {
@@ -141,9 +138,7 @@
         background-color: var(--success-green) !important;
         color: white !important;
         border-color: var(--success-green) !important;
-        box-shadow: 0 0 20px rgba(40, 167, 69, 0.5);
         animation: pulseCorrect 1s infinite;
-        z-index: 2;
     }
 
     /* Correct answer pulse animation */
@@ -167,40 +162,7 @@
         20%, 40%, 60%, 80% { transform: translateX(6px); }
     }
 
-    /* --- Quiz Page Header --- */
-    .container.text-center h2 {
-        color: var(--finnish-blue);
-        margin-top: 10px;
-        font-size: 1.7rem;
-    }
-
-    .container.text-center p {
-        margin-bottom: 15px;
-        font-weight: 500;
-    }
-
-    /* --- Back link smaller --- */
-    .container.text-center a {
-        font-size: 0.85rem;
-    }
-
-    /* --- Responsive Adjustments --- */
-    @media (max-height: 700px) {
-        .quiz-container {
-            max-height: 75vh;
-            padding: 15px 20px;
-        }
-
-        .finnish-word {
-            font-size: 2rem;
-        }
-
-        .quiz-option {
-            padding: 10px;
-            font-size: 0.95rem;
-        }
-    }
-
+    .container.text-center h2 { color: var(--finnish-blue); margin-top: 10px; font-size: 1.7rem; }
 </style>
 
 <div class="container text-center">
@@ -212,7 +174,6 @@
         {% for item in quiz_data %}
             <div class="quiz-item" id="q-{{ forloop.counter }}" style="display: {% if forloop.first %}block{% else %}none{% endif %};">
                 <div class="quiz-container">
-                    
                     <div class="quiz-header">
                         <small>Question {{ forloop.counter }} of {{ quiz_data|length }}</small>
                         <div class="score-badge">Score: <span class="current-score">0</span></div>
@@ -282,7 +243,7 @@
 
         setTimeout(() => {
             goToNextQuestionInQuiz(currentQuestionId);
-        }, 2000);
+        }, 1500);
     }
 
     function goToNextQuestionInQuiz(id) {
@@ -294,7 +255,13 @@
             next.style.display = 'block';
         } else {
             alert("Quiz Completed! Your Final Score: " + globalScore + ". Kiitos!");
-            window.location.href = "{% url 'review_options' %}";
+            
+            // Redirect while preserving the set context
+            let url = "{% url 'review_options' %}";
+            if (setName) {
+                url += "?set_name=" + encodeURIComponent(setName);
+            }
+            window.location.href = url;
         }
     }
 </script>
