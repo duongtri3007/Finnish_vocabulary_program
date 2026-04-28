@@ -7,16 +7,21 @@
     {% load static %}
 
     <style>
+        /* ===== GLOBAL PAGE STYLE ===== */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 40px;
+
+            /* Fullscreen background image */
             background-image: url("{% static 'frontend/wordlist.png' %}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+
             min-height: 100vh;
         }
 
+        /* ===== MAIN CONTENT CONTAINER ===== */
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -27,6 +32,7 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
+        /* ===== PAGE TITLE ===== */
         h1 {
             color: #003580;
             text-align: center;
@@ -34,6 +40,7 @@
             padding-bottom: 10px;
         }
 
+        /* ===== TABLE LAYOUT ===== */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -41,9 +48,12 @@
             table-layout: fixed;
         }
 
+        /* ===== TABLE CELLS ===== */
         th, td {
             padding: 12px;
-            text-align: center;          /* center text */
+
+            text-align: center;
+
             border-bottom: 1px solid #ddd;
             border-right: 1px solid #ddd;
         }
@@ -58,7 +68,6 @@
             border-right: none;
         }
 
-        /* Make the # column narrow */
         th:first-child,
         td:first-child {
             width: 60px;
@@ -68,12 +77,27 @@
             background-color: #f9f9f9;
         }
 
+        /* ===== BACK BUTTON ===== */
         .back-btn {
-            display: inline-block;
-            margin-bottom: 20px;
+            position: fixed;   
+            top: 20px;
+            left: 20px;
+
             text-decoration: none;
             color: #003580;
             font-weight: bold;
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 8px 12px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+            transition: 0.2s;
+        }
+
+        .back-btn:hover {
+            color: #00265a;
+            text-decoration: underline;
+            transform: translateY(-2px);
         }
     </style>
 </head>
