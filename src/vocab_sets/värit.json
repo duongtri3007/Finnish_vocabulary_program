@@ -1,0 +1,79 @@
+[
+    {
+        "fi": "valkoinen",
+        "en": "white",
+        "image": "no_image",
+        "sentence_fi": "Paperi on valkoinen.",
+        "sentence_en": "Paper is white."
+    },
+    {
+        "fi": "keltainen",
+        "en": "yellow",
+        "image": "no_image",
+        "sentence_fi": "Tuo omena on keltainen.",
+        "sentence_en": "That apple is yellow."
+    },
+    {
+        "fi": "oranssi",
+        "en": "orange",
+        "image": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxvcmFuZ2V8ZW58MHx8fHwxNzc3MzE4NzM3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lempivärini on oranssi.",
+        "sentence_en": "My favourite colour is orange."
+    },
+    {
+        "fi": "vaaleanpunainen",
+        "en": "pink",
+        "image": "no_image",
+        "sentence_fi": "Paulinalla on vaaleanpunainen hattu.",
+        "sentence_en": "Paulina has a pink hat."
+    },
+    {
+        "fi": "punainen",
+        "en": "red",
+        "image": "no_image",
+        "sentence_fi": "Talo on punainen.",
+        "sentence_en": "The house is red."
+    },
+    {
+        "fi": "violetti",
+        "en": "violet",
+        "image": "no_image",
+        "sentence_fi": "Hänen sukkansa ovat violetit.",
+        "sentence_en": "His socks are purple."
+    },
+    {
+        "fi": "sininen",
+        "en": "blue",
+        "image": "no_image",
+        "sentence_fi": "Onko se sininen?",
+        "sentence_en": "Is that blue?"
+    },
+    {
+        "fi": "vihreä",
+        "en": "green",
+        "image": "no_image",
+        "sentence_fi": "Vihree valo!",
+        "sentence_en": "The light has turned green."
+    },
+    {
+        "fi": "ruskea",
+        "en": "brown",
+        "image": "no_image",
+        "sentence_fi": "Syksyllä tulee ruska.",
+        "sentence_en": "The leaves turn red in the fall."
+    },
+    {
+        "fi": "harmaa",
+        "en": "gray",
+        "image": "no_image",
+        "sentence_fi": "Mikä harmi.",
+        "sentence_en": "Alas."
+    },
+    {
+        "fi": "musta",
+        "en": "black",
+        "image": "no_image",
+        "sentence_fi": "Onko hevosesi musta?",
+        "sentence_en": "Is your horse black?"
+    }
+]
