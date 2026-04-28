@@ -7,40 +7,31 @@
     {% load static %}
 
     <style>
-        /* ===== GLOBAL PAGE STYLE ===== */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 40px;
-
-            /* Background image */
             background-image: url("{% static 'frontend/wordlist.png' %}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-
             min-height: 100vh;
         }
 
-        /* ===== MAIN CONTAINER ===== */
         .container {
             max-width: 800px;
             margin: 0 auto;
-
-            /* Semi-transparent card */
             background: rgba(255,255,255,0.95);
-
             padding: 20px;
             border-radius: 10px;
             border: 3px solid black;
-
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
-        /* ===== TITLE ===== */
-        h1 {
-            color: #003580;
-            text-align: center;
-
+        /* Flexbox header to align title and review button */
+        .header-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             border-bottom: 2px solid #003580;
             padding-bottom: 10px;
             margin-bottom: 20px;
@@ -71,145 +62,86 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
 
-        /* ===== TABLE ===== */
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
-
-            /* keep column widths stable */
             table-layout: fixed;
         }
 
-        /* Table cells */
         th, td {
             padding: 12px;
             text-align: center;
-
             border-bottom: 1px solid #ddd;
             border-right: 1px solid #ddd;
         }
 
-        /* Header style */
         th {
             background-color: #003580;
             color: white;
         }
 
-        /* Remove last column border */
-        th:last-child,
-        td:last-child {
+        th:last-child, td:last-child {
             border-right: none;
         }
 
-        /* Narrow index column */
-        th:first-child,
-        td:first-child {
+        th:first-child, td:first-child {
             width: 60px;
         }
 
-        /* Hover effect */
         tr:hover {
             background-color: #f9f9f9;
         }
 
-        /* ===== TOP LEFT BACK BUTTON ===== */
         .back-btn {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-
-            text-decoration: none;
-            color: #003580;
-            font-weight: bold;
-            font-size: 0.9rem;
-
-            background: rgba(255, 255, 255, 0.9);
-            padding: 8px 12px;
-            border-radius: 8px;
-
-            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
-            transition: 0.2s;
-        }
-
-        .back-btn:hover {
-            color: #00265a;
-            text-decoration: underline;
-            transform: translateY(-2px);
-        }
-
-        /* ===== SECOND RETURN BUTTON ===== */
-        .return-btn {
             display: inline-block;
-            margin-top: 20px;
-
+            margin-bottom: 20px;
             text-decoration: none;
             color: #003580;
             font-weight: bold;
-            font-size: 0.9rem;
-
-            transition: 0.2s;
-        }
-
-        .return-btn:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- ===== NAVIGATION BUTTON ===== -->
-    <a href="{% url 'vocabulary_sets' %}" class="back-btn">
-        ← Back to Vocabulary Sets
-    </a>
+<div class="container">
+    <a href="{% url 'vocabulary_sets' %}" class="back-btn">← Back to Vocabulary Sets</a>
 
-    <div class="container">
-
-        <!-- ===== PAGE TITLE (DYNAMIC) ===== -->
-        <h1>
-            {% if set_title %}
-                {{ set_title }}
-            {% else %}
-                Saved Vocabulary
-            {% endif %}
-        </h1>
-
-        <!-- ===== VOCABULARY TABLE ===== -->
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Finnish</th>
-                    <th>English</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                {% for item in vocabulary %}
-                <tr>
-                    <!-- Index -->
-                    <td>{{ forloop.counter }}</td>
-
-                    <!-- Finnish word (highlighted) -->
-                    <td><strong>{{ item.fi }}</strong></td>
-
-                    <!-- English translation -->
-                    <td>{{ item.en }}</td>
-                </tr>
-
-                {% empty %}
-                <!-- Fallback if no data -->
-                <tr>
-                    <td colspan="3" style="text-align: center; color: #888;">
-                        No words found in this list.
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-
+    <div class="header-wrapper">
+        <h1>{% if set_title %}{{ set_title }}{% else %}Saved Vocabulary{% endif %}</h1>
+        
+        {% if vocabulary %}
+        <a href="{% url 'review_options' %}?set_name={{ set_title|urlencode }}" class="review-btn">
+            <span>📚</span> Review this set
+        </a>
+        {% endif %}
     </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Finnish</th>
+                <th>English</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in vocabulary %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td><strong>{{ item.fi }}</strong></td>
+                <td>{{ item.en }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="3" style="text-align: center; color: #888;">
+                    No words found in this list.
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
 
 </body>
 </html>
