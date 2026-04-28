@@ -1,316 +1,364 @@
-    {% extends "frontend/template_web.html" %}
-    {% load static %}
-    {% block content %}
+{% extends "frontend/template_web.html" %}
+{% load static %}
+{% block content %}
 
-    <style>
-        .container {
-            position: relative;
-        }
+<style>
+    /* ===== PAGE CONTAINER ===== */
+    .container {
+        position: relative;
+    }
 
-        .flashcard-scene {
-            width: 100%;
-            height: 300px;
-            perspective: 1000px;
-            margin: 20px auto;
-            cursor: pointer;
-        }
+    /* ===== FLASHCARD 3D SCENE ===== */
+    .flashcard-scene {
+        width: 100%;
+        height: 300px;
+        perspective: 1000px;
+        margin: 20px auto;
+        cursor: pointer;
+    }
 
-        .flashcard {
-            width: 100%;
-            height: 100%;
-            position: relative;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-        }
+    /* ===== FLASHCARD FLIP STRUCTURE ===== */
+    .flashcard {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
 
-        .flashcard.is-flipped {
-            transform: rotateY(180deg);
-        }
+    .flashcard.is-flipped {
+        transform: rotateY(180deg);
+    }
 
-        .card-face {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border-radius: 15px;
-            border: 2px solid #000;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            padding: 15px;
-            box-sizing: border-box;
-        }
+    /* ===== CARD FRONT / BACK SHARED STYLE ===== */
+    .card-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
 
-        .card-face-front {
-            background-color: white;
-            color: var(--finnish-blue);
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-        .card-face-back {
-            background-color: #fff;
-            color: #000;
-            transform: rotateY(180deg);
-        }
+        border-radius: 15px;
+        border: 2px solid #000;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 15px;
+        box-sizing: border-box;
+    }
 
-        .word-title {
-            font-size: 2.5rem;
-            margin: 0;
-            font-weight: bold;
-            color: #000;
-        }
+    .card-face-front {
+        background-color: white;
+        color: var(--finnish-blue);
+    }
 
-        .instruction {
-            font-size: 0.8rem;
-            margin-top: 5px;
-        }
+    .card-face-back {
+        background-color: #fff;
+        color: #000;
+        transform: rotateY(180deg);
+    }
 
-        .word-example {
-            font-style: italic;
-            font-size: 0.9rem;
-            text-align: center;
-            margin-top: 10px;
-            line-height: 1.3;
-            color: #000;
-        }
+    /* ===== WORD CONTENT ===== */
+    .word-title {
+        font-size: 2.5rem;
+        margin: 0;
+        font-weight: bold;
+        color: #000;
+    }
 
-        .word-img {
-            width: 100%;
-            max-height: 140px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-        }
+    .instruction {
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
 
-        #flashcard-list {
-            position: relative;
-            min-height: 360px;
-            width: 100%;
-            max-width: 400px;
-            margin: 0 auto;
-        }
+    .word-example {
+        font-style: italic;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 10px;
+        line-height: 1.3;
+        color: #000;
+    }
 
-        .word-wrapper {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            max-width: 400px;
+    .word-img {
+        width: 100%;
+        max-height: 140px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+    }
 
-            transform: scale(0.92) translateY(20px);
+    /* ===== FLASHCARD STACK ===== */
+    #flashcard-list {
+        position: relative;
+        min-height: 360px;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+    .word-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 400px;
 
-            opacity: 0;
-            pointer-events: none;
+        transform: scale(0.92) translateY(20px);
 
-            transition: all 0.45s ease;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-        .word-wrapper.active {
-            opacity: 1;
-            transform: scale(1) translateY(0);
-            pointer-events: auto;
-            z-index: 2;
-        }
+        opacity: 0;
+        pointer-events: none;
 
-        .word-wrapper.to-back {
-            opacity: 0.5;
-            transform: scale(0.85) translateY(60px);
-            z-index: 1;
-        }
+        transition: all 0.45s ease;
+    }
 
+    /* Currently visible flashcard */
+    .word-wrapper.active {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+        pointer-events: auto;
+        z-index: 2;
+    }
+
+    /* Temporary animation state when moving to next card */
+    .word-wrapper.to-back {
+        opacity: 0.5;
+        transform: scale(0.85) translateY(60px);
+        z-index: 1;
+    }
+
+    /* ===== NAVIGATION BUTTONS ===== */
+    .nav-buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto 0;
+    }
+
+    .menu-button {
+        background-color: #6c757d;
+        width: 190px;
+        border: none;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+
+        transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+                    box-shadow 0.2s ease,
+                    background-color 0.2s ease;
+        will-change: transform;
+    }
+
+    .menu-button:hover {
+        background-color: #5a6268;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    .menu-button:active {
+        transform: scale(0.88) rotate(-1deg);
+    }
+
+    .menu-button:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+    }
+
+    /* ===== BACK BUTTON ===== */
+    .back-link {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+
+        text-decoration: none;
+        color: #003580;
+        font-weight: bold;
+        font-size: 0.9rem;
+
+        background: rgba(255,255,255,0.9);
+        padding: 8px 12px;
+        border-radius: 8px;
+
+        box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+
+        transition: 0.2s;
+    }
+
+    .back-link:hover {
+        color: #00265a;
+        text-decoration: underline;
+        transform: translateY(-2px);
+    }
+
+    /* ===== MOBILE RESPONSIVE ===== */
+    @media (max-width: 600px) {
         .nav-buttons {
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-            width: 100%;
-            max-width: 400px;
-            margin: 20px auto 0;
+            gap: 10px;
         }
 
         .menu-button {
-            background-color: #6c757d;
-            width: 190px;
-            border: none;
-            color: white;
-            padding: 10px;
-            border-radius: 8px;
-            font-weight: bold;
-            cursor: pointer;
-
-            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
-                        box-shadow 0.2s ease,
-                        background-color 0.2s ease;
-            will-change: transform;
+            width: 50%;
+            font-size: 0.9rem;
         }
 
-        .menu-button:hover {
-            background-color: #5a6268;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        .word-title {
+            font-size: 2rem;
         }
+    }
+</style>
 
-        .menu-button:active {
-            transform: scale(0.88) rotate(-1deg);
-        }
+<div class="container text-center">
 
-        .menu-button:disabled {
-            opacity: 0.45;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: none;
-        }
+    <!-- Back navigation -->
+    <a href="{% url 'review_options' %}" class="back-link">
+        ← Back to Options
+    </a>
 
-        @media (max-width: 600px) {
-            .nav-buttons {
-                gap: 10px;
-            }
+    <!-- Page title -->
+    <h2 style="color: #003580;">Flashcards Mode</h2>
+    <p>Tap the card to see the meaning and image context</p>
 
-            .menu-button {
-                width: 50%;
-                font-size: 0.9rem;
-            }
+    <!-- Flashcard list -->
+    <div id="flashcard-list">
 
-            .word-title {
-                font-size: 2rem;
-            }
-        }
-    </style>
+        {% for word in words %}
+        <!-- Each word is rendered as one flashcard -->
+        <div class="word-wrapper {% if forloop.first %}active{% endif %}"
+             id="word-{{ forloop.counter }}">
 
-    <div class="container text-center">
+            <!-- Clicking the card flips it -->
+            <div class="flashcard-scene"
+                 onclick="this.querySelector('.flashcard').classList.toggle('is-flipped')">
 
-        <div style="position: absolute; top: -35px; left: 0px;">
-            <a href="{% url 'review_options' %}"
-            style="text-decoration: none; color: #888; font-size: 0.9rem;">
-            ← Options
-            </a>
-        </div>
+                <div class="flashcard">
 
-        <h2 style="color: #003580;">Flashcards Mode</h2>
-        <p>Tap the card to see the meaning and image context</p>
+                    <!-- Front side: Finnish word -->
+                    <div class="card-face card-face-front">
+                        <div class="instruction">(Finnish)</div>
+                        <div class="word-title">{{ word.fi }}</div>
+                    </div>
 
-        <div id="flashcard-list">
+                    <!-- Back side: English meaning, image, and example -->
+                    <div class="card-face card-face-back">
 
-            {% for word in words %}
-            <div class="word-wrapper {% if forloop.first %}active{% endif %}"
-                id="word-{{ forloop.counter }}">
+                        {% if word.image %}
+                            <img src="{{ word.image }}" class="word-img" alt="hint">
+                        {% endif %}
 
-                <div class="flashcard-scene"
-                    onclick="this.querySelector('.flashcard').classList.toggle('is-flipped')">
+                        <div class="instruction">(English)</div>
+                        <div class="word-title">{{ word.en }}</div>
 
-                    <div class="flashcard">
+                        {% if word.example %}
+                            <div class="word-example">
+                                "{{ word.example }}"
+                            </div>
+                        {% endif %}
 
-                        <div class="card-face card-face-front">
-                            <div class="instruction">(Finnish)</div>
-                            <div class="word-title">{{ word.fi }}</div>
-                        </div>
-
-                        <div class="card-face card-face-back">
-
-                            {% if word.image %}
-                                <img src="{{ word.image }}" class="word-img" alt="hint">
-                            {% endif %}
-
-                            <div class="instruction">(English)</div>
-                            <div class="word-title">{{ word.en }}</div>
-
-                            {% if word.example %}
-                                <div class="word-example">
-                                    "{{ word.example }}"
-                                </div>
-                            {% endif %}
-
-                        </div>
                     </div>
                 </div>
-
             </div>
-            {% endfor %}
 
         </div>
-
-        <div class="nav-buttons">
-            <button class="menu-button" id="prevBtn" onclick="goToPrev()">
-                ← Previous
-            </button>
-
-            <button class="menu-button" id="nextBtn" onclick="goToNext()">
-                Next Word →
-            </button>
-        </div>
+        {% endfor %}
 
     </div>
 
-    <script>
-        let currentIndex = 1;
-        const total = {{ words|length }};
+    <!-- Navigation controls -->
+    <div class="nav-buttons">
+        <button class="menu-button" id="prevBtn" onclick="goToPrev()">
+            ← Previous
+        </button>
 
-        const prevBtn = document.getElementById("prevBtn");
-        const nextBtn = document.getElementById("nextBtn");
+        <button class="menu-button" id="nextBtn" onclick="goToNext()">
+            Next Word →
+        </button>
+    </div>
 
+</div>
+
+<script>
+    // ===== FLASHCARD STATE =====
+    let currentIndex = 1;
+    const total = {{ words|length }};
+
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    updateButtons();
+
+    // Reset flipped card before changing to another word
+    function resetFlip(cardWrapper) {
+        const flashcard = cardWrapper.querySelector(".flashcard");
+        if (flashcard) {
+            flashcard.classList.remove("is-flipped");
+        }
+    }
+
+    // Update button states based on current card position
+    function updateButtons() {
+        prevBtn.disabled = currentIndex <= 1;
+
+        if (currentIndex >= total) {
+            nextBtn.textContent = "Finish";
+        } else {
+            nextBtn.textContent = "Next Word →";
+        }
+    }
+
+    // Move to the next flashcard
+    function goToNext() {
+        if (currentIndex >= total) {
+            alert("Great job! You've finished the deck.");
+            window.location.href = "{% url 'review_options' %}";
+            return;
+        }
+
+        const current = document.getElementById("word-" + currentIndex);
+        const next = document.getElementById("word-" + (currentIndex + 1));
+
+        resetFlip(current);
+
+        current.classList.add("to-back");
+        current.classList.remove("active");
+
+        setTimeout(() => {
+            current.classList.remove("to-back");
+        }, 450);
+
+        next.classList.add("active");
+
+        currentIndex++;
         updateButtons();
+    }
 
-        function resetFlip(cardWrapper) {
-            const flashcard = cardWrapper.querySelector(".flashcard");
-            if (flashcard) {
-                flashcard.classList.remove("is-flipped");
-            }
-        }
+    // Move to the previous flashcard
+    function goToPrev() {
+        if (currentIndex <= 1) return;
 
-        function updateButtons() {
-            prevBtn.disabled = currentIndex <= 1;
+        const current = document.getElementById("word-" + currentIndex);
+        const prev = document.getElementById("word-" + (currentIndex - 1));
 
-            if (currentIndex >= total) {
-                nextBtn.textContent = "Finish";
-            } else {
-                nextBtn.textContent = "Next Word →";
-            }
-        }
+        resetFlip(current);
 
-        function goToNext() {
-            if (currentIndex >= total) {
-                alert("Great job! You've finished the deck.");
-                window.location.href = "{% url 'review_options' %}";
-                return;
-            }
+        current.classList.remove("active");
+        prev.classList.add("active");
 
-            const current = document.getElementById("word-" + currentIndex);
-            const next = document.getElementById("word-" + (currentIndex + 1));
+        currentIndex--;
+        updateButtons();
+    }
+</script>
 
-            resetFlip(current);
-
-            current.classList.add("to-back");
-            current.classList.remove("active");
-
-            setTimeout(() => {
-                current.classList.remove("to-back");
-            }, 450);
-
-            next.classList.add("active");
-
-            currentIndex++;
-            updateButtons();
-        }
-
-        function goToPrev() {
-            if (currentIndex <= 1) return;
-
-            const current = document.getElementById("word-" + currentIndex);
-            const prev = document.getElementById("word-" + (currentIndex - 1));
-
-            resetFlip(current);
-
-            current.classList.remove("active");
-            prev.classList.add("active");
-
-            currentIndex--;
-            updateButtons();
-        }
-    </script>
-
-    {% endblock %}
+{% endblock %}
