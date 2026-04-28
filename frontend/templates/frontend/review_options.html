@@ -5,12 +5,17 @@
     <title>Finnish Learning - Review</title>
 
     <style>
+        /* ===== GLOBAL PAGE LAYOUT ===== */
         body {
             font-family: Arial, sans-serif;
+
+            /* Fullscreen background image */
             background-image: url("{% static 'frontend/reviewoption.png' %}");
             background-size: cover;           /* cover the whole viewport */
             background-position: center;      /* center the image */
             background-repeat: no-repeat;     /* prevent tiling */
+            
+            /* Center content vertically and horizontally */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -18,7 +23,8 @@
             margin: 0;
         }
 
-        .container {
+        /* ===== MAIN CONTAINER ===== */
+        .review-container {
             background: rgba(255,255,255,0.95);  /* slightly transparent so background is visible */
             padding: 40px;
             border-radius: 12px;
@@ -27,8 +33,9 @@
             width: 350px;
         }
 
+        /* ===== HEADER  ===== */
         /* Rainbow gradient header */
-        h2.rainbow-text {
+        h2.title {
             margin-top: 0;
             margin-bottom: 20px;
             font-weight: 800;
@@ -43,16 +50,19 @@
             animation: rainbowFlow 5s linear infinite, slideDown 0.6s ease forwards;
         }
 
+        /* Moves gradient across text */
         @keyframes rainbowFlow {
             0% { background-position: 0% 0%; }
             100% { background-position: 400% 0%; }
         }
 
+        /* Fade + slide entrance animation */
         @keyframes slideDown {
             from { opacity: 0; transform: translateY(-30px); }
             to { opacity: 1; transform: translateY(-10px); }
         }
 
+        /* ===== BUTTON STYLE ===== */
         .btn-custom {
             background-color: #003380;
             color: white;
@@ -71,12 +81,14 @@
         .btn-custom:nth-child(2) { animation-delay: 0.2s; }
         .btn-custom:nth-child(3) { animation-delay: 0.4s; }
 
+        /* Hover effect */
         .btn-custom:hover {
             background-color: #002255;
             transform: translateY(-3px);
             box-shadow: 0 6px 10px rgba(0,0,0,0.2);
         }
 
+        /* ===== BACK LINK ===== */
         .back-link {
             display: block;
             margin-top: 20px;
@@ -95,10 +107,13 @@
 
 <body>
 
-    <div class="container">
+    <!-- Main UI container -->
+    <div class="review-container">
 
-        <h2 class="rainbow-text">Select Review Mode</h2>
+        <!-- Page title -->
+        <h2 class="title">Select Review Mode</h2>
 
+        <!-- Navigation buttons -->
         <a href="{% url 'review_flashcards' %}" class="btn-custom">
             Flashcards Mode
         </a>
@@ -107,6 +122,7 @@
             Multiple Choice Quiz
         </a>
 
+        <!-- Return navigation -->
         <a href="{% url 'main_menu' %}" class="back-link">
             ← Back 
         </a>
