@@ -1,0 +1,219 @@
+[
+    {
+        "fi": "nolla",
+        "en": "zero",
+        "image": "no_image",
+        "sentence_fi": "Tilisi kate on nollilla.",
+        "sentence_en": "Your account is empty."
+    },
+    {
+        "fi": "yksi",
+        "en": "one",
+        "image": "no_image",
+        "sentence_fi": "Tuletko yksin?",
+        "sentence_en": "Are you coming alone?"
+    },
+    {
+        "fi": "kaksi",
+        "en": "two",
+        "image": "no_image",
+        "sentence_fi": "Tilaan kaksi pitsaa.",
+        "sentence_en": "I'll order two pizzas."
+    },
+    {
+        "fi": "kolme",
+        "en": "three",
+        "image": "no_image",
+        "sentence_fi": "On kolme.",
+        "sentence_en": "It's three o'clock."
+    },
+    {
+        "fi": "neljä",
+        "en": "four",
+        "image": "no_image",
+        "sentence_fi": "Brownilla on neljä lasta.",
+        "sentence_en": "Mr Brown has four children."
+    },
+    {
+        "fi": "viisi",
+        "en": "five",
+        "image": "no_image",
+        "sentence_fi": "Odota viisi minuuttia.",
+        "sentence_en": "Please wait for five minutes."
+    },
+    {
+        "fi": "kuusi",
+        "en": "six",
+        "image": "no_image",
+        "sentence_fi": "Kuusi tulee takaisin.",
+        "sentence_en": "The spruce returns."
+    },
+    {
+        "fi": "seitsemän",
+        "en": "seven",
+        "image": "no_image",
+        "sentence_fi": "Nousin seitsemältä.",
+        "sentence_en": "I got up at seven."
+    },
+    {
+        "fi": "kahdeksan",
+        "en": "eight",
+        "image": "no_image",
+        "sentence_fi": "Kello on puoli kahdeksan.",
+        "sentence_en": "It's half past seven."
+    },
+    {
+        "fi": "yhdeksän",
+        "en": "nine",
+        "image": "no_image",
+        "sentence_fi": "Avaa sivu yhdeksän.",
+        "sentence_en": "Open your book to page nine."
+    },
+    {
+        "fi": "kymmenen",
+        "en": "ten",
+        "image": "no_image",
+        "sentence_fi": "Lasken kymmeneen.",
+        "sentence_en": "I count to ten."
+    },
+    {
+        "fi": "yksitoista",
+        "en": "eleven",
+        "image": "no_image",
+        "sentence_fi": "Kello on jo yksitoista.",
+        "sentence_en": "It's already 11."
+    },
+    {
+        "fi": "kaksitoista",
+        "en": "twelve",
+        "image": "no_image",
+        "sentence_fi": "Kello on puoli kaksitoista.",
+        "sentence_en": "It's half past eleven."
+    },
+    {
+        "fi": "kolmetoista",
+        "en": "thirteen",
+        "image": "no_image",
+        "sentence_fi": "Ylihuomenna täytän kolmetoista.",
+        "sentence_en": "In two days, I'll turn 13."
+    },
+    {
+        "fi": "neljätoista",
+        "en": "fourteen",
+        "image": "no_image",
+        "sentence_fi": "Yhdeksänsataa kaksikymmentäviisi miljardia, kahdeksansataa neljätoista miljoonaa, seitsemänsataa kolme tuhatta, kuusisataa yhdeksänkymmentäkaksi on kaksitoista numeroinen luku.",
+        "sentence_en": "Nine hundred twenty-five billion, eight hundred fourteen million, seven hundred three thousand, six hundred ninety-two is a twelve-digit number."
+    },
+    {
+        "fi": "viisitoista",
+        "en": "fifteen",
+        "image": "no_image",
+        "sentence_fi": "Viisitoista ei ole alkuluku.",
+        "sentence_en": "Fifteen is not a prime number."
+    },
+    {
+        "fi": "kuusitoista",
+        "en": "sixteen",
+        "image": "no_image",
+        "sentence_fi": "”Ikä?” ”Kuusitoista.”",
+        "sentence_en": "\"Your age?\" \"16.\""
+    },
+    {
+        "fi": "seitsemäntoista",
+        "en": "seventeen",
+        "image": "no_image",
+        "sentence_fi": "Hän meni naimisiin seitsemäntoista vuoden ikäisenä.",
+        "sentence_en": "She got married at the age of 17."
+    },
+    {
+        "fi": "kahdeksantoista",
+        "en": "eighteen",
+        "image": "no_image",
+        "sentence_fi": "Olen kahdeksantoista vuotta vanha.",
+        "sentence_en": "I am eighteen years old."
+    },
+    {
+        "fi": "yhdeksäntoista",
+        "en": "nineteen",
+        "image": "no_image",
+        "sentence_fi": "Minä olen yhdeksäntoista vuotta.",
+        "sentence_en": "I am 19 years old."
+    },
+    {
+        "fi": "kaksikymmentä",
+        "en": "twenty",
+        "image": "no_image",
+        "sentence_fi": "Kaksikymmentä ihmistä kuoli tulipalossa.",
+        "sentence_en": "Twenty people perished in the blaze."
+    },
+    {
+        "fi": "sata",
+        "en": "hundred",
+        "image": "no_image",
+        "sentence_fi": "Sataa.",
+        "sentence_en": "It is raining."
+    },
+    {
+        "fi": "tuhat",
+        "en": "thousand",
+        "image": "no_image",
+        "sentence_fi": "Tuhat metriä on yksi kilometri.",
+        "sentence_en": "A thousand meters is one kilometer."
+    },
+    {
+        "fi": "miljoona",
+        "en": "million",
+        "image": "no_image",
+        "sentence_fi": "Miljoona ihmistä menetti henkensä sodassa.",
+        "sentence_en": "One million people lost their lives in the war."
+    },
+    {
+        "fi": "prosentti",
+        "en": "percentage",
+        "image": "no_image",
+        "sentence_fi": "ALV on Saksassa 19 prosenttia.",
+        "sentence_en": "The VAT in Germany is 19 per cent."
+    },
+    {
+        "fi": "luku",
+        "en": "number",
+        "image": "https://images.unsplash.com/photo-1621440318464-72633426377b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxudW1iZXJ8ZW58MHx8fHwxNzc3MzIyODI2fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Se on kolminumeroinen luku.",
+        "sentence_en": "It's a three-digit number."
+    },
+    {
+        "fi": "laskea",
+        "en": "calculate",
+        "image": "https://images.unsplash.com/photo-1625225233840-695456021cde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdGV8ZW58MHx8fHwxNzc3MzIyODgzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lasken kymmeneen.",
+        "sentence_en": "I count to ten."
+    },
+    {
+        "fi": "lisätä",
+        "en": "add",
+        "image": "https://images.unsplash.com/photo-1608402907282-e6c63c782526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxhZGR8ZW58MHx8fHwxNzc3MzIyODYzfDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Lisää kahvia?",
+        "sentence_en": "More coffee?"
+    },
+    {
+        "fi": "vähentää",
+        "en": "reduce",
+        "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxyZWR1Y2V8ZW58MHx8fHwxNzc3MzIyODY3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Osaatteko vähentää kuusi kymmenstä?",
+        "sentence_en": "Can you subtract six from ten?"
+    },
+    {
+        "fi": "kertoa",
+        "en": "tell",
+        "image": "https://images.unsplash.com/photo-1617575521317-d2974f3b56d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHx0ZWxsfGVufDB8fHx8MTc3NzMyMjg3NXww&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "Haluan kertoa sinulle.",
+        "sentence_en": "I want to tell you."
+    },
+    {
+        "fi": "jakaa",
+        "en": "share",
+        "image": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTUyMDh8MHwxfHNlYXJjaHwxfHxzaGFyZXxlbnwwfHx8fDE3NzczMjI2NjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+        "sentence_fi": "On sinun vuorosi jakaa.",
+        "sentence_en": "It's your turn to deal."
+    }
+]
