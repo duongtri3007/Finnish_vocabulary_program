@@ -7,7 +7,8 @@ import random
 
 # --- PATH CONFIGURATION ---
 VOCAB_FILE = os.path.join(settings.BASE_DIR, 'vocab.json')
-SETS_DIR = os.path.join(settings.BASE_DIR, 'vocab_sets')
+# We look for the folder where your themed JSONs are
+SETS_DIR = os.path.join(settings.BASE_DIR, 'src', 'vocab_sets')
 
 # --- DATA ENGINE ---
 
@@ -31,13 +32,21 @@ def save_vocab(vocab):
 # --- VOCABULARY SETS SERVICES ---
 
 def get_vocabulary_sets_list():
-    """Returns a list of IDs for the vocabulary sets."""
+    """UPDATED: Returns the actual filenames in the vocab_sets folder."""
     if not os.path.exists(SETS_DIR):
         os.makedirs(SETS_DIR)
-    return [str(i) for i in range(1, 21)]
+        return []
+    
+    # Get all .json files and remove the extension for the ID/Title
+    sets = [
+        f.replace('.json', '') 
+        for f in os.listdir(SETS_DIR) 
+        if f.endswith('.json')
+    ]
+    return sorted(sets)
 
 def get_words_from_set(set_id):
-    """Loads words from a specific numbered set file."""
+    """UPDATED: Loads words using the string ID (filename)."""
     file_path = os.path.join(SETS_DIR, f"{set_id}.json")
     if not os.path.exists(file_path):
         return []
@@ -60,25 +69,23 @@ def get_flashcards_data(vocab_list):
 
 def generate_quiz_data(vocab_list, limit=10):
     """Generates quiz data using the provided vocabulary list."""
-    # Use the passed-in list instead of loading from the shared file
     if not vocab_list or len(vocab_list) < 4:
         return None
 
     quiz_data = []
-    # Pick random entries from the user's private list
     questions = random.sample(vocab_list, min(len(vocab_list), limit))
 
     for item in questions:
-        fi = item['fi']
-        en = item['en']
+        fi = item.get('fi')
+        en = item.get('en')
         img = item.get('image', '')
         ex = item.get('example', '')
         
-        # Get wrong answers ONLY from the user's own vocabulary
         other_meanings = [w['en'] for w in vocab_list if w['en'] != en]
         
-        # Fallback if the user has very few words
-        wrong_options = random.sample(other_meanings, min(len(other_meanings), 3))
+        # Ensure we don't crash if user has exactly 4 words
+        num_distractors = min(len(other_meanings), 3)
+        wrong_options = random.sample(other_meanings, num_distractors)
         
         options = wrong_options + [en]
         random.shuffle(options)
@@ -93,4 +100,4 @@ def generate_quiz_data(vocab_list, limit=10):
     return quiz_data
 
 def backend_status(request):
-    return HttpResponse("Backend Logic Engine is Running (List Format Active)")
+    return HttpResponse("Backend Logic Engine is Running (Themed JSON Support Active)")
