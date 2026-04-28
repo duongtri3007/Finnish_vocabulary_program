@@ -79,9 +79,8 @@ def vocabulary_sets_menu(request):
     return render(request, 'frontend/vocabulary_sets.html', {'sets': sets})
 
 def view_set_detail(request, set_id):
-    # This still works fine because it loads from your 20 JSON files
     words = get_words_from_set(set_id)
-    return render(request, 'frontend/words_list.html', {
+    return render(request, 'frontend/word_set.html', {
         'vocabulary': words,
         'set_title': f"Vocabulary Set {set_id}"
     })
