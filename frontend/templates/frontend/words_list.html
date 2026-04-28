@@ -25,10 +25,12 @@
         .container {
             max-width: 800px;
             margin: 0 auto;
-            background: rgba(255,255,255,0.95);
+
+            background: rgba(255,255,255,0.95); 
             padding: 20px;
             border-radius: 10px;
             border: 3px solid black;
+
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
@@ -36,6 +38,7 @@
         h1 {
             color: #003580;
             text-align: center;
+
             border-bottom: 2px solid #003580;
             padding-bottom: 10px;
         }
@@ -45,7 +48,8 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-            table-layout: fixed;
+
+            table-layout: fixed; 
         }
 
         /* ===== TABLE CELLS ===== */
@@ -53,26 +57,29 @@
             padding: 12px;
 
             text-align: center;
-
             border-bottom: 1px solid #ddd;
             border-right: 1px solid #ddd;
         }
 
+        /* Header styling */
         th {
             background-color: #003580;
             color: white;
         }
 
+        /* Remove right border from last column */
         th:last-child,
         td:last-child {
             border-right: none;
         }
 
+        /* Narrow index column */
         th:first-child,
         td:first-child {
             width: 60px;
         }
 
+        /* Hover effect for rows */
         tr:hover {
             background-color: #f9f9f9;
         }
@@ -87,13 +94,16 @@
             color: #003580;
             font-weight: bold;
             font-size: 0.9rem;
+
             background: rgba(255, 255, 255, 0.9);
             padding: 8px 12px;
             border-radius: 8px;
+
             box-shadow: 0 4px 10px rgba(0,0,0,0.12);
             transition: 0.2s;
         }
 
+        /* Hover interaction for back button */
         .back-btn:hover {
             color: #00265a;
             text-decoration: underline;
@@ -105,10 +115,22 @@
 <body>
 
 <div class="container">
-    <a href="{% url 'main_menu' %}" class="back-btn">← Back to Menu</a>
-    
-    <h1>{% if set_title %}{{ set_title }}{% else %}Saved Vocabulary{% endif %}</h1>
 
+    <!-- Navigation: return to main menu -->
+    <a href="{% url 'main_menu' %}" class="back-btn">
+        ← Back to Menu
+    </a>
+    
+    <!-- Dynamic title (uses set_title if available) -->
+    <h1>
+        {% if set_title %}
+            {{ set_title }}
+        {% else %}
+            Saved Vocabulary
+        {% endif %}
+    </h1>
+
+    <!-- Vocabulary table -->
     <table>
         <thead>
             <tr>
@@ -117,14 +139,22 @@
                 <th>English</th>
             </tr>
         </thead>
+
         <tbody>
             {% for item in vocabulary %}
             <tr>
+                <!-- Auto-increment index -->
                 <td>{{ forloop.counter }}</td>
+
+                <!-- Finnish word -->
                 <td><strong>{{ item.fi }}</strong></td>
+
+                <!-- English translation -->
                 <td>{{ item.en }}</td>
             </tr>
+
             {% empty %}
+            <!-- Fallback when no data exists -->
             <tr>
                 <td colspan="3" style="text-align: center; color: #888;">
                     No words found in this list.
@@ -133,6 +163,7 @@
             {% endfor %}
         </tbody>
     </table>
+
 </div>
 
 </body>
