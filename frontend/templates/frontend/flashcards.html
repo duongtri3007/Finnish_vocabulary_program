@@ -3,12 +3,10 @@
 {% block content %}
 
 <style>
-    /* ===== PAGE CONTAINER ===== */
     .container {
         position: relative;
     }
 
-    /* ===== FLASHCARD 3D SCENE ===== */
     .flashcard-scene {
         width: 100%;
         height: 300px;
@@ -17,7 +15,6 @@
         cursor: pointer;
     }
 
-    /* ===== FLASHCARD FLIP STRUCTURE ===== */
     .flashcard {
         width: 100%;
         height: 100%;
@@ -30,18 +27,15 @@
         transform: rotateY(180deg);
     }
 
-    /* ===== CARD FRONT / BACK SHARED STYLE ===== */
     .card-face {
         position: absolute;
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
-
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
         border-radius: 15px;
         border: 2px solid #000;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -60,7 +54,6 @@
         transform: rotateY(180deg);
     }
 
-    /* ===== WORD CONTENT ===== */
     .word-title {
         font-size: 2.5rem;
         margin: 0;
@@ -91,7 +84,6 @@
         border: 1px solid #ddd;
     }
 
-    /* ===== FLASHCARD STACK ===== */
     #flashcard-list {
         position: relative;
         min-height: 360px;
@@ -106,20 +98,15 @@
         left: 0;
         width: 100%;
         max-width: 400px;
-
         transform: scale(0.92) translateY(20px);
-
         display: flex;
         flex-direction: column;
         align-items: center;
-
         opacity: 0;
         pointer-events: none;
-
         transition: all 0.45s ease;
     }
 
-    /* Currently visible flashcard */
     .word-wrapper.active {
         opacity: 1;
         transform: scale(1) translateY(0);
@@ -127,14 +114,12 @@
         z-index: 2;
     }
 
-    /* Temporary animation state when moving to next card */
     .word-wrapper.to-back {
         opacity: 0.5;
         transform: scale(0.85) translateY(60px);
         z-index: 1;
     }
 
-    /* ===== NAVIGATION BUTTONS ===== */
     .nav-buttons {
         display: flex;
         justify-content: space-between;
@@ -145,184 +130,114 @@
     }
 
     .menu-button {
-        background-color: #6c757d;
+        background-color: #003580;
         width: 190px;
         border: none;
         color: white;
-        padding: 10px;
+        padding: 12px;
         border-radius: 8px;
         font-weight: bold;
         cursor: pointer;
-
-        transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
-                    box-shadow 0.2s ease,
-                    background-color 0.2s ease;
-        will-change: transform;
+        transition: all 0.2s ease;
     }
 
     .menu-button:hover {
-        background-color: #5a6268;
+        background-color: #002255;
         transform: translateY(-2px);
         box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-    }
-
-    .menu-button:active {
-        transform: scale(0.88) rotate(-1deg);
     }
 
     .menu-button:disabled {
         opacity: 0.45;
         cursor: not-allowed;
-        transform: none;
-        box-shadow: none;
     }
 
-    /* ===== BACK BUTTON ===== */
-    .back-link {
-        position: fixed;
-        top: 20px;
-        left: 20px;
-
-        text-decoration: none;
-        color: #003580;
-        font-weight: bold;
-        font-size: 0.9rem;
-
-        background: rgba(255,255,255,0.9);
-        padding: 8px 12px;
-        border-radius: 8px;
-
-        box-shadow: 0 4px 10px rgba(0,0,0,0.12);
-
-        transition: 0.2s;
-    }
-
-    .back-link:hover {
-        color: #00265a;
-        text-decoration: underline;
-        transform: translateY(-2px);
-    }
-
-    /* ===== MOBILE RESPONSIVE ===== */
     @media (max-width: 600px) {
-        .nav-buttons {
-            gap: 10px;
-        }
-
-        .menu-button {
-            width: 50%;
-            font-size: 0.9rem;
-        }
-
-        .word-title {
-            font-size: 2rem;
-        }
+        .menu-button { width: 50%; font-size: 0.9rem; }
     }
 </style>
 
 <div class="container text-center">
 
-    <!-- Back navigation -->
-    <a href="{% url 'review_options' %}" class="back-link">
-        ← Back to Options
-    </a>
+    <div style="position: absolute; top: -35px; left: 0px;">
+        <a href="{% url 'review_options' %}{% if set_name %}?set_name={{ set_name|urlencode }}{% endif %}"
+           style="text-decoration: none; color: #888; font-size: 0.9rem;">
+           ← Back to Options
+        </a>
+    </div>
 
-    <!-- Page title -->
     <h2 style="color: #003580;">Flashcards Mode</h2>
-    <p>Tap the card to see the meaning and image context</p>
+    <p>
+        {% if set_name %} Studying: <strong>{{ set_name }}</strong> {% else %} Studying: <strong>All Words</strong> {% endif %}
+    </p>
 
-    <!-- Flashcard list -->
     <div id="flashcard-list">
-
         {% for word in words %}
-        <!-- Each word is rendered as one flashcard -->
-        <div class="word-wrapper {% if forloop.first %}active{% endif %}"
-             id="word-{{ forloop.counter }}">
-
-            <!-- Clicking the card flips it -->
-            <div class="flashcard-scene"
-                 onclick="this.querySelector('.flashcard').classList.toggle('is-flipped')">
-
+        <div class="word-wrapper {% if forloop.first %}active{% endif %}" id="word-{{ forloop.counter }}">
+            <div class="flashcard-scene" onclick="this.querySelector('.flashcard').classList.toggle('is-flipped')">
                 <div class="flashcard">
-
-                    <!-- Front side: Finnish word -->
                     <div class="card-face card-face-front">
                         <div class="instruction">(Finnish)</div>
                         <div class="word-title">{{ word.fi }}</div>
                     </div>
-
-                    <!-- Back side: English meaning, image, and example -->
                     <div class="card-face card-face-back">
-
                         {% if word.image %}
                             <img src="{{ word.image }}" class="word-img" alt="hint">
                         {% endif %}
-
                         <div class="instruction">(English)</div>
                         <div class="word-title">{{ word.en }}</div>
-
                         {% if word.example %}
-                            <div class="word-example">
-                                "{{ word.example }}"
-                            </div>
+                            <div class="word-example">"{{ word.example }}"</div>
                         {% endif %}
-
                     </div>
                 </div>
             </div>
-
         </div>
         {% endfor %}
-
     </div>
 
-    <!-- Navigation controls -->
     <div class="nav-buttons">
-        <button class="menu-button" id="prevBtn" onclick="goToPrev()">
-            ← Previous
-        </button>
-
-        <button class="menu-button" id="nextBtn" onclick="goToNext()">
-            Next Word →
-        </button>
+        <button class="menu-button" id="prevBtn" onclick="goToPrev()">← Previous</button>
+        <button class="menu-button" id="nextBtn" onclick="goToNext()">Next Word →</button>
     </div>
 
 </div>
 
 <script>
-    // ===== FLASHCARD STATE =====
     let currentIndex = 1;
     const total = {{ words|length }};
+    
+    // Capture set_name for JS redirection
+    const setName = "{{ set_name|default:'' }}";
 
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
 
     updateButtons();
 
-    // Reset flipped card before changing to another word
     function resetFlip(cardWrapper) {
         const flashcard = cardWrapper.querySelector(".flashcard");
-        if (flashcard) {
-            flashcard.classList.remove("is-flipped");
-        }
+        if (flashcard) { flashcard.classList.remove("is-flipped"); }
     }
 
-    // Update button states based on current card position
     function updateButtons() {
         prevBtn.disabled = currentIndex <= 1;
-
         if (currentIndex >= total) {
-            nextBtn.textContent = "Finish";
+            nextBtn.textContent = "Finish Deck";
         } else {
             nextBtn.textContent = "Next Word →";
         }
     }
 
-    // Move to the next flashcard
     function goToNext() {
         if (currentIndex >= total) {
             alert("Great job! You've finished the deck.");
-            window.location.href = "{% url 'review_options' %}";
+            // Redirect with set_name if it exists
+            let url = "{% url 'review_options' %}";
+            if (setName) {
+                url += "?set_name=" + encodeURIComponent(setName);
+            }
+            window.location.href = url;
             return;
         }
 
@@ -330,32 +245,23 @@
         const next = document.getElementById("word-" + (currentIndex + 1));
 
         resetFlip(current);
-
         current.classList.add("to-back");
         current.classList.remove("active");
 
-        setTimeout(() => {
-            current.classList.remove("to-back");
-        }, 450);
-
+        setTimeout(() => { current.classList.remove("to-back"); }, 450);
         next.classList.add("active");
-
         currentIndex++;
         updateButtons();
     }
 
-    // Move to the previous flashcard
     function goToPrev() {
         if (currentIndex <= 1) return;
-
         const current = document.getElementById("word-" + currentIndex);
         const prev = document.getElementById("word-" + (currentIndex - 1));
 
         resetFlip(current);
-
         current.classList.remove("active");
         prev.classList.add("active");
-
         currentIndex--;
         updateButtons();
     }
