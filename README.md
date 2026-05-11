@@ -1,5 +1,5 @@
 # WordNest
-Learning Finnish every dayg
+Learning Finnish every day
 
 ## 🌟 Highlights
 - Focusing on learning vocabulary.
